@@ -1,0 +1,11 @@
+name: fairness-bounds
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - pyyaml
+  - matplotlib
+  - pytest

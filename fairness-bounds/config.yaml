@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------
+# Data: "synthetic" generates data; "csv" loads your own files.
+# ---------------------------------------------------------------
+data:
+  source: synthetic            # synthetic | csv
+
+  synthetic:
+    seed: 0
+    n_primary: 20000           # rows with (Z, Y, features); A is hidden
+    n_auxiliary: 20000         # rows with (Z, A)
+    n_z: 10                    # number of discrete proxy levels
+    p_z: null                  # list of length n_z, or null for uniform
+    p_a_given_z: null          # P(A=a | Z=z), list of length n_z, or null for linspace(0.1, 0.9)
+    # P(Y=1 | A, Z) = sigmoid(y_intercept + y_coef_a * 1{A=a} + y_coef_z * (z/(n_z-1) - 0.5))
+    y_intercept: 0.0
+    y_coef_a: 0.5
+    y_coef_z: 1.0
+    # features for the classifier:
+    #   x1 = x1_coef_y * Y + x1_coef_a * 1{A=a} + N(0,1)
+    #   x2 = x2_coef_y * Y + N(0,1)
+    x1_coef_y: 1.5
+    x1_coef_a: 0.5
+    x2_coef_y: 1.0
+
+  csv:
+    primary_path: data/primary.csv       # must contain z columns, y, and yhat or features
+    auxiliary_path: data/auxiliary.csv   # must contain z columns and a
+
+# Column names (for synthetic data these are fixed: z, a, y, x1, x2, yhat)
+columns:
+  yhat: yhat                   # if this column is absent from primary data, a classifier is trained
+  y: y
+  a: a
+  z: [z]                       # one or more discrete proxy columns (combined into one key)
+  features: [x1, x2]           # classifier inputs (only used if yhat is absent)
+
+# Protected-class levels: disparities are computed as a_levels[0] minus a_levels[1].
+# For synthetic data use [a, b].
+a_levels: [a, b]
+
+classifier:
+  model: logistic              # logistic | random_forest
+  train_fraction: 0.5          # fraction of primary rows used to fit; Yhat is computed on the rest
+  threshold: 0.5
+  seed: 0
+
+metrics: [DD, TPRD, TNRD]
+
+# Feasible joint distributions P(A, Z, Yhat, Y) (methods.feasible_joints); delete to skip.
+# grid needs num^(3 * n_z) joints, so with many Z levels use random or hit_and_run.
+# Give a list of these blocks to run several samplers, e.g.
+#   joints:
+#     - {method: grid, num: 5}
+#     - {method: hit_and_run, n_samples: 1000, burn_in: 1000, thin: 10}
+joints:
+  method: random               # grid | random | hit_and_run
+  num: 5                       # grid values per free parameter (grid only)
+  n_samples: 1000              # number of random joints (random only)
+  seed: 0
+
+output_dir: outputs

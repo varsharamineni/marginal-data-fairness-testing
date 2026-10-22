@@ -1,0 +1,35 @@
+data:
+  source: csv
+  csv:
+    primary_path: data/primary.csv
+    auxiliary_path: data/auxiliary.csv
+    true_a: a_hidden             # hidden true A in the primary file; used only to report the truth
+
+columns:
+  yhat: yhat                     # not in the file, so a classifier is trained
+  y: class-label
+  a: sex
+  z: [housing]
+  features: [housing, employment-since]
+
+a_levels: [1, 0]                 # disparity = sex=1 minus sex=0
+
+classifier:
+  model: logistic
+  train_fraction: 0.5
+  threshold: 0.7                 # ~70% of labels are 1; at 0.5 every Yhat is 1
+  seed: 0
+
+metrics: [DD, TPRD, TNRD]
+
+# One entry per sampler; each gets <name>_min / <name>_max columns (name defaults to method).
+joints:
+  - method: grid
+    num: 5                       # 10,324 joints with 3 housing levels
+  - method: hit_and_run
+    n_samples: 1000
+    burn_in: 1000
+    thin: 10
+    seed: 0
+
+output_dir: outputs/german
