@@ -1,0 +1,100 @@
+# Experiments on the master dataset built by hmda_build.py. The master file holds every
+# variable; each scenario picks its own population filters, roles, split and methods.
+# See data/hmda_processed/variables.csv for the available variables and their values.
+
+defaults:
+  data:
+    type: file
+    path: data/hmda_processed/hmda_master_2017.parquet      # or .csv.gz
+  preprocess:                         # shared population filters (scenarios can replace this list)
+    - filter: "sex in ['Male', 'Female']"
+    - filter: "income <= 100"         # $000s, as in KMZ
+    - filter: "race in ['White', 'Black']"
+  roles:
+    protected: race                   # one column or a list, e.g. [race, sex]
+    common: [income_bin]              # one or more columns, combined into one variable
+    internal: []                      # extra internal variables beyond the decision and label
+    features: []
+    label: null                       # HMDA has no repayment outcome
+  split:
+    type: sample
+    primary: 0.001                    # fraction (float <= 1) or number of rows (int)
+    train: 0
+    aux: all                          # all = every record (KMZ), rest = disjoint, or a size
+    aggregate_aux: false              # true: auxiliary as counts by common x protected
+  models:
+    - {name: lender, type: observed, column: outcome}
+  metrics: all                        # label-free metrics here, as there is no label
+  methods:
+    - {name: independence}
+    - {name: joint, num: 20}
+    - {name: kallus}
+  compare: {seeds: [0, 1, 2, 3, 4]}
+
+scenarios:
+  # KMZ-style: income bin x state as the proxy. The joint method is left out: with one grid
+  # dimension per common cell, ~200 cells is far beyond what enumeration can handle.
+  - name: kmz_income_state
+    preprocess:
+      - filter: "sex in ['Male', 'Female']"
+      - filter: "income <= 100"
+      - filter: "race in ['White', 'Black']"
+      - min_count: {columns: [income_bin, state_code], n: 50}
+    roles: {common: [income_bin, state_code]}
+    methods:
+      - {name: independence}
+      - {name: kallus}
+
+  # Income bin only: all three methods.
+  - name: income_only
+
+  # Geographic proxy instead of income (5 bins: num 15 keeps the grid under max_joints).
+  - name: tract_minority_proxy
+    roles: {common: [tract_minority_bin]}
+    methods:
+      - {name: independence}
+      - {name: joint, num: 15}
+      - {name: kallus}
+
+  # Proxy combining income and tract composition (20 cells: too many for the joint method).
+  - name: income_and_tract
+    roles: {common: [income_bin, tract_minority_bin]}
+    methods:
+      - {name: independence}
+      - {name: kallus}
+
+  # Intersectional groups: race x sex (6 groups; kallus needs a binary attribute).
+  - name: race_sex
+    preprocess:
+      - filter: "sex in ['Male', 'Female']"
+      - filter: "income <= 100"
+      - filter: "race in ['White', 'Black', 'API']"
+    roles: {protected: [race, sex]}
+    methods:
+      - {name: independence}
+      - {name: joint, num: 2}
+
+  # Loan purpose as an extra internal variable (as in the original prepare script).
+  - name: with_loan_purpose
+    roles: {internal: [loan_purpose]}
+    methods:
+      - {name: independence}
+      - {name: joint, num: 2}
+      - {name: kallus}
+
+  # Models trained to predict the lender's approval: error-based metrics then measure
+  # agreement with the lender's decisions.
+  - name: models_predict_approval
+    roles:
+      label: outcome
+      features: [income, loan_amount, loan_to_income, loan_purpose, loan_type, co_applicant,
+                 tract_income_ratio]
+    split: {type: sample, primary: 0.001, train: 0.01, aux: all}
+    models:
+      - {name: logit, type: logistic, features: [features], rate: 0.8}
+      - {name: logit_geo, type: logistic, features: [features, common], rate: 0.8}
+      - {name: gbm, type: gbm, features: [features, common], rate: 0.8}
+    methods:
+      - {name: independence}
+      - {name: joint, num: 3}
+      - {name: kallus}
