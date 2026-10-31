@@ -10,8 +10,9 @@ defaults:
     - filter: "sex in ['Male', 'Female']"
     - filter: "income <= 100"         # $000s, as in KMZ
     - filter: "race in ['White', 'Black']"
+    - dropna: [income, loan_to_income, tract_income_ratio]
   roles:
-    protected: race                   # one column or a list, e.g. [race, sex]
+    protected: [race, sex]                   # one column or a list, e.g. [race, sex]
     common: [income_bin]              # one or more columns, combined into one variable
     internal: []                      # extra internal variables beyond the decision and label
     features: []
@@ -29,7 +30,7 @@ defaults:
     - {name: independence}
     - {name: joint, num: 20}
     - {name: kallus}
-  compare: {seeds: [0, 1, 2, 3, 4]}
+  compare: {seeds: [0, 1]}
 
 scenarios:
   # KMZ-style: income bin x state as the proxy. The joint method is left out: with one grid
@@ -40,7 +41,7 @@ scenarios:
       - filter: "income <= 100"
       - filter: "race in ['White', 'Black']"
       - min_count: {columns: [income_bin, state_code], n: 50}
-    roles: {common: [income_bin, state_code]}
+    roles: {common: [income_bin]}
     methods:
       - {name: independence}
       - {name: kallus}
@@ -89,7 +90,7 @@ scenarios:
       label: outcome
       features: [income, loan_amount, loan_to_income, loan_purpose, loan_type, co_applicant,
                  tract_income_ratio]
-    split: {type: sample, primary: 0.001, train: 0.01, aux: all}
+    split: {type: sample, primary: 0.1, train: 0.1, aux: all}
     models:
       - {name: logit, type: logistic, features: [features], rate: 0.8}
       - {name: logit_geo, type: logistic, features: [features, common], rate: 0.8}

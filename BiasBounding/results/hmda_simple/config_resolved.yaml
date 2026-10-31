@@ -1,0 +1,51 @@
+data:
+  type: file
+  params: {}
+  path: data/hmda_processed/hmda_master_2017.parquet
+preprocess:
+- filter: race in ['White', 'Black']
+- filter: income <= 100
+- dropna:
+  - income
+  - loan_amount
+  - loan_purpose
+  - loan_type
+  - co_applicant
+roles:
+  protected: race
+  common:
+  - income_bin
+  features:
+  - income
+  - loan_amount
+  - loan_purpose
+  - loan_type
+  - co_applicant
+  label: outcome
+split:
+  type: sample
+  train: 0.01
+  primary: 0.01
+  aux_same_rows: false
+  aux: all
+models:
+- name: logit
+  type: logistic
+  features:
+  - features
+  rate: 0.8
+metrics: all
+methods:
+- name: independence
+- name: joint
+  num: 3
+- name: kallus
+compare:
+  seeds:
+  - 0
+  tol: 1.0e-06
+  plots: true
+binning:
+  max_categories: 20
+  bins: 3
+name: hmda_simple

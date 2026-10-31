@@ -1,0 +1,9 @@
+scenario,seed,classifier,metric,method,reference,inside,lower_diff,upper_diff
+kmz_income_state,0,lender,demographic_parity_diff,independence,kallus,True,0.26270299635121885,-0.8691231626409694
+kmz_income_state,0,lender,demographic_parity_gap,independence,kallus,True,0.014726199160939313,-0.8691231626409694
+kmz_income_state,1,lender,demographic_parity_diff,independence,kallus,True,0.2556431420045343,-0.876183016987654
+kmz_income_state,1,lender,demographic_parity_gap,independence,kallus,True,0.012794779244751031,-0.876183016987654
+kmz_income_state,0,lender,demographic_parity_diff,kallus,independence,False,-0.26270299635121885,0.8691231626409694
+kmz_income_state,0,lender,demographic_parity_gap,kallus,independence,False,-0.014726199160939313,0.8691231626409694
+kmz_income_state,1,lender,demographic_parity_diff,kallus,independence,False,-0.2556431420045343,0.876183016987654
+kmz_income_state,1,lender,demographic_parity_gap,kallus,independence,False,-0.012794779244751031,0.876183016987654

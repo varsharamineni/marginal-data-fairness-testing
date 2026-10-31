@@ -29,6 +29,9 @@ seed -> (full data frame, roles); roles names the columns:
 Command line:
   python pipeline.py                                   # all scenarios, classifiers, methods
   python pipeline.py --scenarios ci_holds feature_dep --classifiers logit gbm --seeds 0 1 2
+  python pipeline.py --primary-csv primary.csv --aux-csv auxiliary.csv --protected race \
+      --common minority_bin --features income loan_amount --label approved
+                                                       # data already split (see --help)
   python pipeline.py --csv full.csv --protected race --common income_bin \
       --features credit_score age --label repaid       # your own full data as a scenario
 """
@@ -89,6 +92,15 @@ def csv_scenario(path, roles):
     return lambda seed: (full, roles)
 
 
+def presplit_scenario(primary_path, aux_path, roles, train_path=None):
+    """Scenario from data that is already split. Primary: decision/label/common/features, plus
+    the protected attribute if the truth should be computed. Auxiliary: common + protected
+    (+ weight). Training data optional: without it classifiers are cross-fitted on the primary."""
+    read = lambda p: pd.read_csv(p, low_memory=False) if p else None
+    data = (read(train_path), read(primary_path), read(aux_path))
+    return lambda seed: ("presplit", *[None if d is None else d.copy() for d in data], roles)
+
+
 def split(full, roles, seed, train=0.3, primary=0.4, aux_same_rows=False):
     """Random split into training, primary and auxiliary rows. The primary frame keeps the
     protected attribute for computing the truth; methods never see it."""
@@ -96,11 +108,16 @@ def split(full, roles, seed, train=0.3, primary=0.4, aux_same_rows=False):
     n_tr, n_pr = int(train * len(full)), int(primary * len(full))
     tr, pr = full.iloc[idx[:n_tr]], full.iloc[idx[n_tr:n_tr + n_pr]]
     au = pr if aux_same_rows else full.iloc[idx[n_tr + n_pr:]]
-    au = au[roles["common"] + [roles["protected"]]]
+    au = au[roles["common"] + plist(roles["protected"])]
     return [d.reset_index(drop=True) for d in (tr, pr, au)]
 
 
 # ============================================================================ 2. classifiers
+def plist(x):
+    """Role value as a list (the protected attribute may be one column or several)."""
+    return [] if x is None else [x] if isinstance(x, str) else list(x)
+
+
 def _columns(roles, which):
     return sum(([roles[w]] if isinstance(roles[w], str) else list(roles[w]) for w in which), [])
 
@@ -119,7 +136,7 @@ def classifier(model, which):
         from sklearn.pipeline import make_pipeline
         from sklearn.preprocessing import StandardScaler
         cols = _columns(roles, which)
-        cat = roles["common"] + [roles["protected"]]
+        cat = roles["common"] + plist(roles["protected"])
         Xtr = _design(train, cols, cat)
         Xpr = _design(primary, cols, cat, Xtr.columns)
         est = (make_pipeline(StandardScaler(), LogisticRegression(max_iter=2000))
@@ -128,6 +145,20 @@ def classifier(model, which):
         thr = np.quantile(est.predict_proba(Xtr)[:, 1], 1 - rate)
         return (est.predict_proba(Xpr)[:, 1] >= thr).astype(int)
     return fit_predict
+
+
+def observed(column):
+    """Use a decision already in the primary data (e.g. the lender's approval)."""
+    return lambda train, primary, roles, rate, seed: primary[column].astype(int).to_numpy()
+
+
+def cross_fit(fit_predict, primary, roles, rate, seed, folds=5):
+    """Out-of-fold decisions when there is no separate training set."""
+    out = np.zeros(len(primary), int)
+    for k, te in enumerate(np.array_split(np.random.default_rng(seed).permutation(len(primary)), folds)):
+        tr = np.setdiff1d(np.arange(len(primary)), te)
+        out[te] = fit_predict(primary.iloc[tr], primary.iloc[te], roles, rate, seed + k)
+    return out
 
 
 CLASSIFIERS = {
@@ -145,10 +176,12 @@ def _key(v):
 
 def truth(primary, roles, internal):
     """Every metric on the primary rows, with their real protected attribute."""
-    com, prot = roles["common"], roles["protected"]
-    s = primary.groupby(internal + com + [prot], observed=True).size()
+    com, prot = roles["common"], plist(roles["protected"])
+    if any(p not in primary.columns for p in prot):
+        return {}
+    s = primary.groupby(internal + com + prot, observed=True).size()
     ni, nc = len(internal), len(com)
-    cells = {(_key(k[:ni]), _key(k[ni:ni + nc]), k[-1]): v for k, v in s.items()}
+    cells = {(_key(k[:ni]), _key(k[ni:ni + nc]), _key(k[ni + nc:])): v for k, v in s.items()}
     srt = lambda vals: sorted(set(vals), key=str)
     I, C, E = (srt(k[j] for k in cells) for j in range(3))
     J = np.zeros((1, len(C), len(I), len(E)))
@@ -177,14 +210,16 @@ def tables(p_primary, p_aux):
 def method_independence(p_primary, p_aux, internal, roles, cfg):
     I, C, E, r, m = tables(p_primary, p_aux)
     J = ((r / r.sum(1, keepdims=True))[:, :, None] * m[:, None, :])[None]
-    mt, _, _ = fairness_bounds(J, I, C, E, internal, roles["decision"], "1", roles["label"], "1")
+    mt, _, _ = fairness_bounds(J, I, C, E, internal, roles["decision"], "1", roles["label"], "1",
+                               cfg.get("metrics"))
     return mt[["metric", "lower", "upper"]]
 
 
 def method_joint(p_primary, p_aux, internal, roles, cfg):
     J, (I, C, E) = solve_joint_distribution(p_primary, p_aux, cfg["num"], cfg["grid_method"],
                                             max_joints=cfg["max_joints"], as_dicts=False)
-    mt, _, _ = fairness_bounds(J, I, C, E, internal, roles["decision"], "1", roles["label"], "1")
+    mt, _, _ = fairness_bounds(J, I, C, E, internal, roles["decision"], "1", roles["label"], "1",
+                               cfg.get("metrics"))
     return mt[["metric", "lower", "upper"]]
 
 
@@ -201,19 +236,43 @@ METHODS = {"independence": method_independence, "joint": method_joint, "kallus":
 def run(scenarios, classifiers, methods, seeds, cfg, verbose=False):
     rows = []
     for sname, seed in itertools.product(scenarios, seeds):
-        full, roles = SCENARIOS[sname](seed)
-        full = _discretise(full.copy(), full.iloc[:0].copy(), roles["common"],
-                           cfg["max_categories"], cfg["bins"])[0]
-        train, primary, aux = split(full, roles, seed, cfg["train"], cfg["primary"],
-                                    cfg["aux_same_rows"])
+        out = SCENARIOS[sname](seed)
+        if out[0] == "presplit":
+            _, train, primary, aux, roles = out
+            primary, aux = _discretise(primary, aux, roles["common"], cfg["max_categories"],
+                                       cfg["bins"])
+            if train is not None:
+                train = _discretise(train, primary.iloc[:0].copy(), roles["common"],
+                                    cfg["max_categories"], cfg["bins"])[0]
+        else:
+            full, roles = out
+            full = _discretise(full.copy(), full.iloc[:0].copy(), roles["common"],
+                               cfg["max_categories"], cfg["bins"])[0]
+            train, primary, aux = split(full, roles, seed, cfg["train"], cfg["primary"],
+                                        cfg["aux_same_rows"])
         dec, lab, com, prot = roles["decision"], roles["label"], roles["common"], roles["protected"]
+        wa = cfg.get("weight_aux")
+        aux = aux[com + plist(prot) + ([wa] if wa else [])]
+        internal_cols = [dec] + ([lab] if lab else [])
         for cname in classifiers:
             print(f"{sname} | seed {seed} | {cname}")
-            primary[dec] = CLASSIFIERS[cname](train, primary, roles, cfg["rate"], seed)
+            if set(plist(prot)) & set(_columns(roles, ["features"])):
+                raise SystemExit(f"'{prot}' is listed as a feature; remove it from --features")
+            if cname == "logit_aware" and not set(plist(prot)) <= set(primary.columns):
+                print("    skipped: the primary data has no protected attribute")
+                continue
+            fp = CLASSIFIERS[cname]
+            if train is None and cname != "observed":
+                if lab is None:
+                    raise SystemExit(f"classifier '{cname}' needs a label; use --decision-col only")
+                primary[dec] = cross_fit(fp, primary, roles, cfg["rate"], seed)
+            else:
+                primary[dec] = fp(train, primary, roles, cfg["rate"], seed)
             quiet = contextlib.nullcontext() if verbose else contextlib.redirect_stdout(io.StringIO())
             with quiet:
                 p_primary, p_aux, internal, _, _ = from_datasets(
-                    primary[[dec, lab] + com], aux, [dec, lab], com, [prot])
+                    primary[internal_cols + com], aux, internal_cols, com, plist(prot),
+                    weight_aux=wa)
             true = truth(primary, roles, internal)
             for mname in methods:
                 try:
@@ -305,14 +364,23 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--scenarios", nargs="+", default=None, help=f"default: all of {list(SCENARIOS)}")
-    ap.add_argument("--classifiers", nargs="+", default=list(CLASSIFIERS), choices=list(CLASSIFIERS))
+    ap.add_argument("--classifiers", nargs="+", default=None,
+                    choices=list(CLASSIFIERS) + ["observed"],
+                    help="default: all; with --decision-col and no --label, 'observed' only")
     ap.add_argument("--methods", nargs="+", default=list(METHODS), choices=list(METHODS))
     ap.add_argument("--seeds", type=int, nargs="+", default=[0])
     ap.add_argument("--csv", help="full dataset to use as a scenario named 'csv'")
     ap.add_argument("--protected")
     ap.add_argument("--common", nargs="+")
     ap.add_argument("--features", nargs="+", default=[])
-    ap.add_argument("--label")
+    ap.add_argument("--label", help="true outcome column (0/1); optional with --decision-col")
+    ap.add_argument("--primary-csv", help="already-split primary data (scenario 'presplit')")
+    ap.add_argument("--aux-csv", help="already-split auxiliary data")
+    ap.add_argument("--train-csv", help="optional training data; otherwise classifiers are "
+                                        "cross-fitted on the primary data")
+    ap.add_argument("--weight-aux", help="weight/count column of the auxiliary data")
+    ap.add_argument("--decision-col", help="existing decision column in the primary data, "
+                                           "evaluated as classifier 'observed'")
     ap.add_argument("--rate", type=float, default=0.5, help="approval rate of every classifier")
     ap.add_argument("--train", type=float, default=0.3, help="share of rows for training")
     ap.add_argument("--primary", type=float, default=0.4, help="share of rows for primary data")
@@ -330,18 +398,32 @@ def main():
     ap.add_argument("--out", default="pipeline_results")
     a = ap.parse_args()
 
+    if a.decision_col:
+        CLASSIFIERS["observed"] = observed(a.decision_col)
+    classifiers = a.classifiers or (["observed"] if a.decision_col and not a.label else
+                                    list(CLASSIFIERS))
+    if a.primary_csv:
+        if not (a.aux_csv and a.protected and a.common and (a.label or a.decision_col)):
+            raise SystemExit("--primary-csv needs --aux-csv, --protected, --common and "
+                             "--label and/or --decision-col")
+        SCENARIOS["presplit"] = presplit_scenario(
+            a.primary_csv, a.aux_csv, dict(protected=a.protected, common=a.common,
+                                           features=a.features, label=a.label,
+                                           decision="yhat"), a.train_csv)
     if a.csv:
         if not (a.protected and a.common and a.label):
             raise SystemExit("--csv needs --protected, --common and --label")
         SCENARIOS["csv"] = csv_scenario(a.csv, dict(protected=a.protected, common=a.common,
                                                      features=a.features, label=a.label,
                                                      decision="yhat"))
-    scenarios = a.scenarios or (["csv"] if a.csv else list(SCENARIOS))
+    scenarios = a.scenarios or (["presplit"] if a.primary_csv else ["csv"] if a.csv
+                                else list(SCENARIOS))
     cfg = dict(num=a.num, grid_method=a.grid_method, max_joints=a.max_joints, rate=a.rate,
                train=a.train, primary=a.primary, aux_same_rows=a.aux_same_rows, tol=a.tol,
-               kallus_extended=a.kallus_extended, max_categories=a.max_categories, bins=a.bins)
+               kallus_extended=a.kallus_extended, max_categories=a.max_categories, bins=a.bins,
+               weight_aux=a.weight_aux)
 
-    res = run(scenarios, a.classifiers, a.methods, a.seeds, cfg, a.verbose)
+    res = run(scenarios, classifiers, a.methods, a.seeds, cfg, a.verbose)
     os.makedirs(a.out, exist_ok=True)
     summ, comp = summarise(res), compare_methods(res, a.tol)
     res.to_csv(os.path.join(a.out, "results.csv"), index=False)

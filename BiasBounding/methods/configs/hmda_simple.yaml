@@ -1,0 +1,31 @@
+# Simple HMDA example: White vs Black applicants, income bin as the proxy. A logistic
+# regression is trained to predict the lender's decision, which serves as the label, so the
+# error-based metrics measure agreement with the lender. One scenario, so all keys sit at the
+# top level.
+# Run from BiasBounding/:  python methods/run_config.py methods/configs/hmda_simple.yaml
+
+name: hmda_simple
+data:
+  type: file
+  path: data/hmda_processed/hmda_master_2017.parquet
+preprocess:
+  - filter: "race in ['White', 'Black']"
+  - filter: "income <= 100"
+  - dropna: [income, loan_amount, loan_purpose, loan_type, co_applicant]
+roles:
+  protected: race
+  common: [income_bin]
+  features: [income, loan_amount, loan_purpose, loan_type, co_applicant]
+  label: outcome                      # the lender's approval
+split:
+  type: sample
+  primary: 0.01                       # rows the methods see
+  train: 0.01                         # rows the classifier is trained on
+  aux: all
+models:
+  - {name: logit, type: logistic, features: [features], rate: 0.8}
+methods:
+  - {name: independence}
+  - {name: joint, num: 3}             # the label adds grid dimensions, so keep num small
+  - {name: kallus}
+compare: {seeds: [0]}

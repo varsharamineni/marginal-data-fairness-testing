@@ -1,0 +1,8 @@
+scenario,method,metric,coverage,mean_width,mean_miss,max_miss,mean_midpoint_error,runs
+income_and_tract,independence,conditional_dp_gap,0.0,0.0,0.6596270845187551,0.8416422287390029,-0.6596270845187551,2
+income_and_tract,independence,demographic_parity_diff,0.0,0.0,0.10100436326164347,0.11048019622491456,-0.10100436326164347,2
+income_and_tract,independence,demographic_parity_gap,0.0,0.0,0.10100436326164347,0.11048019622491456,-0.10100436326164347,2
+income_and_tract,independence,disparate_impact_ratio,0.0,0.0,0.12577489760682975,0.13825918263516845,0.12577489760682975,2
+income_and_tract,independence,mutual_information,0.0,0.0,0.005953870183324316,0.00673549051782169,-0.005953870183324316,2
+income_and_tract,kallus,demographic_parity_diff,1.0,0.9386446563092702,0.0,0.0,0.06662895178353417,2
+income_and_tract,kallus,demographic_parity_gap,1.0,0.6949229648887214,0.0,0.0,0.18848979749380854,2

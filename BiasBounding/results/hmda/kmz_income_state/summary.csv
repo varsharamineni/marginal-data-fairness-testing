@@ -1,0 +1,8 @@
+scenario,method,metric,coverage,mean_width,mean_miss,max_miss,mean_midpoint_error,runs
+kmz_income_state,independence,conditional_dp_gap,0.0,0.0,0.1914854225232489,0.20526436180641772,-0.1914854225232489,2
+kmz_income_state,independence,demographic_parity_diff,0.0,0.0,0.1465181112666234,0.14745581489287662,-0.1465181112666234,2
+kmz_income_state,independence,demographic_parity_gap,0.0,0.0,0.1465181112666234,0.14745581489287662,-0.1465181112666234,2
+kmz_income_state,independence,disparate_impact_ratio,0.0,0.0,0.18274475371961435,0.1842802149002316,0.18274475371961435,2
+kmz_income_state,independence,mutual_information,0.0,0.0,0.0066516644722666085,0.006978422522646507,-0.0066516644722666085,2
+kmz_income_state,kallus,demographic_parity_diff,1.0,1.1318261589921883,0.0,0.0,0.16022189905159417,2
+kmz_income_state,kallus,demographic_parity_gap,1.0,0.8864135790171569,0.0,0.0,0.2829281890391099,2

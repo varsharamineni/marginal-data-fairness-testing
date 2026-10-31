@@ -1,0 +1,13 @@
+scenario,method,metric,coverage,mean_width,mean_miss,max_miss,mean_midpoint_error,runs
+tract_minority_proxy,independence,conditional_dp_gap,0.0,0.0,0.3355880413005536,0.3747408105560791,-0.3355880413005536,2
+tract_minority_proxy,independence,demographic_parity_diff,0.0,0.0,0.11358603559890518,0.12152779069451392,-0.11358603559890518,2
+tract_minority_proxy,independence,demographic_parity_gap,0.0,0.0,0.11358603559890518,0.12152779069451392,-0.11358603559890518,2
+tract_minority_proxy,independence,disparate_impact_ratio,0.0,0.0,0.14167593411252616,0.1524106557132867,0.14167593411252616,2
+tract_minority_proxy,independence,mutual_information,0.0,0.0,0.006320930117120536,0.007045179266307008,-0.006320930117120536,2
+tract_minority_proxy,joint,conditional_dp_gap,1.0,0.8714668277782771,0.0,0.0,0.13317664822425304,2
+tract_minority_proxy,joint,demographic_parity_diff,1.0,0.9436227130818728,0.0,0.0,0.06147599780161131,2
+tract_minority_proxy,joint,demographic_parity_gap,1.0,0.6922583226794418,0.0,0.0,0.18715819300282682,2
+tract_minority_proxy,joint,disparate_impact_ratio,1.0,0.8066663474765099,0.0,0.0,-0.20369640842177072,2
+tract_minority_proxy,joint,mutual_information,1.0,0.11674445521502419,0.0,0.0,0.0514598536804531,2
+tract_minority_proxy,kallus,demographic_parity_diff,1.0,0.9436227130818706,0.0,0.0,0.06147599780161109,2
+tract_minority_proxy,kallus,demographic_parity_gap,1.0,0.6922590392930986,0.0,0.0,0.18715783469599712,2

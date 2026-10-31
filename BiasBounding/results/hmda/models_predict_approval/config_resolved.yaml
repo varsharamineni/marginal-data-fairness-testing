@@ -1,0 +1,67 @@
+data:
+  type: file
+  params: {}
+  path: data/hmda_processed/hmda_master_2017.parquet
+preprocess:
+- filter: sex in ['Male', 'Female']
+- filter: income <= 100
+- filter: race in ['White', 'Black']
+- dropna:
+  - income
+  - loan_to_income
+  - tract_income_ratio
+roles:
+  protected: race
+  common:
+  - income_bin
+  features:
+  - income
+  - loan_amount
+  - loan_to_income
+  - loan_purpose
+  - loan_type
+  - co_applicant
+  - tract_income_ratio
+  label: outcome
+  internal: []
+split:
+  type: sample
+  train: 0.1
+  primary: 0.1
+  aux_same_rows: false
+  aux: all
+  aggregate_aux: false
+models:
+- name: logit
+  type: logistic
+  features:
+  - features
+  rate: 0.8
+- name: logit_geo
+  type: logistic
+  features:
+  - features
+  - common
+  rate: 0.8
+- name: gbm
+  type: gbm
+  features:
+  - features
+  - common
+  rate: 0.8
+metrics: all
+methods:
+- name: independence
+- name: joint
+  num: 3
+- name: kallus
+compare:
+  seeds:
+  - 0
+  - 1
+  tol: 1.0e-06
+  plots: true
+binning:
+  max_categories: 20
+  bins: 3
+name: models_predict_approval
