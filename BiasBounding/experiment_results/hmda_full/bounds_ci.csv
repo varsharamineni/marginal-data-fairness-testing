@@ -1,0 +1,541 @@
+decision,cut_source,rep,setting,proxy,run,version,method,param,metric,side,value,seconds
+model,external,0,Black-White,county,D,exact,CI,,DD 1-0,point,-0.044311431623699216,0.0001622210256755352
+model,external,0,Black-White,county,D,exact,CI,,DI 1/0,point,0.9441916468065963,0.0001622210256755352
+model,external,0,Black-White,county,D,exact,CI,,worst-case DI,point,0.9441916468065963,0.0001622210256755352
+model,external,0,Black-White,county,D,exact,CI,,max DD gap,point,0.044311431623699216,0.0001622210256755352
+model,external,0,Black-White,county,D,exact,CI,,I(D;A),point,0.00047526793406064017,0.0001622210256755352
+model,external,0,Black-White,county,D,split,CI,,DD 1-0,point,-0.0507496513621466,0.00014300108887255192
+model,external,0,Black-White,county,D,split,CI,,DI 1/0,point,0.9361612992106612,0.00014300108887255192
+model,external,0,Black-White,county,D,split,CI,,worst-case DI,point,0.9361612992106612,0.00014300108887255192
+model,external,0,Black-White,county,D,split,CI,,max DD gap,point,0.0507496513621466,0.00014300108887255192
+model,external,0,Black-White,county,D,split,CI,,I(D;A),point,0.0006192690726411721,0.00014300108887255192
+model,external,0,Black-White,county,DY,exact,CI,,TPRD 1-0,point,-0.037878569389541594,0.0001340408343821764
+model,external,0,Black-White,county,DY,exact,CI,,PPVD 1-0,point,-0.0059689025438761645,0.0001340408343821764
+model,external,0,Black-White,county,DY,exact,CI,,BA diff 1-0,point,0.011406460308503341,0.0001340408343821764
+model,external,0,Black-White,county,DY,exact,CI,,F1 diff 1-0,point,-0.022353135194408513,0.0001340408343821764
+model,external,0,Black-White,county,DY,exact,CI,,I(D;A|Y),point,0.0004496022159782354,0.0001340408343821764
+model,external,0,Black-White,county,DY,split,CI,,TPRD 1-0,point,-0.0443501364517247,0.00012795091606676579
+model,external,0,Black-White,county,DY,split,CI,,PPVD 1-0,point,-0.004138857290132192,0.00012795091606676579
+model,external,0,Black-White,county,DY,split,CI,,BA diff 1-0,point,0.01169273506810753,0.00012795091606676579
+model,external,0,Black-White,county,DY,split,CI,,F1 diff 1-0,point,-0.02482755967308381,0.00012795091606676579
+model,external,0,Black-White,county,DY,split,CI,,I(D;A|Y),point,0.0005938446147318878,0.00012795091606676579
+model,external,0,Black-White,income,D,exact,CI,,DD 1-0,point,-0.04962287129465104,0.0001259900163859129
+model,external,0,Black-White,income,D,exact,CI,,DI 1/0,point,0.9375278576755754,0.0001259900163859129
+model,external,0,Black-White,income,D,exact,CI,,worst-case DI,point,0.9375278576755754,0.0001259900163859129
+model,external,0,Black-White,income,D,exact,CI,,max DD gap,point,0.04962287129465104,0.0001259900163859129
+model,external,0,Black-White,income,D,exact,CI,,I(D;A),point,0.0005932967929444793,0.0001259900163859129
+model,external,0,Black-White,income,D,split,CI,,DD 1-0,point,-0.048142407924530284,0.00012584100477397442
+model,external,0,Black-White,income,D,split,CI,,DI 1/0,point,0.9394295446096613,0.00012584100477397442
+model,external,0,Black-White,income,D,split,CI,,worst-case DI,point,0.9394295446096613,0.00012584100477397442
+model,external,0,Black-White,income,D,split,CI,,max DD gap,point,0.048142407924530284,0.00012584100477397442
+model,external,0,Black-White,income,D,split,CI,,I(D;A),point,0.0005602897767884181,0.00012584100477397442
+model,external,0,Black-White,income,DY,exact,CI,,TPRD 1-0,point,-0.04647086635528941,0.00012751994654536247
+model,external,0,Black-White,income,DY,exact,CI,,PPVD 1-0,point,-0.0133087139940411,0.00012751994654536247
+model,external,0,Black-White,income,DY,exact,CI,,BA diff 1-0,point,0.002617942092964398,0.00012751994654536247
+model,external,0,Black-White,income,DY,exact,CI,,F1 diff 1-0,point,-0.03035172830729682,0.00012751994654536247
+model,external,0,Black-White,income,DY,exact,CI,,I(D;A|Y),point,0.0005550440706055703,0.00012751994654536247
+model,external,0,Black-White,income,DY,split,CI,,TPRD 1-0,point,-0.045005851992379164,0.0001356408465653658
+model,external,0,Black-White,income,DY,split,CI,,PPVD 1-0,point,-0.0134549341399679,0.0001356408465653658
+model,external,0,Black-White,income,DY,split,CI,,BA diff 1-0,point,0.0024767561158807183,0.0001356408465653658
+model,external,0,Black-White,income,DY,split,CI,,F1 diff 1-0,point,-0.029614497334917056,0.0001356408465653658
+model,external,0,Black-White,income,DY,split,CI,,I(D;A|Y),point,0.0005224442608772585,0.0001356408465653658
+model,external,0,Black-White,both,D,exact,CI,,DD 1-0,point,-0.08756107911262057,0.00013405084609985352
+model,external,0,Black-White,both,D,exact,CI,,DI 1/0,point,0.8900893441146478,0.00013405084609985352
+model,external,0,Black-White,both,D,exact,CI,,worst-case DI,point,0.8900893441146478,0.00013405084609985352
+model,external,0,Black-White,both,D,exact,CI,,max DD gap,point,0.08756107911262057,0.00013405084609985352
+model,external,0,Black-White,both,D,exact,CI,,I(D;A),point,0.0017917052293692339,0.00013405084609985352
+model,external,0,Black-White,both,D,split,CI,,DD 1-0,point,-0.09082256696005442,0.00012017996050417423
+model,external,0,Black-White,both,D,split,CI,,DI 1/0,point,0.8861030145454089,0.00012017996050417423
+model,external,0,Black-White,both,D,split,CI,,worst-case DI,point,0.8861030145454089,0.00012017996050417423
+model,external,0,Black-White,both,D,split,CI,,max DD gap,point,0.09082256696005442,0.00012017996050417423
+model,external,0,Black-White,both,D,split,CI,,I(D;A),point,0.0019148303068541065,0.00012017996050417423
+model,external,0,Black-White,both,DY,exact,CI,,TPRD 1-0,point,-0.07886548743151234,0.0001317509450018406
+model,external,0,Black-White,both,DY,exact,CI,,PPVD 1-0,point,-0.018450882070040975,0.0001317509450018406
+model,external,0,Black-White,both,DY,exact,CI,,BA diff 1-0,point,0.01167139319004784,0.0001317509450018406
+model,external,0,Black-White,both,DY,exact,CI,,F1 diff 1-0,point,-0.049987571615862314,0.0001317509450018406
+model,external,0,Black-White,both,DY,exact,CI,,I(D;A|Y),point,0.0016693824924748758,0.0001317509450018406
+model,external,0,Black-White,both,DY,split,CI,,TPRD 1-0,point,-0.08195819843144159,0.00012421095743775368
+model,external,0,Black-White,both,DY,split,CI,,PPVD 1-0,point,-0.015924115669776362,0.00012421095743775368
+model,external,0,Black-White,both,DY,split,CI,,BA diff 1-0,point,0.012484748486490727,0.00012421095743775368
+model,external,0,Black-White,both,DY,split,CI,,F1 diff 1-0,point,-0.050413807706496394,0.00012421095743775368
+model,external,0,Black-White,both,DY,split,CI,,I(D;A|Y),point,0.0017986388268708148,0.00012421095743775368
+model,external,0,API-White,county,D,exact,CI,,DD 1-0,point,0.05968176839114914,0.00011934991925954819
+model,external,0,API-White,county,D,exact,CI,,DI 1/0,point,1.0740628016024618,0.00011934991925954819
+model,external,0,API-White,county,D,exact,CI,,worst-case DI,point,0.9310442541237227,0.00011934991925954819
+model,external,0,API-White,county,D,exact,CI,,max DD gap,point,0.05968176839114914,0.00011934991925954819
+model,external,0,API-White,county,D,exact,CI,,I(D;A),point,0.0012597902928818318,0.00011934991925954819
+model,external,0,API-White,county,D,split,CI,,DD 1-0,point,0.060944982888650245,0.0001180809922516346
+model,external,0,API-White,county,D,split,CI,,DI 1/0,point,1.0756035196600644,0.0001180809922516346
+model,external,0,API-White,county,D,split,CI,,worst-case DI,point,0.9297106059266539,0.0001180809922516346
+model,external,0,API-White,county,D,split,CI,,max DD gap,point,0.060944982888650245,0.0001180809922516346
+model,external,0,API-White,county,D,split,CI,,I(D;A),point,0.0013460299087209218,0.0001180809922516346
+model,external,0,API-White,county,DY,exact,CI,,TPRD 1-0,point,0.05592363757015795,0.00014596106484532356
+model,external,0,API-White,county,DY,exact,CI,,PPVD 1-0,point,0.0064129776685893924,0.00014596106484532356
+model,external,0,API-White,county,DY,exact,CI,,BA diff 1-0,point,-0.007294079648862306,0.00014596106484532356
+model,external,0,API-White,county,DY,exact,CI,,F1 diff 1-0,point,0.030565760577444534,0.00014596106484532356
+model,external,0,API-White,county,DY,exact,CI,,I(D;A|Y),point,0.0012322984864479765,0.00014596106484532356
+model,external,0,API-White,county,DY,split,CI,,TPRD 1-0,point,0.056898124265589045,0.00012251082807779312
+model,external,0,API-White,county,DY,split,CI,,PPVD 1-0,point,0.00794040802062812,0.00012251082807779312
+model,external,0,API-White,county,DY,split,CI,,BA diff 1-0,point,-0.007545085394515372,0.00012251082807779312
+model,external,0,API-White,county,DY,split,CI,,F1 diff 1-0,point,0.031785238593204035,0.00012251082807779312
+model,external,0,API-White,county,DY,split,CI,,I(D;A|Y),point,0.001310057271924158,0.00012251082807779312
+model,external,0,API-White,income,D,exact,CI,,DD 1-0,point,0.03867453017877753,0.00011923094280064106
+model,external,0,API-White,income,D,exact,CI,,DI 1/0,point,1.047899491301147,0.00011923094280064106
+model,external,0,API-White,income,D,exact,CI,,worst-case DI,point,0.9542899947000913,0.00011923094280064106
+model,external,0,API-White,income,D,exact,CI,,max DD gap,point,0.03867453017877753,0.00011923094280064106
+model,external,0,API-White,income,D,exact,CI,,I(D;A),point,0.000513381073603175,0.00011923094280064106
+model,external,0,API-White,income,D,split,CI,,DD 1-0,point,0.04189180042069918,0.000143151031807065
+model,external,0,API-White,income,D,split,CI,,DI 1/0,point,1.0518729376461569,0.000143151031807065
+model,external,0,API-White,income,D,split,CI,,worst-case DI,point,0.9506851675809473,0.000143151031807065
+model,external,0,API-White,income,D,split,CI,,max DD gap,point,0.04189180042069918,0.000143151031807065
+model,external,0,API-White,income,D,split,CI,,I(D;A),point,0.000618167583932358,0.000143151031807065
+model,external,0,API-White,income,DY,exact,CI,,TPRD 1-0,point,0.03515798891975963,0.00012196088209748268
+model,external,0,API-White,income,DY,exact,CI,,PPVD 1-0,point,0.009251930061783376,0.00012196088209748268
+model,external,0,API-White,income,DY,exact,CI,,BA diff 1-0,point,-0.006067115890671992,0.00012196088209748268
+model,external,0,API-White,income,DY,exact,CI,,F1 diff 1-0,point,0.022039082161964263,0.00012196088209748268
+model,external,0,API-White,income,DY,exact,CI,,I(D;A|Y),point,0.0004846466939553069,0.00012196088209748268
+model,external,0,API-White,income,DY,split,CI,,TPRD 1-0,point,0.03796031125775834,0.00011909101158380508
+model,external,0,API-White,income,DY,split,CI,,PPVD 1-0,point,0.010367706057961334,0.00011909101158380508
+model,external,0,API-White,income,DY,split,CI,,BA diff 1-0,point,-0.0067277519698217825,0.00011909101158380508
+model,external,0,API-White,income,DY,split,CI,,F1 diff 1-0,point,0.023949542910851607,0.00011909101158380508
+model,external,0,API-White,income,DY,split,CI,,I(D;A|Y),point,0.0005820305757154774,0.00011909101158380508
+model,external,0,API-White,both,D,exact,CI,,DD 1-0,point,0.07317293508787559,0.00012855115346610546
+model,external,0,API-White,both,D,exact,CI,,DI 1/0,point,1.0909195682492465,0.00012855115346610546
+model,external,0,API-White,both,D,exact,CI,,worst-case DI,point,0.9166578628751173,0.00012855115346610546
+model,external,0,API-White,both,D,exact,CI,,max DD gap,point,0.07317293508787559,0.00012855115346610546
+model,external,0,API-White,both,D,exact,CI,,I(D;A),point,0.0019340049039732188,0.00012855115346610546
+model,external,0,API-White,both,D,split,CI,,DD 1-0,point,0.07682091560689497,0.00011718086898326874
+model,external,0,API-White,both,D,split,CI,,DI 1/0,point,1.0954429907203436,0.00011718086898326874
+model,external,0,API-White,both,D,split,CI,,worst-case DI,point,0.9128726994203669,0.00011718086898326874
+model,external,0,API-White,both,D,split,CI,,max DD gap,point,0.07682091560689497,0.00011718086898326874
+model,external,0,API-White,both,D,split,CI,,I(D;A),point,0.0021934441719336333,0.00011718086898326874
+model,external,0,API-White,both,DY,exact,CI,,TPRD 1-0,point,0.06784313397836605,0.00011948100291192532
+model,external,0,API-White,both,DY,exact,CI,,PPVD 1-0,point,0.00930479403512574,0.00011948100291192532
+model,external,0,API-White,both,DY,exact,CI,,BA diff 1-0,point,-0.010612694501085929,0.00011948100291192532
+model,external,0,API-White,both,DY,exact,CI,,F1 diff 1-0,point,0.037738003205063486,0.00011948100291192532
+model,external,0,API-White,both,DY,exact,CI,,I(D;A|Y),point,0.001879965222426838,0.00011948100291192532
+model,external,0,API-White,both,DY,split,CI,,TPRD 1-0,point,0.07085203749792934,0.00011932104825973511
+model,external,0,API-White,both,DY,split,CI,,PPVD 1-0,point,0.011527406901549409,0.00011932104825973511
+model,external,0,API-White,both,DY,split,CI,,BA diff 1-0,point,-0.01160849797247554,0.00011932104825973511
+model,external,0,API-White,both,DY,split,CI,,F1 diff 1-0,point,0.04027931606360968,0.00011932104825973511
+model,external,0,API-White,both,DY,split,CI,,I(D;A|Y),point,0.0021206417316401286,0.00011932104825973511
+model,external,0,three,county,D,exact,CI,,DD 1-0,point,-0.04499161002272045,0.00012175110168755054
+model,external,0,three,county,D,exact,CI,,DI 1/0,point,0.9434681867227953,0.00012175110168755054
+model,external,0,three,county,D,exact,CI,,worst-case DI,point,0.8688534886828134,0.00012175110168755054
+model,external,0,three,county,D,exact,CI,,max DD gap,point,0.1133381377078796,0.00012175110168755054
+model,external,0,three,county,D,exact,CI,,I(D;A),point,0.002090210034632626,0.00012175110168755054
+model,external,0,three,county,D,split,CI,,DD 1-0,point,-0.05123503892624126,0.00012069102376699448
+model,external,0,three,county,D,split,CI,,DI 1/0,point,0.9356379651923816,0.00012069102376699448
+model,external,0,three,county,D,split,CI,,worst-case DI,point,0.8622206411932885,0.00012069102376699448
+model,external,0,three,county,D,split,CI,,max DD gap,point,0.11901751663865878,0.00012069102376699448
+model,external,0,three,county,D,split,CI,,I(D;A),point,0.0022385728727501233,0.00012069102376699448
+model,external,0,three,county,DY,exact,CI,,TPRD 1-0,point,-0.03849056419384356,0.0001278999261558056
+model,external,0,three,county,DY,exact,CI,,PPVD 1-0,point,-0.0054938710754023345,0.0001278999261558056
+model,external,0,three,county,DY,exact,CI,,BA diff 1-0,point,0.011670800291284644,0.0001278999261558056
+model,external,0,three,county,DY,exact,CI,,F1 diff 1-0,point,-0.022402394512798796,0.0001278999261558056
+model,external,0,three,county,DY,exact,CI,,I(D;A|Y),point,0.002013793568915815,0.0001278999261558056
+model,external,0,three,county,DY,split,CI,,TPRD 1-0,point,-0.04516904416809775,0.00011988100595772266
+model,external,0,three,county,DY,split,CI,,PPVD 1-0,point,-0.0035868078026685124,0.00011988100595772266
+model,external,0,three,county,DY,split,CI,,BA diff 1-0,point,0.011157243707961118,0.00011988100595772266
+model,external,0,three,county,DY,split,CI,,F1 diff 1-0,point,-0.024961820918805055,0.00011988100595772266
+model,external,0,three,county,DY,split,CI,,I(D;A|Y),point,0.0021652893104308502,0.00011988100595772266
+model,external,0,three,income,D,exact,CI,,DD 1-0,point,-0.049196639150645205,0.00012061093002557755
+model,external,0,three,income,D,exact,CI,,DI 1/0,point,0.9383575595682255,0.00012061093002557755
+model,external,0,three,income,D,exact,CI,,worst-case DI,point,0.8932454257419672,0.00012061093002557755
+model,external,0,three,income,D,exact,CI,,max DD gap,point,0.08950342611914286,0.00012061093002557755
+model,external,0,three,income,D,exact,CI,,I(D;A),point,0.0011324064306620666,0.00012061093002557755
+model,external,0,three,income,D,split,CI,,DD 1-0,point,-0.04761362242162037,0.00012057088315486908
+model,external,0,three,income,D,split,CI,,DI 1/0,point,0.9403021995986183,0.00012057088315486908
+model,external,0,three,income,D,split,CI,,worst-case DI,point,0.8913652683983573,0.00012057088315486908
+model,external,0,three,income,D,split,CI,,max DD gap,point,0.09140150225738353,0.00012057088315486908
+model,external,0,three,income,D,split,CI,,I(D;A),point,0.0012082558860350987,0.00012057088315486908
+model,external,0,three,income,DY,exact,CI,,TPRD 1-0,point,-0.04606768560319663,0.0001205510925501585
+model,external,0,three,income,DY,exact,CI,,PPVD 1-0,point,-0.013711248181412672,0.0001205510925501585
+model,external,0,three,income,DY,exact,CI,,BA diff 1-0,point,0.002476587788821427,0.0001205510925501585
+model,external,0,three,income,DY,exact,CI,,F1 diff 1-0,point,-0.03024786463156004,0.0001205510925501585
+model,external,0,three,income,DY,exact,CI,,I(D;A|Y),point,0.0010580342351152812,0.0001205510925501585
+model,external,0,three,income,DY,split,CI,,TPRD 1-0,point,-0.044435818882772926,0.00011893990449607372
+model,external,0,three,income,DY,split,CI,,PPVD 1-0,point,-0.01361159787700228,0.00011893990449607372
+model,external,0,three,income,DY,split,CI,,BA diff 1-0,point,0.0025007170247559607,0.00011893990449607372
+model,external,0,three,income,DY,split,CI,,F1 diff 1-0,point,-0.029329212560108564,0.00011893990449607372
+model,external,0,three,income,DY,split,CI,,I(D;A|Y),point,0.0011250205130053721,0.00011893990449607372
+model,external,0,three,both,D,exact,CI,,DD 1-0,point,-0.08628868361351882,0.0001216998789459467
+model,external,0,three,both,D,exact,CI,,DI 1/0,point,0.891771786387136,0.0001216998789459467
+model,external,0,three,both,D,exact,CI,,worst-case DI,point,0.808973860567934,0.0001216998789459467
+model,external,0,three,both,D,exact,CI,,max DD gap,point,0.16789021739630805,0.0001216998789459467
+model,external,0,three,both,D,exact,CI,,I(D;A),point,0.004119188994542646,0.0001216998789459467
+model,external,0,three,both,D,split,CI,,DD 1-0,point,-0.08859233710642356,0.0001232700888067484
+model,external,0,three,both,D,split,CI,,DI 1/0,point,0.8888433819034833,0.0001232700888067484
+model,external,0,three,both,D,split,CI,,worst-case DI,point,0.8042979616692131,0.0001232700888067484
+model,external,0,three,both,D,split,CI,,max DD gap,point,0.17237110185726223,0.0001232700888067484
+model,external,0,three,both,D,split,CI,,I(D;A),point,0.004379180575207394,0.0001232700888067484
+model,external,0,three,both,DY,exact,CI,,TPRD 1-0,point,-0.07761933968180756,0.0001276808325201273
+model,external,0,three,both,DY,exact,CI,,PPVD 1-0,point,-0.018298211079075588,0.0001276808325201273
+model,external,0,three,both,DY,exact,CI,,BA diff 1-0,point,0.011625617268784083,0.0001276808325201273
+model,external,0,three,both,DY,exact,CI,,F1 diff 1-0,point,-0.04919218776759904,0.0001276808325201273
+model,external,0,three,both,DY,exact,CI,,I(D;A|Y),point,0.003911936165874879,0.0001276808325201273
+model,external,0,three,both,DY,split,CI,,TPRD 1-0,point,-0.08016269479314586,0.00012124096974730492
+model,external,0,three,both,DY,split,CI,,PPVD 1-0,point,-0.01555824058686106,0.00012124096974730492
+model,external,0,three,both,DY,split,CI,,BA diff 1-0,point,0.011706159934031346,0.00012124096974730492
+model,external,0,three,both,DY,split,CI,,F1 diff 1-0,point,-0.04925368806108721,0.00012124096974730492
+model,external,0,three,both,DY,split,CI,,I(D;A|Y),point,0.004173380226611058,0.00012124096974730492
+model,full,0,Black-White,county,D,exact,CI,,DD 1-0,point,-0.056726145117106275,0.00011576106771826744
+model,full,0,Black-White,county,D,exact,CI,,DI 1/0,point,0.9286245891292573,0.00011576106771826744
+model,full,0,Black-White,county,D,exact,CI,,worst-case DI,point,0.9286245891292573,0.00011576106771826744
+model,full,0,Black-White,county,D,exact,CI,,max DD gap,point,0.056726145117106275,0.00011576106771826744
+model,full,0,Black-White,county,D,exact,CI,,I(D;A),point,0.0007706533386494033,0.00011576106771826744
+model,full,0,Black-White,county,D,split,CI,,DD 1-0,point,-0.05976813898273958,0.00012051081284880638
+model,full,0,Black-White,county,D,split,CI,,DI 1/0,point,0.9248714835422798,0.00012051081284880638
+model,full,0,Black-White,county,D,split,CI,,worst-case DI,point,0.9248714835422798,0.00012051081284880638
+model,full,0,Black-White,county,D,split,CI,,max DD gap,point,0.05976813898273958,0.00012051081284880638
+model,full,0,Black-White,county,D,split,CI,,I(D;A),point,0.0008577987572612397,0.00012051081284880638
+model,full,0,Black-White,county,DY,exact,CI,,TPRD 1-0,point,-0.049789678470207654,0.00012005097232758999
+model,full,0,Black-White,county,DY,exact,CI,,PPVD 1-0,point,-0.005219048625659473,0.00012005097232758999
+model,full,0,Black-White,county,DY,exact,CI,,BA diff 1-0,point,0.012500005304106332,0.00012005097232758999
+model,full,0,Black-White,county,DY,exact,CI,,F1 diff 1-0,point,-0.0282644120961959,0.00012005097232758999
+model,full,0,Black-White,county,DY,exact,CI,,I(D;A|Y),point,0.0007375979098985309,0.00012005097232758999
+model,full,0,Black-White,county,DY,split,CI,,TPRD 1-0,point,-0.05358436834557856,0.00011756084859371185
+model,full,0,Black-White,county,DY,split,CI,,PPVD 1-0,point,-0.004670192637054482,0.00011756084859371185
+model,full,0,Black-White,county,DY,split,CI,,BA diff 1-0,point,0.010983289788217165,0.00011756084859371185
+model,full,0,Black-White,county,DY,split,CI,,F1 diff 1-0,point,-0.02995820881073674,0.00011756084859371185
+model,full,0,Black-White,county,DY,split,CI,,I(D;A|Y),point,0.0008255665911341139,0.00011756084859371185
+model,full,0,Black-White,income,D,exact,CI,,DD 1-0,point,-0.04962287129465104,0.00011676084250211716
+model,full,0,Black-White,income,D,exact,CI,,DI 1/0,point,0.9375278576755754,0.00011676084250211716
+model,full,0,Black-White,income,D,exact,CI,,worst-case DI,point,0.9375278576755754,0.00011676084250211716
+model,full,0,Black-White,income,D,exact,CI,,max DD gap,point,0.04962287129465104,0.00011676084250211716
+model,full,0,Black-White,income,D,exact,CI,,I(D;A),point,0.0005932967929444793,0.00011676084250211716
+model,full,0,Black-White,income,D,split,CI,,DD 1-0,point,-0.048142407924530284,0.00011625094339251518
+model,full,0,Black-White,income,D,split,CI,,DI 1/0,point,0.9394295446096613,0.00011625094339251518
+model,full,0,Black-White,income,D,split,CI,,worst-case DI,point,0.9394295446096613,0.00011625094339251518
+model,full,0,Black-White,income,D,split,CI,,max DD gap,point,0.048142407924530284,0.00011625094339251518
+model,full,0,Black-White,income,D,split,CI,,I(D;A),point,0.0005602897767884181,0.00011625094339251518
+model,full,0,Black-White,income,DY,exact,CI,,TPRD 1-0,point,-0.04647086635528941,0.00011826097033917904
+model,full,0,Black-White,income,DY,exact,CI,,PPVD 1-0,point,-0.0133087139940411,0.00011826097033917904
+model,full,0,Black-White,income,DY,exact,CI,,BA diff 1-0,point,0.002617942092964398,0.00011826097033917904
+model,full,0,Black-White,income,DY,exact,CI,,F1 diff 1-0,point,-0.03035172830729682,0.00011826097033917904
+model,full,0,Black-White,income,DY,exact,CI,,I(D;A|Y),point,0.0005550440706055703,0.00011826097033917904
+model,full,0,Black-White,income,DY,split,CI,,TPRD 1-0,point,-0.045005851992379164,0.00011832104064524174
+model,full,0,Black-White,income,DY,split,CI,,PPVD 1-0,point,-0.0134549341399679,0.00011832104064524174
+model,full,0,Black-White,income,DY,split,CI,,BA diff 1-0,point,0.0024767561158807183,0.00011832104064524174
+model,full,0,Black-White,income,DY,split,CI,,F1 diff 1-0,point,-0.029614497334917056,0.00011832104064524174
+model,full,0,Black-White,income,DY,split,CI,,I(D;A|Y),point,0.0005224442608772585,0.00011832104064524174
+model,full,0,Black-White,both,D,exact,CI,,DD 1-0,point,-0.10228788675546374,0.00012152106501162052
+model,full,0,Black-White,both,D,exact,CI,,DI 1/0,point,0.8717496189070508,0.00012152106501162052
+model,full,0,Black-White,both,D,exact,CI,,worst-case DI,point,0.8717496189070508,0.00012152106501162052
+model,full,0,Black-White,both,D,exact,CI,,max DD gap,point,0.10228788675546374,0.00012152106501162052
+model,full,0,Black-White,both,D,exact,CI,,I(D;A),point,0.002418685095303033,0.00012152106501162052
+model,full,0,Black-White,both,D,split,CI,,DD 1-0,point,-0.10318387581652144,0.00013760104775428772
+model,full,0,Black-White,both,D,split,CI,,DI 1/0,point,0.8707312577192633,0.00013760104775428772
+model,full,0,Black-White,both,D,split,CI,,worst-case DI,point,0.8707312577192633,0.00013760104775428772
+model,full,0,Black-White,both,D,split,CI,,max DD gap,point,0.10318387581652144,0.00013760104775428772
+model,full,0,Black-White,both,D,split,CI,,I(D;A),point,0.0024659615890504864,0.00013760104775428772
+model,full,0,Black-White,both,DY,exact,CI,,TPRD 1-0,point,-0.09286364096217659,0.00011949101462960243
+model,full,0,Black-White,both,DY,exact,CI,,PPVD 1-0,point,-0.018216141070981573,0.00011949101462960243
+model,full,0,Black-White,both,DY,exact,CI,,BA diff 1-0,point,0.012925149348954279,0.00011949101462960243
+model,full,0,Black-White,both,DY,exact,CI,,F1 diff 1-0,point,-0.05750130949127552,0.00011949101462960243
+model,full,0,Black-White,both,DY,exact,CI,,I(D;A|Y),point,0.0022737012741019377,0.00011949101462960243
+model,full,0,Black-White,both,DY,split,CI,,TPRD 1-0,point,-0.09448389198839091,0.00011825095862150192
+model,full,0,Black-White,both,DY,split,CI,,PPVD 1-0,point,-0.017459307904304833,0.00011825095862150192
+model,full,0,Black-White,both,DY,split,CI,,BA diff 1-0,point,0.011579018956565656,0.00011825095862150192
+model,full,0,Black-White,both,DY,split,CI,,F1 diff 1-0,point,-0.057945678620647256,0.00011825095862150192
+model,full,0,Black-White,both,DY,split,CI,,I(D;A|Y),point,0.002327447238841561,0.00011825095862150192
+model,full,0,API-White,county,D,exact,CI,,DD 1-0,point,0.05951875850182109,0.0001244409941136837
+model,full,0,API-White,county,D,exact,CI,,DI 1/0,point,1.0738593862812686,0.0001244409941136837
+model,full,0,API-White,county,D,exact,CI,,worst-case DI,point,0.9312206167540793,0.0001244409941136837
+model,full,0,API-White,county,D,exact,CI,,max DD gap,point,0.05951875850182109,0.0001244409941136837
+model,full,0,API-White,county,D,exact,CI,,I(D;A),point,0.0012526107597649232,0.0001244409941136837
+model,full,0,API-White,county,D,split,CI,,DD 1-0,point,0.05980089935305255,0.00011446094140410423
+model,full,0,API-White,county,D,split,CI,,DI 1/0,point,1.0741753994729009,0.00011446094140410423
+model,full,0,API-White,county,D,split,CI,,worst-case DI,point,0.930946659633707,0.00011446094140410423
+model,full,0,API-White,county,D,split,CI,,max DD gap,point,0.05980089935305255,0.00011446094140410423
+model,full,0,API-White,county,D,split,CI,,I(D;A),point,0.0012916789039083077,0.00011446094140410423
+model,full,0,API-White,county,DY,exact,CI,,TPRD 1-0,point,0.05566468202109265,0.00011838111095130444
+model,full,0,API-White,county,DY,exact,CI,,PPVD 1-0,point,0.00711674925007022,0.00011838111095130444
+model,full,0,API-White,county,DY,exact,CI,,BA diff 1-0,point,-0.007368161909314885,0.00011838111095130444
+model,full,0,API-White,county,DY,exact,CI,,F1 diff 1-0,point,0.030811576550879627,0.00011838111095130444
+model,full,0,API-White,county,DY,exact,CI,,I(D;A|Y),point,0.0012218078007337333,0.00011838111095130444
+model,full,0,API-White,county,DY,split,CI,,TPRD 1-0,point,0.056494105430500374,0.00011800113134086132
+model,full,0,API-White,county,DY,split,CI,,PPVD 1-0,point,0.007518493398294468,0.00011800113134086132
+model,full,0,API-White,county,DY,split,CI,,BA diff 1-0,point,-0.00577876015543044,0.00011800113134086132
+model,full,0,API-White,county,DY,split,CI,,F1 diff 1-0,point,0.03137127203557921,0.00011800113134086132
+model,full,0,API-White,county,DY,split,CI,,I(D;A|Y),point,0.0012646034906122641,0.00011800113134086132
+model,full,0,API-White,income,D,exact,CI,,DD 1-0,point,0.03867453017877753,0.00011652102693915367
+model,full,0,API-White,income,D,exact,CI,,DI 1/0,point,1.047899491301147,0.00011652102693915367
+model,full,0,API-White,income,D,exact,CI,,worst-case DI,point,0.9542899947000913,0.00011652102693915367
+model,full,0,API-White,income,D,exact,CI,,max DD gap,point,0.03867453017877753,0.00011652102693915367
+model,full,0,API-White,income,D,exact,CI,,I(D;A),point,0.000513381073603175,0.00011652102693915367
+model,full,0,API-White,income,D,split,CI,,DD 1-0,point,0.04189180042069918,0.00011562090367078781
+model,full,0,API-White,income,D,split,CI,,DI 1/0,point,1.0518729376461569,0.00011562090367078781
+model,full,0,API-White,income,D,split,CI,,worst-case DI,point,0.9506851675809473,0.00011562090367078781
+model,full,0,API-White,income,D,split,CI,,max DD gap,point,0.04189180042069918,0.00011562090367078781
+model,full,0,API-White,income,D,split,CI,,I(D;A),point,0.000618167583932358,0.00011562090367078781
+model,full,0,API-White,income,DY,exact,CI,,TPRD 1-0,point,0.03515798891975963,0.00011774105951189995
+model,full,0,API-White,income,DY,exact,CI,,PPVD 1-0,point,0.009251930061783376,0.00011774105951189995
+model,full,0,API-White,income,DY,exact,CI,,BA diff 1-0,point,-0.006067115890671992,0.00011774105951189995
+model,full,0,API-White,income,DY,exact,CI,,F1 diff 1-0,point,0.022039082161964263,0.00011774105951189995
+model,full,0,API-White,income,DY,exact,CI,,I(D;A|Y),point,0.0004846466939553069,0.00011774105951189995
+model,full,0,API-White,income,DY,split,CI,,TPRD 1-0,point,0.03796031125775834,0.00011802115477621555
+model,full,0,API-White,income,DY,split,CI,,PPVD 1-0,point,0.010367706057961334,0.00011802115477621555
+model,full,0,API-White,income,DY,split,CI,,BA diff 1-0,point,-0.0067277519698217825,0.00011802115477621555
+model,full,0,API-White,income,DY,split,CI,,F1 diff 1-0,point,0.023949542910851607,0.00011802115477621555
+model,full,0,API-White,income,DY,split,CI,,I(D;A|Y),point,0.0005820305757154774,0.00011802115477621555
+model,full,0,API-White,both,D,exact,CI,,DD 1-0,point,0.07379248541450345,0.0001159899402409792
+model,full,0,API-White,both,D,exact,CI,,DI 1/0,point,1.0916946990503453,0.0001159899402409792
+model,full,0,API-White,both,D,exact,CI,,worst-case DI,point,0.9160070126473,0.0001159899402409792
+model,full,0,API-White,both,D,exact,CI,,max DD gap,point,0.07379248541450345,0.0001159899402409792
+model,full,0,API-White,both,D,exact,CI,,I(D;A),point,0.0019688704231770266,0.0001159899402409792
+model,full,0,API-White,both,D,split,CI,,DD 1-0,point,0.07630915332916122,0.00011518108658492565
+model,full,0,API-White,both,D,split,CI,,DI 1/0,point,1.0948015033682321,0.00011518108658492565
+model,full,0,API-White,both,D,split,CI,,worst-case DI,point,0.9134075875155735,0.00011518108658492565
+model,full,0,API-White,both,D,split,CI,,max DD gap,point,0.07630915332916122,0.00011518108658492565
+model,full,0,API-White,both,D,split,CI,,I(D;A),point,0.0021596308220704153,0.00011518108658492565
+model,full,0,API-White,both,DY,exact,CI,,TPRD 1-0,point,0.06822858406324028,0.00011988100595772266
+model,full,0,API-White,both,DY,exact,CI,,PPVD 1-0,point,0.010040615104173423,0.00011988100595772266
+model,full,0,API-White,both,DY,exact,CI,,BA diff 1-0,point,-0.011055242119449638,0.00011988100595772266
+model,full,0,API-White,both,DY,exact,CI,,F1 diff 1-0,point,0.03830916706744514,0.00011988100595772266
+model,full,0,API-White,both,DY,exact,CI,,I(D;A|Y),point,0.0019091900298808947,0.00011988100595772266
+model,full,0,API-White,both,DY,split,CI,,TPRD 1-0,point,0.07097966749085893,0.00011901091784238815
+model,full,0,API-White,both,DY,split,CI,,PPVD 1-0,point,0.011185762124761522,0.00011901091784238815
+model,full,0,API-White,both,DY,split,CI,,BA diff 1-0,point,-0.010010411688511356,0.00011901091784238815
+model,full,0,API-White,both,DY,split,CI,,F1 diff 1-0,point,0.04015784147720025,0.00011901091784238815
+model,full,0,API-White,both,DY,split,CI,,I(D;A|Y),point,0.002095809328423605,0.00011901091784238815
+model,full,0,three,county,D,exact,CI,,DD 1-0,point,-0.04736488498546598,0.00012098089791834354
+model,full,0,three,county,D,exact,CI,,DI 1/0,point,0.9404957507739402,0.00012098089791834354
+model,full,0,three,county,D,exact,CI,,worst-case DI,point,0.8660183930247303,0.00012098089791834354
+model,full,0,three,county,D,exact,CI,,max DD gap,point,0.11581996017388385,0.00012098089791834354
+model,full,0,three,county,D,exact,CI,,I(D;A),point,0.002150999288934083,0.00012098089791834354
+model,full,0,three,county,D,split,CI,,DD 1-0,point,-0.04945626023344951,0.00011877994984388351
+model,full,0,three,county,D,split,CI,,DI 1/0,point,0.9378667096579844,0.00011877994984388351
+model,full,0,three,county,D,split,CI,,worst-case DI,point,0.8646706847829658,0.00011877994984388351
+model,full,0,three,county,D,split,CI,,max DD gap,point,0.11683667515623486,0.00011877994984388351
+model,full,0,three,county,D,split,CI,,I(D;A),point,0.00218207958381394,0.00011877994984388351
+model,full,0,three,county,DY,exact,CI,,TPRD 1-0,point,-0.0418747155528858,0.00011811009608209133
+model,full,0,three,county,DY,exact,CI,,PPVD 1-0,point,-0.0054403528902825515,0.00011811009608209133
+model,full,0,three,county,DY,exact,CI,,BA diff 1-0,point,0.009602869361331146,0.00011811009608209133
+model,full,0,three,county,DY,exact,CI,,F1 diff 1-0,point,-0.024146870562484657,0.00011811009608209133
+model,full,0,three,county,DY,exact,CI,,I(D;A|Y),point,0.002075545957457966,0.00011811009608209133
+model,full,0,three,county,DY,split,CI,,TPRD 1-0,point,-0.045118300336005945,0.00011710100807249546
+model,full,0,three,county,DY,split,CI,,PPVD 1-0,point,-0.005210704749979422,0.00011710100807249546
+model,full,0,three,county,DY,split,CI,,BA diff 1-0,point,0.007181703825463681,0.00011710100807249546
+model,full,0,three,county,DY,split,CI,,F1 diff 1-0,point,-0.025707160403695917,0.00011710100807249546
+model,full,0,three,county,DY,split,CI,,I(D;A|Y),point,0.002114634657892643,0.00011710100807249546
+model,full,0,three,income,D,exact,CI,,DD 1-0,point,-0.049196639150645205,0.00012147100642323494
+model,full,0,three,income,D,exact,CI,,DI 1/0,point,0.9383575595682255,0.00012147100642323494
+model,full,0,three,income,D,exact,CI,,worst-case DI,point,0.8932454257419672,0.00012147100642323494
+model,full,0,three,income,D,exact,CI,,max DD gap,point,0.08950342611914286,0.00012147100642323494
+model,full,0,three,income,D,exact,CI,,I(D;A),point,0.0011324064306620666,0.00012147100642323494
+model,full,0,three,income,D,split,CI,,DD 1-0,point,-0.04761362242162037,0.00011862115934491158
+model,full,0,three,income,D,split,CI,,DI 1/0,point,0.9403021995986183,0.00011862115934491158
+model,full,0,three,income,D,split,CI,,worst-case DI,point,0.8913652683983573,0.00011862115934491158
+model,full,0,three,income,D,split,CI,,max DD gap,point,0.09140150225738353,0.00011862115934491158
+model,full,0,three,income,D,split,CI,,I(D;A),point,0.0012082558860350987,0.00011862115934491158
+model,full,0,three,income,DY,exact,CI,,TPRD 1-0,point,-0.04606768560319663,0.00011756108142435551
+model,full,0,three,income,DY,exact,CI,,PPVD 1-0,point,-0.013711248181412672,0.00011756108142435551
+model,full,0,three,income,DY,exact,CI,,BA diff 1-0,point,0.002476587788821427,0.00011756108142435551
+model,full,0,three,income,DY,exact,CI,,F1 diff 1-0,point,-0.03024786463156004,0.00011756108142435551
+model,full,0,three,income,DY,exact,CI,,I(D;A|Y),point,0.0010580342351152812,0.00011756108142435551
+model,full,0,three,income,DY,split,CI,,TPRD 1-0,point,-0.044435818882772926,0.00011745095252990723
+model,full,0,three,income,DY,split,CI,,PPVD 1-0,point,-0.01361159787700228,0.00011745095252990723
+model,full,0,three,income,DY,split,CI,,BA diff 1-0,point,0.0025007170247559607,0.00011745095252990723
+model,full,0,three,income,DY,split,CI,,F1 diff 1-0,point,-0.029329212560108564,0.00011745095252990723
+model,full,0,three,income,DY,split,CI,,I(D;A|Y),point,0.0011250205130053721,0.00011745095252990723
+model,full,0,three,both,D,exact,CI,,DD 1-0,point,-0.09119488670224507,0.00011967099271714687
+model,full,0,three,both,D,exact,CI,,DI 1/0,point,0.8856498716198125,0.00011967099271714687
+model,full,0,three,both,D,exact,CI,,worst-case DI,point,0.8026762782878442,0.00011967099271714687
+model,full,0,three,both,D,exact,CI,,max DD gap,point,0.17363399806089486,0.00011967099271714687
+model,full,0,three,both,D,exact,CI,,I(D;A),point,0.004372263092204334,0.00011967099271714687
+model,full,0,three,both,D,split,CI,,DD 1-0,point,-0.0908482561761188,0.0001245499588549137
+model,full,0,three,both,D,split,CI,,DI 1/0,point,0.8860320619947535,0.0001245499588549137
+model,full,0,three,both,D,split,CI,,worst-case DI,point,0.8016631512575131,0.0001245499588549137
+model,full,0,three,both,D,split,CI,,max DD gap,point,0.17474100511065038,0.0001245499588549137
+model,full,0,three,both,D,split,CI,,I(D;A),point,0.004499969350821384,0.0001245499588549137
+model,full,0,three,both,DY,exact,CI,,TPRD 1-0,point,-0.08346883131504945,0.00011991988867521286
+model,full,0,three,both,DY,exact,CI,,PPVD 1-0,point,-0.019035623496224452,0.00011991988867521286
+model,full,0,three,both,DY,exact,CI,,BA diff 1-0,point,0.009570839035870637,0.00011991988867521286
+model,full,0,three,both,DY,exact,CI,,F1 diff 1-0,point,-0.052694893469665494,0.00011991988867521286
+model,full,0,three,both,DY,exact,CI,,I(D;A|Y),point,0.004160907131519261,0.00011991988867521286
+model,full,0,three,both,DY,split,CI,,TPRD 1-0,point,-0.08427807241674634,0.00011901091784238815
+model,full,0,three,both,DY,split,CI,,PPVD 1-0,point,-0.01851649663939603,0.00011901091784238815
+model,full,0,three,both,DY,split,CI,,BA diff 1-0,point,0.0073365187861687,0.00011901091784238815
+model,full,0,three,both,DY,split,CI,,F1 diff 1-0,point,-0.05284438160503635,0.00011901091784238815
+model,full,0,three,both,DY,split,CI,,I(D;A|Y),point,0.00429501220543923,0.00011901091784238815
+lender,external,0,Black-White,county,D,exact,CI,,DD 1-0,point,-0.013648138471214488,0.00011459109373390675
+lender,external,0,Black-White,county,D,exact,CI,,DI 1/0,point,0.9829256642558929,0.00011459109373390675
+lender,external,0,Black-White,county,D,exact,CI,,worst-case DI,point,0.9829256642558929,0.00011459109373390675
+lender,external,0,Black-White,county,D,exact,CI,,max DD gap,point,0.013648138471214488,0.00011459109373390675
+lender,external,0,Black-White,county,D,exact,CI,,I(D;A),point,4.758019690217011e-05,0.00011459109373390675
+lender,external,0,Black-White,county,D,split,CI,,DD 1-0,point,-0.012105437091183835,0.00012548104859888554
+lender,external,0,Black-White,county,D,split,CI,,DI 1/0,point,0.984827248000852,0.00012548104859888554
+lender,external,0,Black-White,county,D,split,CI,,worst-case DI,point,0.984827248000852,0.00012548104859888554
+lender,external,0,Black-White,county,D,split,CI,,max DD gap,point,0.012105437091183835,0.00012548104859888554
+lender,external,0,Black-White,county,D,split,CI,,I(D;A),point,3.719242342885873e-05,0.00012548104859888554
+lender,external,0,Black-White,income,D,exact,CI,,DD 1-0,point,-0.017611983339747228,0.00011425092816352844
+lender,external,0,Black-White,income,D,exact,CI,,DI 1/0,point,0.9779734730056472,0.00011425092816352844
+lender,external,0,Black-White,income,D,exact,CI,,worst-case DI,point,0.9779734730056472,0.00011425092816352844
+lender,external,0,Black-White,income,D,exact,CI,,max DD gap,point,0.017611983339747228,0.00011425092816352844
+lender,external,0,Black-White,income,D,exact,CI,,I(D;A),point,7.891138865298141e-05,0.00011425092816352844
+lender,external,0,Black-White,income,D,split,CI,,DD 1-0,point,-0.017693140018103404,0.00011432007886469364
+lender,external,0,Black-White,income,D,split,CI,,DI 1/0,point,0.9778333483272355,0.00011432007886469364
+lender,external,0,Black-White,income,D,split,CI,,worst-case DI,point,0.9778333483272355,0.00011432007886469364
+lender,external,0,Black-White,income,D,split,CI,,max DD gap,point,0.017693140018103404,0.00011432007886469364
+lender,external,0,Black-White,income,D,split,CI,,I(D;A),point,7.92510470234418e-05,0.00011432007886469364
+lender,external,0,Black-White,both,D,exact,CI,,DD 1-0,point,-0.029741880993673586,0.00011447002179920673
+lender,external,0,Black-White,both,D,exact,CI,,DI 1/0,point,0.962837873676992,0.00011447002179920673
+lender,external,0,Black-White,both,D,exact,CI,,worst-case DI,point,0.962837873676992,0.00011447002179920673
+lender,external,0,Black-White,both,D,exact,CI,,max DD gap,point,0.029741880993673586,0.00011447002179920673
+lender,external,0,Black-White,both,D,exact,CI,,I(D;A),point,0.0002223546844893915,0.00011447002179920673
+lender,external,0,Black-White,both,D,split,CI,,DD 1-0,point,-0.027652397711846022,0.0001149401068687439
+lender,external,0,Black-White,both,D,split,CI,,DI 1/0,point,0.9653821349770715,0.0001149401068687439
+lender,external,0,Black-White,both,D,split,CI,,worst-case DI,point,0.9653821349770715,0.0001149401068687439
+lender,external,0,Black-White,both,D,split,CI,,max DD gap,point,0.027652397711846022,0.0001149401068687439
+lender,external,0,Black-White,both,D,split,CI,,I(D;A),point,0.00019052312587643618,0.0001149401068687439
+lender,external,0,API-White,county,D,exact,CI,,DD 1-0,point,0.011084326097386965,0.00011326977983117104
+lender,external,0,API-White,county,D,exact,CI,,DI 1/0,point,1.0136913228211244,0.00011326977983117104
+lender,external,0,API-White,county,D,exact,CI,,worst-case DI,point,0.9864935976930126,0.00011326977983117104
+lender,external,0,API-White,county,D,exact,CI,,max DD gap,point,0.011084326097386965,0.00011326977983117104
+lender,external,0,API-White,county,D,exact,CI,,I(D;A),point,4.0730929794521e-05,0.00011326977983117104
+lender,external,0,API-White,county,D,split,CI,,DD 1-0,point,0.012888335559605335,0.00011391099542379379
+lender,external,0,API-White,county,D,split,CI,,DI 1/0,point,1.0159455940392879,0.00011391099542379379
+lender,external,0,API-White,county,D,split,CI,,worst-case DI,point,0.9843046772062961,0.00011391099542379379
+lender,external,0,API-White,county,D,split,CI,,max DD gap,point,0.012888335559605335,0.00011391099542379379
+lender,external,0,API-White,county,D,split,CI,,I(D;A),point,5.605659566325447e-05,0.00011391099542379379
+lender,external,0,API-White,income,D,exact,CI,,DD 1-0,point,0.013262558880985154,0.00011360109783709049
+lender,external,0,API-White,income,D,exact,CI,,DI 1/0,point,1.0163851918886493,0.00011360109783709049
+lender,external,0,API-White,income,D,exact,CI,,worst-case DI,point,0.9838789545347445,0.00011360109783709049
+lender,external,0,API-White,income,D,exact,CI,,max DD gap,point,0.013262558880985154,0.00011360109783709049
+lender,external,0,API-White,income,D,exact,CI,,I(D;A),point,5.8465455258682915e-05,0.00011360109783709049
+lender,external,0,API-White,income,D,split,CI,,DD 1-0,point,0.014816420875180425,0.00011316011659801006
+lender,external,0,API-White,income,D,split,CI,,DI 1/0,point,1.018334388605754,0.00011316011659801006
+lender,external,0,API-White,income,D,split,CI,,worst-case DI,point,0.9819957090608944,0.00011316011659801006
+lender,external,0,API-White,income,D,split,CI,,max DD gap,point,0.014816420875180425,0.00011316011659801006
+lender,external,0,API-White,income,D,split,CI,,I(D;A),point,7.418747756451709e-05,0.00011316011659801006
+lender,external,0,API-White,both,D,exact,CI,,DD 1-0,point,0.015612664916582086,0.00011406093835830688
+lender,external,0,API-White,both,D,exact,CI,,DI 1/0,point,1.0192928464028026,0.00011406093835830688
+lender,external,0,API-White,both,D,exact,CI,,worst-case DI,point,0.98107232237439,0.00011406093835830688
+lender,external,0,API-White,both,D,exact,CI,,max DD gap,point,0.015612664916582086,0.00011406093835830688
+lender,external,0,API-White,both,D,exact,CI,,I(D;A),point,8.125304053470872e-05,0.00011406093835830688
+lender,external,0,API-White,both,D,split,CI,,DD 1-0,point,0.018461497815423167,0.00011373101733624935
+lender,external,0,API-White,both,D,split,CI,,DI 1/0,point,1.022852928337467,0.00011373101733624935
+lender,external,0,API-White,both,D,split,CI,,worst-case DI,point,0.9776576595673321,0.00011373101733624935
+lender,external,0,API-White,both,D,split,CI,,max DD gap,point,0.018461497815423167,0.00011373101733624935
+lender,external,0,API-White,both,D,split,CI,,I(D;A),point,0.00011581787869625578,0.00011373101733624935
+lender,external,0,three,county,D,exact,CI,,DD 1-0,point,-0.013264736045595416,0.0001218209508806467
+lender,external,0,three,county,D,exact,CI,,DI 1/0,point,0.9834007114062951,0.0001218209508806467
+lender,external,0,three,county,D,exact,CI,,worst-case DI,point,0.965009785018492,0.0001218209508806467
+lender,external,0,three,county,D,exact,CI,,max DD gap,point,0.028494074056782726,0.0001218209508806467
+lender,external,0,three,county,D,exact,CI,,I(D;A),point,0.00011957855385959812,0.0001218209508806467
+lender,external,0,three,county,D,split,CI,,DD 1-0,point,-0.01124772602191959,0.00011846097186207771
+lender,external,0,three,county,D,split,CI,,DI 1/0,point,0.9858972797345732,0.00011846097186207771
+lender,external,0,three,county,D,split,CI,,worst-case DI,point,0.9672249141269897,0.00011846097186207771
+lender,external,0,three,county,D,split,CI,,max DD gap,point,0.0266446407697859,0.00011846097186207771
+lender,external,0,three,county,D,split,CI,,I(D;A),point,0.00010900471287060521,0.00011846097186207771
+lender,external,0,three,income,D,exact,CI,,DD 1-0,point,-0.01793434745863076,0.00011787004768848419
+lender,external,0,three,income,D,exact,CI,,DI 1/0,point,0.9775658008149457,0.00011787004768848419
+lender,external,0,three,income,D,exact,CI,,worst-case DI,point,0.9599221150799997,0.00011787004768848419
+lender,external,0,three,income,D,exact,CI,,max DD gap,point,0.03262795122738671,0.00011787004768848419
+lender,external,0,three,income,D,exact,CI,,I(D;A),point,0.0001513692602514783,0.00011787004768848419
+lender,external,0,three,income,D,split,CI,,DD 1-0,point,-0.017850870808562513,0.00011846981942653656
+lender,external,0,three,income,D,split,CI,,DI 1/0,point,0.9776265834991871,0.00011846981942653656
+lender,external,0,three,income,D,split,CI,,worst-case DI,point,0.9579167583052437,0.00011846981942653656
+lender,external,0,three,income,D,split,CI,,max DD gap,point,0.03426742863748611,0.00011846981942653656
+lender,external,0,three,income,D,split,CI,,I(D;A),point,0.00016903996019567184,0.00011846981942653656
+lender,external,0,three,both,D,exact,CI,,DD 1-0,point,-0.02950149973788352,0.00011908099986612797
+lender,external,0,three,both,D,exact,CI,,DI 1/0,point,0.9631094485939998,0.00011908099986612797
+lender,external,0,three,both,D,exact,CI,,worst-case DI,point,0.9395887979226366,0.00011908099986612797
+lender,external,0,three,both,D,exact,CI,,max DD gap,point,0.04952041075219393,0.00011908099986612797
+lender,external,0,three,both,D,exact,CI,,I(D;A),point,0.0003479559864009809,0.00011908099986612797
+lender,external,0,three,both,D,split,CI,,DD 1-0,point,-0.026763957581441566,0.00011832104064524174
+lender,external,0,three,both,D,split,CI,,DI 1/0,point,0.9664614899932003,0.00011832104064524174
+lender,external,0,three,both,D,split,CI,,worst-case DI,point,0.9412685678709473,0.00011832104064524174
+lender,external,0,three,both,D,split,CI,,max DD gap,point,0.048122497269860065,0.00011832104064524174
+lender,external,0,three,both,D,split,CI,,I(D;A),point,0.00032868834314767905,0.00011832104064524174
+lender,full,0,Black-White,county,D,exact,CI,,DD 1-0,point,-0.01392484202354749,0.00011346093378961086
+lender,full,0,Black-White,county,D,exact,CI,,DI 1/0,point,0.9825798691274218,0.00011346093378961086
+lender,full,0,Black-White,county,D,exact,CI,,worst-case DI,point,0.9825798691274218,0.00011346093378961086
+lender,full,0,Black-White,county,D,exact,CI,,max DD gap,point,0.01392484202354749,0.00011346093378961086
+lender,full,0,Black-White,county,D,exact,CI,,I(D;A),point,4.951496576610843e-05,0.00011346093378961086
+lender,full,0,Black-White,county,D,split,CI,,DD 1-0,point,-0.012756189367837956,0.00011352100409567356
+lender,full,0,Black-White,county,D,split,CI,,DI 1/0,point,0.984012512319088,0.00011352100409567356
+lender,full,0,Black-White,county,D,split,CI,,worst-case DI,point,0.984012512319088,0.00011352100409567356
+lender,full,0,Black-White,county,D,split,CI,,max DD gap,point,0.012756189367837956,0.00011352100409567356
+lender,full,0,Black-White,county,D,split,CI,,I(D;A),point,4.153109790920725e-05,0.00011352100409567356
+lender,full,0,Black-White,income,D,exact,CI,,DD 1-0,point,-0.017611983339747228,0.00012524984776973724
+lender,full,0,Black-White,income,D,exact,CI,,DI 1/0,point,0.9779734730056472,0.00012524984776973724
+lender,full,0,Black-White,income,D,exact,CI,,worst-case DI,point,0.9779734730056472,0.00012524984776973724
+lender,full,0,Black-White,income,D,exact,CI,,max DD gap,point,0.017611983339747228,0.00012524984776973724
+lender,full,0,Black-White,income,D,exact,CI,,I(D;A),point,7.891138865298141e-05,0.00012524984776973724
+lender,full,0,Black-White,income,D,split,CI,,DD 1-0,point,-0.017693140018103404,0.00011368095874786377
+lender,full,0,Black-White,income,D,split,CI,,DI 1/0,point,0.9778333483272355,0.00011368095874786377
+lender,full,0,Black-White,income,D,split,CI,,worst-case DI,point,0.9778333483272355,0.00011368095874786377
+lender,full,0,Black-White,income,D,split,CI,,max DD gap,point,0.017693140018103404,0.00011368095874786377
+lender,full,0,Black-White,income,D,split,CI,,I(D;A),point,7.92510470234418e-05,0.00011368095874786377
+lender,full,0,Black-White,both,D,exact,CI,,DD 1-0,point,-0.03094997408898137,0.00011402112431824207
+lender,full,0,Black-White,both,D,exact,CI,,DI 1/0,point,0.9613319711119199,0.00011402112431824207
+lender,full,0,Black-White,both,D,exact,CI,,worst-case DI,point,0.9613319711119199,0.00011402112431824207
+lender,full,0,Black-White,both,D,exact,CI,,max DD gap,point,0.03094997408898137,0.00011402112431824207
+lender,full,0,Black-White,both,D,exact,CI,,I(D;A),point,0.00024050467347061814,0.00011402112431824207
+lender,full,0,Black-White,both,D,split,CI,,DD 1-0,point,-0.029518898416588613,0.00011422089301049709
+lender,full,0,Black-White,both,D,split,CI,,DI 1/0,point,0.9630513642288713,0.00011422089301049709
+lender,full,0,Black-White,both,D,split,CI,,worst-case DI,point,0.9630513642288713,0.00011422089301049709
+lender,full,0,Black-White,both,D,split,CI,,max DD gap,point,0.029518898416588613,0.00011422089301049709
+lender,full,0,Black-White,both,D,split,CI,,I(D;A),point,0.00021819471400333183,0.00011422089301049709
+lender,full,0,API-White,county,D,exact,CI,,DD 1-0,point,0.011861852966009057,0.00011441088281571865
+lender,full,0,API-White,county,D,exact,CI,,DI 1/0,point,1.014652782223326,0.00011441088281571865
+lender,full,0,API-White,county,D,exact,CI,,worst-case DI,point,0.9855588212243221,0.00011441088281571865
+lender,full,0,API-White,county,D,exact,CI,,max DD gap,point,0.011861852966009057,0.00011441088281571865
+lender,full,0,API-White,county,D,exact,CI,,I(D;A),point,4.668916857643204e-05,0.00011441088281571865
+lender,full,0,API-White,county,D,split,CI,,DD 1-0,point,0.011763328815702412,0.00011426093988120556
+lender,full,0,API-White,county,D,split,CI,,DI 1/0,point,1.0145521330259353,0.00011426093988120556
+lender,full,0,API-White,county,D,split,CI,,worst-case DI,point,0.9856565941244114,0.00011426093988120556
+lender,full,0,API-White,county,D,split,CI,,max DD gap,point,0.011763328815702412,0.00011426093988120556
+lender,full,0,API-White,county,D,split,CI,,I(D;A),point,4.656005929391089e-05,0.00011426093988120556
+lender,full,0,API-White,income,D,exact,CI,,DD 1-0,point,0.013262558880985154,0.00011304090730845928
+lender,full,0,API-White,income,D,exact,CI,,DI 1/0,point,1.0163851918886493,0.00011304090730845928
+lender,full,0,API-White,income,D,exact,CI,,worst-case DI,point,0.9838789545347445,0.00011304090730845928
+lender,full,0,API-White,income,D,exact,CI,,max DD gap,point,0.013262558880985154,0.00011304090730845928
+lender,full,0,API-White,income,D,exact,CI,,I(D;A),point,5.8465455258682915e-05,0.00011304090730845928
+lender,full,0,API-White,income,D,split,CI,,DD 1-0,point,0.014816420875180425,0.00011361110955476761
+lender,full,0,API-White,income,D,split,CI,,DI 1/0,point,1.018334388605754,0.00011361110955476761
+lender,full,0,API-White,income,D,split,CI,,worst-case DI,point,0.9819957090608944,0.00011361110955476761
+lender,full,0,API-White,income,D,split,CI,,max DD gap,point,0.014816420875180425,0.00011361110955476761
+lender,full,0,API-White,income,D,split,CI,,I(D;A),point,7.418747756451709e-05,0.00011361110955476761
+lender,full,0,API-White,both,D,exact,CI,,DD 1-0,point,0.01656309509554954,0.00011395011097192764
+lender,full,0,API-White,both,D,exact,CI,,DI 1/0,point,1.020469121964965,0.00011395011097192764
+lender,full,0,API-White,both,D,exact,CI,,worst-case DI,point,0.9799414587620734,0.00011395011097192764
+lender,full,0,API-White,both,D,exact,CI,,max DD gap,point,0.01656309509554954,0.00011395011097192764
+lender,full,0,API-White,both,D,exact,CI,,I(D;A),point,9.155329143325868e-05,0.00011395011097192764
+lender,full,0,API-White,both,D,split,CI,,DD 1-0,point,0.01752551886979392,0.00011429097503423691
+lender,full,0,API-White,both,D,split,CI,,DI 1/0,point,1.0216923171206795,0.00011429097503423691
+lender,full,0,API-White,both,D,split,CI,,worst-case DI,point,0.9787682487602407,0.00011429097503423691
+lender,full,0,API-White,both,D,split,CI,,max DD gap,point,0.01752551886979392,0.00011429097503423691
+lender,full,0,API-White,both,D,split,CI,,I(D;A),point,0.00010411251219816448,0.00011429097503423691
+lender,full,0,three,county,D,exact,CI,,DD 1-0,point,-0.012285444332719164,0.0001175908837467432
+lender,full,0,three,county,D,exact,CI,,DI 1/0,point,0.9846255794653236,0.0001175908837467432
+lender,full,0,three,county,D,exact,CI,,worst-case DI,point,0.9666237655598919,0.0001175908837467432
+lender,full,0,three,county,D,exact,CI,,max DD gap,point,0.027167088349736246,0.0001175908837467432
+lender,full,0,three,county,D,exact,CI,,I(D;A),point,0.00010974068657684972,0.0001175908837467432
+lender,full,0,three,county,D,split,CI,,DD 1-0,point,-0.01099231935647238,0.00011745095252990723
+lender,full,0,three,county,D,split,CI,,DI 1/0,point,0.9862180915961205,0.00011745095252990723
+lender,full,0,three,county,D,split,CI,,worst-case DI,point,0.9683332914240782,0.00011745095252990723
+lender,full,0,three,county,D,split,CI,,max DD gap,point,0.02572355603065879,0.00011745095252990723
+lender,full,0,three,county,D,split,CI,,I(D;A),point,0.00010141802023090835,0.00011745095252990723
+lender,full,0,three,income,D,exact,CI,,DD 1-0,point,-0.01793434745863076,0.00011812080629169941
+lender,full,0,three,income,D,exact,CI,,DI 1/0,point,0.9775658008149457,0.00011812080629169941
+lender,full,0,three,income,D,exact,CI,,worst-case DI,point,0.9599221150799997,0.00011812080629169941
+lender,full,0,three,income,D,exact,CI,,max DD gap,point,0.03262795122738671,0.00011812080629169941
+lender,full,0,three,income,D,exact,CI,,I(D;A),point,0.0001513692602514783,0.00011812080629169941
+lender,full,0,three,income,D,split,CI,,DD 1-0,point,-0.017850870808562513,0.00011792103759944439
+lender,full,0,three,income,D,split,CI,,DI 1/0,point,0.9776265834991871,0.00011792103759944439
+lender,full,0,three,income,D,split,CI,,worst-case DI,point,0.9579167583052437,0.00011792103759944439
+lender,full,0,three,income,D,split,CI,,max DD gap,point,0.03426742863748611,0.00011792103759944439
+lender,full,0,three,income,D,split,CI,,I(D;A),point,0.00016903996019567184,0.00011792103759944439
+lender,full,0,three,both,D,exact,CI,,DD 1-0,point,-0.029448299639031172,0.00011808006092905998
+lender,full,0,three,both,D,exact,CI,,DI 1/0,point,0.963176093568478,0.00011808006092905998
+lender,full,0,three,both,D,exact,CI,,worst-case DI,point,0.9397451003122844,0.00011808006092905998
+lender,full,0,three,both,D,exact,CI,,max DD gap,point,0.04938764951838881,0.00011808006092905998
+lender,full,0,three,both,D,exact,CI,,I(D;A),point,0.0003461267284467068,0.00011808006092905998
+lender,full,0,three,both,D,split,CI,,DD 1-0,point,-0.027764604159633444,0.0001354909036308527
+lender,full,0,three,both,D,split,CI,,DI 1/0,point,0.9652114398098283,0.0001354909036308527
+lender,full,0,three,both,D,split,CI,,worst-case DI,point,0.9404789186696235,0.0001354909036308527
+lender,full,0,three,both,D,split,CI,,max DD gap,point,0.048752763624383744,0.0001354909036308527
+lender,full,0,three,both,D,split,CI,,I(D;A),point,0.00033837966821092776,0.0001354909036308527

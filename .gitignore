@@ -12,3 +12,6 @@ tidy.csv
 extra
 
 BiasBounding/old_results
+
+BiasBounding/experiment_results/hmda_full/prepared/
+
