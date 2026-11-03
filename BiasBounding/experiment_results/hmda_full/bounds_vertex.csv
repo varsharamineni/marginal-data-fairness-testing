@@ -1,0 +1,1081 @@
+decision,cut_source,rep,setting,proxy,run,version,method,param,metric,side,value,seconds,full_enumeration,combinations,evaluated
+model,external,0,Black-White,county,D,exact,vertex,500000,DD 1-0,lower,-0.8432021552968393,0.001048126956447959,True,4,4
+model,external,0,Black-White,county,D,exact,vertex,500000,DD 1-0,upper,0.22243817954392442,0.001048126956447959,True,4,4
+model,external,0,Black-White,county,D,exact,vertex,500000,DI 1/0,lower,0.0,0.001048126956447959,True,4,4
+model,external,0,Black-White,county,D,exact,vertex,500000,DI 1/0,upper,1.2860713755382873,0.001048126956447959,True,4,4
+model,external,0,Black-White,county,D,exact,vertex,500000,worst-case DI,lower,0.0,0.001048126956447959,True,4,4
+model,external,0,Black-White,county,D,exact,vertex,500000,worst-case DI,upper,0.9280243919574938,0.001048126956447959,True,4,4
+model,external,0,Black-White,county,D,exact,vertex,500000,max DD gap,lower,0.061076926848147695,0.001048126956447959,True,4,4
+model,external,0,Black-White,county,D,exact,vertex,500000,max DD gap,upper,0.8432021552968393,0.001048126956447959,True,4,4
+model,external,0,Black-White,county,D,exact,vertex,500000,I(D;A),lower,0.0010117471677777781,0.001048126956447959,True,4,4
+model,external,0,Black-White,county,D,exact,vertex,500000,I(D;A),upper,0.15106360904648464,0.001048126956447959,True,4,4
+model,external,0,Black-White,county,D,split,vertex,500000,DD 1-0,lower,-0.8436528710603487,0.0007722750306129456,True,4,4
+model,external,0,Black-White,county,D,split,vertex,500000,DD 1-0,upper,0.2212778352723913,0.0007722750306129456,True,4,4
+model,external,0,Black-White,county,D,split,vertex,500000,DI 1/0,lower,0.0,0.0007722750306129456,True,4,4
+model,external,0,Black-White,county,D,split,vertex,500000,DI 1/0,upper,1.284322416747511,0.0007722750306129456,True,4,4
+model,external,0,Black-White,county,D,split,vertex,500000,worst-case DI,lower,0.0,0.0007722750306129456,True,4,4
+model,external,0,Black-White,county,D,split,vertex,500000,worst-case DI,upper,0.9544927241533686,0.0007722750306129456,True,4,4
+model,external,0,Black-White,county,D,split,vertex,500000,max DD gap,lower,0.037642807287323166,0.0007722750306129456,True,4,4
+model,external,0,Black-White,county,D,split,vertex,500000,max DD gap,upper,0.8436528710603487,0.0007722750306129456,True,4,4
+model,external,0,Black-White,county,D,split,vertex,500000,I(D;A),lower,0.00037277562178520286,0.0007722750306129456,True,4,4
+model,external,0,Black-White,county,D,split,vertex,500000,I(D;A),upper,0.15083857642105508,0.0007722750306129456,True,4,4
+model,external,0,Black-White,county,DY,exact,vertex,500000,TPRD 1-0,lower,-0.8804200334951069,0.003794593969359994,True,48,48
+model,external,0,Black-White,county,DY,exact,vertex,500000,TPRD 1-0,upper,0.20076077251433966,0.003794593969359994,True,48,48
+model,external,0,Black-White,county,DY,exact,vertex,500000,PPVD 1-0,lower,-0.8830756403496945,0.003794593969359994,True,48,48
+model,external,0,Black-White,county,DY,exact,vertex,500000,PPVD 1-0,upper,0.19285308431533021,0.003794593969359994,True,48,48
+model,external,0,Black-White,county,DY,exact,vertex,500000,BA diff 1-0,lower,-0.6170608002777371,0.003794593969359994,True,48,48
+model,external,0,Black-White,county,DY,exact,vertex,500000,BA diff 1-0,upper,0.5788994590224587,0.003794593969359994,True,48,48
+model,external,0,Black-White,county,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8510756468356907,0.003794593969359994,True,48,48
+model,external,0,Black-White,county,DY,exact,vertex,500000,F1 diff 1-0,upper,0.19682639183367678,0.003794593969359994,True,48,48
+model,external,0,Black-White,county,DY,exact,vertex,500000,I(D;A|Y),lower,0.001344206054912419,0.003794593969359994,True,48,48
+model,external,0,Black-White,county,DY,exact,vertex,500000,I(D;A|Y),upper,0.16560891574086534,0.003794593969359994,True,48,48
+model,external,0,Black-White,county,DY,split,vertex,500000,TPRD 1-0,lower,-0.879901867884479,0.0037995739839971066,True,48,48
+model,external,0,Black-White,county,DY,split,vertex,500000,TPRD 1-0,upper,0.19929210830270438,0.0037995739839971066,True,48,48
+model,external,0,Black-White,county,DY,split,vertex,500000,PPVD 1-0,lower,-0.8798803937102954,0.0037995739839971066,True,48,48
+model,external,0,Black-White,county,DY,split,vertex,500000,PPVD 1-0,upper,0.19355924140030156,0.0037995739839971066,True,48,48
+model,external,0,Black-White,county,DY,split,vertex,500000,BA diff 1-0,lower,-0.6072208341052407,0.0037995739839971066,True,48,48
+model,external,0,Black-White,county,DY,split,vertex,500000,BA diff 1-0,upper,0.5710743419467496,0.0037995739839971066,True,48,48
+model,external,0,Black-White,county,DY,split,vertex,500000,F1 diff 1-0,lower,-0.8506487959663416,0.0037995739839971066,True,48,48
+model,external,0,Black-White,county,DY,split,vertex,500000,F1 diff 1-0,upper,0.19643589971866593,0.0037995739839971066,True,48,48
+model,external,0,Black-White,county,DY,split,vertex,500000,I(D;A|Y),lower,0.001022330238750006,0.0037995739839971066,True,48,48
+model,external,0,Black-White,county,DY,split,vertex,500000,I(D;A|Y),upper,0.16397486566637098,0.0037995739839971066,True,48,48
+model,external,0,Black-White,income,D,exact,vertex,500000,DD 1-0,lower,-0.8432021552968304,0.0006734239868819714,True,4,4
+model,external,0,Black-White,income,D,exact,vertex,500000,DD 1-0,upper,0.22243817954392442,0.0006734239868819714,True,4,4
+model,external,0,Black-White,income,D,exact,vertex,500000,DI 1/0,lower,0.0,0.0006734239868819714,True,4,4
+model,external,0,Black-White,income,D,exact,vertex,500000,DI 1/0,upper,1.2860713755382873,0.0006734239868819714,True,4,4
+model,external,0,Black-White,income,D,exact,vertex,500000,worst-case DI,lower,0.0,0.0006734239868819714,True,4,4
+model,external,0,Black-White,income,D,exact,vertex,500000,worst-case DI,upper,0.8637532569696488,0.0006734239868819714,True,4,4
+model,external,0,Black-White,income,D,exact,vertex,500000,max DD gap,lower,0.10871947361679113,0.0006734239868819714,True,4,4
+model,external,0,Black-White,income,D,exact,vertex,500000,max DD gap,upper,0.8432021552968304,0.0006734239868819714,True,4,4
+model,external,0,Black-White,income,D,exact,vertex,500000,I(D;A),lower,0.0027199239997747326,0.0006734239868819714,True,4,4
+model,external,0,Black-White,income,D,exact,vertex,500000,I(D;A),upper,0.1510636090464805,0.0006734239868819714,True,4,4
+model,external,0,Black-White,income,D,split,vertex,500000,DD 1-0,lower,-0.8438378870915737,0.0007060540374368429,True,4,4
+model,external,0,Black-White,income,D,split,vertex,500000,DD 1-0,upper,0.22181485442787263,0.0007060540374368429,True,4,4
+model,external,0,Black-White,income,D,split,vertex,500000,DI 1/0,lower,0.0,0.0007060540374368429,True,4,4
+model,external,0,Black-White,income,D,split,vertex,500000,DI 1/0,upper,1.2850412343257887,0.0007060540374368429,True,4,4
+model,external,0,Black-White,income,D,split,vertex,500000,worst-case DI,lower,0.0,0.0007060540374368429,True,4,4
+model,external,0,Black-White,income,D,split,vertex,500000,worst-case DI,upper,0.8529013077832087,0.0007060540374368429,True,4,4
+model,external,0,Black-White,income,D,split,vertex,500000,max DD gap,lower,0.11754545551889406,0.0007060540374368429,True,4,4
+model,external,0,Black-White,income,D,split,vertex,500000,max DD gap,upper,0.8438378870915737,0.0007060540374368429,True,4,4
+model,external,0,Black-White,income,D,split,vertex,500000,I(D;A),lower,0.0031659077449293794,0.0007060540374368429,True,4,4
+model,external,0,Black-White,income,D,split,vertex,500000,I(D;A),upper,0.1513896951667734,0.0007060540374368429,True,4,4
+model,external,0,Black-White,income,DY,exact,vertex,500000,TPRD 1-0,lower,-0.8824697045813736,0.003523792838677764,True,24,24
+model,external,0,Black-White,income,DY,exact,vertex,500000,TPRD 1-0,upper,0.2011199196206478,0.003523792838677764,True,24,24
+model,external,0,Black-White,income,DY,exact,vertex,500000,PPVD 1-0,lower,-0.8912166509924264,0.003523792838677764,True,24,24
+model,external,0,Black-White,income,DY,exact,vertex,500000,PPVD 1-0,upper,0.19320150472701636,0.003523792838677764,True,24,24
+model,external,0,Black-White,income,DY,exact,vertex,500000,BA diff 1-0,lower,-0.6074909973764432,0.003523792838677764,True,24,24
+model,external,0,Black-White,income,DY,exact,vertex,500000,BA diff 1-0,upper,0.5587589192674529,0.003523792838677764,True,24,24
+model,external,0,Black-White,income,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8510756468356961,0.003523792838677764,True,24,24
+model,external,0,Black-White,income,DY,exact,vertex,500000,F1 diff 1-0,upper,0.1971802370324739,0.003523792838677764,True,24,24
+model,external,0,Black-White,income,DY,exact,vertex,500000,I(D;A|Y),lower,0.004403926180902594,0.003523792838677764,True,24,24
+model,external,0,Black-White,income,DY,exact,vertex,500000,I(D;A|Y),upper,0.1678851831227426,0.003523792838677764,True,24,24
+model,external,0,Black-White,income,DY,split,vertex,500000,TPRD 1-0,lower,-0.8837838374963974,0.0035225129686295986,True,24,24
+model,external,0,Black-White,income,DY,split,vertex,500000,TPRD 1-0,upper,0.1999808211881332,0.0035225129686295986,True,24,24
+model,external,0,Black-White,income,DY,split,vertex,500000,PPVD 1-0,lower,-0.8901335314982893,0.0035225129686295986,True,24,24
+model,external,0,Black-White,income,DY,split,vertex,500000,PPVD 1-0,upper,0.19423294850073458,0.0035225129686295986,True,24,24
+model,external,0,Black-White,income,DY,split,vertex,500000,BA diff 1-0,lower,-0.6077728515988027,0.0035225129686295986,True,24,24
+model,external,0,Black-White,income,DY,split,vertex,500000,BA diff 1-0,upper,0.5550715357044729,0.0035225129686295986,True,24,24
+model,external,0,Black-White,income,DY,split,vertex,500000,F1 diff 1-0,lower,-0.8511707037019758,0.0035225129686295986,True,24,24
+model,external,0,Black-White,income,DY,split,vertex,500000,F1 diff 1-0,upper,0.19711717202955437,0.0035225129686295986,True,24,24
+model,external,0,Black-White,income,DY,split,vertex,500000,I(D;A|Y),lower,0.005028683643332418,0.0035225129686295986,True,24,24
+model,external,0,Black-White,income,DY,split,vertex,500000,I(D;A|Y),upper,0.16863036820979388,0.0035225129686295986,True,24,24
+model,external,0,Black-White,both,D,exact,vertex,500000,DD 1-0,lower,-0.8432021552968304,0.0011206669732928276,True,16,16
+model,external,0,Black-White,both,D,exact,vertex,500000,DD 1-0,upper,0.20400581960376907,0.0011206669732928276,True,16,16
+model,external,0,Black-White,both,D,exact,vertex,500000,DI 1/0,lower,0.0,0.0011206669732928276,True,16,16
+model,external,0,Black-White,both,D,exact,vertex,500000,DI 1/0,upper,1.2619835021799037,0.0011206669732928276,True,16,16
+model,external,0,Black-White,both,D,exact,vertex,500000,worst-case DI,lower,0.0,0.0011206669732928276,True,16,16
+model,external,0,Black-White,both,D,exact,vertex,500000,worst-case DI,upper,0.9280243919574963,0.0011206669732928276,True,16,16
+model,external,0,Black-White,both,D,exact,vertex,500000,max DD gap,lower,0.061076926848145474,0.0011206669732928276,True,16,16
+model,external,0,Black-White,both,D,exact,vertex,500000,max DD gap,upper,0.8432021552968304,0.0011206669732928276,True,16,16
+model,external,0,Black-White,both,D,exact,vertex,500000,I(D;A),lower,0.0010117471677778258,0.0011206669732928276,True,16,16
+model,external,0,Black-White,both,D,exact,vertex,500000,I(D;A),upper,0.1510636090464805,0.0011206669732928276,True,16,16
+model,external,0,Black-White,both,D,split,vertex,500000,DD 1-0,lower,-0.843478021892619,0.0010942569933831692,True,16,16
+model,external,0,Black-White,both,D,split,vertex,500000,DD 1-0,upper,0.18794288904609613,0.0010942569933831692,True,16,16
+model,external,0,Black-White,both,D,split,vertex,500000,DI 1/0,lower,0.0,0.0010942569933831692,True,16,16
+model,external,0,Black-White,both,D,split,vertex,500000,DI 1/0,upper,1.2408452226912081,0.0010942569933831692,True,16,16
+model,external,0,Black-White,both,D,split,vertex,500000,worst-case DI,lower,0.0,0.0010942569933831692,True,16,16
+model,external,0,Black-White,both,D,split,vertex,500000,worst-case DI,upper,0.9523267250824679,0.0010942569933831692,True,16,16
+model,external,0,Black-White,both,D,split,vertex,500000,max DD gap,lower,0.039518792560113036,0.0010942569933831692,True,16,16
+model,external,0,Black-White,both,D,split,vertex,500000,max DD gap,upper,0.843478021892619,0.0010942569933831692,True,16,16
+model,external,0,Black-White,both,D,split,vertex,500000,I(D;A),lower,0.00041058359436044927,0.0010942569933831692,True,16,16
+model,external,0,Black-White,both,D,split,vertex,500000,I(D;A),upper,0.15031784318362393,0.0010942569933831692,True,16,16
+model,external,0,Black-White,both,DY,exact,vertex,500000,TPRD 1-0,lower,-0.880420033495095,0.010732738068327308,True,2880,2880
+model,external,0,Black-White,both,DY,exact,vertex,500000,TPRD 1-0,upper,0.20037110281012938,0.010732738068327308,True,2880,2880
+model,external,0,Black-White,both,DY,exact,vertex,500000,PPVD 1-0,lower,-0.883075640349693,0.010732738068327308,True,2880,2880
+model,external,0,Black-White,both,DY,exact,vertex,500000,PPVD 1-0,upper,0.19247506687870453,0.010732738068327308,True,2880,2880
+model,external,0,Black-White,both,DY,exact,vertex,500000,BA diff 1-0,lower,-0.617060800277736,0.010732738068327308,True,2880,2880
+model,external,0,Black-White,both,DY,exact,vertex,500000,BA diff 1-0,upper,0.5482657389399244,0.010732738068327308,True,2880,2880
+model,external,0,Black-White,both,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8510756468356888,0.010732738068327308,True,2880,2880
+model,external,0,Black-White,both,DY,exact,vertex,500000,F1 diff 1-0,upper,0.1964424816757141,0.010732738068327308,True,2880,2880
+model,external,0,Black-White,both,DY,exact,vertex,500000,I(D;A|Y),lower,0.00021860945399415437,0.010732738068327308,True,2880,2880
+model,external,0,Black-White,both,DY,exact,vertex,500000,I(D;A|Y),upper,0.1656089157408588,0.010732738068327308,True,2880,2880
+model,external,0,Black-White,both,DY,split,vertex,500000,TPRD 1-0,lower,-0.8798391045356914,0.009942793054506183,True,2880,2880
+model,external,0,Black-White,both,DY,split,vertex,500000,TPRD 1-0,upper,0.1989815823947474,0.009942793054506183,True,2880,2880
+model,external,0,Black-White,both,DY,split,vertex,500000,PPVD 1-0,lower,-0.8798176334248642,0.009942793054506183,True,2880,2880
+model,external,0,Black-White,both,DY,split,vertex,500000,PPVD 1-0,upper,0.1932554921842412,0.009942793054506183,True,2880,2880
+model,external,0,Black-White,both,DY,split,vertex,500000,BA diff 1-0,lower,-0.6041094314447806,0.009942793054506183,True,2880,2880
+model,external,0,Black-White,both,DY,split,vertex,500000,BA diff 1-0,upper,0.540068775080524,0.009942793054506183,True,2880,2880
+model,external,0,Black-White,both,DY,split,vertex,500000,F1 diff 1-0,lower,-0.8503991715038135,0.009942793054506183,True,2880,2880
+model,external,0,Black-White,both,DY,split,vertex,500000,F1 diff 1-0,upper,0.19502901945994877,0.009942793054506183,True,2880,2880
+model,external,0,Black-White,both,DY,split,vertex,500000,I(D;A|Y),lower,0.00019062363048411512,0.009942793054506183,True,2880,2880
+model,external,0,Black-White,both,DY,split,vertex,500000,I(D;A|Y),upper,0.16356080050411903,0.009942793054506183,True,2880,2880
+model,external,0,API-White,county,D,exact,vertex,500000,DD 1-0,lower,-0.43384685392914824,0.0006567141972482204,True,4,4
+model,external,0,API-White,county,D,exact,vertex,500000,DD 1-0,upper,0.2051380737034475,0.0006567141972482204,True,4,4
+model,external,0,API-White,county,D,exact,vertex,500000,DI 1/0,lower,0.4853713530764179,0.0006567141972482204,True,4,4
+model,external,0,API-White,county,D,exact,vertex,500000,DI 1/0,upper,1.258080135576796,0.0006567141972482204,True,4,4
+model,external,0,API-White,county,D,exact,vertex,500000,worst-case DI,lower,0.4853713530764179,0.0006567141972482204,True,4,4
+model,external,0,API-White,county,D,exact,vertex,500000,worst-case DI,upper,0.9783705086091002,0.0006567141972482204,True,4,4
+model,external,0,API-White,county,D,exact,vertex,500000,max DD gap,lower,0.017884600104408288,0.0006567141972482204,True,4,4
+model,external,0,API-White,county,D,exact,vertex,500000,max DD gap,upper,0.43384685392914824,0.0006567141972482204,True,4,4
+model,external,0,API-White,county,D,exact,vertex,500000,I(D;A),lower,0.00010687529438953422,0.0006567141972482204,True,4,4
+model,external,0,API-White,county,D,exact,vertex,500000,I(D;A),upper,0.0474645696850155,0.0006567141972482204,True,4,4
+model,external,0,API-White,county,D,split,vertex,500000,DD 1-0,lower,-0.42176863916835144,0.0006521039176732302,True,4,4
+model,external,0,API-White,county,D,split,vertex,500000,DD 1-0,upper,0.20499029121375412,0.0006521039176732302,True,4,4
+model,external,0,API-White,county,D,split,vertex,500000,DI 1/0,lower,0.4998721637465507,0.0006521039176732302,True,4,4
+model,external,0,API-White,county,D,split,vertex,500000,DI 1/0,upper,1.2578462740118181,0.0006521039176732302,True,4,4
+model,external,0,API-White,county,D,split,vertex,500000,worst-case DI,lower,0.4998721637465507,0.0006521039176732302,True,4,4
+model,external,0,API-White,county,D,split,vertex,500000,worst-case DI,upper,0.9724584375071714,0.0006521039176732302,True,4,4
+model,external,0,API-White,county,D,split,vertex,500000,max DD gap,lower,0.02291342373032068,0.0006521039176732302,True,4,4
+model,external,0,API-White,county,D,split,vertex,500000,max DD gap,upper,0.42176863916835144,0.0006521039176732302,True,4,4
+model,external,0,API-White,county,D,split,vertex,500000,I(D;A),lower,0.0001805363051904309,0.0006521039176732302,True,4,4
+model,external,0,API-White,county,D,split,vertex,500000,I(D;A),upper,0.04603773072974565,0.0006521039176732302,True,4,4
+model,external,0,API-White,county,DY,exact,vertex,500000,TPRD 1-0,lower,-0.7308151897464593,0.0034811231307685375,True,32,32
+model,external,0,API-White,county,DY,exact,vertex,500000,TPRD 1-0,upper,0.18774887740404722,0.0034811231307685375,True,32,32
+model,external,0,API-White,county,DY,exact,vertex,500000,PPVD 1-0,lower,-0.7817531433698669,0.0034811231307685375,True,32,32
+model,external,0,API-White,county,DY,exact,vertex,500000,PPVD 1-0,upper,0.1876407214622946,0.0034811231307685375,True,32,32
+model,external,0,API-White,county,DY,exact,vertex,500000,BA diff 1-0,lower,-0.49010622802973314,0.0034811231307685375,True,32,32
+model,external,0,API-White,county,DY,exact,vertex,500000,BA diff 1-0,upper,0.5362471678254244,0.0034811231307685375,True,32,32
+model,external,0,API-White,county,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.6911825170813098,0.0034811231307685375,True,32,32
+model,external,0,API-White,county,DY,exact,vertex,500000,F1 diff 1-0,upper,0.18769480303332875,0.0034811231307685375,True,32,32
+model,external,0,API-White,county,DY,exact,vertex,500000,I(D;A|Y),lower,0.00098658810467707,0.0034811231307685375,True,32,32
+model,external,0,API-White,county,DY,exact,vertex,500000,I(D;A|Y),upper,0.09572853047180133,0.0034811231307685375,True,32,32
+model,external,0,API-White,county,DY,split,vertex,500000,TPRD 1-0,lower,-0.7001050111002874,0.0034681230317801237,True,32,32
+model,external,0,API-White,county,DY,split,vertex,500000,TPRD 1-0,upper,0.18721408808207562,0.0034681230317801237,True,32,32
+model,external,0,API-White,county,DY,split,vertex,500000,PPVD 1-0,lower,-0.7549352241129192,0.0034681230317801237,True,32,32
+model,external,0,API-White,county,DY,split,vertex,500000,PPVD 1-0,upper,0.18892883671833438,0.0034681230317801237,True,32,32
+model,external,0,API-White,county,DY,split,vertex,500000,BA diff 1-0,lower,-0.4774488181455434,0.0034681230317801237,True,32,32
+model,external,0,API-White,county,DY,split,vertex,500000,BA diff 1-0,upper,0.5352139017894353,0.0034681230317801237,True,32,32
+model,external,0,API-White,county,DY,split,vertex,500000,F1 diff 1-0,lower,-0.6536097120596005,0.0034681230317801237,True,32,32
+model,external,0,API-White,county,DY,split,vertex,500000,F1 diff 1-0,upper,0.1880723677640237,0.0034681230317801237,True,32,32
+model,external,0,API-White,county,DY,split,vertex,500000,I(D;A|Y),lower,0.0011290080070832757,0.0034681230317801237,True,32,32
+model,external,0,API-White,county,DY,split,vertex,500000,I(D;A|Y),upper,0.09604530458703145,0.0034681230317801237,True,32,32
+model,external,0,API-White,income,D,exact,vertex,500000,DD 1-0,lower,-0.6510966235717331,0.0006539640016853809,True,4,4
+model,external,0,API-White,income,D,exact,vertex,500000,DD 1-0,upper,0.2051380737034475,0.0006539640016853809,True,4,4
+model,external,0,API-White,income,D,exact,vertex,500000,DI 1/0,lower,0.24238706545365488,0.0006539640016853809,True,4,4
+model,external,0,API-White,income,D,exact,vertex,500000,DI 1/0,upper,1.258080135576796,0.0006539640016853809,True,4,4
+model,external,0,API-White,income,D,exact,vertex,500000,worst-case DI,lower,0.24238706545365488,0.0006539640016853809,True,4,4
+model,external,0,API-White,income,D,exact,vertex,500000,worst-case DI,upper,0.7948619262965525,0.0006539640016853809,True,4,4
+model,external,0,API-White,income,D,exact,vertex,500000,max DD gap,lower,0.17307054407029,0.0006539640016853809,True,4,4
+model,external,0,API-White,income,D,exact,vertex,500000,max DD gap,upper,0.6510966235717331,0.0006539640016853809,True,4,4
+model,external,0,API-White,income,D,exact,vertex,500000,I(D;A),lower,0.008458843763540133,0.0006539640016853809,True,4,4
+model,external,0,API-White,income,D,exact,vertex,500000,I(D;A),upper,0.10350510480781644,0.0006539640016853809,True,4,4
+model,external,0,API-White,income,D,split,vertex,500000,DD 1-0,lower,-0.6248706380994766,0.00063887401483953,True,4,4
+model,external,0,API-White,income,D,split,vertex,500000,DD 1-0,upper,0.20497339549590088,0.00063887401483953,True,4,4
+model,external,0,API-White,income,D,split,vertex,500000,DI 1/0,lower,0.2725008158642858,0.00063887401483953,True,4,4
+model,external,0,API-White,income,D,split,vertex,500000,DI 1/0,upper,1.257819542559527,0.00063887401483953,True,4,4
+model,external,0,API-White,income,D,split,vertex,500000,worst-case DI,lower,0.2725008158642858,0.00063887401483953,True,4,4
+model,external,0,API-White,income,D,split,vertex,500000,worst-case DI,upper,0.8038184253435933,0.00063887401483953,True,4,4
+model,external,0,API-White,income,D,split,vertex,500000,max DD gap,lower,0.16150604284155168,0.00063887401483953,True,4,4
+model,external,0,API-White,income,D,split,vertex,500000,max DD gap,upper,0.6248706380994766,0.00063887401483953,True,4,4
+model,external,0,API-White,income,D,split,vertex,500000,I(D;A),lower,0.007583251416936649,0.00063887401483953,True,4,4
+model,external,0,API-White,income,D,split,vertex,500000,I(D;A),upper,0.09749110018285233,0.00063887401483953,True,4,4
+model,external,0,API-White,income,DY,exact,vertex,500000,TPRD 1-0,lower,-0.8878525531839956,0.00355225196108222,True,32,32
+model,external,0,API-White,income,DY,exact,vertex,500000,TPRD 1-0,upper,0.18774887740404467,0.00355225196108222,True,32,32
+model,external,0,API-White,income,DY,exact,vertex,500000,PPVD 1-0,lower,-0.914925553807054,0.00355225196108222,True,32,32
+model,external,0,API-White,income,DY,exact,vertex,500000,PPVD 1-0,upper,0.18764072146229205,0.00355225196108222,True,32,32
+model,external,0,API-White,income,DY,exact,vertex,500000,BA diff 1-0,lower,-0.612613949171435,0.00355225196108222,True,32,32
+model,external,0,API-White,income,DY,exact,vertex,500000,BA diff 1-0,upper,0.5301386967643559,0.00355225196108222,True,32,32
+model,external,0,API-White,income,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8702390273108339,0.00355225196108222,True,32,32
+model,external,0,API-White,income,DY,exact,vertex,500000,F1 diff 1-0,upper,0.1876948030333262,0.00355225196108222,True,32,32
+model,external,0,API-White,income,DY,exact,vertex,500000,I(D;A|Y),lower,0.002674563104670927,0.00355225196108222,True,32,32
+model,external,0,API-White,income,DY,exact,vertex,500000,I(D;A|Y),upper,0.1610819341272803,0.00355225196108222,True,32,32
+model,external,0,API-White,income,DY,split,vertex,500000,TPRD 1-0,lower,-0.8881647633006555,0.003516733180731535,True,32,32
+model,external,0,API-White,income,DY,split,vertex,500000,TPRD 1-0,upper,0.1871946381838997,0.003516733180731535,True,32,32
+model,external,0,API-White,income,DY,split,vertex,500000,PPVD 1-0,lower,-0.9160316466054953,0.003516733180731535,True,32,32
+model,external,0,API-White,income,DY,split,vertex,500000,PPVD 1-0,upper,0.18890925007817372,0.003516733180731535,True,32,32
+model,external,0,API-White,income,DY,split,vertex,500000,BA diff 1-0,lower,-0.6155393206686841,0.003516733180731535,True,32,32
+model,external,0,API-White,income,DY,split,vertex,500000,BA diff 1-0,upper,0.5278947566736623,0.003516733180731535,True,32,32
+model,external,0,API-White,income,DY,split,vertex,500000,F1 diff 1-0,lower,-0.8712364172471228,0.003516733180731535,True,32,32
+model,external,0,API-White,income,DY,split,vertex,500000,F1 diff 1-0,upper,0.18805284932870503,0.003516733180731535,True,32,32
+model,external,0,API-White,income,DY,split,vertex,500000,I(D;A|Y),lower,0.0019627652194193863,0.003516733180731535,True,32,32
+model,external,0,API-White,income,DY,split,vertex,500000,I(D;A|Y),upper,0.16085990543050124,0.003516733180731535,True,32,32
+model,external,0,API-White,both,D,exact,vertex,500000,DD 1-0,lower,-0.43384685392907724,0.0011005271226167679,True,16,16
+model,external,0,API-White,both,D,exact,vertex,500000,DD 1-0,upper,0.2051380737034647,0.0011005271226167679,True,16,16
+model,external,0,API-White,both,D,exact,vertex,500000,DI 1/0,lower,0.48537135307650664,0.0011005271226167679,True,16,16
+model,external,0,API-White,both,D,exact,vertex,500000,DI 1/0,upper,1.2580801355768232,0.0011005271226167679,True,16,16
+model,external,0,API-White,both,D,exact,vertex,500000,worst-case DI,lower,0.48537135307650664,0.0011005271226167679,True,16,16
+model,external,0,API-White,both,D,exact,vertex,500000,worst-case DI,upper,0.9785218143244203,0.0011005271226167679,True,16,16
+model,external,0,API-White,both,D,exact,vertex,500000,max DD gap,lower,0.017756956291448134,0.0011005271226167679,True,16,16
+model,external,0,API-White,both,D,exact,vertex,500000,max DD gap,upper,0.43384685392907724,0.0011005271226167679,True,16,16
+model,external,0,API-White,both,D,exact,vertex,500000,I(D;A),lower,0.00010533860524723489,0.0011005271226167679,True,16,16
+model,external,0,API-White,both,D,exact,vertex,500000,I(D;A),upper,0.047464569685007986,0.0011005271226167679,True,16,16
+model,external,0,API-White,both,D,split,vertex,500000,DD 1-0,lower,-0.4218599915500814,0.0010734370443969965,True,16,16
+model,external,0,API-White,both,D,split,vertex,500000,DD 1-0,upper,0.2049940789735919,0.0010734370443969965,True,16,16
+model,external,0,API-White,both,D,split,vertex,500000,DI 1/0,lower,0.4997722833503686,0.0010734370443969965,True,16,16
+model,external,0,API-White,both,D,split,vertex,500000,DI 1/0,upper,1.2578522669478112,0.0010734370443969965,True,16,16
+model,external,0,API-White,both,D,split,vertex,500000,worst-case DI,lower,0.4997722833503686,0.0010734370443969965,True,16,16
+model,external,0,API-White,both,D,split,vertex,500000,worst-case DI,upper,0.9724107533640176,0.0010734370443969965,True,16,16
+model,external,0,API-White,both,D,split,vertex,500000,max DD gap,lower,0.022954120378761322,0.0010734370443969965,True,16,16
+model,external,0,API-White,both,D,split,vertex,500000,max DD gap,upper,0.4218599915500814,0.0010734370443969965,True,16,16
+model,external,0,API-White,both,D,split,vertex,500000,I(D;A),lower,0.00018122400474734467,0.0010734370443969965,True,16,16
+model,external,0,API-White,both,D,split,vertex,500000,I(D;A),upper,0.04606628146991057,0.0010734370443969965,True,16,16
+model,external,0,API-White,both,DY,exact,vertex,500000,TPRD 1-0,lower,-0.6572097274393847,0.00877026584930718,True,1920,1920
+model,external,0,API-White,both,DY,exact,vertex,500000,TPRD 1-0,upper,0.18774887740404467,0.00877026584930718,True,1920,1920
+model,external,0,API-White,both,DY,exact,vertex,500000,PPVD 1-0,lower,-0.7221375959211692,0.00877026584930718,True,1920,1920
+model,external,0,API-White,both,DY,exact,vertex,500000,PPVD 1-0,upper,0.18764072146230315,0.00877026584930718,True,1920,1920
+model,external,0,API-White,both,DY,exact,vertex,500000,BA diff 1-0,lower,-0.47627457335193735,0.00877026584930718,True,1920,1920
+model,external,0,API-White,both,DY,exact,vertex,500000,BA diff 1-0,upper,0.5037023946012353,0.00877026584930718,True,1920,1920
+model,external,0,API-White,both,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.6008786402273127,0.00877026584930718,True,1920,1920
+model,external,0,API-White,both,DY,exact,vertex,500000,F1 diff 1-0,upper,0.18769480303333164,0.00877026584930718,True,1920,1920
+model,external,0,API-White,both,DY,exact,vertex,500000,I(D;A|Y),lower,1.420471088196213e-06,0.00877026584930718,True,1920,1920
+model,external,0,API-White,both,DY,exact,vertex,500000,I(D;A|Y),upper,0.08494413212038082,0.00877026584930718,True,1920,1920
+model,external,0,API-White,both,DY,split,vertex,500000,TPRD 1-0,lower,-0.6365081456621078,0.008305832976475358,True,1920,1920
+model,external,0,API-White,both,DY,split,vertex,500000,TPRD 1-0,upper,0.18721844856444392,0.008305832976475358,True,1920,1920
+model,external,0,API-White,both,DY,split,vertex,500000,PPVD 1-0,lower,-0.7025255630210037,0.008305832976475358,True,1920,1920
+model,external,0,API-White,both,DY,split,vertex,500000,PPVD 1-0,upper,0.1889332278557645,0.008305832976475358,True,1920,1920
+model,external,0,API-White,both,DY,split,vertex,500000,BA diff 1-0,lower,-0.4666463527137076,0.008305832976475358,True,1920,1920
+model,external,0,API-White,both,DY,split,vertex,500000,BA diff 1-0,upper,0.5012668856715641,0.008305832976475358,True,1920,1920
+model,external,0,API-White,both,DY,split,vertex,500000,F1 diff 1-0,lower,-0.5763064998933569,0.008305832976475358,True,1920,1920
+model,external,0,API-White,both,DY,split,vertex,500000,F1 diff 1-0,upper,0.18807674361117366,0.008305832976475358,True,1920,1920
+model,external,0,API-White,both,DY,split,vertex,500000,I(D;A|Y),lower,7.088969038147187e-06,0.008305832976475358,True,1920,1920
+model,external,0,API-White,both,DY,split,vertex,500000,I(D;A|Y),upper,0.0828757832464079,0.008305832976475358,True,1920,1920
+model,external,0,three,county,D,exact,vertex,500000,DD 1-0,lower,-0.8744058500914048,0.0018611019477248192,True,64,64
+model,external,0,three,county,D,exact,vertex,500000,DD 1-0,upper,0.23155970364668277,0.0018611019477248192,True,64,64
+model,external,0,three,county,D,exact,vertex,500000,DI 1/0,lower,0.0,0.0018611019477248192,True,64,64
+model,external,0,three,county,D,exact,vertex,500000,DI 1/0,upper,1.3013372733647157,0.0018611019477248192,True,64,64
+model,external,0,three,county,D,exact,vertex,500000,worst-case DI,lower,0.0,0.0018611019477248192,True,64,64
+model,external,0,three,county,D,exact,vertex,500000,worst-case DI,upper,0.9190237232588855,0.0018611019477248192,True,64,64
+model,external,0,three,county,D,exact,vertex,500000,max DD gap,lower,0.06958435866305845,0.0018611019477248192,True,64,64
+model,external,0,three,county,D,exact,vertex,500000,max DD gap,upper,1.0,0.0018611019477248192,True,64,64
+model,external,0,three,county,D,exact,vertex,500000,I(D;A),lower,0.0023223174372463545,0.0018611019477248192,True,64,64
+model,external,0,three,county,D,exact,vertex,500000,I(D;A),upper,0.17927426618411516,0.0018611019477248192,True,64,64
+model,external,0,three,county,D,split,vertex,500000,DD 1-0,lower,-0.8747264221566008,0.0018860220443457365,True,80,80
+model,external,0,three,county,D,split,vertex,500000,DD 1-0,upper,0.2312506905233559,0.0018860220443457365,True,80,80
+model,external,0,three,county,D,split,vertex,500000,DI 1/0,lower,0.0,0.0018860220443457365,True,80,80
+model,external,0,three,county,D,split,vertex,500000,DI 1/0,upper,1.3008141765757015,0.0018860220443457365,True,80,80
+model,external,0,three,county,D,split,vertex,500000,worst-case DI,lower,0.0,0.0018860220443457365,True,80,80
+model,external,0,three,county,D,split,vertex,500000,worst-case DI,upper,0.9201411003686424,0.0018860220443457365,True,80,80
+model,external,0,three,county,D,split,vertex,500000,max DD gap,lower,0.06864785954704622,0.0018860220443457365,True,80,80
+model,external,0,three,county,D,split,vertex,500000,max DD gap,upper,1.0,0.0018860220443457365,True,80,80
+model,external,0,three,county,D,split,vertex,500000,I(D;A),lower,0.0017672200396675547,0.0018860220443457365,True,80,80
+model,external,0,three,county,D,split,vertex,500000,I(D;A),upper,0.17956986421169108,0.0018860220443457365,True,80,80
+model,external,0,three,county,DY,exact,vertex,500000,TPRD 1-0,lower,-0.9207410167942931,0.12821459886617959,True,36288,36288
+model,external,0,three,county,DY,exact,vertex,500000,TPRD 1-0,upper,0.21258988771047715,0.12821459886617959,True,36288,36288
+model,external,0,three,county,DY,exact,vertex,500000,PPVD 1-0,lower,-0.93639964788733,0.12821459886617959,True,36288,36288
+model,external,0,three,county,DY,exact,vertex,500000,PPVD 1-0,upper,0.21107573203471197,0.12821459886617959,True,36288,36288
+model,external,0,three,county,DY,exact,vertex,500000,BA diff 1-0,lower,-0.7027214543568752,0.12821459886617959,True,36288,36288
+model,external,0,three,county,DY,exact,vertex,500000,BA diff 1-0,upper,0.598005193850118,0.12821459886617959,True,36288,36288
+model,external,0,three,county,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8811652227936376,0.12821459886617959,True,36288,36288
+model,external,0,three,county,DY,exact,vertex,500000,F1 diff 1-0,upper,0.2118335370874035,0.12821459886617959,True,36288,36288
+model,external,0,three,county,DY,exact,vertex,500000,I(D;A|Y),lower,0.002800283614770433,0.12821459886617959,True,36288,36288
+model,external,0,three,county,DY,exact,vertex,500000,I(D;A|Y),upper,0.2702833279966892,0.12821459886617959,True,36288,36288
+model,external,0,three,county,DY,split,vertex,500000,TPRD 1-0,lower,-0.9201864474059679,0.1220222101546824,True,39312,39312
+model,external,0,three,county,DY,split,vertex,500000,TPRD 1-0,upper,0.2121554984559727,0.1220222101546824,True,39312,39312
+model,external,0,three,county,DY,split,vertex,500000,PPVD 1-0,lower,-0.933723385753092,0.1220222101546824,True,39312,39312
+model,external,0,three,county,DY,split,vertex,500000,PPVD 1-0,upper,0.21215549845598436,0.1220222101546824,True,39312,39312
+model,external,0,three,county,DY,split,vertex,500000,BA diff 1-0,lower,-0.6960718020238895,0.1220222101546824,True,39312,39312
+model,external,0,three,county,DY,split,vertex,500000,BA diff 1-0,upper,0.5978097972599368,0.1220222101546824,True,39312,39312
+model,external,0,three,county,DY,split,vertex,500000,F1 diff 1-0,lower,-0.8804826490895461,0.1220222101546824,True,39312,39312
+model,external,0,three,county,DY,split,vertex,500000,F1 diff 1-0,upper,0.2121554984559786,0.1220222101546824,True,39312,39312
+model,external,0,three,county,DY,split,vertex,500000,I(D;A|Y),lower,0.002137433819430694,0.1220222101546824,True,39312,39312
+model,external,0,three,county,DY,split,vertex,500000,I(D;A|Y),upper,0.27154034159034024,0.1220222101546824,True,39312,39312
+model,external,0,three,income,D,exact,vertex,500000,DD 1-0,lower,-0.8818146829596885,0.001437559025362134,True,16,16
+model,external,0,three,income,D,exact,vertex,500000,DD 1-0,upper,0.23155970364668277,0.001437559025362134,True,16,16
+model,external,0,three,income,D,exact,vertex,500000,DI 1/0,lower,0.0,0.001437559025362134,True,16,16
+model,external,0,three,income,D,exact,vertex,500000,DI 1/0,upper,1.3013372733647157,0.001437559025362134,True,16,16
+model,external,0,three,income,D,exact,vertex,500000,worst-case DI,lower,0.0,0.001437559025362134,True,16,16
+model,external,0,three,income,D,exact,vertex,500000,worst-case DI,upper,0.852954027136874,0.001437559025362134,True,16,16
+model,external,0,three,income,D,exact,vertex,500000,max DD gap,lower,0.11882242752805827,0.001437559025362134,True,16,16
+model,external,0,three,income,D,exact,vertex,500000,max DD gap,upper,1.0,0.001437559025362134,True,16,16
+model,external,0,three,income,D,exact,vertex,500000,I(D;A),lower,0.003463303790480429,0.001437559025362134,True,16,16
+model,external,0,three,income,D,exact,vertex,500000,I(D;A),upper,0.1991752031555487,0.001437559025362134,True,16,16
+model,external,0,three,income,D,split,vertex,500000,DD 1-0,lower,-0.8804322949052286,0.0013147681020200253,True,16,16
+model,external,0,three,income,D,split,vertex,500000,DD 1-0,upper,0.2320930642206035,0.0013147681020200253,True,16,16
+model,external,0,three,income,D,split,vertex,500000,DI 1/0,lower,0.0,0.0013147681020200253,True,16,16
+model,external,0,three,income,D,split,vertex,500000,DI 1/0,upper,1.3022411354899899,0.0013147681020200253,True,16,16
+model,external,0,three,income,D,split,vertex,500000,worst-case DI,lower,0.0,0.0013147681020200253,True,16,16
+model,external,0,three,income,D,split,vertex,500000,worst-case DI,upper,0.8466604316460676,0.0013147681020200253,True,16,16
+model,external,0,three,income,D,split,vertex,500000,max DD gap,lower,0.12378055648887565,0.0013147681020200253,True,16,16
+model,external,0,three,income,D,split,vertex,500000,max DD gap,upper,1.0,0.0013147681020200253,True,16,16
+model,external,0,three,income,D,split,vertex,500000,I(D;A),lower,0.003458229583525865,0.0013147681020200253,True,16,16
+model,external,0,three,income,D,split,vertex,500000,I(D;A),upper,0.19448442361324914,0.0013147681020200253,True,16,16
+model,external,0,three,income,DY,exact,vertex,500000,TPRD 1-0,lower,-0.9272249013590573,0.0524025559425354,True,756,756
+model,external,0,three,income,DY,exact,vertex,500000,TPRD 1-0,upper,0.21317703516708408,0.0524025559425354,True,756,756
+model,external,0,three,income,DY,exact,vertex,500000,PPVD 1-0,lower,-0.9798532505258959,0.0524025559425354,True,756,756
+model,external,0,three,income,DY,exact,vertex,500000,PPVD 1-0,upper,0.2116598216968798,0.0524025559425354,True,756,756
+model,external,0,three,income,DY,exact,vertex,500000,BA diff 1-0,lower,-0.7462026374484139,0.0524025559425354,True,756,756
+model,external,0,three,income,DY,exact,vertex,500000,BA diff 1-0,upper,0.5980051938501139,0.0524025559425354,True,756,756
+model,external,0,three,income,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8934392072018608,0.0524025559425354,True,756,756
+model,external,0,three,income,DY,exact,vertex,500000,F1 diff 1-0,upper,0.2124191591298541,0.0524025559425354,True,756,756
+model,external,0,three,income,DY,exact,vertex,500000,I(D;A|Y),lower,0.005114725287934487,0.0524025559425354,True,756,756
+model,external,0,three,income,DY,exact,vertex,500000,I(D;A|Y),upper,0.30344082878166795,0.0524025559425354,True,756,756
+model,external,0,three,income,DY,split,vertex,500000,TPRD 1-0,lower,-0.9269558359517677,0.051072146045044065,True,756,756
+model,external,0,three,income,DY,split,vertex,500000,TPRD 1-0,upper,0.21315028915659706,0.051072146045044065,True,756,756
+model,external,0,three,income,DY,split,vertex,500000,PPVD 1-0,lower,-0.9810787422939798,0.051072146045044065,True,756,756
+model,external,0,three,income,DY,split,vertex,500000,PPVD 1-0,upper,0.21315028915659706,0.051072146045044065,True,756,756
+model,external,0,three,income,DY,split,vertex,500000,BA diff 1-0,lower,-0.7499749150083199,0.051072146045044065,True,756,756
+model,external,0,three,income,DY,split,vertex,500000,BA diff 1-0,upper,0.5978569831314839,0.051072146045044065,True,756,756
+model,external,0,three,income,DY,split,vertex,500000,F1 diff 1-0,lower,-0.8942354952303223,0.051072146045044065,True,756,756
+model,external,0,three,income,DY,split,vertex,500000,F1 diff 1-0,upper,0.21315028915659717,0.051072146045044065,True,756,756
+model,external,0,three,income,DY,split,vertex,500000,I(D;A|Y),lower,0.005769290707064717,0.051072146045044065,True,756,756
+model,external,0,three,income,DY,split,vertex,500000,I(D;A|Y),upper,0.30234986847397327,0.051072146045044065,True,756,756
+model,external,0,three,both,D,exact,vertex,500000,DD 1-0,lower,-0.8667210833532726,0.00689094397239387,True,3840,3840
+model,external,0,three,both,D,exact,vertex,500000,DD 1-0,upper,0.2125189098056628,0.00689094397239387,True,3840,3840
+model,external,0,three,both,D,exact,vertex,500000,DI 1/0,lower,0.006218726496478044,0.00689094397239387,True,3840,3840
+model,external,0,three,both,D,exact,vertex,500000,DI 1/0,upper,1.275985134275932,0.00689094397239387,True,3840,3840
+model,external,0,three,both,D,exact,vertex,500000,worst-case DI,lower,0.0054236294341745315,0.00689094397239387,True,3840,3840
+model,external,0,three,both,D,exact,vertex,500000,worst-case DI,upper,0.9864434991628034,0.00689094397239387,True,3840,3840
+model,external,0,three,both,D,exact,vertex,500000,max DD gap,lower,0.010956558212335876,0.00689094397239387,True,3840,3840
+model,external,0,three,both,D,exact,vertex,500000,max DD gap,upper,0.9945763705658255,0.00689094397239387,True,3840,3840
+model,external,0,three,both,D,exact,vertex,500000,I(D;A),lower,3.601747882552562e-05,0.00689094397239387,True,3840,3840
+model,external,0,three,both,D,exact,vertex,500000,I(D;A),upper,0.17116659877653756,0.00689094397239387,True,3840,3840
+model,external,0,three,both,D,split,vertex,500000,DD 1-0,lower,-0.868889274499805,0.007105663884431124,True,4800,4800
+model,external,0,three,both,D,split,vertex,500000,DD 1-0,upper,0.19849299613879345,0.007105663884431124,True,4800,4800
+model,external,0,three,both,D,split,vertex,500000,DI 1/0,lower,0.0020362429569170887,0.007105663884431124,True,4800,4800
+model,external,0,three,both,D,split,vertex,500000,DI 1/0,upper,1.2575988405288812,0.007105663884431124,True,4800,4800
+model,external,0,three,both,D,split,vertex,500000,worst-case DI,lower,0.0017728796793014662,0.007105663884431124,True,4800,4800
+model,external,0,three,both,D,split,vertex,500000,worst-case DI,upper,0.9724978248309718,0.007105663884431124,True,4800,4800
+model,external,0,three,both,D,split,vertex,500000,max DD gap,lower,0.02248744928602342,0.007105663884431124,True,4800,4800
+model,external,0,three,both,D,split,vertex,500000,max DD gap,upper,0.9982271203206985,0.007105663884431124,True,4800,4800
+model,external,0,three,both,D,split,vertex,500000,I(D;A),lower,0.00016242823656190467,0.007105663884431124,True,4800,4800
+model,external,0,three,both,D,split,vertex,500000,I(D;A),upper,0.1691243955210438,0.007105663884431124,True,4800,4800
+model,external,0,three,both,DY,exact,vertex,500000,TPRD 1-0,lower,-0.9104754652324907,0.30276381503790617,False,1954907136,100000
+model,external,0,three,both,DY,exact,vertex,500000,TPRD 1-0,upper,0.21110341072225325,0.30276381503790617,False,1954907136,100000
+model,external,0,three,both,DY,exact,vertex,500000,PPVD 1-0,lower,-0.936089535808192,0.30276381503790617,False,1954907136,100000
+model,external,0,three,both,DY,exact,vertex,500000,PPVD 1-0,upper,0.20913613637210715,0.30276381503790617,False,1954907136,100000
+model,external,0,three,both,DY,exact,vertex,500000,BA diff 1-0,lower,-0.6826351171082266,0.30276381503790617,False,1954907136,100000
+model,external,0,three,both,DY,exact,vertex,500000,BA diff 1-0,upper,0.5854978384727786,0.30276381503790617,False,1954907136,100000
+model,external,0,three,both,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8810500693409413,0.30276381503790617,False,1954907136,100000
+model,external,0,three,both,DY,exact,vertex,500000,F1 diff 1-0,upper,0.21012099846971866,0.30276381503790617,False,1954907136,100000
+model,external,0,three,both,DY,exact,vertex,500000,I(D;A|Y),lower,8.848301907652388e-05,0.30276381503790617,False,1954907136,100000
+model,external,0,three,both,DY,exact,vertex,500000,I(D;A|Y),upper,0.2049661205647016,0.30276381503790617,False,1954907136,100000
+model,external,0,three,both,DY,split,vertex,500000,TPRD 1-0,lower,-0.9079935078629807,0.3048564181663096,False,2324754432,100000
+model,external,0,three,both,DY,split,vertex,500000,TPRD 1-0,upper,0.207331552806591,0.3048564181663096,False,2324754432,100000
+model,external,0,three,both,DY,split,vertex,500000,PPVD 1-0,lower,-0.9308333236565763,0.3048564181663096,False,2324754432,100000
+model,external,0,three,both,DY,split,vertex,500000,PPVD 1-0,upper,0.21080612007843058,0.3048564181663096,False,2324754432,100000
+model,external,0,three,both,DY,split,vertex,500000,BA diff 1-0,lower,-0.6571785460333354,0.3048564181663096,False,2324754432,100000
+model,external,0,three,both,DY,split,vertex,500000,BA diff 1-0,upper,0.5617050900081855,0.3048564181663096,False,2324754432,100000
+model,external,0,three,both,DY,split,vertex,500000,F1 diff 1-0,lower,-0.8800629525830276,0.3048564181663096,False,2324754432,100000
+model,external,0,three,both,DY,split,vertex,500000,F1 diff 1-0,upper,0.20262376273511062,0.3048564181663096,False,2324754432,100000
+model,external,0,three,both,DY,split,vertex,500000,I(D;A|Y),lower,0.000183657466826071,0.3048564181663096,False,2324754432,100000
+model,external,0,three,both,DY,split,vertex,500000,I(D;A|Y),upper,0.20024394597231734,0.3048564181663096,False,2324754432,100000
+model,full,0,Black-White,county,D,exact,vertex,500000,DD 1-0,lower,-0.8432021552968393,0.0007768350187689066,True,4,4
+model,full,0,Black-White,county,D,exact,vertex,500000,DD 1-0,upper,0.20619270976629578,0.0007768350187689066,True,4,4
+model,full,0,Black-White,county,D,exact,vertex,500000,DI 1/0,lower,0.0,0.0007768350187689066,True,4,4
+model,full,0,Black-White,county,D,exact,vertex,500000,DI 1/0,upper,1.2648377122696524,0.0007768350187689066,True,4,4
+model,full,0,Black-White,county,D,exact,vertex,500000,worst-case DI,lower,0.0,0.0007768350187689066,True,4,4
+model,full,0,Black-White,county,D,exact,vertex,500000,worst-case DI,upper,0.9186726534266885,0.0007768350187689066,True,4,4
+model,full,0,Black-White,county,D,exact,vertex,500000,max DD gap,lower,0.06966828105752532,0.0007768350187689066,True,4,4
+model,full,0,Black-White,county,D,exact,vertex,500000,max DD gap,upper,0.8432021552968393,0.0007768350187689066,True,4,4
+model,full,0,Black-White,county,D,exact,vertex,500000,I(D;A),lower,0.001331990405920796,0.0007768350187689066,True,4,4
+model,full,0,Black-White,county,D,exact,vertex,500000,I(D;A),upper,0.15106360904648464,0.0007768350187689066,True,4,4
+model,full,0,Black-White,county,D,split,vertex,500000,DD 1-0,lower,-0.8440244663828845,0.0006576741579920053,True,4,4
+model,full,0,Black-White,county,D,split,vertex,500000,DD 1-0,upper,0.1991533646056195,0.0006576741579920053,True,4,4
+model,full,0,Black-White,county,D,split,vertex,500000,DI 1/0,lower,0.0,0.0006576741579920053,True,4,4
+model,full,0,Black-White,county,D,split,vertex,500000,DI 1/0,upper,1.255475503772529,0.0006576741579920053,True,4,4
+model,full,0,Black-White,county,D,split,vertex,500000,worst-case DI,lower,0.0,0.0006576741579920053,True,4,4
+model,full,0,Black-White,county,D,split,vertex,500000,worst-case DI,upper,0.9270008024084313,0.0006576741579920053,True,4,4
+model,full,0,Black-White,county,D,split,vertex,500000,max DD gap,lower,0.06205436695614741,0.0006576741579920053,True,4,4
+model,full,0,Black-White,county,D,split,vertex,500000,max DD gap,upper,0.8440244663828845,0.0006576741579920053,True,4,4
+model,full,0,Black-White,county,D,split,vertex,500000,I(D;A),lower,0.0010517015453562397,0.0006576741579920053,True,4,4
+model,full,0,Black-White,county,D,split,vertex,500000,I(D;A),upper,0.15194558187146878,0.0006576741579920053,True,4,4
+model,full,0,Black-White,county,DY,exact,vertex,500000,TPRD 1-0,lower,-0.8824697045813855,0.003657003166154027,True,40,40
+model,full,0,Black-White,county,DY,exact,vertex,500000,TPRD 1-0,upper,0.20030997156560026,0.003657003166154027,True,40,40
+model,full,0,Black-White,county,DY,exact,vertex,500000,PPVD 1-0,lower,-0.8829998528762704,0.003657003166154027,True,40,40
+model,full,0,Black-White,county,DY,exact,vertex,500000,PPVD 1-0,upper,0.1924157649552708,0.003657003166154027,True,40,40
+model,full,0,Black-White,county,DY,exact,vertex,500000,BA diff 1-0,lower,-0.6170046553766457,0.003657003166154027,True,40,40
+model,full,0,Black-White,county,DY,exact,vertex,500000,BA diff 1-0,upper,0.5823926560655661,0.003657003166154027,True,40,40
+model,full,0,Black-White,county,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8510756468356907,0.003657003166154027,True,40,40
+model,full,0,Black-White,county,DY,exact,vertex,500000,F1 diff 1-0,upper,0.19638225465248538,0.003657003166154027,True,40,40
+model,full,0,Black-White,county,DY,exact,vertex,500000,I(D;A|Y),lower,0.0006033129698046198,0.003657003166154027,True,40,40
+model,full,0,Black-White,county,DY,exact,vertex,500000,I(D;A|Y),upper,0.16788518312274897,0.003657003166154027,True,40,40
+model,full,0,Black-White,county,DY,split,vertex,500000,TPRD 1-0,lower,-0.8840331734588529,0.003602582961320877,True,40,40
+model,full,0,Black-White,county,DY,split,vertex,500000,TPRD 1-0,upper,0.1991482462444084,0.003602582961320877,True,40,40
+model,full,0,Black-White,county,DY,split,vertex,500000,PPVD 1-0,lower,-0.8815677842566573,0.003602582961320877,True,40,40
+model,full,0,Black-White,county,DY,split,vertex,500000,PPVD 1-0,upper,0.19341851804050791,0.003602582961320877,True,40,40
+model,full,0,Black-White,county,DY,split,vertex,500000,BA diff 1-0,lower,-0.6172681568199234,0.003602582961320877,True,40,40
+model,full,0,Black-White,county,DY,split,vertex,500000,BA diff 1-0,upper,0.5789506124932201,0.003602582961320877,True,40,40
+model,full,0,Black-White,county,DY,split,vertex,500000,F1 diff 1-0,lower,-0.851286323613639,0.003602582961320877,True,40,40
+model,full,0,Black-White,county,DY,split,vertex,500000,F1 diff 1-0,upper,0.19629359400835755,0.003602582961320877,True,40,40
+model,full,0,Black-White,county,DY,split,vertex,500000,I(D;A|Y),lower,0.0004033900581004346,0.003602582961320877,True,40,40
+model,full,0,Black-White,county,DY,split,vertex,500000,I(D;A|Y),upper,0.16927481528051042,0.003602582961320877,True,40,40
+model,full,0,Black-White,income,D,exact,vertex,500000,DD 1-0,lower,-0.8432021552968304,0.0006457439158111811,True,4,4
+model,full,0,Black-White,income,D,exact,vertex,500000,DD 1-0,upper,0.22243817954392442,0.0006457439158111811,True,4,4
+model,full,0,Black-White,income,D,exact,vertex,500000,DI 1/0,lower,0.0,0.0006457439158111811,True,4,4
+model,full,0,Black-White,income,D,exact,vertex,500000,DI 1/0,upper,1.2860713755382873,0.0006457439158111811,True,4,4
+model,full,0,Black-White,income,D,exact,vertex,500000,worst-case DI,lower,0.0,0.0006457439158111811,True,4,4
+model,full,0,Black-White,income,D,exact,vertex,500000,worst-case DI,upper,0.8637532569696488,0.0006457439158111811,True,4,4
+model,full,0,Black-White,income,D,exact,vertex,500000,max DD gap,lower,0.10871947361679113,0.0006457439158111811,True,4,4
+model,full,0,Black-White,income,D,exact,vertex,500000,max DD gap,upper,0.8432021552968304,0.0006457439158111811,True,4,4
+model,full,0,Black-White,income,D,exact,vertex,500000,I(D;A),lower,0.0027199239997747326,0.0006457439158111811,True,4,4
+model,full,0,Black-White,income,D,exact,vertex,500000,I(D;A),upper,0.1510636090464805,0.0006457439158111811,True,4,4
+model,full,0,Black-White,income,D,split,vertex,500000,DD 1-0,lower,-0.8438378870915737,0.0006741550751030445,True,4,4
+model,full,0,Black-White,income,D,split,vertex,500000,DD 1-0,upper,0.22181485442787263,0.0006741550751030445,True,4,4
+model,full,0,Black-White,income,D,split,vertex,500000,DI 1/0,lower,0.0,0.0006741550751030445,True,4,4
+model,full,0,Black-White,income,D,split,vertex,500000,DI 1/0,upper,1.2850412343257887,0.0006741550751030445,True,4,4
+model,full,0,Black-White,income,D,split,vertex,500000,worst-case DI,lower,0.0,0.0006741550751030445,True,4,4
+model,full,0,Black-White,income,D,split,vertex,500000,worst-case DI,upper,0.8529013077832087,0.0006741550751030445,True,4,4
+model,full,0,Black-White,income,D,split,vertex,500000,max DD gap,lower,0.11754545551889406,0.0006741550751030445,True,4,4
+model,full,0,Black-White,income,D,split,vertex,500000,max DD gap,upper,0.8438378870915737,0.0006741550751030445,True,4,4
+model,full,0,Black-White,income,D,split,vertex,500000,I(D;A),lower,0.0031659077449293794,0.0006741550751030445,True,4,4
+model,full,0,Black-White,income,D,split,vertex,500000,I(D;A),upper,0.1513896951667734,0.0006741550751030445,True,4,4
+model,full,0,Black-White,income,DY,exact,vertex,500000,TPRD 1-0,lower,-0.8824697045813736,0.003562632016837597,True,24,24
+model,full,0,Black-White,income,DY,exact,vertex,500000,TPRD 1-0,upper,0.2011199196206478,0.003562632016837597,True,24,24
+model,full,0,Black-White,income,DY,exact,vertex,500000,PPVD 1-0,lower,-0.8912166509924264,0.003562632016837597,True,24,24
+model,full,0,Black-White,income,DY,exact,vertex,500000,PPVD 1-0,upper,0.19320150472701636,0.003562632016837597,True,24,24
+model,full,0,Black-White,income,DY,exact,vertex,500000,BA diff 1-0,lower,-0.6074909973764432,0.003562632016837597,True,24,24
+model,full,0,Black-White,income,DY,exact,vertex,500000,BA diff 1-0,upper,0.5587589192674529,0.003562632016837597,True,24,24
+model,full,0,Black-White,income,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8510756468356961,0.003562632016837597,True,24,24
+model,full,0,Black-White,income,DY,exact,vertex,500000,F1 diff 1-0,upper,0.1971802370324739,0.003562632016837597,True,24,24
+model,full,0,Black-White,income,DY,exact,vertex,500000,I(D;A|Y),lower,0.004403926180902594,0.003562632016837597,True,24,24
+model,full,0,Black-White,income,DY,exact,vertex,500000,I(D;A|Y),upper,0.1678851831227426,0.003562632016837597,True,24,24
+model,full,0,Black-White,income,DY,split,vertex,500000,TPRD 1-0,lower,-0.8837838374963974,0.0035382229834795,True,24,24
+model,full,0,Black-White,income,DY,split,vertex,500000,TPRD 1-0,upper,0.1999808211881332,0.0035382229834795,True,24,24
+model,full,0,Black-White,income,DY,split,vertex,500000,PPVD 1-0,lower,-0.8901335314982893,0.0035382229834795,True,24,24
+model,full,0,Black-White,income,DY,split,vertex,500000,PPVD 1-0,upper,0.19423294850073458,0.0035382229834795,True,24,24
+model,full,0,Black-White,income,DY,split,vertex,500000,BA diff 1-0,lower,-0.6077728515988027,0.0035382229834795,True,24,24
+model,full,0,Black-White,income,DY,split,vertex,500000,BA diff 1-0,upper,0.5550715357044729,0.0035382229834795,True,24,24
+model,full,0,Black-White,income,DY,split,vertex,500000,F1 diff 1-0,lower,-0.8511707037019758,0.0035382229834795,True,24,24
+model,full,0,Black-White,income,DY,split,vertex,500000,F1 diff 1-0,upper,0.19711717202955437,0.0035382229834795,True,24,24
+model,full,0,Black-White,income,DY,split,vertex,500000,I(D;A|Y),lower,0.005028683643332418,0.0035382229834795,True,24,24
+model,full,0,Black-White,income,DY,split,vertex,500000,I(D;A|Y),upper,0.16863036820979388,0.0035382229834795,True,24,24
+model,full,0,Black-White,both,D,exact,vertex,500000,DD 1-0,lower,-0.8432021552968304,0.0011368480045348406,True,16,16
+model,full,0,Black-White,both,D,exact,vertex,500000,DD 1-0,upper,0.17354556377065256,0.0011368480045348406,True,16,16
+model,full,0,Black-White,both,D,exact,vertex,500000,DI 1/0,lower,0.0,0.0011368480045348406,True,16,16
+model,full,0,Black-White,both,D,exact,vertex,500000,DI 1/0,upper,1.222330852914439,0.0011368480045348406,True,16,16
+model,full,0,Black-White,both,D,exact,vertex,500000,worst-case DI,lower,0.0,0.0011368480045348406,True,16,16
+model,full,0,Black-White,both,D,exact,vertex,500000,worst-case DI,upper,0.9186726534266786,0.0011368480045348406,True,16,16
+model,full,0,Black-White,both,D,exact,vertex,500000,max DD gap,lower,0.06966828105753375,0.0011368480045348406,True,16,16
+model,full,0,Black-White,both,D,exact,vertex,500000,max DD gap,upper,0.8432021552968304,0.0011368480045348406,True,16,16
+model,full,0,Black-White,both,D,exact,vertex,500000,I(D;A),lower,0.0013319904059212167,0.0011368480045348406,True,16,16
+model,full,0,Black-White,both,D,exact,vertex,500000,I(D;A),upper,0.15106360904645788,0.0011368480045348406,True,16,16
+model,full,0,Black-White,both,D,split,vertex,500000,DD 1-0,lower,-0.8438766056012614,0.0010813968256115913,True,16,16
+model,full,0,Black-White,both,D,split,vertex,500000,DD 1-0,upper,0.17121591746692266,0.0010813968256115913,True,16,16
+model,full,0,Black-White,both,D,split,vertex,500000,DI 1/0,lower,0.0,0.0010813968256115913,True,16,16
+model,full,0,Black-White,both,D,split,vertex,500000,DI 1/0,upper,1.2191437310547357,0.0010813968256115913,True,16,16
+model,full,0,Black-White,both,D,split,vertex,500000,worst-case DI,lower,0.0,0.0010813968256115913,True,16,16
+model,full,0,Black-White,both,D,split,vertex,500000,worst-case DI,upper,0.9257139353459252,0.0010813968256115913,True,16,16
+model,full,0,Black-White,both,D,split,vertex,500000,max DD gap,lower,0.0632310746223591,0.0010813968256115913,True,16,16
+model,full,0,Black-White,both,D,split,vertex,500000,max DD gap,upper,0.8438766056012614,0.0010813968256115913,True,16,16
+model,full,0,Black-White,both,D,split,vertex,500000,I(D;A),lower,0.0010910259518888644,0.0010813968256115913,True,16,16
+model,full,0,Black-White,both,D,split,vertex,500000,I(D;A),upper,0.15150504230403644,0.0010813968256115913,True,16,16
+model,full,0,Black-White,both,DY,exact,vertex,500000,TPRD 1-0,lower,-0.8820482045755249,0.009809172013774514,True,2304,2304
+model,full,0,Black-White,both,DY,exact,vertex,500000,TPRD 1-0,upper,0.20004143663241958,0.009809172013774514,True,2304,2304
+model,full,0,Black-White,both,DY,exact,vertex,500000,PPVD 1-0,lower,-0.8829998528762687,0.009809172013774514,True,2304,2304
+model,full,0,Black-White,both,DY,exact,vertex,500000,PPVD 1-0,upper,0.19215527002412902,0.009809172013774514,True,2304,2304
+model,full,0,Black-White,both,DY,exact,vertex,500000,BA diff 1-0,lower,-0.6170046553766446,0.009809172013774514,True,2304,2304
+model,full,0,Black-White,both,DY,exact,vertex,500000,BA diff 1-0,upper,0.546903915312676,0.009809172013774514,True,2304,2304
+model,full,0,Black-White,both,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8510756468356888,0.009809172013774514,True,2304,2304
+model,full,0,Black-White,both,DY,exact,vertex,500000,F1 diff 1-0,upper,0.1927967186088141,0.009809172013774514,True,2304,2304
+model,full,0,Black-White,both,DY,exact,vertex,500000,I(D;A|Y),lower,0.000210561602764641,0.009809172013774514,True,2304,2304
+model,full,0,Black-White,both,DY,exact,vertex,500000,I(D;A|Y),upper,0.16741038867379532,0.009809172013774514,True,2304,2304
+model,full,0,Black-White,both,DY,split,vertex,500000,TPRD 1-0,lower,-0.8835022985267423,0.008714545983821154,True,2304,2304
+model,full,0,Black-White,both,DY,split,vertex,500000,TPRD 1-0,upper,0.19893722273259185,0.008714545983821154,True,2304,2304
+model,full,0,Black-White,both,DY,split,vertex,500000,PPVD 1-0,lower,-0.8814828600011623,0.008714545983821154,True,2304,2304
+model,full,0,Black-White,both,DY,split,vertex,500000,PPVD 1-0,upper,0.19321210114837561,0.008714545983821154,True,2304,2304
+model,full,0,Black-White,both,DY,split,vertex,500000,BA diff 1-0,lower,-0.6171210713610156,0.008714545983821154,True,2304,2304
+model,full,0,Black-White,both,DY,split,vertex,500000,BA diff 1-0,upper,0.5446943285978729,0.008714545983821154,True,2304,2304
+model,full,0,Black-White,both,DY,split,vertex,500000,F1 diff 1-0,lower,-0.851194698503892,0.008714545983821154,True,2304,2304
+model,full,0,Black-White,both,DY,split,vertex,500000,F1 diff 1-0,upper,0.19386771492789945,0.008714545983821154,True,2304,2304
+model,full,0,Black-White,both,DY,split,vertex,500000,I(D;A|Y),lower,0.00015819077972934403,0.008714545983821154,True,2304,2304
+model,full,0,Black-White,both,DY,split,vertex,500000,I(D;A|Y),upper,0.16838426359954958,0.008714545983821154,True,2304,2304
+model,full,0,API-White,county,D,exact,vertex,500000,DD 1-0,lower,-0.43435742918094217,0.0006474140100181103,True,4,4
+model,full,0,API-White,county,D,exact,vertex,500000,DD 1-0,upper,0.2051380737034475,0.0006474140100181103,True,4,4
+model,full,0,API-White,county,D,exact,vertex,500000,DI 1/0,lower,0.4847892306006047,0.0006474140100181103,True,4,4
+model,full,0,API-White,county,D,exact,vertex,500000,DI 1/0,upper,1.258080135576796,0.0006474140100181103,True,4,4
+model,full,0,API-White,county,D,exact,vertex,500000,worst-case DI,lower,0.4847892306006047,0.0006474140100181103,True,4,4
+model,full,0,API-White,county,D,exact,vertex,500000,worst-case DI,upper,0.9492395377489107,0.0006474140100181103,True,4,4
+model,full,0,API-White,county,D,exact,vertex,500000,max DD gap,lower,0.04315807506867164,0.0006474140100181103,True,4,4
+model,full,0,API-White,county,D,exact,vertex,500000,max DD gap,upper,0.43435742918094217,0.0006474140100181103,True,4,4
+model,full,0,API-White,county,D,exact,vertex,500000,I(D;A),lower,0.0006432531047894274,0.0006474140100181103,True,4,4
+model,full,0,API-White,county,D,exact,vertex,500000,I(D;A),upper,0.04756978655140599,0.0006474140100181103,True,4,4
+model,full,0,API-White,county,D,split,vertex,500000,DD 1-0,lower,-0.43163463907457805,0.0006534340791404247,True,4,4
+model,full,0,API-White,county,D,split,vertex,500000,DD 1-0,upper,0.20496018423380435,0.0006534340791404247,True,4,4
+model,full,0,API-White,county,D,split,vertex,500000,DI 1/0,lower,0.4885988754243774,0.0006534340791404247,True,4,4
+model,full,0,API-White,county,D,split,vertex,500000,DI 1/0,upper,1.257798641236955,0.0006534340791404247,True,4,4
+model,full,0,API-White,county,D,split,vertex,500000,worst-case DI,lower,0.4885988754243774,0.0006534340791404247,True,4,4
+model,full,0,API-White,county,D,split,vertex,500000,worst-case DI,upper,0.9426011693457679,0.0006534340791404247,True,4,4
+model,full,0,API-White,county,D,split,vertex,500000,max DD gap,lower,0.04914331245431758,0.0006534340791404247,True,4,4
+model,full,0,API-White,county,D,split,vertex,500000,max DD gap,upper,0.43163463907457805,0.0006534340791404247,True,4,4
+model,full,0,API-White,county,D,split,vertex,500000,I(D;A),lower,0.0008587867630763515,0.0006534340791404247,True,4,4
+model,full,0,API-White,county,D,split,vertex,500000,I(D;A),upper,0.04800292313419849,0.0006534340791404247,True,4,4
+model,full,0,API-White,county,DY,exact,vertex,500000,TPRD 1-0,lower,-0.6955681825970921,0.0034750821068882942,True,32,32
+model,full,0,API-White,county,DY,exact,vertex,500000,TPRD 1-0,upper,0.18774887740404467,0.0034750821068882942,True,32,32
+model,full,0,API-White,county,DY,exact,vertex,500000,PPVD 1-0,lower,-0.7498977963809601,0.0034750821068882942,True,32,32
+model,full,0,API-White,county,DY,exact,vertex,500000,PPVD 1-0,upper,0.18764072146230315,0.0034750821068882942,True,32,32
+model,full,0,API-White,county,DY,exact,vertex,500000,BA diff 1-0,lower,-0.47716256204376817,0.0034750821068882942,True,32,32
+model,full,0,API-White,county,DY,exact,vertex,500000,BA diff 1-0,upper,0.5397607689073687,0.0034750821068882942,True,32,32
+model,full,0,API-White,county,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.6419157507483026,0.0034750821068882942,True,32,32
+model,full,0,API-White,county,DY,exact,vertex,500000,F1 diff 1-0,upper,0.18769480303333164,0.0034750821068882942,True,32,32
+model,full,0,API-White,county,DY,exact,vertex,500000,I(D;A|Y),lower,0.0018480062801362242,0.0034750821068882942,True,32,32
+model,full,0,API-White,county,DY,exact,vertex,500000,I(D;A|Y),upper,0.09948507966317208,0.0034750821068882942,True,32,32
+model,full,0,API-White,county,DY,split,vertex,500000,TPRD 1-0,lower,-0.6845712199812677,0.003498351899906993,True,32,32
+model,full,0,API-White,county,DY,split,vertex,500000,TPRD 1-0,upper,0.18717943031443285,0.003498351899906993,True,32,32
+model,full,0,API-White,county,DY,split,vertex,500000,PPVD 1-0,lower,-0.7402493036554028,0.003498351899906993,True,32,32
+model,full,0,API-White,county,DY,split,vertex,500000,PPVD 1-0,upper,0.18889393528421794,0.003498351899906993,True,32,32
+model,full,0,API-White,county,DY,split,vertex,500000,BA diff 1-0,lower,-0.4718658248033054,0.003498351899906993,True,32,32
+model,full,0,API-White,county,DY,split,vertex,500000,BA diff 1-0,upper,0.5412730699096112,0.003498351899906993,True,32,32
+model,full,0,API-White,county,DY,split,vertex,500000,F1 diff 1-0,lower,-0.6269105156038708,0.003498351899906993,True,32,32
+model,full,0,API-White,county,DY,split,vertex,500000,F1 diff 1-0,upper,0.18803758786708802,0.003498351899906993,True,32,32
+model,full,0,API-White,county,DY,split,vertex,500000,I(D;A|Y),lower,0.0023197951231459435,0.003498351899906993,True,32,32
+model,full,0,API-White,county,DY,split,vertex,500000,I(D;A|Y),upper,0.1025584136377897,0.003498351899906993,True,32,32
+model,full,0,API-White,income,D,exact,vertex,500000,DD 1-0,lower,-0.6510966235717331,0.0006549840327352285,True,4,4
+model,full,0,API-White,income,D,exact,vertex,500000,DD 1-0,upper,0.2051380737034475,0.0006549840327352285,True,4,4
+model,full,0,API-White,income,D,exact,vertex,500000,DI 1/0,lower,0.24238706545365488,0.0006549840327352285,True,4,4
+model,full,0,API-White,income,D,exact,vertex,500000,DI 1/0,upper,1.258080135576796,0.0006549840327352285,True,4,4
+model,full,0,API-White,income,D,exact,vertex,500000,worst-case DI,lower,0.24238706545365488,0.0006549840327352285,True,4,4
+model,full,0,API-White,income,D,exact,vertex,500000,worst-case DI,upper,0.7948619262965525,0.0006549840327352285,True,4,4
+model,full,0,API-White,income,D,exact,vertex,500000,max DD gap,lower,0.17307054407029,0.0006549840327352285,True,4,4
+model,full,0,API-White,income,D,exact,vertex,500000,max DD gap,upper,0.6510966235717331,0.0006549840327352285,True,4,4
+model,full,0,API-White,income,D,exact,vertex,500000,I(D;A),lower,0.008458843763540133,0.0006549840327352285,True,4,4
+model,full,0,API-White,income,D,exact,vertex,500000,I(D;A),upper,0.10350510480781644,0.0006549840327352285,True,4,4
+model,full,0,API-White,income,D,split,vertex,500000,DD 1-0,lower,-0.6248706380994766,0.0006452640518546104,True,4,4
+model,full,0,API-White,income,D,split,vertex,500000,DD 1-0,upper,0.20497339549590088,0.0006452640518546104,True,4,4
+model,full,0,API-White,income,D,split,vertex,500000,DI 1/0,lower,0.2725008158642858,0.0006452640518546104,True,4,4
+model,full,0,API-White,income,D,split,vertex,500000,DI 1/0,upper,1.257819542559527,0.0006452640518546104,True,4,4
+model,full,0,API-White,income,D,split,vertex,500000,worst-case DI,lower,0.2725008158642858,0.0006452640518546104,True,4,4
+model,full,0,API-White,income,D,split,vertex,500000,worst-case DI,upper,0.8038184253435933,0.0006452640518546104,True,4,4
+model,full,0,API-White,income,D,split,vertex,500000,max DD gap,lower,0.16150604284155168,0.0006452640518546104,True,4,4
+model,full,0,API-White,income,D,split,vertex,500000,max DD gap,upper,0.6248706380994766,0.0006452640518546104,True,4,4
+model,full,0,API-White,income,D,split,vertex,500000,I(D;A),lower,0.007583251416936649,0.0006452640518546104,True,4,4
+model,full,0,API-White,income,D,split,vertex,500000,I(D;A),upper,0.09749110018285233,0.0006452640518546104,True,4,4
+model,full,0,API-White,income,DY,exact,vertex,500000,TPRD 1-0,lower,-0.8878525531839956,0.0035168221220374107,True,32,32
+model,full,0,API-White,income,DY,exact,vertex,500000,TPRD 1-0,upper,0.18774887740404467,0.0035168221220374107,True,32,32
+model,full,0,API-White,income,DY,exact,vertex,500000,PPVD 1-0,lower,-0.914925553807054,0.0035168221220374107,True,32,32
+model,full,0,API-White,income,DY,exact,vertex,500000,PPVD 1-0,upper,0.18764072146229205,0.0035168221220374107,True,32,32
+model,full,0,API-White,income,DY,exact,vertex,500000,BA diff 1-0,lower,-0.612613949171435,0.0035168221220374107,True,32,32
+model,full,0,API-White,income,DY,exact,vertex,500000,BA diff 1-0,upper,0.5301386967643559,0.0035168221220374107,True,32,32
+model,full,0,API-White,income,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8702390273108339,0.0035168221220374107,True,32,32
+model,full,0,API-White,income,DY,exact,vertex,500000,F1 diff 1-0,upper,0.1876948030333262,0.0035168221220374107,True,32,32
+model,full,0,API-White,income,DY,exact,vertex,500000,I(D;A|Y),lower,0.002674563104670927,0.0035168221220374107,True,32,32
+model,full,0,API-White,income,DY,exact,vertex,500000,I(D;A|Y),upper,0.1610819341272803,0.0035168221220374107,True,32,32
+model,full,0,API-White,income,DY,split,vertex,500000,TPRD 1-0,lower,-0.8881647633006555,0.0035114118363708258,True,32,32
+model,full,0,API-White,income,DY,split,vertex,500000,TPRD 1-0,upper,0.1871946381838997,0.0035114118363708258,True,32,32
+model,full,0,API-White,income,DY,split,vertex,500000,PPVD 1-0,lower,-0.9160316466054953,0.0035114118363708258,True,32,32
+model,full,0,API-White,income,DY,split,vertex,500000,PPVD 1-0,upper,0.18890925007817372,0.0035114118363708258,True,32,32
+model,full,0,API-White,income,DY,split,vertex,500000,BA diff 1-0,lower,-0.6155393206686841,0.0035114118363708258,True,32,32
+model,full,0,API-White,income,DY,split,vertex,500000,BA diff 1-0,upper,0.5278947566736623,0.0035114118363708258,True,32,32
+model,full,0,API-White,income,DY,split,vertex,500000,F1 diff 1-0,lower,-0.8712364172471228,0.0035114118363708258,True,32,32
+model,full,0,API-White,income,DY,split,vertex,500000,F1 diff 1-0,upper,0.18805284932870503,0.0035114118363708258,True,32,32
+model,full,0,API-White,income,DY,split,vertex,500000,I(D;A|Y),lower,0.0019627652194193863,0.0035114118363708258,True,32,32
+model,full,0,API-White,income,DY,split,vertex,500000,I(D;A|Y),upper,0.16085990543050124,0.0035114118363708258,True,32,32
+model,full,0,API-White,both,D,exact,vertex,500000,DD 1-0,lower,-0.4343574291809404,0.0010913468431681395,True,16,16
+model,full,0,API-White,both,D,exact,vertex,500000,DD 1-0,upper,0.20513807370344528,0.0010913468431681395,True,16,16
+model,full,0,API-White,both,D,exact,vertex,500000,DI 1/0,lower,0.4847892306006057,0.0010913468431681395,True,16,16
+model,full,0,API-White,both,D,exact,vertex,500000,DI 1/0,upper,1.2580801355767925,0.0010913468431681395,True,16,16
+model,full,0,API-White,both,D,exact,vertex,500000,worst-case DI,lower,0.4847892306006057,0.0010913468431681395,True,16,16
+model,full,0,API-White,both,D,exact,vertex,500000,worst-case DI,upper,0.988604413767688,0.0010913468431681395,True,16,16
+model,full,0,API-White,both,D,exact,vertex,500000,max DD gap,lower,0.009332464636611526,0.0010913468431681395,True,16,16
+model,full,0,API-White,both,D,exact,vertex,500000,max DD gap,upper,0.4343574291809404,0.0010913468431681395,True,16,16
+model,full,0,API-White,both,D,exact,vertex,500000,I(D;A),lower,2.880149430595127e-05,0.0010913468431681395,True,16,16
+model,full,0,API-White,both,D,exact,vertex,500000,I(D;A),upper,0.04756978655140581,0.0010913468431681395,True,16,16
+model,full,0,API-White,both,D,split,vertex,500000,DD 1-0,lower,-0.43197996002353506,0.0010741769801825285,True,16,16
+model,full,0,API-White,both,D,split,vertex,500000,DD 1-0,upper,0.20496882364538127,0.0010741769801825285,True,16,16
+model,full,0,API-White,both,D,split,vertex,500000,DI 1/0,lower,0.48821604170724137,0.0010741769801825285,True,16,16
+model,full,0,API-White,both,D,split,vertex,500000,DI 1/0,upper,1.2578123094306886,0.0010741769801825285,True,16,16
+model,full,0,API-White,both,D,split,vertex,500000,worst-case DI,lower,0.48821604170724137,0.0010741769801825285,True,16,16
+model,full,0,API-White,both,D,split,vertex,500000,worst-case DI,upper,0.9822818721459606,0.0010741769801825285,True,16,16
+model,full,0,API-White,both,D,split,vertex,500000,max DD gap,lower,0.014604899426357676,0.0010741769801825285,True,16,16
+model,full,0,API-White,both,D,split,vertex,500000,max DD gap,upper,0.43197996002353506,0.0010741769801825285,True,16,16
+model,full,0,API-White,both,D,split,vertex,500000,I(D;A),lower,7.251342602464608e-05,0.0010741769801825285,True,16,16
+model,full,0,API-White,both,D,split,vertex,500000,I(D;A),upper,0.04809862137629227,0.0010741769801825285,True,16,16
+model,full,0,API-White,both,DY,exact,vertex,500000,TPRD 1-0,lower,-0.6588907649382701,0.00827732402831316,True,1920,1920
+model,full,0,API-White,both,DY,exact,vertex,500000,TPRD 1-0,upper,0.18774887740406676,0.00827732402831316,True,1920,1920
+model,full,0,API-White,both,DY,exact,vertex,500000,PPVD 1-0,lower,-0.7194564180547482,0.00827732402831316,True,1920,1920
+model,full,0,API-White,both,DY,exact,vertex,500000,PPVD 1-0,upper,0.18764072146229205,0.00827732402831316,True,1920,1920
+model,full,0,API-White,both,DY,exact,vertex,500000,BA diff 1-0,lower,-0.47541047422142035,0.00827732402831316,True,1920,1920
+model,full,0,API-White,both,DY,exact,vertex,500000,BA diff 1-0,upper,0.5034726780821503,0.00827732402831316,True,1920,1920
+model,full,0,API-White,both,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.5984905299006653,0.00827732402831316,True,1920,1920
+model,full,0,API-White,both,DY,exact,vertex,500000,F1 diff 1-0,upper,0.1876948030333372,0.00827732402831316,True,1920,1920
+model,full,0,API-White,both,DY,exact,vertex,500000,I(D;A|Y),lower,1.9074058743162504e-06,0.00827732402831316,True,1920,1920
+model,full,0,API-White,both,DY,exact,vertex,500000,I(D;A|Y),upper,0.08556522809305342,0.00827732402831316,True,1920,1920
+model,full,0,API-White,both,DY,split,vertex,500000,TPRD 1-0,lower,-0.6499713466808823,0.008244371972978115,True,1920,1920
+model,full,0,API-White,both,DY,split,vertex,500000,TPRD 1-0,upper,0.18718937533552082,0.008244371972978115,True,1920,1920
+model,full,0,API-White,both,DY,split,vertex,500000,PPVD 1-0,lower,-0.7114114043847423,0.008244371972978115,True,1920,1920
+model,full,0,API-White,both,DY,split,vertex,500000,PPVD 1-0,upper,0.1889039502280193,0.008244371972978115,True,1920,1920
+model,full,0,API-White,both,DY,split,vertex,500000,BA diff 1-0,lower,-0.47085121859323054,0.008244371972978115,True,1920,1920
+model,full,0,API-White,both,DY,split,vertex,500000,BA diff 1-0,upper,0.5021568674962769,0.008244371972978115,True,1920,1920
+model,full,0,API-White,both,DY,split,vertex,500000,F1 diff 1-0,lower,-0.5862003187322485,0.008244371972978115,True,1920,1920
+model,full,0,API-White,both,DY,split,vertex,500000,F1 diff 1-0,upper,0.1880475679344824,0.008244371972978115,True,1920,1920
+model,full,0,API-White,both,DY,split,vertex,500000,I(D;A|Y),lower,1.671126200306523e-05,0.008244371972978115,True,1920,1920
+model,full,0,API-White,both,DY,split,vertex,500000,I(D;A|Y),upper,0.08557456812102875,0.008244371972978115,True,1920,1920
+model,full,0,three,county,D,exact,vertex,500000,DD 1-0,lower,-0.8739343789088809,0.0018209710251539946,True,64,64
+model,full,0,three,county,D,exact,vertex,500000,DD 1-0,upper,0.21844002414288644,0.0018209710251539946,True,64,64
+model,full,0,three,county,D,exact,vertex,500000,DI 1/0,lower,0.0,0.0018209710251539946,True,64,64
+model,full,0,three,county,D,exact,vertex,500000,DI 1/0,upper,1.2836957876283401,0.0018209710251539946,True,64,64
+model,full,0,three,county,D,exact,vertex,500000,worst-case DI,lower,0.0,0.0018209710251539946,True,64,64
+model,full,0,three,county,D,exact,vertex,500000,worst-case DI,upper,0.9008957137876508,0.0018209710251539946,True,64,64
+model,full,0,three,county,D,exact,vertex,500000,max DD gap,lower,0.0866545100053715,0.0018209710251539946,True,64,64
+model,full,0,three,county,D,exact,vertex,500000,max DD gap,upper,1.0,0.0018209710251539946,True,64,64
+model,full,0,three,county,D,exact,vertex,500000,I(D;A),lower,0.003632403939578442,0.0018209710251539946,True,64,64
+model,full,0,three,county,D,exact,vertex,500000,I(D;A),upper,0.17814455987691993,0.0018209710251539946,True,64,64
+model,full,0,three,county,D,split,vertex,500000,DD 1-0,lower,-0.8747416600272838,0.0018770021852105856,True,64,64
+model,full,0,three,county,D,split,vertex,500000,DD 1-0,upper,0.21339351061434542,0.0018770021852105856,True,64,64
+model,full,0,three,county,D,split,vertex,500000,DI 1/0,lower,0.0,0.0018770021852105856,True,64,64
+model,full,0,three,county,D,split,vertex,500000,DI 1/0,upper,1.277201728927548,0.0018770021852105856,True,64,64
+model,full,0,three,county,D,split,vertex,500000,worst-case DI,lower,0.0,0.0018770021852105856,True,64,64
+model,full,0,three,county,D,split,vertex,500000,worst-case DI,upper,0.9068366757526667,0.0018770021852105856,True,64,64
+model,full,0,three,county,D,split,vertex,500000,max DD gap,lower,0.08093428661742308,0.0018770021852105856,True,64,64
+model,full,0,three,county,D,split,vertex,500000,max DD gap,upper,1.0,0.0018770021852105856,True,64,64
+model,full,0,three,county,D,split,vertex,500000,I(D;A),lower,0.0034180243283792,0.0018770021852105856,True,64,64
+model,full,0,three,county,D,split,vertex,500000,I(D;A),upper,0.1796633523651894,0.0018770021852105856,True,64,64
+model,full,0,three,county,DY,exact,vertex,500000,TPRD 1-0,lower,-0.9217698134566523,0.1222883618902415,True,36288,36288
+model,full,0,three,county,DY,exact,vertex,500000,TPRD 1-0,upper,0.21219057096653726,0.1222883618902415,True,36288,36288
+model,full,0,three,county,DY,exact,vertex,500000,PPVD 1-0,lower,-0.9373591652787286,0.1222883618902415,True,36288,36288
+model,full,0,three,county,DY,exact,vertex,500000,PPVD 1-0,upper,0.21067849842962993,0.1222883618902415,True,36288,36288
+model,full,0,three,county,DY,exact,vertex,500000,BA diff 1-0,lower,-0.7041908955864029,0.1222883618902415,True,36288,36288
+model,full,0,three,county,DY,exact,vertex,500000,BA diff 1-0,upper,0.5980051938501125,0.1222883618902415,True,36288,36288
+model,full,0,three,county,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8809156615413014,0.1222883618902415,True,36288,36288
+model,full,0,three,county,DY,exact,vertex,500000,F1 diff 1-0,upper,0.21143525954702047,0.1222883618902415,True,36288,36288
+model,full,0,three,county,DY,exact,vertex,500000,I(D;A|Y),lower,0.00399584843670913,0.1222883618902415,True,36288,36288
+model,full,0,three,county,DY,exact,vertex,500000,I(D;A|Y),upper,0.2702415032709253,0.1222883618902415,True,36288,36288
+model,full,0,three,county,DY,split,vertex,500000,TPRD 1-0,lower,-0.9232000879862914,0.12750189402140677,True,43680,43680
+model,full,0,three,county,DY,split,vertex,500000,TPRD 1-0,upper,0.2121039291434499,0.12750189402140677,True,43680,43680
+model,full,0,three,county,DY,split,vertex,500000,PPVD 1-0,lower,-0.936904052135869,0.12750189402140677,True,43680,43680
+model,full,0,three,county,DY,split,vertex,500000,PPVD 1-0,upper,0.2121039291434499,0.12750189402140677,True,43680,43680
+model,full,0,three,county,DY,split,vertex,500000,BA diff 1-0,lower,-0.7053670874524881,0.12750189402140677,True,43680,43680
+model,full,0,three,county,DY,split,vertex,500000,BA diff 1-0,upper,0.5978625786947007,0.12750189402140677,True,43680,43680
+model,full,0,three,county,DY,split,vertex,500000,F1 diff 1-0,lower,-0.8810805417028307,0.12750189402140677,True,43680,43680
+model,full,0,three,county,DY,split,vertex,500000,F1 diff 1-0,upper,0.21204700713572056,0.12750189402140677,True,43680,43680
+model,full,0,three,county,DY,split,vertex,500000,I(D;A|Y),lower,0.003974140529319796,0.12750189402140677,True,43680,43680
+model,full,0,three,county,DY,split,vertex,500000,I(D;A|Y),upper,0.27341276495574873,0.12750189402140677,True,43680,43680
+model,full,0,three,income,D,exact,vertex,500000,DD 1-0,lower,-0.8818146829596885,0.00140363909304142,True,16,16
+model,full,0,three,income,D,exact,vertex,500000,DD 1-0,upper,0.23155970364668277,0.00140363909304142,True,16,16
+model,full,0,three,income,D,exact,vertex,500000,DI 1/0,lower,0.0,0.00140363909304142,True,16,16
+model,full,0,three,income,D,exact,vertex,500000,DI 1/0,upper,1.3013372733647157,0.00140363909304142,True,16,16
+model,full,0,three,income,D,exact,vertex,500000,worst-case DI,lower,0.0,0.00140363909304142,True,16,16
+model,full,0,three,income,D,exact,vertex,500000,worst-case DI,upper,0.852954027136874,0.00140363909304142,True,16,16
+model,full,0,three,income,D,exact,vertex,500000,max DD gap,lower,0.11882242752805827,0.00140363909304142,True,16,16
+model,full,0,three,income,D,exact,vertex,500000,max DD gap,upper,1.0,0.00140363909304142,True,16,16
+model,full,0,three,income,D,exact,vertex,500000,I(D;A),lower,0.003463303790480429,0.00140363909304142,True,16,16
+model,full,0,three,income,D,exact,vertex,500000,I(D;A),upper,0.1991752031555487,0.00140363909304142,True,16,16
+model,full,0,three,income,D,split,vertex,500000,DD 1-0,lower,-0.8804322949052286,0.0013103079982101917,True,16,16
+model,full,0,three,income,D,split,vertex,500000,DD 1-0,upper,0.2320930642206035,0.0013103079982101917,True,16,16
+model,full,0,three,income,D,split,vertex,500000,DI 1/0,lower,0.0,0.0013103079982101917,True,16,16
+model,full,0,three,income,D,split,vertex,500000,DI 1/0,upper,1.3022411354899899,0.0013103079982101917,True,16,16
+model,full,0,three,income,D,split,vertex,500000,worst-case DI,lower,0.0,0.0013103079982101917,True,16,16
+model,full,0,three,income,D,split,vertex,500000,worst-case DI,upper,0.8466604316460676,0.0013103079982101917,True,16,16
+model,full,0,three,income,D,split,vertex,500000,max DD gap,lower,0.12378055648887565,0.0013103079982101917,True,16,16
+model,full,0,three,income,D,split,vertex,500000,max DD gap,upper,1.0,0.0013103079982101917,True,16,16
+model,full,0,three,income,D,split,vertex,500000,I(D;A),lower,0.003458229583525865,0.0013103079982101917,True,16,16
+model,full,0,three,income,D,split,vertex,500000,I(D;A),upper,0.19448442361324914,0.0013103079982101917,True,16,16
+model,full,0,three,income,DY,exact,vertex,500000,TPRD 1-0,lower,-0.9272249013590573,0.052208022912964225,True,756,756
+model,full,0,three,income,DY,exact,vertex,500000,TPRD 1-0,upper,0.21317703516708408,0.052208022912964225,True,756,756
+model,full,0,three,income,DY,exact,vertex,500000,PPVD 1-0,lower,-0.9798532505258959,0.052208022912964225,True,756,756
+model,full,0,three,income,DY,exact,vertex,500000,PPVD 1-0,upper,0.2116598216968798,0.052208022912964225,True,756,756
+model,full,0,three,income,DY,exact,vertex,500000,BA diff 1-0,lower,-0.7462026374484139,0.052208022912964225,True,756,756
+model,full,0,three,income,DY,exact,vertex,500000,BA diff 1-0,upper,0.5980051938501139,0.052208022912964225,True,756,756
+model,full,0,three,income,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8934392072018608,0.052208022912964225,True,756,756
+model,full,0,three,income,DY,exact,vertex,500000,F1 diff 1-0,upper,0.2124191591298541,0.052208022912964225,True,756,756
+model,full,0,three,income,DY,exact,vertex,500000,I(D;A|Y),lower,0.005114725287934487,0.052208022912964225,True,756,756
+model,full,0,three,income,DY,exact,vertex,500000,I(D;A|Y),upper,0.30344082878166795,0.052208022912964225,True,756,756
+model,full,0,three,income,DY,split,vertex,500000,TPRD 1-0,lower,-0.9269558359517677,0.05103719583712518,True,756,756
+model,full,0,three,income,DY,split,vertex,500000,TPRD 1-0,upper,0.21315028915659706,0.05103719583712518,True,756,756
+model,full,0,three,income,DY,split,vertex,500000,PPVD 1-0,lower,-0.9810787422939798,0.05103719583712518,True,756,756
+model,full,0,three,income,DY,split,vertex,500000,PPVD 1-0,upper,0.21315028915659706,0.05103719583712518,True,756,756
+model,full,0,three,income,DY,split,vertex,500000,BA diff 1-0,lower,-0.7499749150083199,0.05103719583712518,True,756,756
+model,full,0,three,income,DY,split,vertex,500000,BA diff 1-0,upper,0.5978569831314839,0.05103719583712518,True,756,756
+model,full,0,three,income,DY,split,vertex,500000,F1 diff 1-0,lower,-0.8942354952303223,0.05103719583712518,True,756,756
+model,full,0,three,income,DY,split,vertex,500000,F1 diff 1-0,upper,0.21315028915659717,0.05103719583712518,True,756,756
+model,full,0,three,income,DY,split,vertex,500000,I(D;A|Y),lower,0.005769290707064717,0.05103719583712518,True,756,756
+model,full,0,three,income,DY,split,vertex,500000,I(D;A|Y),upper,0.30234986847397327,0.05103719583712518,True,756,756
+model,full,0,three,both,D,exact,vertex,500000,DD 1-0,lower,-0.860765399709301,0.006874564103782177,True,3840,3840
+model,full,0,three,both,D,exact,vertex,500000,DD 1-0,upper,0.19362755240597374,0.006874564103782177,True,3840,3840
+model,full,0,three,both,D,exact,vertex,500000,DI 1/0,lower,0.011946543645561991,0.006874564103782177,True,3840,3840
+model,full,0,three,both,D,exact,vertex,500000,DI 1/0,upper,1.2510756272183756,0.006874564103782177,True,3840,3840
+model,full,0,three,both,D,exact,vertex,500000,worst-case DI,lower,0.010407505130499702,0.006874564103782177,True,3840,3840
+model,full,0,three,both,D,exact,vertex,500000,worst-case DI,upper,0.9768944382164461,0.006874564103782177,True,3840,3840
+model,full,0,three,both,D,exact,vertex,500000,max DD gap,lower,0.018827883018877833,0.006874564103782177,True,3840,3840
+model,full,0,three,both,D,exact,vertex,500000,max DD gap,upper,0.9895924948695003,0.006874564103782177,True,3840,3840
+model,full,0,three,both,D,exact,vertex,500000,I(D;A),lower,0.00014041579418476511,0.006874564103782177,True,3840,3840
+model,full,0,three,both,D,exact,vertex,500000,I(D;A),upper,0.16693689560741845,0.006874564103782177,True,3840,3840
+model,full,0,three,both,D,split,vertex,500000,DD 1-0,lower,-0.8619894143929386,0.005992569029331207,True,3840,3840
+model,full,0,three,both,D,split,vertex,500000,DD 1-0,upper,0.1929659824232538,0.005992569029331207,True,3840,3840
+model,full,0,three,both,D,split,vertex,500000,DI 1/0,lower,0.009279352070179657,0.005992569029331207,True,3840,3840
+model,full,0,three,both,D,split,vertex,500000,DI 1/0,upper,1.2503479017850827,0.005992569029331207,True,3840,3840
+model,full,0,three,both,D,split,vertex,500000,worst-case DI,lower,0.008073621230801954,0.005992569029331207,True,3840,3840
+model,full,0,three,both,D,split,vertex,500000,worst-case DI,upper,0.9755130362895219,0.005992569029331207,True,3840,3840
+model,full,0,three,both,D,split,vertex,500000,max DD gap,lower,0.01997194536360436,0.005992569029331207,True,3840,3840
+model,full,0,three,both,D,split,vertex,500000,max DD gap,upper,0.9919263787691981,0.005992569029331207,True,3840,3840
+model,full,0,three,both,D,split,vertex,500000,I(D;A),lower,6.556185333243391e-05,0.005992569029331207,True,3840,3840
+model,full,0,three,both,D,split,vertex,500000,I(D;A),upper,0.16515397082017413,0.005992569029331207,True,3840,3840
+model,full,0,three,both,DY,exact,vertex,500000,TPRD 1-0,lower,-0.9104545076068468,0.3030794858932495,False,1433272320,100000
+model,full,0,three,both,DY,exact,vertex,500000,TPRD 1-0,upper,0.2106133939154472,0.3030794858932495,False,1433272320,100000
+model,full,0,three,both,DY,exact,vertex,500000,PPVD 1-0,lower,-0.936098640843933,0.3030794858932495,False,1433272320,100000
+model,full,0,three,both,DY,exact,vertex,500000,PPVD 1-0,upper,0.20966721655110676,0.3030794858932495,False,1433272320,100000
+model,full,0,three,both,DY,exact,vertex,500000,BA diff 1-0,lower,-0.6753324648200837,0.3030794858932495,False,1433272320,100000
+model,full,0,three,both,DY,exact,vertex,500000,BA diff 1-0,upper,0.5732288572814213,0.3030794858932495,False,1433272320,100000
+model,full,0,three,both,DY,exact,vertex,500000,F1 diff 1-0,lower,-0.8809156615412832,0.3030794858932495,False,1433272320,100000
+model,full,0,three,both,DY,exact,vertex,500000,F1 diff 1-0,upper,0.19446655227813592,0.3030794858932495,False,1433272320,100000
+model,full,0,three,both,DY,exact,vertex,500000,I(D;A|Y),lower,0.000405673345831684,0.3030794858932495,False,1433272320,100000
+model,full,0,three,both,DY,exact,vertex,500000,I(D;A|Y),upper,0.20240230148330324,0.3030794858932495,False,1433272320,100000
+model,full,0,three,both,DY,split,vertex,500000,TPRD 1-0,lower,-0.9100997558738209,0.3058300551492721,False,1433272320,100000
+model,full,0,three,both,DY,split,vertex,500000,TPRD 1-0,upper,0.2101855200863295,0.3058300551492721,False,1433272320,100000
+model,full,0,three,both,DY,split,vertex,500000,PPVD 1-0,lower,-0.9354336821046846,0.3058300551492721,False,1433272320,100000
+model,full,0,three,both,DY,split,vertex,500000,PPVD 1-0,upper,0.21107292332820848,0.3058300551492721,False,1433272320,100000
+model,full,0,three,both,DY,split,vertex,500000,BA diff 1-0,lower,-0.6782479130138275,0.3058300551492721,False,1433272320,100000
+model,full,0,three,both,DY,split,vertex,500000,BA diff 1-0,upper,0.5676782412128512,0.3058300551492721,False,1433272320,100000
+model,full,0,three,both,DY,split,vertex,500000,F1 diff 1-0,lower,-0.8810278028138235,0.3058300551492721,False,1433272320,100000
+model,full,0,three,both,DY,split,vertex,500000,F1 diff 1-0,upper,0.20158411544256138,0.3058300551492721,False,1433272320,100000
+model,full,0,three,both,DY,split,vertex,500000,I(D;A|Y),lower,0.00021029104805739924,0.3058300551492721,False,1433272320,100000
+model,full,0,three,both,DY,split,vertex,500000,I(D;A|Y),upper,0.20220095221900464,0.3058300551492721,False,1433272320,100000
+lender,external,0,Black-White,county,D,exact,vertex,500000,DD 1-0,lower,-0.8045159531215356,0.0007938549388200045,True,4,4
+lender,external,0,Black-White,county,D,exact,vertex,500000,DD 1-0,upper,0.21473106898874794,0.0007938549388200045,True,4,4
+lender,external,0,Black-White,county,D,exact,vertex,500000,DI 1/0,lower,0.051336052464078005,0.0007938549388200045,True,4,4
+lender,external,0,Black-White,county,D,exact,vertex,500000,DI 1/0,upper,1.273449082866709,0.0007938549388200045,True,4,4
+lender,external,0,Black-White,county,D,exact,vertex,500000,worst-case DI,lower,0.051336052464078005,0.0007938549388200045,True,4,4
+lender,external,0,Black-White,county,D,exact,vertex,500000,worst-case DI,upper,0.8881721876112356,0.0007938549388200045,True,4,4
+lender,external,0,Black-White,county,D,exact,vertex,500000,max DD gap,lower,0.0997631290234493,0.0007938549388200045,True,4,4
+lender,external,0,Black-White,county,D,exact,vertex,500000,max DD gap,upper,0.8045159531215356,0.0007938549388200045,True,4,4
+lender,external,0,Black-White,county,D,exact,vertex,500000,I(D;A),lower,0.002957237951641791,0.0007938549388200045,True,4,4
+lender,external,0,Black-White,county,D,exact,vertex,500000,I(D;A),upper,0.13218605371018935,0.0007938549388200045,True,4,4
+lender,external,0,Black-White,county,D,split,vertex,500000,DD 1-0,lower,-0.7702322999880031,0.0006969338282942772,True,4,4
+lender,external,0,Black-White,county,D,split,vertex,500000,DD 1-0,upper,0.21617644378217638,0.0006969338282942772,True,4,4
+lender,external,0,Black-White,county,D,split,vertex,500000,DI 1/0,lower,0.08782532792413424,0.0006969338282942772,True,4,4
+lender,external,0,Black-White,county,D,split,vertex,500000,DI 1/0,upper,1.2757973297272291,0.0006969338282942772,True,4,4
+lender,external,0,Black-White,county,D,split,vertex,500000,worst-case DI,lower,0.08782532792413424,0.0006969338282942772,True,4,4
+lender,external,0,Black-White,county,D,split,vertex,500000,worst-case DI,upper,0.8767798592749819,0.0006969338282942772,True,4,4
+lender,external,0,Black-White,county,D,split,vertex,500000,max DD gap,lower,0.11106337835966895,0.0006969338282942772,True,4,4
+lender,external,0,Black-White,county,D,split,vertex,500000,max DD gap,upper,0.7702322999880031,0.0006969338282942772,True,4,4
+lender,external,0,Black-White,county,D,split,vertex,500000,I(D;A),lower,0.0037047953933059107,0.0006969338282942772,True,4,4
+lender,external,0,Black-White,county,D,split,vertex,500000,I(D;A),upper,0.11888227612631541,0.0006969338282942772,True,4,4
+lender,external,0,Black-White,income,D,exact,vertex,500000,DD 1-0,lower,-0.8509092658520137,0.000647104112431407,True,4,4
+lender,external,0,Black-White,income,D,exact,vertex,500000,DD 1-0,upper,0.21473106898873962,0.000647104112431407,True,4,4
+lender,external,0,Black-White,income,D,exact,vertex,500000,DI 1/0,lower,0.0,0.000647104112431407,True,4,4
+lender,external,0,Black-White,income,D,exact,vertex,500000,DI 1/0,upper,1.2734490828666956,0.000647104112431407,True,4,4
+lender,external,0,Black-White,income,D,exact,vertex,500000,worst-case DI,lower,0.0,0.000647104112431407,True,4,4
+lender,external,0,Black-White,income,D,exact,vertex,500000,worst-case DI,upper,0.8554904888993272,0.000647104112431407,True,4,4
+lender,external,0,Black-White,income,D,exact,vertex,500000,max DD gap,lower,0.11642658417196738,0.000647104112431407,True,4,4
+lender,external,0,Black-White,income,D,exact,vertex,500000,max DD gap,upper,0.8509092658520137,0.000647104112431407,True,4,4
+lender,external,0,Black-White,income,D,exact,vertex,500000,I(D;A),lower,0.0031694933841239347,0.000647104112431407,True,4,4
+lender,external,0,Black-White,income,D,exact,vertex,500000,I(D;A),upper,0.15479018875351724,0.000647104112431407,True,4,4
+lender,external,0,Black-White,income,D,split,vertex,500000,DD 1-0,lower,-0.8494288894855598,0.0006693040486425161,True,4,4
+lender,external,0,Black-White,income,D,split,vertex,500000,DD 1-0,upper,0.21622385203388717,0.0006693040486425161,True,4,4
+lender,external,0,Black-White,income,D,split,vertex,500000,DI 1/0,lower,0.0,0.0006693040486425161,True,4,4
+lender,external,0,Black-White,income,D,split,vertex,500000,DI 1/0,upper,1.275874498854022,0.0006693040486425161,True,4,4
+lender,external,0,Black-White,income,D,split,vertex,500000,worst-case DI,lower,0.0,0.0006693040486425161,True,4,4
+lender,external,0,Black-White,income,D,split,vertex,500000,worst-case DI,upper,0.8469752840870752,0.0006693040486425161,True,4,4
+lender,external,0,Black-White,income,D,split,vertex,500000,max DD gap,lower,0.12313645791287964,0.0006693040486425161,True,4,4
+lender,external,0,Black-White,income,D,split,vertex,500000,max DD gap,upper,0.8494288894855598,0.0006693040486425161,True,4,4
+lender,external,0,Black-White,income,D,split,vertex,500000,I(D;A),lower,0.0035143495358523225,0.0006693040486425161,True,4,4
+lender,external,0,Black-White,income,D,split,vertex,500000,I(D;A),upper,0.15408702429489735,0.0006693040486425161,True,4,4
+lender,external,0,Black-White,both,D,exact,vertex,500000,DD 1-0,lower,-0.8045159531215356,0.0010656658560037613,True,16,16
+lender,external,0,Black-White,both,D,exact,vertex,500000,DD 1-0,upper,0.21473106898873728,0.0010656658560037613,True,16,16
+lender,external,0,Black-White,both,D,exact,vertex,500000,DI 1/0,lower,0.051336052464078005,0.0010656658560037613,True,16,16
+lender,external,0,Black-White,both,D,exact,vertex,500000,DI 1/0,upper,1.2734490828666918,0.0010656658560037613,True,16,16
+lender,external,0,Black-White,both,D,exact,vertex,500000,worst-case DI,lower,0.051336052464078005,0.0010656658560037613,True,16,16
+lender,external,0,Black-White,both,D,exact,vertex,500000,worst-case DI,upper,0.906574219684539,0.0010656658560037613,True,16,16
+lender,external,0,Black-White,both,D,exact,vertex,500000,max DD gap,lower,0.07503187752690166,0.0010656658560037613,True,16,16
+lender,external,0,Black-White,both,D,exact,vertex,500000,max DD gap,upper,0.8045159531215356,0.0010656658560037613,True,16,16
+lender,external,0,Black-White,both,D,exact,vertex,500000,I(D;A),lower,0.001359043246427761,0.0010656658560037613,True,16,16
+lender,external,0,Black-White,both,D,exact,vertex,500000,I(D;A),upper,0.13218605371018935,0.0010656658560037613,True,16,16
+lender,external,0,Black-White,both,D,split,vertex,500000,DD 1-0,lower,-0.7722905187516967,0.0010740270372480154,True,16,16
+lender,external,0,Black-White,both,D,split,vertex,500000,DD 1-0,upper,0.216131640673481,0.0010740270372480154,True,16,16
+lender,external,0,Black-White,both,D,split,vertex,500000,DI 1/0,lower,0.08536194001587094,0.0010740270372480154,True,16,16
+lender,external,0,Black-White,both,D,split,vertex,500000,DI 1/0,upper,1.2757244097199893,0.0010740270372480154,True,16,16
+lender,external,0,Black-White,both,D,split,vertex,500000,worst-case DI,lower,0.08536194001587094,0.0010740270372480154,True,16,16
+lender,external,0,Black-White,both,D,split,vertex,500000,worst-case DI,upper,0.9053196010170124,0.0010740270372480154,True,16,16
+lender,external,0,Black-White,both,D,split,vertex,500000,max DD gap,lower,0.07590939484167847,0.0010740270372480154,True,16,16
+lender,external,0,Black-White,both,D,split,vertex,500000,max DD gap,upper,0.7722905187516967,0.0010740270372480154,True,16,16
+lender,external,0,Black-White,both,D,split,vertex,500000,I(D;A),lower,0.001375521021145837,0.0010740270372480154,True,16,16
+lender,external,0,Black-White,both,D,split,vertex,500000,I(D;A),upper,0.11924735951990685,0.0010740270372480154,True,16,16
+lender,external,0,API-White,county,D,exact,vertex,500000,DD 1-0,lower,-0.6458414238973041,0.0006395941600203514,True,4,4
+lender,external,0,API-White,county,D,exact,vertex,500000,DD 1-0,upper,0.20503223323390285,0.0006395941600203514,True,4,4
+lender,external,0,API-White,county,D,exact,vertex,500000,DI 1/0,lower,0.24824107444928084,0.0006395941600203514,True,4,4
+lender,external,0,API-White,county,D,exact,vertex,500000,DI 1/0,upper,1.2579126372229747,0.0006395941600203514,True,4,4
+lender,external,0,API-White,county,D,exact,vertex,500000,worst-case DI,lower,0.24824107444928084,0.0006395941600203514,True,4,4
+lender,external,0,API-White,county,D,exact,vertex,500000,worst-case DI,upper,0.7949677667660972,0.0006395941600203514,True,4,4
+lender,external,0,API-White,county,D,exact,vertex,500000,max DD gap,lower,0.1941099698638048,0.0006395941600203514,True,4,4
+lender,external,0,API-White,county,D,exact,vertex,500000,max DD gap,upper,0.6458414238973041,0.0006395941600203514,True,4,4
+lender,external,0,API-White,county,D,exact,vertex,500000,I(D;A),lower,0.010507435350775703,0.0006395941600203514,True,4,4
+lender,external,0,API-White,county,D,exact,vertex,500000,I(D;A),upper,0.10186852972475503,0.0006395941600203514,True,4,4
+lender,external,0,API-White,county,D,split,vertex,500000,DD 1-0,lower,-0.6256781859789221,0.0006474938709288836,True,4,4
+lender,external,0,API-White,county,D,split,vertex,500000,DD 1-0,upper,0.20666753708373953,0.0006474938709288836,True,4,4
+lender,external,0,API-White,county,D,split,vertex,500000,DI 1/0,lower,0.27033890598313626,0.0006474938709288836,True,4,4
+lender,external,0,API-White,county,D,split,vertex,500000,DI 1/0,upper,1.2605055846624975,0.0006474938709288836,True,4,4
+lender,external,0,API-White,county,D,split,vertex,500000,worst-case DI,lower,0.27033890598313626,0.0006474938709288836,True,4,4
+lender,external,0,API-White,county,D,split,vertex,500000,worst-case DI,upper,0.7933324629162605,0.0006474938709288836,True,4,4
+lender,external,0,API-White,county,D,split,vertex,500000,max DD gap,lower,0.1809961230801964,0.0006474938709288836,True,4,4
+lender,external,0,API-White,county,D,split,vertex,500000,max DD gap,upper,0.6256781859789221,0.0006474938709288836,True,4,4
+lender,external,0,API-White,county,D,split,vertex,500000,I(D;A),lower,0.009371551352055682,0.0006474938709288836,True,4,4
+lender,external,0,API-White,county,D,split,vertex,500000,I(D;A),upper,0.09756460696057817,0.0006474938709288836,True,4,4
+lender,external,0,API-White,income,D,exact,vertex,500000,DD 1-0,lower,-0.8764937938997412,0.0006401038262993097,True,4,4
+lender,external,0,API-White,income,D,exact,vertex,500000,DD 1-0,upper,0.20503223323390507,0.0006401038262993097,True,4,4
+lender,external,0,API-White,income,D,exact,vertex,500000,DI 1/0,lower,0.0,0.0006401038262993097,True,4,4
+lender,external,0,API-White,income,D,exact,vertex,500000,DI 1/0,upper,1.2579126372229783,0.0006401038262993097,True,4,4
+lender,external,0,API-White,income,D,exact,vertex,500000,worst-case DI,lower,0.0,0.0006401038262993097,True,4,4
+lender,external,0,API-White,income,D,exact,vertex,500000,worst-case DI,upper,0.7949677667660949,0.0006401038262993097,True,4,4
+lender,external,0,API-White,income,D,exact,vertex,500000,max DD gap,lower,0.17317638453983242,0.0006401038262993097,True,4,4
+lender,external,0,API-White,income,D,exact,vertex,500000,max DD gap,upper,0.8764937938997412,0.0006401038262993097,True,4,4
+lender,external,0,API-White,income,D,exact,vertex,500000,I(D;A),lower,0.008471166243005326,0.0006401038262993097,True,4,4
+lender,external,0,API-White,income,D,exact,vertex,500000,I(D;A),upper,0.2018861895082951,0.0006401038262993097,True,4,4
+lender,external,0,API-White,income,D,split,vertex,500000,DD 1-0,lower,-0.8767803016401838,0.0006417739205062389,True,4,4
+lender,external,0,API-White,income,D,split,vertex,500000,DD 1-0,upper,0.20665050312386113,0.0006417739205062389,True,4,4
+lender,external,0,API-White,income,D,split,vertex,500000,DI 1/0,lower,0.0,0.0006417739205062389,True,4,4
+lender,external,0,API-White,income,D,split,vertex,500000,DI 1/0,upper,1.2604785204220332,0.0006417739205062389,True,4,4
+lender,external,0,API-White,income,D,split,vertex,500000,worst-case DI,lower,0.0,0.0006417739205062389,True,4,4
+lender,external,0,API-White,income,D,split,vertex,500000,worst-case DI,upper,0.8054592945747165,0.0006417739205062389,True,4,4
+lender,external,0,API-White,income,D,split,vertex,500000,max DD gap,lower,0.15982893521359365,0.0006417739205062389,True,4,4
+lender,external,0,API-White,income,D,split,vertex,500000,max DD gap,upper,0.8767803016401838,0.0006417739205062389,True,4,4
+lender,external,0,API-White,income,D,split,vertex,500000,I(D;A),lower,0.007398992728641871,0.0006417739205062389,True,4,4
+lender,external,0,API-White,income,D,split,vertex,500000,I(D;A),upper,0.2059367605941943,0.0006417739205062389,True,4,4
+lender,external,0,API-White,both,D,exact,vertex,500000,DD 1-0,lower,-0.6458414238973802,0.001067637000232935,True,16,16
+lender,external,0,API-White,both,D,exact,vertex,500000,DD 1-0,upper,0.20503223323390496,0.001067637000232935,True,16,16
+lender,external,0,API-White,both,D,exact,vertex,500000,DI 1/0,lower,0.24824107444919227,0.001067637000232935,True,16,16
+lender,external,0,API-White,both,D,exact,vertex,500000,DI 1/0,upper,1.257912637222978,0.001067637000232935,True,16,16
+lender,external,0,API-White,both,D,exact,vertex,500000,worst-case DI,lower,0.24824107444919227,0.001067637000232935,True,16,16
+lender,external,0,API-White,both,D,exact,vertex,500000,worst-case DI,upper,0.9786498352092892,0.001067637000232935,True,16,16
+lender,external,0,API-White,both,D,exact,vertex,500000,max DD gap,lower,0.017651115821897045,0.001067637000232935,True,16,16
+lender,external,0,API-White,both,D,exact,vertex,500000,max DD gap,upper,0.6458414238973802,0.001067637000232935,True,16,16
+lender,external,0,API-White,both,D,exact,vertex,500000,I(D;A),lower,0.00010411575972228866,0.001067637000232935,True,16,16
+lender,external,0,API-White,both,D,exact,vertex,500000,I(D;A),upper,0.10186852972475366,0.001067637000232935,True,16,16
+lender,external,0,API-White,both,D,split,vertex,500000,DD 1-0,lower,-0.6257278327721534,0.001073396997526288,True,16,16
+lender,external,0,API-White,both,D,split,vertex,500000,DD 1-0,upper,0.2066713558353066,0.001073396997526288,True,16,16
+lender,external,0,API-White,both,D,split,vertex,500000,DI 1/0,lower,0.27029334533456173,0.001073396997526288,True,16,16
+lender,external,0,API-White,both,D,split,vertex,500000,DI 1/0,upper,1.2605116522080375,0.001073396997526288,True,16,16
+lender,external,0,API-White,both,D,split,vertex,500000,worst-case DI,lower,0.27029334533456173,0.001073396997526288,True,16,16
+lender,external,0,API-White,both,D,split,vertex,500000,worst-case DI,upper,0.9773300828679777,0.001073396997526288,True,16,16
+lender,external,0,API-White,both,D,split,vertex,500000,max DD gap,lower,0.018378043526459886,0.001073396997526288,True,16,16
+lender,external,0,API-White,both,D,split,vertex,500000,max DD gap,upper,0.6257278327721534,0.001073396997526288,True,16,16
+lender,external,0,API-White,both,D,split,vertex,500000,I(D;A),lower,0.00011008592449168958,0.001073396997526288,True,16,16
+lender,external,0,API-White,both,D,split,vertex,500000,I(D;A),upper,0.09760068715214831,0.001073396997526288,True,16,16
+lender,external,0,three,county,D,exact,vertex,500000,DD 1-0,lower,-0.8505597561987243,0.0018126009963452816,True,64,64
+lender,external,0,three,county,D,exact,vertex,500000,DD 1-0,upper,0.23007793707302837,0.0018126009963452816,True,64,64
+lender,external,0,three,county,D,exact,vertex,500000,DI 1/0,lower,0.04446260526490063,0.0018126009963452816,True,64,64
+lender,external,0,three,county,D,exact,vertex,500000,DI 1/0,upper,1.298832762628406,0.0018126009963452816,True,64,64
+lender,external,0,three,county,D,exact,vertex,500000,worst-case DI,lower,0.03957783641168558,0.0018126009963452816,True,64,64
+lender,external,0,three,county,D,exact,vertex,500000,worst-case DI,upper,0.914471522083493,0.0018126009963452816,True,64,64
+lender,external,0,three,county,D,exact,vertex,500000,max DD gap,lower,0.0688902140223866,0.0018126009963452816,True,64,64
+lender,external,0,three,county,D,exact,vertex,500000,max DD gap,upper,0.9604221635883144,0.0018126009963452816,True,64,64
+lender,external,0,three,county,D,exact,vertex,500000,I(D;A),lower,0.001370218132750788,0.0018126009963452816,True,64,64
+lender,external,0,three,county,D,exact,vertex,500000,I(D;A),upper,0.21135746998142602,0.0018126009963452816,True,64,64
+lender,external,0,three,county,D,split,vertex,500000,DD 1-0,lower,-0.8145286740127905,0.0017949321772903204,True,64,64
+lender,external,0,three,county,D,split,vertex,500000,DD 1-0,upper,0.23199946132218363,0.0017949321772903204,True,64,64
+lender,external,0,three,county,D,split,vertex,500000,DI 1/0,lower,0.08154790396378085,0.0017949321772903204,True,64,64
+lender,external,0,three,county,D,split,vertex,500000,DI 1/0,upper,1.3020824200482881,0.0017949321772903204,True,64,64
+lender,external,0,three,county,D,split,vertex,500000,worst-case DI,lower,0.07232070825555763,0.0017949321772903204,True,64,64
+lender,external,0,three,county,D,split,vertex,500000,worst-case DI,upper,0.9190927178250672,0.0017949321772903204,True,64,64
+lender,external,0,three,county,D,split,vertex,500000,max DD gap,lower,0.06497578828254613,0.0017949321772903204,True,64,64
+lender,external,0,three,county,D,split,vertex,500000,max DD gap,upper,0.9276792917444424,0.0017949321772903204,True,64,64
+lender,external,0,three,county,D,split,vertex,500000,I(D;A),lower,0.0011899931537852947,0.0017949321772903204,True,64,64
+lender,external,0,three,county,D,split,vertex,500000,I(D;A),upper,0.1971036045652081,0.0017949321772903204,True,64,64
+lender,external,0,three,income,D,exact,vertex,500000,DD 1-0,lower,-0.9170884249013782,0.0013081780634820461,True,16,16
+lender,external,0,three,income,D,exact,vertex,500000,DD 1-0,upper,0.23007793707302837,0.0013081780634820461,True,16,16
+lender,external,0,three,income,D,exact,vertex,500000,DI 1/0,lower,0.0,0.0013081780634820461,True,16,16
+lender,external,0,three,income,D,exact,vertex,500000,DI 1/0,upper,1.298832762628406,0.0013081780634820461,True,16,16
+lender,external,0,three,income,D,exact,vertex,500000,worst-case DI,lower,0.0,0.0013081780634820461,True,16,16
+lender,external,0,three,income,D,exact,vertex,500000,worst-case DI,upper,0.7941831277514562,0.0013081780634820461,True,16,16
+lender,external,0,three,income,D,exact,vertex,500000,max DD gap,lower,0.16852902574062623,0.0013081780634820461,True,16,16
+lender,external,0,three,income,D,exact,vertex,500000,max DD gap,upper,1.0,0.0013081780634820461,True,16,16
+lender,external,0,three,income,D,exact,vertex,500000,I(D;A),lower,0.0104735122403227,0.0013081780634820461,True,16,16
+lender,external,0,three,income,D,exact,vertex,500000,I(D;A),upper,0.3635943425788075,0.0013081780634820461,True,16,16
+lender,external,0,three,income,D,split,vertex,500000,DD 1-0,lower,-0.9170567561600105,0.0012747379951179028,True,16,16
+lender,external,0,three,income,D,split,vertex,500000,DD 1-0,upper,0.23209306422059206,0.0012747379951179028,True,16,16
+lender,external,0,three,income,D,split,vertex,500000,DI 1/0,lower,0.0,0.0012747379951179028,True,16,16
+lender,external,0,three,income,D,split,vertex,500000,DI 1/0,upper,1.3022411354899703,0.0012747379951179028,True,16,16
+lender,external,0,three,income,D,split,vertex,500000,worst-case DI,lower,0.0,0.0012747379951179028,True,16,16
+lender,external,0,three,income,D,split,vertex,500000,worst-case DI,upper,0.8092382563609937,0.0012747379951179028,True,16,16
+lender,external,0,three,income,D,split,vertex,500000,max DD gap,lower,0.15584878933034518,0.0012747379951179028,True,16,16
+lender,external,0,three,income,D,split,vertex,500000,max DD gap,upper,1.0,0.0012747379951179028,True,16,16
+lender,external,0,three,income,D,split,vertex,500000,I(D;A),lower,0.0097644228457079,0.0012747379951179028,True,16,16
+lender,external,0,three,income,D,split,vertex,500000,I(D;A),upper,0.3669180168746003,0.0012747379951179028,True,16,16
+lender,external,0,three,both,D,exact,vertex,500000,DD 1-0,lower,-0.8505597561987243,0.007547558983787894,True,4096,4096
+lender,external,0,three,both,D,exact,vertex,500000,DD 1-0,upper,0.2300779370730257,0.007547558983787894,True,4096,4096
+lender,external,0,three,both,D,exact,vertex,500000,DI 1/0,lower,0.04446260526490064,0.007547558983787894,True,4096,4096
+lender,external,0,three,both,D,exact,vertex,500000,DI 1/0,upper,1.2988327626284015,0.007547558983787894,True,4096,4096
+lender,external,0,three,both,D,exact,vertex,500000,worst-case DI,lower,0.03957783641168559,0.007547558983787894,True,4096,4096
+lender,external,0,three,both,D,exact,vertex,500000,worst-case DI,upper,0.9873698376883823,0.007547558983787894,True,4096,4096
+lender,external,0,three,both,D,exact,vertex,500000,max DD gap,lower,0.010207878143509763,0.007547558983787894,True,4096,4096
+lender,external,0,three,both,D,exact,vertex,500000,max DD gap,upper,0.9604221635883144,0.007547558983787894,True,4096,4096
+lender,external,0,three,both,D,exact,vertex,500000,I(D;A),lower,2.694260477544377e-05,0.007547558983787894,True,4096,4096
+lender,external,0,three,both,D,exact,vertex,500000,I(D;A),upper,0.21135746998144006,0.007547558983787894,True,4096,4096
+lender,external,0,three,both,D,split,vertex,500000,DD 1-0,lower,-0.8172668577936487,0.00628150999546051,True,4096,4096
+lender,external,0,three,both,D,split,vertex,500000,DD 1-0,upper,0.2319606335074681,0.00628150999546051,True,4096,4096
+lender,external,0,three,both,D,split,vertex,500000,DI 1/0,lower,0.07847765894332509,0.00628150999546051,True,4096,4096
+lender,external,0,three,both,D,split,vertex,500000,DI 1/0,upper,1.3020165939758812,0.00628150999546051,True,4096,4096
+lender,external,0,three,both,D,split,vertex,500000,worst-case DI,lower,0.06959916962845332,0.00628150999546051,True,4096,4096
+lender,external,0,three,both,D,split,vertex,500000,worst-case DI,upper,0.9743256269551349,0.00628150999546051,True,4096,4096
+lender,external,0,three,both,D,split,vertex,500000,max DD gap,lower,0.020970123193375878,0.00628150999546051,True,4096,4096
+lender,external,0,three,both,D,split,vertex,500000,max DD gap,upper,0.9304008303715466,0.00628150999546051,True,4096,4096
+lender,external,0,three,both,D,split,vertex,500000,I(D;A),lower,0.00011478490827548742,0.00628150999546051,True,4096,4096
+lender,external,0,three,both,D,split,vertex,500000,I(D;A),upper,0.19767658010199288,0.00628150999546051,True,4096,4096
+lender,full,0,Black-White,county,D,exact,vertex,500000,DD 1-0,lower,-0.8134197202111796,0.0006535141728818417,True,4,4
+lender,full,0,Black-White,county,D,exact,vertex,500000,DD 1-0,upper,0.21473106898873962,0.0006535141728818417,True,4,4
+lender,full,0,Black-White,county,D,exact,vertex,500000,DI 1/0,lower,0.04145686805887,0.0006535141728818417,True,4,4
+lender,full,0,Black-White,county,D,exact,vertex,500000,DI 1/0,upper,1.2734490828666956,0.0006535141728818417,True,4,4
+lender,full,0,Black-White,county,D,exact,vertex,500000,worst-case DI,lower,0.04145686805887,0.0006535141728818417,True,4,4
+lender,full,0,Black-White,county,D,exact,vertex,500000,worst-case DI,upper,0.8884857354489223,0.0006535141728818417,True,4,4
+lender,full,0,Black-White,county,D,exact,vertex,500000,max DD gap,lower,0.09945071614317846,0.0006535141728818417,True,4,4
+lender,full,0,Black-White,county,D,exact,vertex,500000,max DD gap,upper,0.8134197202111796,0.0006535141728818417,True,4,4
+lender,full,0,Black-White,county,D,exact,vertex,500000,I(D;A),lower,0.0029371309126929894,0.0006535141728818417,True,4,4
+lender,full,0,Black-White,county,D,exact,vertex,500000,I(D;A),upper,0.13583791410953328,0.0006535141728818417,True,4,4
+lender,full,0,Black-White,county,D,split,vertex,500000,DD 1-0,lower,-0.8007920753449281,0.0006920539308339357,True,4,4
+lender,full,0,Black-White,county,D,split,vertex,500000,DD 1-0,upper,0.21627166085320437,0.0006920539308339357,True,4,4
+lender,full,0,Black-White,county,D,split,vertex,500000,DI 1/0,lower,0.054106531655704955,0.0006920539308339357,True,4,4
+lender,full,0,Black-White,county,D,split,vertex,500000,DI 1/0,upper,1.275952329462334,0.0006920539308339357,True,4,4
+lender,full,0,Black-White,county,D,split,vertex,500000,worst-case DI,lower,0.054106531655704955,0.0006920539308339357,True,4,4
+lender,full,0,Black-White,county,D,split,vertex,500000,worst-case DI,upper,0.8824761509686692,0.0006920539308339357,True,4,4
+lender,full,0,Black-White,county,D,split,vertex,500000,max DD gap,lower,0.10528675799410436,0.0006920539308339357,True,4,4
+lender,full,0,Black-White,county,D,split,vertex,500000,max DD gap,upper,0.8007920753449281,0.0006920539308339357,True,4,4
+lender,full,0,Black-White,county,D,split,vertex,500000,I(D;A),lower,0.0033145768002454303,0.0006920539308339357,True,4,4
+lender,full,0,Black-White,county,D,split,vertex,500000,I(D;A),upper,0.1310424943360678,0.0006920539308339357,True,4,4
+lender,full,0,Black-White,income,D,exact,vertex,500000,DD 1-0,lower,-0.8509092658520137,0.000641494058072567,True,4,4
+lender,full,0,Black-White,income,D,exact,vertex,500000,DD 1-0,upper,0.21473106898873962,0.000641494058072567,True,4,4
+lender,full,0,Black-White,income,D,exact,vertex,500000,DI 1/0,lower,0.0,0.000641494058072567,True,4,4
+lender,full,0,Black-White,income,D,exact,vertex,500000,DI 1/0,upper,1.2734490828666956,0.000641494058072567,True,4,4
+lender,full,0,Black-White,income,D,exact,vertex,500000,worst-case DI,lower,0.0,0.000641494058072567,True,4,4
+lender,full,0,Black-White,income,D,exact,vertex,500000,worst-case DI,upper,0.8554904888993272,0.000641494058072567,True,4,4
+lender,full,0,Black-White,income,D,exact,vertex,500000,max DD gap,lower,0.11642658417196738,0.000641494058072567,True,4,4
+lender,full,0,Black-White,income,D,exact,vertex,500000,max DD gap,upper,0.8509092658520137,0.000641494058072567,True,4,4
+lender,full,0,Black-White,income,D,exact,vertex,500000,I(D;A),lower,0.0031694933841239347,0.000641494058072567,True,4,4
+lender,full,0,Black-White,income,D,exact,vertex,500000,I(D;A),upper,0.15479018875351724,0.000641494058072567,True,4,4
+lender,full,0,Black-White,income,D,split,vertex,500000,DD 1-0,lower,-0.8494288894855598,0.0006883649621158838,True,4,4
+lender,full,0,Black-White,income,D,split,vertex,500000,DD 1-0,upper,0.21622385203388717,0.0006883649621158838,True,4,4
+lender,full,0,Black-White,income,D,split,vertex,500000,DI 1/0,lower,0.0,0.0006883649621158838,True,4,4
+lender,full,0,Black-White,income,D,split,vertex,500000,DI 1/0,upper,1.275874498854022,0.0006883649621158838,True,4,4
+lender,full,0,Black-White,income,D,split,vertex,500000,worst-case DI,lower,0.0,0.0006883649621158838,True,4,4
+lender,full,0,Black-White,income,D,split,vertex,500000,worst-case DI,upper,0.8469752840870752,0.0006883649621158838,True,4,4
+lender,full,0,Black-White,income,D,split,vertex,500000,max DD gap,lower,0.12313645791287964,0.0006883649621158838,True,4,4
+lender,full,0,Black-White,income,D,split,vertex,500000,max DD gap,upper,0.8494288894855598,0.0006883649621158838,True,4,4
+lender,full,0,Black-White,income,D,split,vertex,500000,I(D;A),lower,0.0035143495358523225,0.0006883649621158838,True,4,4
+lender,full,0,Black-White,income,D,split,vertex,500000,I(D;A),upper,0.15408702429489735,0.0006883649621158838,True,4,4
+lender,full,0,Black-White,both,D,exact,vertex,500000,DD 1-0,lower,-0.8134197202111779,0.0010681671556085348,True,16,16
+lender,full,0,Black-White,both,D,exact,vertex,500000,DD 1-0,upper,0.21473106898873962,0.0010681671556085348,True,16,16
+lender,full,0,Black-White,both,D,exact,vertex,500000,DI 1/0,lower,0.04145686805887008,0.0010681671556085348,True,16,16
+lender,full,0,Black-White,both,D,exact,vertex,500000,DI 1/0,upper,1.2734490828666956,0.0010681671556085348,True,16,16
+lender,full,0,Black-White,both,D,exact,vertex,500000,worst-case DI,lower,0.04145686805887008,0.0010681671556085348,True,16,16
+lender,full,0,Black-White,both,D,exact,vertex,500000,worst-case DI,upper,0.9085082595065046,0.0010681671556085348,True,16,16
+lender,full,0,Black-White,both,D,exact,vertex,500000,max DD gap,lower,0.07346981312523926,0.0010681671556085348,True,16,16
+lender,full,0,Black-White,both,D,exact,vertex,500000,max DD gap,upper,0.8134197202111779,0.0010681671556085348,True,16,16
+lender,full,0,Black-White,both,D,exact,vertex,500000,I(D;A),lower,0.0013047295905913702,0.0010681671556085348,True,16,16
+lender,full,0,Black-White,both,D,exact,vertex,500000,I(D;A),upper,0.1358379141095324,0.0010681671556085348,True,16,16
+lender,full,0,Black-White,both,D,split,vertex,500000,DD 1-0,lower,-0.8021352428289797,0.0010843768250197172,True,16,16
+lender,full,0,Black-White,both,D,split,vertex,500000,DD 1-0,upper,0.21623377321122683,0.0010843768250197172,True,16,16
+lender,full,0,Black-White,both,D,split,vertex,500000,DI 1/0,lower,0.05246533340855152,0.0010843768250197172,True,16,16
+lender,full,0,Black-White,both,D,split,vertex,500000,DI 1/0,upper,1.2758906493039057,0.0010843768250197172,True,16,16
+lender,full,0,Black-White,both,D,split,vertex,500000,worst-case DI,lower,0.05246533340855152,0.0010843768250197172,True,16,16
+lender,full,0,Black-White,both,D,split,vertex,500000,worst-case DI,upper,0.9060162847763635,0.0010843768250197172,True,16,16
+lender,full,0,Black-White,both,D,split,vertex,500000,max DD gap,lower,0.07535075975250649,0.0010843768250197172,True,16,16
+lender,full,0,Black-White,both,D,split,vertex,500000,max DD gap,upper,0.8021352428289797,0.0010843768250197172,True,16,16
+lender,full,0,Black-White,both,D,split,vertex,500000,I(D;A),lower,0.0013652411277701674,0.0010843768250197172,True,16,16
+lender,full,0,Black-White,both,D,split,vertex,500000,I(D;A),upper,0.13124998879473027,0.0010843768250197172,True,16,16
+lender,full,0,API-White,county,D,exact,vertex,500000,DD 1-0,lower,-0.632055892098591,0.0006358940154314041,True,4,4
+lender,full,0,API-White,county,D,exact,vertex,500000,DD 1-0,upper,0.20503223323390507,0.0006358940154314041,True,4,4
+lender,full,0,API-White,county,D,exact,vertex,500000,DI 1/0,lower,0.26339644012820573,0.0006358940154314041,True,4,4
+lender,full,0,API-White,county,D,exact,vertex,500000,DI 1/0,upper,1.2579126372229783,0.0006358940154314041,True,4,4
+lender,full,0,API-White,county,D,exact,vertex,500000,worst-case DI,lower,0.26339644012820573,0.0006358940154314041,True,4,4
+lender,full,0,API-White,county,D,exact,vertex,500000,worst-case DI,upper,0.8120112536675682,0.0006358940154314041,True,4,4
+lender,full,0,API-White,county,D,exact,vertex,500000,max DD gap,lower,0.1545403878490358,0.0006358940154314041,True,4,4
+lender,full,0,API-White,county,D,exact,vertex,500000,max DD gap,upper,0.632055892098591,0.0006358940154314041,True,4,4
+lender,full,0,API-White,county,D,exact,vertex,500000,I(D;A),lower,0.006828274321867257,0.0006358940154314041,True,4,4
+lender,full,0,API-White,county,D,exact,vertex,500000,I(D;A),upper,0.09761085488352403,0.0006358940154314041,True,4,4
+lender,full,0,API-White,county,D,split,vertex,500000,DD 1-0,lower,-0.6296136633495899,0.0006328639574348927,True,4,4
+lender,full,0,API-White,county,D,split,vertex,500000,DD 1-0,upper,0.20663718376623164,0.0006328639574348927,True,4,4
+lender,full,0,API-White,county,D,split,vertex,500000,DI 1/0,lower,0.26593600275720175,0.0006328639574348927,True,4,4
+lender,full,0,API-White,county,D,split,vertex,500000,DI 1/0,upper,1.2604573589006534,0.0006328639574348927,True,4,4
+lender,full,0,API-White,county,D,split,vertex,500000,worst-case DI,lower,0.26593600275720175,0.0006328639574348927,True,4,4
+lender,full,0,API-White,county,D,split,vertex,500000,worst-case DI,upper,0.818651218467792,0.0006328639574348927,True,4,4
+lender,full,0,API-White,county,D,split,vertex,500000,max DD gap,lower,0.14883571182070143,0.0006328639574348927,True,4,4
+lender,full,0,API-White,county,D,split,vertex,500000,max DD gap,upper,0.6296136633495899,0.0006328639574348927,True,4,4
+lender,full,0,API-White,county,D,split,vertex,500000,I(D;A),lower,0.006458341029505512,0.0006328639574348927,True,4,4
+lender,full,0,API-White,county,D,split,vertex,500000,I(D;A),upper,0.09861041755753525,0.0006328639574348927,True,4,4
+lender,full,0,API-White,income,D,exact,vertex,500000,DD 1-0,lower,-0.8764937938997412,0.0006422640290111303,True,4,4
+lender,full,0,API-White,income,D,exact,vertex,500000,DD 1-0,upper,0.20503223323390507,0.0006422640290111303,True,4,4
+lender,full,0,API-White,income,D,exact,vertex,500000,DI 1/0,lower,0.0,0.0006422640290111303,True,4,4
+lender,full,0,API-White,income,D,exact,vertex,500000,DI 1/0,upper,1.2579126372229783,0.0006422640290111303,True,4,4
+lender,full,0,API-White,income,D,exact,vertex,500000,worst-case DI,lower,0.0,0.0006422640290111303,True,4,4
+lender,full,0,API-White,income,D,exact,vertex,500000,worst-case DI,upper,0.7949677667660949,0.0006422640290111303,True,4,4
+lender,full,0,API-White,income,D,exact,vertex,500000,max DD gap,lower,0.17317638453983242,0.0006422640290111303,True,4,4
+lender,full,0,API-White,income,D,exact,vertex,500000,max DD gap,upper,0.8764937938997412,0.0006422640290111303,True,4,4
+lender,full,0,API-White,income,D,exact,vertex,500000,I(D;A),lower,0.008471166243005326,0.0006422640290111303,True,4,4
+lender,full,0,API-White,income,D,exact,vertex,500000,I(D;A),upper,0.2018861895082951,0.0006422640290111303,True,4,4
+lender,full,0,API-White,income,D,split,vertex,500000,DD 1-0,lower,-0.8767803016401838,0.0006397140678018332,True,4,4
+lender,full,0,API-White,income,D,split,vertex,500000,DD 1-0,upper,0.20665050312386113,0.0006397140678018332,True,4,4
+lender,full,0,API-White,income,D,split,vertex,500000,DI 1/0,lower,0.0,0.0006397140678018332,True,4,4
+lender,full,0,API-White,income,D,split,vertex,500000,DI 1/0,upper,1.2604785204220332,0.0006397140678018332,True,4,4
+lender,full,0,API-White,income,D,split,vertex,500000,worst-case DI,lower,0.0,0.0006397140678018332,True,4,4
+lender,full,0,API-White,income,D,split,vertex,500000,worst-case DI,upper,0.8054592945747165,0.0006397140678018332,True,4,4
+lender,full,0,API-White,income,D,split,vertex,500000,max DD gap,lower,0.15982893521359365,0.0006397140678018332,True,4,4
+lender,full,0,API-White,income,D,split,vertex,500000,max DD gap,upper,0.8767803016401838,0.0006397140678018332,True,4,4
+lender,full,0,API-White,income,D,split,vertex,500000,I(D;A),lower,0.007398992728641871,0.0006397140678018332,True,4,4
+lender,full,0,API-White,income,D,split,vertex,500000,I(D;A),upper,0.2059367605941943,0.0006397140678018332,True,4,4
+lender,full,0,API-White,both,D,exact,vertex,500000,DD 1-0,lower,-0.632055892098591,0.001062107039615512,True,16,16
+lender,full,0,API-White,both,D,exact,vertex,500000,DD 1-0,upper,0.20503223323390507,0.001062107039615512,True,16,16
+lender,full,0,API-White,both,D,exact,vertex,500000,DI 1/0,lower,0.26339644012820573,0.001062107039615512,True,16,16
+lender,full,0,API-White,both,D,exact,vertex,500000,DI 1/0,upper,1.2579126372229783,0.001062107039615512,True,16,16
+lender,full,0,API-White,both,D,exact,vertex,500000,worst-case DI,lower,0.26339644012820573,0.001062107039615512,True,16,16
+lender,full,0,API-White,both,D,exact,vertex,500000,worst-case DI,upper,0.988733652317675,0.001062107039615512,True,16,16
+lender,full,0,API-White,both,D,exact,vertex,500000,max DD gap,lower,0.009226624167077868,0.001062107039615512,True,16,16
+lender,full,0,API-White,both,D,exact,vertex,500000,max DD gap,upper,0.632055892098591,0.001062107039615512,True,16,16
+lender,full,0,API-White,both,D,exact,vertex,500000,I(D;A),lower,2.8159723699561906e-05,0.001062107039615512,True,16,16
+lender,full,0,API-White,both,D,exact,vertex,500000,I(D;A),upper,0.09761085488352378,0.001062107039615512,True,16,16
+lender,full,0,API-White,both,D,split,vertex,500000,DD 1-0,lower,-0.6298664239603154,0.0010627568699419498,True,16,16
+lender,full,0,API-White,both,D,split,vertex,500000,DD 1-0,upper,0.20664589386611454,0.0010627568699419498,True,16,16
+lender,full,0,API-White,both,D,split,vertex,500000,DI 1/0,lower,0.26567894193905794,0.0010627568699419498,True,16,16
+lender,full,0,API-White,both,D,split,vertex,500000,DI 1/0,upper,1.2604711972477536,0.0010627568699419498,True,16,16
+lender,full,0,API-White,both,D,split,vertex,500000,worst-case DI,lower,0.26567894193905794,0.0010627568699419498,True,16,16
+lender,full,0,API-White,both,D,split,vertex,500000,worst-case DI,upper,0.9945211059820224,0.0010627568699419498,True,16,16
+lender,full,0,API-White,both,D,split,vertex,500000,max DD gap,lower,0.004435736365891563,0.0010627568699419498,True,16,16
+lender,full,0,API-White,both,D,split,vertex,500000,max DD gap,upper,0.6298664239603154,0.0010627568699419498,True,16,16
+lender,full,0,API-White,both,D,split,vertex,500000,I(D;A),lower,6.501467368079741e-06,0.0010627568699419498,True,16,16
+lender,full,0,API-White,both,D,split,vertex,500000,I(D;A),upper,0.09873668330558552,0.0010627568699419498,True,16,16
+lender,full,0,three,county,D,exact,vertex,500000,DD 1-0,lower,-0.8572692679314864,0.0018145309295505285,True,64,64
+lender,full,0,three,county,D,exact,vertex,500000,DD 1-0,upper,0.2300779370730346,0.0018145309295505285,True,64,64
+lender,full,0,three,county,D,exact,vertex,500000,DI 1/0,lower,0.0372059886521392,0.0018145309295505285,True,64,64
+lender,full,0,three,county,D,exact,vertex,500000,DI 1/0,upper,1.2988327626284164,0.0018145309295505285,True,64,64
+lender,full,0,three,county,D,exact,vertex,500000,worst-case DI,lower,0.03312811492235444,0.0018145309295505285,True,64,64
+lender,full,0,three,county,D,exact,vertex,500000,worst-case DI,upper,0.920476276606944,0.0018145309295505285,True,64,64
+lender,full,0,three,county,D,exact,vertex,500000,max DD gap,lower,0.0639518260123948,0.0018145309295505285,True,64,64
+lender,full,0,three,county,D,exact,vertex,500000,max DD gap,upper,0.9668718850776455,0.0018145309295505285,True,64,64
+lender,full,0,three,county,D,exact,vertex,500000,I(D;A),lower,0.0011386823085265379,0.0018145309295505285,True,64,64
+lender,full,0,three,county,D,exact,vertex,500000,I(D;A),upper,0.21361256792332883,0.0018145309295505285,True,64,64
+lender,full,0,three,county,D,split,vertex,500000,DD 1-0,lower,-0.8466490126260713,0.0018084109760820866,True,64,64
+lender,full,0,three,county,D,split,vertex,500000,DD 1-0,upper,0.23213004578863794,0.0018084109760820866,True,64,64
+lender,full,0,three,county,D,split,vertex,500000,DI 1/0,lower,0.04785927425429267,0.0018084109760820866,True,64,64
+lender,full,0,three,county,D,split,vertex,500000,DI 1/0,upper,1.302303853035956,0.0018084109760820866,True,64,64
+lender,full,0,three,county,D,split,vertex,500000,worst-case DI,lower,0.04255674208312261,0.0018084109760820866,True,64,64
+lender,full,0,three,county,D,split,vertex,500000,worst-case DI,upper,0.925732759713861,0.0018084109760820866,True,64,64
+lender,full,0,three,county,D,split,vertex,500000,max DD gap,lower,0.059637425426086854,0.0018084109760820866,True,64,64
+lender,full,0,three,county,D,split,vertex,500000,max DD gap,upper,0.9574432579168773,0.0018084109760820866,True,64,64
+lender,full,0,three,county,D,split,vertex,500000,I(D;A),lower,0.0009905694766046934,0.0018084109760820866,True,64,64
+lender,full,0,three,county,D,split,vertex,500000,I(D;A),upper,0.210089741876136,0.0018084109760820866,True,64,64
+lender,full,0,three,income,D,exact,vertex,500000,DD 1-0,lower,-0.9170884249013782,0.001262937905266881,True,16,16
+lender,full,0,three,income,D,exact,vertex,500000,DD 1-0,upper,0.23007793707302837,0.001262937905266881,True,16,16
+lender,full,0,three,income,D,exact,vertex,500000,DI 1/0,lower,0.0,0.001262937905266881,True,16,16
+lender,full,0,three,income,D,exact,vertex,500000,DI 1/0,upper,1.298832762628406,0.001262937905266881,True,16,16
+lender,full,0,three,income,D,exact,vertex,500000,worst-case DI,lower,0.0,0.001262937905266881,True,16,16
+lender,full,0,three,income,D,exact,vertex,500000,worst-case DI,upper,0.7941831277514562,0.001262937905266881,True,16,16
+lender,full,0,three,income,D,exact,vertex,500000,max DD gap,lower,0.16852902574062623,0.001262937905266881,True,16,16
+lender,full,0,three,income,D,exact,vertex,500000,max DD gap,upper,1.0,0.001262937905266881,True,16,16
+lender,full,0,three,income,D,exact,vertex,500000,I(D;A),lower,0.0104735122403227,0.001262937905266881,True,16,16
+lender,full,0,three,income,D,exact,vertex,500000,I(D;A),upper,0.3635943425788075,0.001262937905266881,True,16,16
+lender,full,0,three,income,D,split,vertex,500000,DD 1-0,lower,-0.9170567561600105,0.001298458082601428,True,16,16
+lender,full,0,three,income,D,split,vertex,500000,DD 1-0,upper,0.23209306422059206,0.001298458082601428,True,16,16
+lender,full,0,three,income,D,split,vertex,500000,DI 1/0,lower,0.0,0.001298458082601428,True,16,16
+lender,full,0,three,income,D,split,vertex,500000,DI 1/0,upper,1.3022411354899703,0.001298458082601428,True,16,16
+lender,full,0,three,income,D,split,vertex,500000,worst-case DI,lower,0.0,0.001298458082601428,True,16,16
+lender,full,0,three,income,D,split,vertex,500000,worst-case DI,upper,0.8092382563609937,0.001298458082601428,True,16,16
+lender,full,0,three,income,D,split,vertex,500000,max DD gap,lower,0.15584878933034518,0.001298458082601428,True,16,16
+lender,full,0,three,income,D,split,vertex,500000,max DD gap,upper,1.0,0.001298458082601428,True,16,16
+lender,full,0,three,income,D,split,vertex,500000,I(D;A),lower,0.0097644228457079,0.001298458082601428,True,16,16
+lender,full,0,three,income,D,split,vertex,500000,I(D;A),upper,0.3669180168746003,0.001298458082601428,True,16,16
+lender,full,0,three,both,D,exact,vertex,500000,DD 1-0,lower,-0.8572692679314864,0.006284520961344242,True,4096,4096
+lender,full,0,three,both,D,exact,vertex,500000,DD 1-0,upper,0.23007793707303725,0.006284520961344242,True,4096,4096
+lender,full,0,three,both,D,exact,vertex,500000,DI 1/0,lower,0.03720598865213919,0.006284520961344242,True,4096,4096
+lender,full,0,three,both,D,exact,vertex,500000,DI 1/0,upper,1.298832762628421,0.006284520961344242,True,4096,4096
+lender,full,0,three,both,D,exact,vertex,500000,worst-case DI,lower,0.033128114922354436,0.006284520961344242,True,4096,4096
+lender,full,0,three,both,D,exact,vertex,500000,worst-case DI,upper,0.98172741096327,0.006284520961344242,True,4096,4096
+lender,full,0,three,both,D,exact,vertex,500000,max DD gap,lower,0.014846813402312753,0.006284520961344242,True,4096,4096
+lender,full,0,three,both,D,exact,vertex,500000,max DD gap,upper,0.9668718850776455,0.006284520961344242,True,4096,4096
+lender,full,0,three,both,D,exact,vertex,500000,I(D;A),lower,9.722143004749304e-05,0.006284520961344242,True,4096,4096
+lender,full,0,three,both,D,exact,vertex,500000,I(D;A),upper,0.2136125679233286,0.006284520961344242,True,4096,4096
+lender,full,0,three,both,D,split,vertex,500000,DD 1-0,lower,-0.8477306435986379,0.006198719842359424,True,4096,4096
+lender,full,0,three,both,D,split,vertex,500000,DD 1-0,upper,0.23211480118516947,0.006198719842359424,True,4096,4096
+lender,full,0,three,both,D,split,vertex,500000,DI 1/0,lower,0.04663465569173777,0.006198719842359424,True,4096,4096
+lender,full,0,three,both,D,split,vertex,500000,DI 1/0,upper,1.30227799877302,0.006198719842359424,True,4096,4096
+lender,full,0,three,both,D,split,vertex,500000,worst-case DI,lower,0.04146744678688656,0.006198719842359424,True,4096,4096
+lender,full,0,three,both,D,split,vertex,500000,worst-case DI,upper,0.9752956627345496,0.006198719842359424,True,4096,4096
+lender,full,0,three,both,D,split,vertex,500000,max DD gap,lower,0.020149238588470064,0.006198719842359424,True,4096,4096
+lender,full,0,three,both,D,split,vertex,500000,max DD gap,upper,0.9585325532131135,0.006198719842359424,True,4096,4096
+lender,full,0,three,both,D,split,vertex,500000,I(D;A),lower,0.00013169348834949133,0.006198719842359424,True,4096,4096
+lender,full,0,three,both,D,split,vertex,500000,I(D;A),upper,0.21031394088815494,0.006198719842359424,True,4096,4096
