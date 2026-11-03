@@ -279,3 +279,803 @@ model,external,0,three,county,DY,split,hit-and-run,10000,F1 diff 1-0,lower,-0.79
 model,external,0,three,county,DY,split,hit-and-run,10000,F1 diff 1-0,upper,0.1344700700682988,4.540801331168041
 model,external,0,three,county,DY,split,hit-and-run,10000,I(D;A|Y),lower,0.00019917322851297715,4.540801331168041
 model,external,0,three,county,DY,split,hit-and-run,10000,I(D;A|Y),upper,0.1322889505209874,4.540801331168041
+model,external,0,three,income,D,exact,hit-and-run,10000,DD 1-0,lower,-0.8615507222518404,2.9852903441060334
+model,external,0,three,income,D,exact,hit-and-run,10000,DD 1-0,upper,0.19729088593817123,2.9852903441060334
+model,external,0,three,income,D,exact,hit-and-run,10000,DI 1/0,lower,0.005553783154706436,2.9852903441060334
+model,external,0,three,income,D,exact,hit-and-run,10000,DI 1/0,upper,1.2546693170713554,2.9852903441060334
+model,external,0,three,income,D,exact,hit-and-run,10000,worst-case DI,lower,0.005553783154706436,2.9852903441060334
+model,external,0,three,income,D,exact,hit-and-run,10000,worst-case DI,upper,0.9968239559040785,2.9852903441060334
+model,external,0,three,income,D,exact,hit-and-run,10000,max DD gap,lower,0.002535506550723876,2.9852903441060334
+model,external,0,three,income,D,exact,hit-and-run,10000,max DD gap,upper,0.8717395759112289,2.9852903441060334
+model,external,0,three,income,D,exact,hit-and-run,10000,I(D;A),lower,1.5641091054099727e-06,2.9852903441060334
+model,external,0,three,income,D,exact,hit-and-run,10000,I(D;A),upper,0.17358734362110426,2.9852903441060334
+model,external,0,three,income,D,split,hit-and-run,10000,DD 1-0,lower,-0.8601434409774783,2.97051384113729
+model,external,0,three,income,D,split,hit-and-run,10000,DD 1-0,upper,0.19936932220239745,2.97051384113729
+model,external,0,three,income,D,split,hit-and-run,10000,DI 1/0,lower,0.0056080278412691175,2.97051384113729
+model,external,0,three,income,D,split,hit-and-run,10000,DI 1/0,upper,1.2576259291230334,2.97051384113729
+model,external,0,three,income,D,split,hit-and-run,10000,worst-case DI,lower,0.0056080278412691175,2.97051384113729
+model,external,0,three,income,D,split,hit-and-run,10000,worst-case DI,upper,0.9909893117201927,2.97051384113729
+model,external,0,three,income,D,split,hit-and-run,10000,max DD gap,lower,0.007200054349641549,2.97051384113729
+model,external,0,three,income,D,split,hit-and-run,10000,max DD gap,upper,0.8690022741655715,2.97051384113729
+model,external,0,three,income,D,split,hit-and-run,10000,I(D;A),lower,1.0430035105464752e-05,2.97051384113729
+model,external,0,three,income,D,split,hit-and-run,10000,I(D;A),upper,0.17022562339554753,2.97051384113729
+model,external,0,three,income,DY,exact,hit-and-run,10000,TPRD 1-0,lower,-0.8746910852288098,3.037825958803296
+model,external,0,three,income,DY,exact,hit-and-run,10000,TPRD 1-0,upper,0.17082030832953343,3.037825958803296
+model,external,0,three,income,DY,exact,hit-and-run,10000,PPVD 1-0,lower,-0.8971657857205702,3.037825958803296
+model,external,0,three,income,DY,exact,hit-and-run,10000,PPVD 1-0,upper,0.18115667367583677,3.037825958803296
+model,external,0,three,income,DY,exact,hit-and-run,10000,BA diff 1-0,lower,-0.5830898484617835,3.037825958803296
+model,external,0,three,income,DY,exact,hit-and-run,10000,BA diff 1-0,upper,0.48020557913064527,3.037825958803296
+model,external,0,three,income,DY,exact,hit-and-run,10000,F1 diff 1-0,lower,-0.8633316930480865,3.037825958803296
+model,external,0,three,income,DY,exact,hit-and-run,10000,F1 diff 1-0,upper,0.16750523529516692,3.037825958803296
+model,external,0,three,income,DY,exact,hit-and-run,10000,I(D;A|Y),lower,7.175218967761384e-05,3.037825958803296
+model,external,0,three,income,DY,exact,hit-and-run,10000,I(D;A|Y),upper,0.1664538611225526,3.037825958803296
+model,external,0,three,income,DY,split,hit-and-run,10000,TPRD 1-0,lower,-0.8657234410115114,3.029007705161348
+model,external,0,three,income,DY,split,hit-and-run,10000,TPRD 1-0,upper,0.1822462920123914,3.029007705161348
+model,external,0,three,income,DY,split,hit-and-run,10000,PPVD 1-0,lower,-0.8889589697113724,3.029007705161348
+model,external,0,three,income,DY,split,hit-and-run,10000,PPVD 1-0,upper,0.17509621316545432,3.029007705161348
+model,external,0,three,income,DY,split,hit-and-run,10000,BA diff 1-0,lower,-0.5726786785613284,3.029007705161348
+model,external,0,three,income,DY,split,hit-and-run,10000,BA diff 1-0,upper,0.4690452722884004,3.029007705161348
+model,external,0,three,income,DY,split,hit-and-run,10000,F1 diff 1-0,lower,-0.8631514503151546,3.029007705161348
+model,external,0,three,income,DY,split,hit-and-run,10000,F1 diff 1-0,upper,0.1505468716344961,3.029007705161348
+model,external,0,three,income,DY,split,hit-and-run,10000,I(D;A|Y),lower,0.00018842125656502902,3.029007705161348
+model,external,0,three,income,DY,split,hit-and-run,10000,I(D;A|Y),upper,0.1652060836145198,3.029007705161348
+model,external,0,three,both,D,exact,hit-and-run,10000,DD 1-0,lower,-0.7734802095154882,8.894961960846558
+model,external,0,three,both,D,exact,hit-and-run,10000,DD 1-0,upper,0.14169906307873936,8.894961960846558
+model,external,0,three,both,D,exact,hit-and-run,10000,DI 1/0,lower,0.08654011204557256,8.894961960846558
+model,external,0,three,both,D,exact,hit-and-run,10000,DI 1/0,upper,1.180679542894041,8.894961960846558
+model,external,0,three,both,D,exact,hit-and-run,10000,worst-case DI,lower,0.08654011204557256,8.894961960846558
+model,external,0,three,both,D,exact,hit-and-run,10000,worst-case DI,upper,0.9902434108927742,8.894961960846558
+model,external,0,three,both,D,exact,hit-and-run,10000,max DD gap,lower,0.007793493651421235,8.894961960846558
+model,external,0,three,both,D,exact,hit-and-run,10000,max DD gap,upper,0.7928754070722733,8.894961960846558
+model,external,0,three,both,D,exact,hit-and-run,10000,I(D;A),lower,1.3633665201312717e-05,8.894961960846558
+model,external,0,three,both,D,exact,hit-and-run,10000,I(D;A),upper,0.12147978305072277,8.894961960846558
+model,external,0,three,both,D,split,hit-and-run,10000,DD 1-0,lower,-0.7700627397590688,8.920065784826875
+model,external,0,three,both,D,split,hit-and-run,10000,DD 1-0,upper,0.12260849471097646,8.920065784826875
+model,external,0,three,both,D,split,hit-and-run,10000,DI 1/0,lower,0.0857251500587859,8.920065784826875
+model,external,0,three,both,D,split,hit-and-run,10000,DI 1/0,upper,1.1540191458992397,8.920065784826875
+model,external,0,three,both,D,split,hit-and-run,10000,worst-case DI,lower,0.0857251500587859,8.920065784826875
+model,external,0,three,both,D,split,hit-and-run,10000,worst-case DI,upper,0.9959531880319752,8.920065784826875
+model,external,0,three,both,D,split,hit-and-run,10000,max DD gap,lower,0.0032304754903925703,8.920065784826875
+model,external,0,three,both,D,split,hit-and-run,10000,max DD gap,upper,0.7914788271092175,8.920065784826875
+model,external,0,three,both,D,split,hit-and-run,10000,I(D;A),lower,3.1119541216789942e-06,8.920065784826875
+model,external,0,three,both,D,split,hit-and-run,10000,I(D;A),upper,0.11790246010858202,8.920065784826875
+model,external,0,three,both,DY,exact,hit-and-run,10000,TPRD 1-0,lower,-0.8124373171557333,9.10626069502905
+model,external,0,three,both,DY,exact,hit-and-run,10000,TPRD 1-0,upper,0.08014048029776577,9.10626069502905
+model,external,0,three,both,DY,exact,hit-and-run,10000,PPVD 1-0,lower,-0.8127036589732423,9.10626069502905
+model,external,0,three,both,DY,exact,hit-and-run,10000,PPVD 1-0,upper,0.12312170828318136,9.10626069502905
+model,external,0,three,both,DY,exact,hit-and-run,10000,BA diff 1-0,lower,-0.4945303357465245,9.10626069502905
+model,external,0,three,both,DY,exact,hit-and-run,10000,BA diff 1-0,upper,0.3373728224606032,9.10626069502905
+model,external,0,three,both,DY,exact,hit-and-run,10000,F1 diff 1-0,lower,-0.7708275272924423,9.10626069502905
+model,external,0,three,both,DY,exact,hit-and-run,10000,F1 diff 1-0,upper,0.07070142736434193,9.10626069502905
+model,external,0,three,both,DY,exact,hit-and-run,10000,I(D;A|Y),lower,0.0002610294909423242,9.10626069502905
+model,external,0,three,both,DY,exact,hit-and-run,10000,I(D;A|Y),upper,0.11024920443349193,9.10626069502905
+model,external,0,three,both,DY,split,hit-and-run,10000,TPRD 1-0,lower,-0.8012600903768348,9.100966955069453
+model,external,0,three,both,DY,split,hit-and-run,10000,TPRD 1-0,upper,0.06621972042164781,9.100966955069453
+model,external,0,three,both,DY,split,hit-and-run,10000,PPVD 1-0,lower,-0.7929590904397694,9.100966955069453
+model,external,0,three,both,DY,split,hit-and-run,10000,PPVD 1-0,upper,0.12359369581774715,9.100966955069453
+model,external,0,three,both,DY,split,hit-and-run,10000,BA diff 1-0,lower,-0.48022444969015343,9.100966955069453
+model,external,0,three,both,DY,split,hit-and-run,10000,BA diff 1-0,upper,0.3335032737300502,9.100966955069453
+model,external,0,three,both,DY,split,hit-and-run,10000,F1 diff 1-0,lower,-0.7499503137484839,9.100966955069453
+model,external,0,three,both,DY,split,hit-and-run,10000,F1 diff 1-0,upper,0.08089372947903972,9.100966955069453
+model,external,0,three,both,DY,split,hit-and-run,10000,I(D;A|Y),lower,0.00022320122343756263,9.100966955069453
+model,external,0,three,both,DY,split,hit-and-run,10000,I(D;A|Y),upper,0.10877275719398175,9.100966955069453
+model,full,0,Black-White,county,D,exact,hit-and-run,10000,DD 1-0,lower,-0.8407129813987818,3.034645905951038
+model,full,0,Black-White,county,D,exact,hit-and-run,10000,DD 1-0,upper,0.2014915117422269,3.034645905951038
+model,full,0,Black-White,county,D,exact,hit-and-run,10000,DI 1/0,lower,0.0027707150147474762,3.034645905951038
+model,full,0,Black-White,county,D,exact,hit-and-run,10000,DI 1/0,upper,1.2587031844063625,3.034645905951038
+model,full,0,Black-White,county,D,exact,hit-and-run,10000,worst-case DI,lower,0.0027707150147474762,3.034645905951038
+model,full,0,Black-White,county,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999980571542166,3.034645905951038
+model,full,0,Black-White,county,D,exact,hit-and-run,10000,max DD gap,lower,1.53730287266729e-06,3.034645905951038
+model,full,0,Black-White,county,D,exact,hit-and-run,10000,max DD gap,upper,0.8407129813987818,3.034645905951038
+model,full,0,Black-White,county,D,exact,hit-and-run,10000,I(D;A),lower,5.964100082748162e-13,3.034645905951038
+model,full,0,Black-White,county,D,exact,hit-and-run,10000,I(D;A),upper,0.14924941060686195,3.034645905951038
+model,full,0,Black-White,county,D,split,hit-and-run,10000,DD 1-0,lower,-0.8415364515908732,3.050185114843771
+model,full,0,Black-White,county,D,split,hit-and-run,10000,DD 1-0,upper,0.19445925956593368,3.050185114843771
+model,full,0,Black-White,county,D,split,hit-and-run,10000,DI 1/0,lower,0.0027660838705751123,3.050185114843771
+model,full,0,Black-White,county,D,split,hit-and-run,10000,DI 1/0,upper,1.2493610492009137,3.050185114843771
+model,full,0,Black-White,county,D,split,hit-and-run,10000,worst-case DI,lower,0.0027660838705751123,3.050185114843771
+model,full,0,Black-White,county,D,split,hit-and-run,10000,worst-case DI,upper,0.9998952446901377,3.050185114843771
+model,full,0,Black-White,county,D,split,hit-and-run,10000,max DD gap,lower,8.295872035679608e-05,3.050185114843771
+model,full,0,Black-White,county,D,split,hit-and-run,10000,max DD gap,upper,0.8415364515908732,3.050185114843771
+model,full,0,Black-White,county,D,split,hit-and-run,10000,I(D;A),lower,1.7469198061169873e-09,3.050185114843771
+model,full,0,Black-White,county,D,split,hit-and-run,10000,I(D;A),upper,0.15012478106466323,3.050185114843771
+model,full,0,Black-White,county,DY,exact,hit-and-run,10000,TPRD 1-0,lower,-0.858059569004505,2.992698349058628
+model,full,0,Black-White,county,DY,exact,hit-and-run,10000,TPRD 1-0,upper,0.18843303983397786,2.992698349058628
+model,full,0,Black-White,county,DY,exact,hit-and-run,10000,PPVD 1-0,lower,-0.8561471545020882,2.992698349058628
+model,full,0,Black-White,county,DY,exact,hit-and-run,10000,PPVD 1-0,upper,0.18542195859775845,2.992698349058628
+model,full,0,Black-White,county,DY,exact,hit-and-run,10000,BA diff 1-0,lower,-0.5605206564756418,2.992698349058628
+model,full,0,Black-White,county,DY,exact,hit-and-run,10000,BA diff 1-0,upper,0.494182315519888,2.992698349058628
+model,full,0,Black-White,county,DY,exact,hit-and-run,10000,F1 diff 1-0,lower,-0.8477238889117825,2.992698349058628
+model,full,0,Black-White,county,DY,exact,hit-and-run,10000,F1 diff 1-0,upper,0.16696830583408562,2.992698349058628
+model,full,0,Black-White,county,DY,exact,hit-and-run,10000,I(D;A|Y),lower,7.340233784969811e-06,2.992698349058628
+model,full,0,Black-White,county,DY,exact,hit-and-run,10000,I(D;A|Y),upper,0.1388581788299612,2.992698349058628
+model,full,0,Black-White,county,DY,split,hit-and-run,10000,TPRD 1-0,lower,-0.859950583113219,2.9838797240518034
+model,full,0,Black-White,county,DY,split,hit-and-run,10000,TPRD 1-0,upper,0.1869120723378661,2.9838797240518034
+model,full,0,Black-White,county,DY,split,hit-and-run,10000,PPVD 1-0,lower,-0.8578673575040477,2.9838797240518034
+model,full,0,Black-White,county,DY,split,hit-and-run,10000,PPVD 1-0,upper,0.1868098682928867,2.9838797240518034
+model,full,0,Black-White,county,DY,split,hit-and-run,10000,BA diff 1-0,lower,-0.562711894283072,2.9838797240518034
+model,full,0,Black-White,county,DY,split,hit-and-run,10000,BA diff 1-0,upper,0.49445843750291346,2.9838797240518034
+model,full,0,Black-White,county,DY,split,hit-and-run,10000,F1 diff 1-0,lower,-0.8478779504354162,2.9838797240518034
+model,full,0,Black-White,county,DY,split,hit-and-run,10000,F1 diff 1-0,upper,0.1675463174429319,2.9838797240518034
+model,full,0,Black-White,county,DY,split,hit-and-run,10000,I(D;A|Y),lower,2.757914006189474e-07,2.9838797240518034
+model,full,0,Black-White,county,DY,split,hit-and-run,10000,I(D;A|Y),upper,0.14017381445849253,2.9838797240518034
+model,full,0,Black-White,income,D,exact,hit-and-run,10000,DD 1-0,lower,-0.8387835104915974,3.0281019960530102
+model,full,0,Black-White,income,D,exact,hit-and-run,10000,DD 1-0,upper,0.21532572921215976,3.0281019960530102
+model,full,0,Black-White,income,D,exact,hit-and-run,10000,DI 1/0,lower,0.004919114611963417,3.0281019960530102
+model,full,0,Black-White,income,D,exact,hit-and-run,10000,DI 1/0,upper,1.2767683155728535,3.0281019960530102
+model,full,0,Black-White,income,D,exact,hit-and-run,10000,worst-case DI,lower,0.004919114611963417,3.0281019960530102
+model,full,0,Black-White,income,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999793277703607,3.0281019960530102
+model,full,0,Black-White,income,D,exact,hit-and-run,10000,max DD gap,lower,1.6357198777461335e-05,3.0281019960530102
+model,full,0,Black-White,income,D,exact,hit-and-run,10000,max DD gap,upper,0.8387835104915974,3.0281019960530102
+model,full,0,Black-White,income,D,exact,hit-and-run,10000,I(D;A),lower,6.754352627184793e-11,3.0281019960530102
+model,full,0,Black-White,income,D,exact,hit-and-run,10000,I(D;A),upper,0.14805510712130865,3.0281019960530102
+model,full,0,Black-White,income,D,split,hit-and-run,10000,DD 1-0,lower,-0.8393386618820037,3.0239587198011577
+model,full,0,Black-White,income,D,split,hit-and-run,10000,DD 1-0,upper,0.21467675968491173,3.0239587198011577
+model,full,0,Black-White,income,D,split,hit-and-run,10000,DI 1/0,lower,0.005005018509719934,3.0239587198011577
+model,full,0,Black-White,income,D,split,hit-and-run,10000,DI 1/0,upper,1.2757126789850703,3.0239587198011577
+model,full,0,Black-White,income,D,split,hit-and-run,10000,worst-case DI,lower,0.005005018509719934,3.0239587198011577
+model,full,0,Black-White,income,D,split,hit-and-run,10000,worst-case DI,upper,0.999746259650793,3.0239587198011577
+model,full,0,Black-White,income,D,split,hit-and-run,10000,max DD gap,lower,0.00020092761835555084,3.0239587198011577
+model,full,0,Black-White,income,D,split,hit-and-run,10000,max DD gap,upper,0.8393386618820037,3.0239587198011577
+model,full,0,Black-White,income,D,split,hit-and-run,10000,I(D;A),lower,1.0212610300968728e-08,3.0239587198011577
+model,full,0,Black-White,income,D,split,hit-and-run,10000,I(D;A),upper,0.14833081381836402,3.0239587198011577
+model,full,0,Black-White,income,DY,exact,hit-and-run,10000,TPRD 1-0,lower,-0.8428143108840388,2.97136979480274
+model,full,0,Black-White,income,DY,exact,hit-and-run,10000,TPRD 1-0,upper,0.18906146584350136,2.97136979480274
+model,full,0,Black-White,income,DY,exact,hit-and-run,10000,PPVD 1-0,lower,-0.853014451912396,2.97136979480274
+model,full,0,Black-White,income,DY,exact,hit-and-run,10000,PPVD 1-0,upper,0.18224726228239507,2.97136979480274
+model,full,0,Black-White,income,DY,exact,hit-and-run,10000,BA diff 1-0,lower,-0.536769978225411,2.97136979480274
+model,full,0,Black-White,income,DY,exact,hit-and-run,10000,BA diff 1-0,upper,0.47177006085108414,2.97136979480274
+model,full,0,Black-White,income,DY,exact,hit-and-run,10000,F1 diff 1-0,lower,-0.8388764055302509,2.97136979480274
+model,full,0,Black-White,income,DY,exact,hit-and-run,10000,F1 diff 1-0,upper,0.1508011979551812,2.97136979480274
+model,full,0,Black-White,income,DY,exact,hit-and-run,10000,I(D;A|Y),lower,2.1650001775064373e-06,2.97136979480274
+model,full,0,Black-White,income,DY,exact,hit-and-run,10000,I(D;A|Y),upper,0.12752613790239703,2.97136979480274
+model,full,0,Black-White,income,DY,split,hit-and-run,10000,TPRD 1-0,lower,-0.844379454281029,2.9838103749789298
+model,full,0,Black-White,income,DY,split,hit-and-run,10000,TPRD 1-0,upper,0.18792764981186683,2.9838103749789298
+model,full,0,Black-White,income,DY,split,hit-and-run,10000,PPVD 1-0,lower,-0.8522143226476252,2.9838103749789298
+model,full,0,Black-White,income,DY,split,hit-and-run,10000,PPVD 1-0,upper,0.18252743810181482,2.9838103749789298
+model,full,0,Black-White,income,DY,split,hit-and-run,10000,BA diff 1-0,lower,-0.5378040189269861,2.9838103749789298
+model,full,0,Black-White,income,DY,split,hit-and-run,10000,BA diff 1-0,upper,0.4697327402842088,2.9838103749789298
+model,full,0,Black-White,income,DY,split,hit-and-run,10000,F1 diff 1-0,lower,-0.8392098755992773,2.9838103749789298
+model,full,0,Black-White,income,DY,split,hit-and-run,10000,F1 diff 1-0,upper,0.15134021882889936,2.9838103749789298
+model,full,0,Black-White,income,DY,split,hit-and-run,10000,I(D;A|Y),lower,6.78182593380685e-08,2.9838103749789298
+model,full,0,Black-White,income,DY,split,hit-and-run,10000,I(D;A|Y),upper,0.1284391967241325,2.9838103749789298
+model,full,0,Black-White,both,D,exact,hit-and-run,10000,DD 1-0,lower,-0.8017568509728732,6.115083500975743
+model,full,0,Black-White,both,D,exact,hit-and-run,10000,DD 1-0,upper,0.13183430403588126,6.115083500975743
+model,full,0,Black-White,both,D,exact,hit-and-run,10000,DI 1/0,lower,0.046264711153807425,6.115083500975743
+model,full,0,Black-White,both,D,exact,hit-and-run,10000,DI 1/0,upper,1.1683400672872184,6.115083500975743
+model,full,0,Black-White,both,D,exact,hit-and-run,10000,worst-case DI,lower,0.046264711153807425,6.115083500975743
+model,full,0,Black-White,both,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999276428864929,6.115083500975743
+model,full,0,Black-White,both,D,exact,hit-and-run,10000,max DD gap,lower,5.725378816368032e-05,6.115083500975743
+model,full,0,Black-White,both,D,exact,hit-and-run,10000,max DD gap,upper,0.8017568509728732,6.115083500975743
+model,full,0,Black-White,both,D,exact,hit-and-run,10000,I(D;A),lower,8.274795477714443e-10,6.115083500975743
+model,full,0,Black-White,both,D,exact,hit-and-run,10000,I(D;A),upper,0.13067238496515649,6.115083500975743
+model,full,0,Black-White,both,D,split,hit-and-run,10000,DD 1-0,lower,-0.8030784224010722,6.086812111083418
+model,full,0,Black-White,both,D,split,hit-and-run,10000,DD 1-0,upper,0.1292102603688754,6.086812111083418
+model,full,0,Black-White,both,D,split,hit-and-run,10000,DI 1/0,lower,0.0455011769716767,6.086812111083418
+model,full,0,Black-White,both,D,split,hit-and-run,10000,DI 1/0,upper,1.164833232926163,6.086812111083418
+model,full,0,Black-White,both,D,split,hit-and-run,10000,worst-case DI,lower,0.0455011769716767,6.086812111083418
+model,full,0,Black-White,both,D,split,hit-and-run,10000,worst-case DI,upper,0.9998743770229719,6.086812111083418
+model,full,0,Black-White,both,D,split,hit-and-run,10000,max DD gap,lower,9.947541480592736e-05,6.086812111083418
+model,full,0,Black-White,both,D,split,hit-and-run,10000,max DD gap,upper,0.8030784224010722,6.086812111083418
+model,full,0,Black-White,both,D,split,hit-and-run,10000,I(D;A),lower,2.505059603169843e-09,6.086812111083418
+model,full,0,Black-White,both,D,split,hit-and-run,10000,I(D;A),upper,0.1313431543681797,6.086812111083418
+model,full,0,Black-White,both,DY,exact,hit-and-run,10000,TPRD 1-0,lower,-0.8192444309559063,5.948507081950083
+model,full,0,Black-White,both,DY,exact,hit-and-run,10000,TPRD 1-0,upper,0.14730613266049264,5.948507081950083
+model,full,0,Black-White,both,DY,exact,hit-and-run,10000,PPVD 1-0,lower,-0.842955848906795,5.948507081950083
+model,full,0,Black-White,both,DY,exact,hit-and-run,10000,PPVD 1-0,upper,0.15879213664275893,5.948507081950083
+model,full,0,Black-White,both,DY,exact,hit-and-run,10000,BA diff 1-0,lower,-0.5006570362030448,5.948507081950083
+model,full,0,Black-White,both,DY,exact,hit-and-run,10000,BA diff 1-0,upper,0.4175921906232632,5.948507081950083
+model,full,0,Black-White,both,DY,exact,hit-and-run,10000,F1 diff 1-0,lower,-0.828284897165458,5.948507081950083
+model,full,0,Black-White,both,DY,exact,hit-and-run,10000,F1 diff 1-0,upper,0.11676702634959946,5.948507081950083
+model,full,0,Black-White,both,DY,exact,hit-and-run,10000,I(D;A|Y),lower,8.445542367875754e-07,5.948507081950083
+model,full,0,Black-White,both,DY,exact,hit-and-run,10000,I(D;A|Y),upper,0.11126730261050902,5.948507081950083
+model,full,0,Black-White,both,DY,split,hit-and-run,10000,TPRD 1-0,lower,-0.8230309191074344,5.925593037158251
+model,full,0,Black-White,both,DY,split,hit-and-run,10000,TPRD 1-0,upper,0.15005462285790183,5.925593037158251
+model,full,0,Black-White,both,DY,split,hit-and-run,10000,PPVD 1-0,lower,-0.8403323397571618,5.925593037158251
+model,full,0,Black-White,both,DY,split,hit-and-run,10000,PPVD 1-0,upper,0.15989525373068458,5.925593037158251
+model,full,0,Black-White,both,DY,split,hit-and-run,10000,BA diff 1-0,lower,-0.501894635891724,5.925593037158251
+model,full,0,Black-White,both,DY,split,hit-and-run,10000,BA diff 1-0,upper,0.4207161392873582,5.925593037158251
+model,full,0,Black-White,both,DY,split,hit-and-run,10000,F1 diff 1-0,lower,-0.8294541113147944,5.925593037158251
+model,full,0,Black-White,both,DY,split,hit-and-run,10000,F1 diff 1-0,upper,0.11579519635250579,5.925593037158251
+model,full,0,Black-White,both,DY,split,hit-and-run,10000,I(D;A|Y),lower,8.819880295655406e-06,5.925593037158251
+model,full,0,Black-White,both,DY,split,hit-and-run,10000,I(D;A|Y),upper,0.11342553549909426,5.925593037158251
+model,full,0,API-White,county,D,exact,hit-and-run,10000,DD 1-0,lower,-0.43206673274471386,3.041900487849489
+model,full,0,API-White,county,D,exact,hit-and-run,10000,DD 1-0,upper,0.20109099934116825,3.041900487849489
+model,full,0,API-White,county,D,exact,hit-and-run,10000,DI 1/0,lower,0.4874013395114775,3.041900487849489
+model,full,0,API-White,county,D,exact,hit-and-run,10000,DI 1/0,upper,1.2528915310904027,3.041900487849489
+model,full,0,API-White,county,D,exact,hit-and-run,10000,worst-case DI,lower,0.4874013395114775,3.041900487849489
+model,full,0,API-White,county,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999464966725525,3.041900487849489
+model,full,0,API-White,county,D,exact,hit-and-run,10000,max DD gap,lower,4.335527724619315e-05,3.041900487849489
+model,full,0,API-White,county,D,exact,hit-and-run,10000,max DD gap,upper,0.43206673274471386,3.041900487849489
+model,full,0,API-White,county,D,exact,hit-and-run,10000,I(D;A),lower,6.148377660836763e-10,3.041900487849489
+model,full,0,API-White,county,D,exact,hit-and-run,10000,I(D;A),upper,0.047098631607553176,3.041900487849489
+model,full,0,API-White,county,D,split,hit-and-run,10000,DD 1-0,lower,-0.4294076509829285,3.052407274954021
+model,full,0,API-White,county,D,split,hit-and-run,10000,DD 1-0,upper,0.20101292391195003,3.052407274954021
+model,full,0,API-White,county,D,split,hit-and-run,10000,DI 1/0,lower,0.49113409970284644,3.052407274954021
+model,full,0,API-White,county,D,split,hit-and-run,10000,DI 1/0,upper,1.2527372295828356,3.052407274954021
+model,full,0,API-White,county,D,split,hit-and-run,10000,worst-case DI,lower,0.49113409970284644,3.052407274954021
+model,full,0,API-White,county,D,split,hit-and-run,10000,worst-case DI,upper,0.9999733919370705,3.052407274954021
+model,full,0,API-White,county,D,split,hit-and-run,10000,max DD gap,lower,2.157414924897072e-05,3.052407274954021
+model,full,0,API-White,county,D,split,hit-and-run,10000,max DD gap,upper,0.4294076509829285,3.052407274954021
+model,full,0,API-White,county,D,split,hit-and-run,10000,I(D;A),lower,1.5545405439264045e-10,3.052407274954021
+model,full,0,API-White,county,D,split,hit-and-run,10000,I(D;A),upper,0.04753793090287918,3.052407274954021
+model,full,0,API-White,county,DY,exact,hit-and-run,10000,TPRD 1-0,lower,-0.6084187806422601,2.977340328041464
+model,full,0,API-White,county,DY,exact,hit-and-run,10000,TPRD 1-0,upper,0.1807931489008341,2.977340328041464
+model,full,0,API-White,county,DY,exact,hit-and-run,10000,PPVD 1-0,lower,-0.6843021569620824,2.977340328041464
+model,full,0,API-White,county,DY,exact,hit-and-run,10000,PPVD 1-0,upper,0.1785472313301436,2.977340328041464
+model,full,0,API-White,county,DY,exact,hit-and-run,10000,BA diff 1-0,lower,-0.40468169842043133,2.977340328041464
+model,full,0,API-White,county,DY,exact,hit-and-run,10000,BA diff 1-0,upper,0.47687100811178595,2.977340328041464
+model,full,0,API-White,county,DY,exact,hit-and-run,10000,F1 diff 1-0,lower,-0.5812701355806096,2.977340328041464
+model,full,0,API-White,county,DY,exact,hit-and-run,10000,F1 diff 1-0,upper,0.15156684116121555,2.977340328041464
+model,full,0,API-White,county,DY,exact,hit-and-run,10000,I(D;A|Y),lower,2.8063336575059075e-07,2.977340328041464
+model,full,0,API-White,county,DY,exact,hit-and-run,10000,I(D;A|Y),upper,0.06781171017674242,2.977340328041464
+model,full,0,API-White,county,DY,split,hit-and-run,10000,TPRD 1-0,lower,-0.6004488249459231,2.971846623113379
+model,full,0,API-White,county,DY,split,hit-and-run,10000,TPRD 1-0,upper,0.18096226312184838,2.971846623113379
+model,full,0,API-White,county,DY,split,hit-and-run,10000,PPVD 1-0,lower,-0.6764904012978283,2.971846623113379
+model,full,0,API-White,county,DY,split,hit-and-run,10000,PPVD 1-0,upper,0.17824097554251395,2.971846623113379
+model,full,0,API-White,county,DY,split,hit-and-run,10000,BA diff 1-0,lower,-0.4024817642323949,2.971846623113379
+model,full,0,API-White,county,DY,split,hit-and-run,10000,BA diff 1-0,upper,0.4781004717742589,2.971846623113379
+model,full,0,API-White,county,DY,split,hit-and-run,10000,F1 diff 1-0,lower,-0.5700853240450803,2.971846623113379
+model,full,0,API-White,county,DY,split,hit-and-run,10000,F1 diff 1-0,upper,0.1532479075281291,2.971846623113379
+model,full,0,API-White,county,DY,split,hit-and-run,10000,I(D;A|Y),lower,3.9610692732667407e-07,2.971846623113379
+model,full,0,API-White,county,DY,split,hit-and-run,10000,I(D;A|Y),upper,0.06994617407858833,2.971846623113379
+model,full,0,API-White,income,D,exact,hit-and-run,10000,DD 1-0,lower,-0.6454645582636798,3.035419428953901
+model,full,0,API-White,income,D,exact,hit-and-run,10000,DD 1-0,upper,0.19876248819829057,3.035419428953901
+model,full,0,API-White,income,D,exact,hit-and-run,10000,DI 1/0,lower,0.24856930140698935,3.035419428953901
+model,full,0,API-White,income,D,exact,hit-and-run,10000,DI 1/0,upper,1.2499080369024593,3.035419428953901
+model,full,0,API-White,income,D,exact,hit-and-run,10000,worst-case DI,lower,0.24856930140698935,3.035419428953901
+model,full,0,API-White,income,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999640233483469,3.035419428953901
+model,full,0,API-White,income,D,exact,hit-and-run,10000,max DD gap,lower,2.9153762532985183e-05,3.035419428953901
+model,full,0,API-White,income,D,exact,hit-and-run,10000,max DD gap,upper,0.6454645582636798,3.035419428953901
+model,full,0,API-White,income,D,exact,hit-and-run,10000,I(D;A),lower,2.780364650017874e-10,3.035419428953901
+model,full,0,API-White,income,D,exact,hit-and-run,10000,I(D;A),upper,0.1017336099289362,3.035419428953901
+model,full,0,API-White,income,D,split,hit-and-run,10000,DD 1-0,lower,-0.6194114545863675,3.0286368560045958
+model,full,0,API-White,income,D,split,hit-and-run,10000,DD 1-0,upper,0.19879409192311448,3.0286368560045958
+model,full,0,API-White,income,D,split,hit-and-run,10000,DI 1/0,lower,0.2785034879616933,3.0286368560045958
+model,full,0,API-White,income,D,split,hit-and-run,10000,DI 1/0,upper,1.2498975235660288,3.0286368560045958
+model,full,0,API-White,income,D,split,hit-and-run,10000,worst-case DI,lower,0.2785034879616933,3.0286368560045958
+model,full,0,API-White,income,D,split,hit-and-run,10000,worst-case DI,upper,0.99998106584692,3.0286368560045958
+model,full,0,API-White,income,D,split,hit-and-run,10000,max DD gap,lower,1.535228430893376e-05,3.0286368560045958
+model,full,0,API-White,income,D,split,hit-and-run,10000,max DD gap,upper,0.6194114545863675,3.0286368560045958
+model,full,0,API-White,income,D,split,hit-and-run,10000,I(D;A),lower,7.877825931924164e-11,3.0286368560045958
+model,full,0,API-White,income,D,split,hit-and-run,10000,I(D;A),upper,0.0958250246665815,3.0286368560045958
+model,full,0,API-White,income,DY,exact,hit-and-run,10000,TPRD 1-0,lower,-0.8571752905808546,2.9720970049966127
+model,full,0,API-White,income,DY,exact,hit-and-run,10000,TPRD 1-0,upper,0.1717248654772997,2.9720970049966127
+model,full,0,API-White,income,DY,exact,hit-and-run,10000,PPVD 1-0,lower,-0.8735397806914068,2.9720970049966127
+model,full,0,API-White,income,DY,exact,hit-and-run,10000,PPVD 1-0,upper,0.17576779385896313,2.9720970049966127
+model,full,0,API-White,income,DY,exact,hit-and-run,10000,BA diff 1-0,lower,-0.5376383495546979,2.9720970049966127
+model,full,0,API-White,income,DY,exact,hit-and-run,10000,BA diff 1-0,upper,0.44328728727148986,2.9720970049966127
+model,full,0,API-White,income,DY,exact,hit-and-run,10000,F1 diff 1-0,lower,-0.8535671558262857,2.9720970049966127
+model,full,0,API-White,income,DY,exact,hit-and-run,10000,F1 diff 1-0,upper,0.14079061849995478,2.9720970049966127
+model,full,0,API-White,income,DY,exact,hit-and-run,10000,I(D;A|Y),lower,5.027352737082251e-06,2.9720970049966127
+model,full,0,API-White,income,DY,exact,hit-and-run,10000,I(D;A|Y),upper,0.1158655671863403,2.9720970049966127
+model,full,0,API-White,income,DY,split,hit-and-run,10000,TPRD 1-0,lower,-0.8569792282832777,3.003903509117663
+model,full,0,API-White,income,DY,split,hit-and-run,10000,TPRD 1-0,upper,0.1719773841087412,3.003903509117663
+model,full,0,API-White,income,DY,split,hit-and-run,10000,PPVD 1-0,lower,-0.8753984619114065,3.003903509117663
+model,full,0,API-White,income,DY,split,hit-and-run,10000,PPVD 1-0,upper,0.17752201184752758,3.003903509117663
+model,full,0,API-White,income,DY,split,hit-and-run,10000,BA diff 1-0,lower,-0.5413949997563818,3.003903509117663
+model,full,0,API-White,income,DY,split,hit-and-run,10000,BA diff 1-0,upper,0.4336273958611072,3.003903509117663
+model,full,0,API-White,income,DY,split,hit-and-run,10000,F1 diff 1-0,lower,-0.8550413781299333,3.003903509117663
+model,full,0,API-White,income,DY,split,hit-and-run,10000,F1 diff 1-0,upper,0.1466685244349919,3.003903509117663
+model,full,0,API-White,income,DY,split,hit-and-run,10000,I(D;A|Y),lower,3.000085923614e-06,3.003903509117663
+model,full,0,API-White,income,DY,split,hit-and-run,10000,I(D;A|Y),upper,0.11473061479780931,3.003903509117663
+model,full,0,API-White,both,D,exact,hit-and-run,10000,DD 1-0,lower,-0.4045397121956586,6.130593970883638
+model,full,0,API-White,both,D,exact,hit-and-run,10000,DD 1-0,upper,0.18243341901610077,6.130593970883638
+model,full,0,API-White,both,D,exact,hit-and-run,10000,DI 1/0,lower,0.5188746446883928,6.130593970883638
+model,full,0,API-White,both,D,exact,hit-and-run,10000,DI 1/0,upper,1.2290227308985016,6.130593970883638
+model,full,0,API-White,both,D,exact,hit-and-run,10000,worst-case DI,lower,0.5188746446883928,6.130593970883638
+model,full,0,API-White,both,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999984301515121,6.130593970883638
+model,full,0,API-White,both,D,exact,hit-and-run,10000,max DD gap,lower,1.2720898674434267e-06,6.130593970883638
+model,full,0,API-White,both,D,exact,hit-and-run,10000,max DD gap,upper,0.4045397121956586,6.130593970883638
+model,full,0,API-White,both,D,exact,hit-and-run,10000,I(D;A),lower,5.293764793707576e-13,6.130593970883638
+model,full,0,API-White,both,D,exact,hit-and-run,10000,I(D;A),upper,0.04161704078373939,6.130593970883638
+model,full,0,API-White,both,D,split,hit-and-run,10000,DD 1-0,lower,-0.40292702530847857,6.119552372954786
+model,full,0,API-White,both,D,split,hit-and-run,10000,DD 1-0,upper,0.18284755832519417,6.119552372954786
+model,full,0,API-White,both,D,split,hit-and-run,10000,DI 1/0,lower,0.5213679110401634,6.119552372954786
+model,full,0,API-White,both,D,split,hit-and-run,10000,DI 1/0,upper,1.2294963110034345,6.119552372954786
+model,full,0,API-White,both,D,split,hit-and-run,10000,worst-case DI,lower,0.5213679110401634,6.119552372954786
+model,full,0,API-White,both,D,split,hit-and-run,10000,worst-case DI,upper,0.9999183223567946,6.119552372954786
+model,full,0,API-White,both,D,split,hit-and-run,10000,max DD gap,lower,6.623010917705674e-05,6.119552372954786
+model,full,0,API-White,both,D,split,hit-and-run,10000,max DD gap,upper,0.40292702530847857,6.119552372954786
+model,full,0,API-White,both,D,split,hit-and-run,10000,I(D;A),lower,1.465852213676886e-09,6.119552372954786
+model,full,0,API-White,both,D,split,hit-and-run,10000,I(D;A),upper,0.04219940157368594,6.119552372954786
+model,full,0,API-White,both,DY,exact,hit-and-run,10000,TPRD 1-0,lower,-0.48508953561660034,5.987505872966722
+model,full,0,API-White,both,DY,exact,hit-and-run,10000,TPRD 1-0,upper,0.16165664217817544,5.987505872966722
+model,full,0,API-White,both,DY,exact,hit-and-run,10000,PPVD 1-0,lower,-0.5870280730655977,5.987505872966722
+model,full,0,API-White,both,DY,exact,hit-and-run,10000,PPVD 1-0,upper,0.14712024078560304,5.987505872966722
+model,full,0,API-White,both,DY,exact,hit-and-run,10000,BA diff 1-0,lower,-0.3161154716963486,5.987505872966722
+model,full,0,API-White,both,DY,exact,hit-and-run,10000,BA diff 1-0,upper,0.3185661106313803,5.987505872966722
+model,full,0,API-White,both,DY,exact,hit-and-run,10000,F1 diff 1-0,lower,-0.48322649928892814,5.987505872966722
+model,full,0,API-White,both,DY,exact,hit-and-run,10000,F1 diff 1-0,upper,0.11861288877611509,5.987505872966722
+model,full,0,API-White,both,DY,exact,hit-and-run,10000,I(D;A|Y),lower,5.09987883680981e-07,5.987505872966722
+model,full,0,API-White,both,DY,exact,hit-and-run,10000,I(D;A|Y),upper,0.03731130572491641,5.987505872966722
+model,full,0,API-White,both,DY,split,hit-and-run,10000,TPRD 1-0,lower,-0.46762748723654446,5.985612740973011
+model,full,0,API-White,both,DY,split,hit-and-run,10000,TPRD 1-0,upper,0.15852296291985724,5.985612740973011
+model,full,0,API-White,both,DY,split,hit-and-run,10000,PPVD 1-0,lower,-0.56448219489095,5.985612740973011
+model,full,0,API-White,both,DY,split,hit-and-run,10000,PPVD 1-0,upper,0.14969100384400058,5.985612740973011
+model,full,0,API-White,both,DY,split,hit-and-run,10000,BA diff 1-0,lower,-0.312253134291377,5.985612740973011
+model,full,0,API-White,both,DY,split,hit-and-run,10000,BA diff 1-0,upper,0.3005835723393596,5.985612740973011
+model,full,0,API-White,both,DY,split,hit-and-run,10000,F1 diff 1-0,lower,-0.47100956573889696,5.985612740973011
+model,full,0,API-White,both,DY,split,hit-and-run,10000,F1 diff 1-0,upper,0.1149059078186504,5.985612740973011
+model,full,0,API-White,both,DY,split,hit-and-run,10000,I(D;A|Y),lower,1.5951403588688562e-06,5.985612740973011
+model,full,0,API-White,both,DY,split,hit-and-run,10000,I(D;A|Y),upper,0.03868438678695759,5.985612740973011
+model,full,0,three,county,D,exact,hit-and-run,10000,DD 1-0,lower,-0.8424651641946267,4.493092336924747
+model,full,0,three,county,D,exact,hit-and-run,10000,DD 1-0,upper,0.1737618527880861,4.493092336924747
+model,full,0,three,county,D,exact,hit-and-run,10000,DI 1/0,lower,0.028824582806328405,4.493092336924747
+model,full,0,three,county,D,exact,hit-and-run,10000,DI 1/0,upper,1.2201427410655012,4.493092336924747
+model,full,0,three,county,D,exact,hit-and-run,10000,worst-case DI,lower,0.028824582806328405,4.493092336924747
+model,full,0,three,county,D,exact,hit-and-run,10000,worst-case DI,upper,0.9986076380243082,4.493092336924747
+model,full,0,three,county,D,exact,hit-and-run,10000,max DD gap,lower,0.0011114970067379604,4.493092336924747
+model,full,0,three,county,D,exact,hit-and-run,10000,max DD gap,upper,0.8824908929650708,4.493092336924747
+model,full,0,three,county,D,exact,hit-and-run,10000,I(D;A),lower,5.585665947500034e-07,4.493092336924747
+model,full,0,three,county,D,exact,hit-and-run,10000,I(D;A),upper,0.155674180633245,4.493092336924747
+model,full,0,three,county,D,split,hit-and-run,10000,DD 1-0,lower,-0.8422037181803796,4.4886028789915144
+model,full,0,three,county,D,split,hit-and-run,10000,DD 1-0,upper,0.17188635591202228,4.4886028789915144
+model,full,0,three,county,D,split,hit-and-run,10000,DI 1/0,lower,0.02881155025261665,4.4886028789915144
+model,full,0,three,county,D,split,hit-and-run,10000,DI 1/0,upper,1.222250212915065,4.4886028789915144
+model,full,0,three,county,D,split,hit-and-run,10000,worst-case DI,lower,0.02881155025261665,4.4886028789915144
+model,full,0,three,county,D,split,hit-and-run,10000,worst-case DI,upper,0.9988530363533638,4.4886028789915144
+model,full,0,three,county,D,split,hit-and-run,10000,max DD gap,lower,0.0009155930482680485,4.4886028789915144
+model,full,0,three,county,D,split,hit-and-run,10000,max DD gap,upper,0.8868463371899986,4.4886028789915144
+model,full,0,three,county,D,split,hit-and-run,10000,I(D;A),lower,1.3694462761795512e-07,4.4886028789915144
+model,full,0,three,county,D,split,hit-and-run,10000,I(D;A),upper,0.15644295061138488,4.4886028789915144
+model,full,0,three,county,DY,exact,hit-and-run,10000,TPRD 1-0,lower,-0.8501471218599207,4.562889522872865
+model,full,0,three,county,DY,exact,hit-and-run,10000,TPRD 1-0,upper,0.18276284432243206,4.562889522872865
+model,full,0,three,county,DY,exact,hit-and-run,10000,PPVD 1-0,lower,-0.8335136487268799,4.562889522872865
+model,full,0,three,county,DY,exact,hit-and-run,10000,PPVD 1-0,upper,0.17786507253065487,4.562889522872865
+model,full,0,three,county,DY,exact,hit-and-run,10000,BA diff 1-0,lower,-0.5450003144827619,4.562889522872865
+model,full,0,three,county,DY,exact,hit-and-run,10000,BA diff 1-0,upper,0.46979055871820935,4.562889522872865
+model,full,0,three,county,DY,exact,hit-and-run,10000,F1 diff 1-0,lower,-0.8169386873629342,4.562889522872865
+model,full,0,three,county,DY,exact,hit-and-run,10000,F1 diff 1-0,upper,0.13922975437133311,4.562889522872865
+model,full,0,three,county,DY,exact,hit-and-run,10000,I(D;A|Y),lower,0.0002857421941660775,4.562889522872865
+model,full,0,three,county,DY,exact,hit-and-run,10000,I(D;A|Y),upper,0.1421685432287429,4.562889522872865
+model,full,0,three,county,DY,split,hit-and-run,10000,TPRD 1-0,lower,-0.8464821473178402,4.566774998791516
+model,full,0,three,county,DY,split,hit-and-run,10000,TPRD 1-0,upper,0.1740149451146793,4.566774998791516
+model,full,0,three,county,DY,split,hit-and-run,10000,PPVD 1-0,lower,-0.8488627230630678,4.566774998791516
+model,full,0,three,county,DY,split,hit-and-run,10000,PPVD 1-0,upper,0.18217329381312675,4.566774998791516
+model,full,0,three,county,DY,split,hit-and-run,10000,BA diff 1-0,lower,-0.5071124687819701,4.566774998791516
+model,full,0,three,county,DY,split,hit-and-run,10000,BA diff 1-0,upper,0.4637727908616181,4.566774998791516
+model,full,0,three,county,DY,split,hit-and-run,10000,F1 diff 1-0,lower,-0.8028798740046476,4.566774998791516
+model,full,0,three,county,DY,split,hit-and-run,10000,F1 diff 1-0,upper,0.13302703058596566,4.566774998791516
+model,full,0,three,county,DY,split,hit-and-run,10000,I(D;A|Y),lower,0.00024567787818958683,4.566774998791516
+model,full,0,three,county,DY,split,hit-and-run,10000,I(D;A|Y),upper,0.13995510178756299,4.566774998791516
+model,full,0,three,income,D,exact,hit-and-run,10000,DD 1-0,lower,-0.8615507222518404,3.011512222001329
+model,full,0,three,income,D,exact,hit-and-run,10000,DD 1-0,upper,0.19729088593817123,3.011512222001329
+model,full,0,three,income,D,exact,hit-and-run,10000,DI 1/0,lower,0.005553783154706436,3.011512222001329
+model,full,0,three,income,D,exact,hit-and-run,10000,DI 1/0,upper,1.2546693170713554,3.011512222001329
+model,full,0,three,income,D,exact,hit-and-run,10000,worst-case DI,lower,0.005553783154706436,3.011512222001329
+model,full,0,three,income,D,exact,hit-and-run,10000,worst-case DI,upper,0.9968239559040785,3.011512222001329
+model,full,0,three,income,D,exact,hit-and-run,10000,max DD gap,lower,0.002535506550723876,3.011512222001329
+model,full,0,three,income,D,exact,hit-and-run,10000,max DD gap,upper,0.8717395759112289,3.011512222001329
+model,full,0,three,income,D,exact,hit-and-run,10000,I(D;A),lower,1.5641091054099727e-06,3.011512222001329
+model,full,0,three,income,D,exact,hit-and-run,10000,I(D;A),upper,0.17358734362110426,3.011512222001329
+model,full,0,three,income,D,split,hit-and-run,10000,DD 1-0,lower,-0.8601434409774783,2.9682175759226084
+model,full,0,three,income,D,split,hit-and-run,10000,DD 1-0,upper,0.19936932220239745,2.9682175759226084
+model,full,0,three,income,D,split,hit-and-run,10000,DI 1/0,lower,0.0056080278412691175,2.9682175759226084
+model,full,0,three,income,D,split,hit-and-run,10000,DI 1/0,upper,1.2576259291230334,2.9682175759226084
+model,full,0,three,income,D,split,hit-and-run,10000,worst-case DI,lower,0.0056080278412691175,2.9682175759226084
+model,full,0,three,income,D,split,hit-and-run,10000,worst-case DI,upper,0.9909893117201927,2.9682175759226084
+model,full,0,three,income,D,split,hit-and-run,10000,max DD gap,lower,0.007200054349641549,2.9682175759226084
+model,full,0,three,income,D,split,hit-and-run,10000,max DD gap,upper,0.8690022741655715,2.9682175759226084
+model,full,0,three,income,D,split,hit-and-run,10000,I(D;A),lower,1.0430035105464752e-05,2.9682175759226084
+model,full,0,three,income,D,split,hit-and-run,10000,I(D;A),upper,0.17022562339554753,2.9682175759226084
+model,full,0,three,income,DY,exact,hit-and-run,10000,TPRD 1-0,lower,-0.8746910852288098,3.027957527898252
+model,full,0,three,income,DY,exact,hit-and-run,10000,TPRD 1-0,upper,0.17082030832953343,3.027957527898252
+model,full,0,three,income,DY,exact,hit-and-run,10000,PPVD 1-0,lower,-0.8971657857205702,3.027957527898252
+model,full,0,three,income,DY,exact,hit-and-run,10000,PPVD 1-0,upper,0.18115667367583677,3.027957527898252
+model,full,0,three,income,DY,exact,hit-and-run,10000,BA diff 1-0,lower,-0.5830898484617835,3.027957527898252
+model,full,0,three,income,DY,exact,hit-and-run,10000,BA diff 1-0,upper,0.48020557913064527,3.027957527898252
+model,full,0,three,income,DY,exact,hit-and-run,10000,F1 diff 1-0,lower,-0.8633316930480865,3.027957527898252
+model,full,0,three,income,DY,exact,hit-and-run,10000,F1 diff 1-0,upper,0.16750523529516692,3.027957527898252
+model,full,0,three,income,DY,exact,hit-and-run,10000,I(D;A|Y),lower,7.175218967761384e-05,3.027957527898252
+model,full,0,three,income,DY,exact,hit-and-run,10000,I(D;A|Y),upper,0.1664538611225526,3.027957527898252
+model,full,0,three,income,DY,split,hit-and-run,10000,TPRD 1-0,lower,-0.8657234410115114,3.0441976620350033
+model,full,0,three,income,DY,split,hit-and-run,10000,TPRD 1-0,upper,0.1822462920123914,3.0441976620350033
+model,full,0,three,income,DY,split,hit-and-run,10000,PPVD 1-0,lower,-0.8889589697113724,3.0441976620350033
+model,full,0,three,income,DY,split,hit-and-run,10000,PPVD 1-0,upper,0.17509621316545432,3.0441976620350033
+model,full,0,three,income,DY,split,hit-and-run,10000,BA diff 1-0,lower,-0.5726786785613284,3.0441976620350033
+model,full,0,three,income,DY,split,hit-and-run,10000,BA diff 1-0,upper,0.4690452722884004,3.0441976620350033
+model,full,0,three,income,DY,split,hit-and-run,10000,F1 diff 1-0,lower,-0.8631514503151546,3.0441976620350033
+model,full,0,three,income,DY,split,hit-and-run,10000,F1 diff 1-0,upper,0.1505468716344961,3.0441976620350033
+model,full,0,three,income,DY,split,hit-and-run,10000,I(D;A|Y),lower,0.00018842125656502902,3.0441976620350033
+model,full,0,three,income,DY,split,hit-and-run,10000,I(D;A|Y),upper,0.1652060836145198,3.0441976620350033
+model,full,0,three,both,D,exact,hit-and-run,10000,DD 1-0,lower,-0.7781372097672505,8.916830182773992
+model,full,0,three,both,D,exact,hit-and-run,10000,DD 1-0,upper,0.1258392225645405,8.916830182773992
+model,full,0,three,both,D,exact,hit-and-run,10000,DI 1/0,lower,0.07669210373342647,8.916830182773992
+model,full,0,three,both,D,exact,hit-and-run,10000,DI 1/0,upper,1.160161975595691,8.916830182773992
+model,full,0,three,both,D,exact,hit-and-run,10000,worst-case DI,lower,0.07669210373342647,8.916830182773992
+model,full,0,three,both,D,exact,hit-and-run,10000,worst-case DI,upper,0.9976594259858845,8.916830182773992
+model,full,0,three,both,D,exact,hit-and-run,10000,max DD gap,lower,0.001868448294459979,8.916830182773992
+model,full,0,three,both,D,exact,hit-and-run,10000,max DD gap,upper,0.8174088418603346,8.916830182773992
+model,full,0,three,both,D,exact,hit-and-run,10000,I(D;A),lower,8.739702940868273e-07,8.916830182773992
+model,full,0,three,both,D,exact,hit-and-run,10000,I(D;A),upper,0.11990469665661409,8.916830182773992
+model,full,0,three,both,D,split,hit-and-run,10000,DD 1-0,lower,-0.7818655563279167,8.927135150879622
+model,full,0,three,both,D,split,hit-and-run,10000,DD 1-0,upper,0.12157564870408777,8.927135150879622
+model,full,0,three,both,D,split,hit-and-run,10000,DI 1/0,lower,0.07237962219071979,8.927135150879622
+model,full,0,three,both,D,split,hit-and-run,10000,DI 1/0,upper,1.1539777208575477,8.927135150879622
+model,full,0,three,both,D,split,hit-and-run,10000,worst-case DI,lower,0.07237962219071979,8.927135150879622
+model,full,0,three,both,D,split,hit-and-run,10000,worst-case DI,upper,0.9966475623687635,8.927135150879622
+model,full,0,three,both,D,split,hit-and-run,10000,max DD gap,lower,0.002682546456826418,8.927135150879622
+model,full,0,three,both,D,split,hit-and-run,10000,max DD gap,upper,0.8248493278066406,8.927135150879622
+model,full,0,three,both,D,split,hit-and-run,10000,I(D;A),lower,1.3138569088007386e-06,8.927135150879622
+model,full,0,three,both,D,split,hit-and-run,10000,I(D;A),upper,0.1161171144892854,8.927135150879622
+model,full,0,three,both,DY,exact,hit-and-run,10000,TPRD 1-0,lower,-0.815767326307046,9.105437880149111
+model,full,0,three,both,DY,exact,hit-and-run,10000,TPRD 1-0,upper,0.09670000526117006,9.105437880149111
+model,full,0,three,both,DY,exact,hit-and-run,10000,PPVD 1-0,lower,-0.7948537498953618,9.105437880149111
+model,full,0,three,both,DY,exact,hit-and-run,10000,PPVD 1-0,upper,0.11598436728477557,9.105437880149111
+model,full,0,three,both,DY,exact,hit-and-run,10000,BA diff 1-0,lower,-0.4858816462395776,9.105437880149111
+model,full,0,three,both,DY,exact,hit-and-run,10000,BA diff 1-0,upper,0.32754477792641934,9.105437880149111
+model,full,0,three,both,DY,exact,hit-and-run,10000,F1 diff 1-0,lower,-0.7681396118792003,9.105437880149111
+model,full,0,three,both,DY,exact,hit-and-run,10000,F1 diff 1-0,upper,0.0867623832355836,9.105437880149111
+model,full,0,three,both,DY,exact,hit-and-run,10000,I(D;A|Y),lower,0.0001950421874119799,9.105437880149111
+model,full,0,three,both,DY,exact,hit-and-run,10000,I(D;A|Y),upper,0.10853593336972758,9.105437880149111
+model,full,0,three,both,DY,split,hit-and-run,10000,TPRD 1-0,lower,-0.8246397084022041,9.078440072014928
+model,full,0,three,both,DY,split,hit-and-run,10000,TPRD 1-0,upper,0.09063384980934597,9.078440072014928
+model,full,0,three,both,DY,split,hit-and-run,10000,PPVD 1-0,lower,-0.803408534705282,9.078440072014928
+model,full,0,three,both,DY,split,hit-and-run,10000,PPVD 1-0,upper,0.1323612093485238,9.078440072014928
+model,full,0,three,both,DY,split,hit-and-run,10000,BA diff 1-0,lower,-0.5005174857873671,9.078440072014928
+model,full,0,three,both,DY,split,hit-and-run,10000,BA diff 1-0,upper,0.34333911002058015,9.078440072014928
+model,full,0,three,both,DY,split,hit-and-run,10000,F1 diff 1-0,lower,-0.7769868194156585,9.078440072014928
+model,full,0,three,both,DY,split,hit-and-run,10000,F1 diff 1-0,upper,0.09787027038269192,9.078440072014928
+model,full,0,three,both,DY,split,hit-and-run,10000,I(D;A|Y),lower,0.00023009419583400843,9.078440072014928
+model,full,0,three,both,DY,split,hit-and-run,10000,I(D;A|Y),upper,0.11662779537538706,9.078440072014928
+lender,external,0,Black-White,county,D,exact,hit-and-run,10000,DD 1-0,lower,-0.802271495058654,3.056824947008863
+lender,external,0,Black-White,county,D,exact,hit-and-run,10000,DD 1-0,upper,0.21042954570810513,3.056824947008863
+lender,external,0,Black-White,county,D,exact,hit-and-run,10000,DI 1/0,lower,0.053828410183679155,3.056824947008863
+lender,external,0,Black-White,county,D,exact,hit-and-run,10000,DI 1/0,upper,1.2678809250279288,3.056824947008863
+lender,external,0,Black-White,county,D,exact,hit-and-run,10000,worst-case DI,lower,0.053828410183679155,3.056824947008863
+lender,external,0,Black-White,county,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999409564932698,3.056824947008863
+lender,external,0,Black-White,county,D,exact,hit-and-run,10000,max DD gap,lower,4.7148600837654264e-05,3.056824947008863
+lender,external,0,Black-White,county,D,exact,hit-and-run,10000,max DD gap,upper,0.802271495058654,3.056824947008863
+lender,external,0,Black-White,county,D,exact,hit-and-run,10000,I(D;A),lower,5.760988677225239e-10,3.056824947008863
+lender,external,0,Black-White,county,D,exact,hit-and-run,10000,I(D;A),upper,0.13129070547113292,3.056824947008863
+lender,external,0,Black-White,county,D,split,hit-and-run,10000,DD 1-0,lower,-0.768120567845635,3.028069243999198
+lender,external,0,Black-White,county,D,split,hit-and-run,10000,DD 1-0,upper,0.212105805012897,3.028069243999198
+lender,external,0,Black-White,county,D,split,hit-and-run,10000,DI 1/0,lower,0.09018650963844287,3.028069243999198
+lender,external,0,Black-White,county,D,split,hit-and-run,10000,DI 1/0,upper,1.2705177567531747,3.028069243999198
+lender,external,0,Black-White,county,D,split,hit-and-run,10000,worst-case DI,lower,0.09018650963844287,3.028069243999198
+lender,external,0,Black-White,county,D,split,hit-and-run,10000,worst-case DI,upper,0.9999566249138666,3.028069243999198
+lender,external,0,Black-White,county,D,split,hit-and-run,10000,max DD gap,lower,3.457425476249831e-05,3.028069243999198
+lender,external,0,Black-White,county,D,split,hit-and-run,10000,max DD gap,upper,0.768120567845635,3.028069243999198
+lender,external,0,Black-White,county,D,split,hit-and-run,10000,I(D;A),lower,3.072547056170634e-10,3.028069243999198
+lender,external,0,Black-White,county,D,split,hit-and-run,10000,I(D;A),upper,0.11814466971175777,3.028069243999198
+lender,external,0,Black-White,income,D,exact,hit-and-run,10000,DD 1-0,lower,-0.8464906210467787,3.0432762110140175
+lender,external,0,Black-White,income,D,exact,hit-and-run,10000,DD 1-0,upper,0.2076186186569784,3.0432762110140175
+lender,external,0,Black-White,income,D,exact,hit-and-run,10000,DI 1/0,lower,0.004874545475978636,3.0432762110140175
+lender,external,0,Black-White,income,D,exact,hit-and-run,10000,DI 1/0,upper,1.264244316046782,3.0432762110140175
+lender,external,0,Black-White,income,D,exact,hit-and-run,10000,worst-case DI,lower,0.004874545475978636,3.0432762110140175
+lender,external,0,Black-White,income,D,exact,hit-and-run,10000,worst-case DI,upper,0.999950235020728,3.0432762110140175
+lender,external,0,Black-White,income,D,exact,hit-and-run,10000,max DD gap,lower,3.973897965614537e-05,3.0432762110140175
+lender,external,0,Black-White,income,D,exact,hit-and-run,10000,max DD gap,upper,0.8464906210467787,3.0432762110140175
+lender,external,0,Black-White,income,D,exact,hit-and-run,10000,I(D;A),lower,4.092505022773235e-10,3.0432762110140175
+lender,external,0,Black-White,income,D,exact,hit-and-run,10000,I(D;A),upper,0.15175977789364464,3.0432762110140175
+lender,external,0,Black-White,income,D,split,hit-and-run,10000,DD 1-0,lower,-0.8449296642759846,3.031001954106614
+lender,external,0,Black-White,income,D,split,hit-and-run,10000,DD 1-0,upper,0.2090857572909306,3.031001954106614
+lender,external,0,Black-White,income,D,split,hit-and-run,10000,DI 1/0,lower,0.004972064362150769,3.031001954106614
+lender,external,0,Black-White,income,D,split,hit-and-run,10000,DI 1/0,upper,1.2666175910949766,3.031001954106614
+lender,external,0,Black-White,income,D,split,hit-and-run,10000,worst-case DI,lower,0.004972064362150769,3.031001954106614
+lender,external,0,Black-White,income,D,split,hit-and-run,10000,worst-case DI,upper,0.9999490369303699,3.031001954106614
+lender,external,0,Black-White,income,D,split,hit-and-run,10000,max DD gap,lower,4.0622651143240596e-05,3.031001954106614
+lender,external,0,Black-White,income,D,split,hit-and-run,10000,max DD gap,upper,0.8449296642759846,3.031001954106614
+lender,external,0,Black-White,income,D,split,hit-and-run,10000,I(D;A),lower,4.254849858050426e-10,3.031001954106614
+lender,external,0,Black-White,income,D,split,hit-and-run,10000,I(D;A),upper,0.15101199501149973,3.031001954106614
+lender,external,0,Black-White,both,D,exact,hit-and-run,10000,DD 1-0,lower,-0.768276538818175,6.054649689933285
+lender,external,0,Black-White,both,D,exact,hit-and-run,10000,DD 1-0,upper,0.17378777239901444,6.054649689933285
+lender,external,0,Black-White,both,D,exact,hit-and-run,10000,DI 1/0,lower,0.09167772519170772,6.054649689933285
+lender,external,0,Black-White,both,D,exact,hit-and-run,10000,DI 1/0,upper,1.2206013909224063,6.054649689933285
+lender,external,0,Black-White,both,D,exact,hit-and-run,10000,worst-case DI,lower,0.09167772519170772,6.054649689933285
+lender,external,0,Black-White,both,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999737521467512,6.054649689933285
+lender,external,0,Black-White,both,D,exact,hit-and-run,10000,max DD gap,lower,2.0958832842810082e-05,6.054649689933285
+lender,external,0,Black-White,both,D,exact,hit-and-run,10000,max DD gap,upper,0.768276538818175,6.054649689933285
+lender,external,0,Black-White,both,D,exact,hit-and-run,10000,I(D;A),lower,1.1383130562758538e-10,6.054649689933285
+lender,external,0,Black-White,both,D,exact,hit-and-run,10000,I(D;A),upper,0.11868884868508729,6.054649689933285
+lender,external,0,Black-White,both,D,split,hit-and-run,10000,DD 1-0,lower,-0.7381550400891118,6.051233900012448
+lender,external,0,Black-White,both,D,split,hit-and-run,10000,DD 1-0,upper,0.1778555114331024,6.051233900012448
+lender,external,0,Black-White,both,D,split,hit-and-run,10000,DI 1/0,lower,0.12362065913694303,6.051233900012448
+lender,external,0,Black-White,both,D,split,hit-and-run,10000,DI 1/0,upper,1.2262185052635381,6.051233900012448
+lender,external,0,Black-White,both,D,split,hit-and-run,10000,worst-case DI,lower,0.12362065913694303,6.051233900012448
+lender,external,0,Black-White,both,D,split,hit-and-run,10000,worst-case DI,upper,0.9999753180189116,6.051233900012448
+lender,external,0,Black-White,both,D,split,hit-and-run,10000,max DD gap,lower,1.9674395588364924e-05,6.051233900012448
+lender,external,0,Black-White,both,D,split,hit-and-run,10000,max DD gap,upper,0.7381550400891118,6.051233900012448
+lender,external,0,Black-White,both,D,split,hit-and-run,10000,I(D;A),lower,9.920456816564522e-11,6.051233900012448
+lender,external,0,Black-White,both,D,split,hit-and-run,10000,I(D;A),upper,0.10785530685128887,6.051233900012448
+lender,external,0,API-White,county,D,exact,hit-and-run,10000,DD 1-0,lower,-0.6409900251732235,3.060133340070024
+lender,external,0,API-White,county,D,exact,hit-and-run,10000,DD 1-0,upper,0.1989331732524251,3.060133340070024
+lender,external,0,API-White,county,D,exact,hit-and-run,10000,DI 1/0,lower,0.2535703618295684,3.060133340070024
+lender,external,0,API-White,county,D,exact,hit-and-run,10000,DI 1/0,upper,1.250095915636251,3.060133340070024
+lender,external,0,API-White,county,D,exact,hit-and-run,10000,worst-case DI,lower,0.2535703618295684,3.060133340070024
+lender,external,0,API-White,county,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999675225183303,3.060133340070024
+lender,external,0,API-White,county,D,exact,hit-and-run,10000,max DD gap,lower,2.6321295336528827e-05,3.060133340070024
+lender,external,0,API-White,county,D,exact,hit-and-run,10000,max DD gap,upper,0.6409900251732235,3.060133340070024
+lender,external,0,API-White,county,D,exact,hit-and-run,10000,I(D;A),lower,2.267240444738593e-10,3.060133340070024
+lender,external,0,API-White,county,D,exact,hit-and-run,10000,I(D;A),upper,0.10035703596939452,3.060133340070024
+lender,external,0,API-White,county,D,split,hit-and-run,10000,DD 1-0,lower,-0.6209598028400426,3.0317215491086245
+lender,external,0,API-White,county,D,split,hit-and-run,10000,DD 1-0,upper,0.20070997483629516,3.0317215491086245
+lender,external,0,API-White,county,D,split,hit-and-run,10000,DI 1/0,lower,0.2755341673901002,3.0317215491086245
+lender,external,0,API-White,county,D,split,hit-and-run,10000,DI 1/0,upper,1.252849681665164,3.0317215491086245
+lender,external,0,API-White,county,D,split,hit-and-run,10000,worst-case DI,lower,0.2755341673901002,3.0317215491086245
+lender,external,0,API-White,county,D,split,hit-and-run,10000,worst-case DI,upper,0.9998480654093826,3.0317215491086245
+lender,external,0,API-White,county,D,split,hit-and-run,10000,max DD gap,lower,0.00012295645992732585,3.0317215491086245
+lender,external,0,API-White,county,D,split,hit-and-run,10000,max DD gap,upper,0.6209598028400426,3.0317215491086245
+lender,external,0,API-White,county,D,split,hit-and-run,10000,I(D;A),lower,5.025498533630664e-09,3.0317215491086245
+lender,external,0,API-White,county,D,split,hit-and-run,10000,I(D;A),upper,0.09612195201517942,3.0317215491086245
+lender,external,0,API-White,income,D,exact,hit-and-run,10000,DD 1-0,lower,-0.868402399019053,3.0391961270943284
+lender,external,0,API-White,income,D,exact,hit-and-run,10000,DD 1-0,upper,0.1966688557284001,3.0391961270943284
+lender,external,0,API-White,income,D,exact,hit-and-run,10000,DI 1/0,lower,0.008541613132012555,3.0391961270943284
+lender,external,0,API-White,income,D,exact,hit-and-run,10000,DI 1/0,upper,1.2471962041201965,3.0391961270943284
+lender,external,0,API-White,income,D,exact,hit-and-run,10000,worst-case DI,lower,0.008541613132012555,3.0391961270943284
+lender,external,0,API-White,income,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999821698114112,3.0391961270943284
+lender,external,0,API-White,income,D,exact,hit-and-run,10000,max DD gap,lower,1.4450236887952883e-05,3.0391961270943284
+lender,external,0,API-White,income,D,exact,hit-and-run,10000,max DD gap,upper,0.868402399019053,3.0391961270943284
+lender,external,0,API-White,income,D,exact,hit-and-run,10000,I(D;A),lower,6.833238259960508e-11,3.0391961270943284
+lender,external,0,API-White,income,D,exact,hit-and-run,10000,I(D;A),upper,0.19550059247712137,3.0391961270943284
+lender,external,0,API-White,income,D,split,hit-and-run,10000,DD 1-0,lower,-0.8685529093106878,3.022017688024789
+lender,external,0,API-White,income,D,split,hit-and-run,10000,DD 1-0,upper,0.19823375101970975,3.022017688024789
+lender,external,0,API-White,income,D,split,hit-and-run,10000,DI 1/0,lower,0.008667306955785456,3.022017688024789
+lender,external,0,API-White,income,D,split,hit-and-run,10000,DI 1/0,upper,1.2496654164365053,3.022017688024789
+lender,external,0,API-White,income,D,split,hit-and-run,10000,worst-case DI,lower,0.008667306955785456,3.022017688024789
+lender,external,0,API-White,income,D,split,hit-and-run,10000,worst-case DI,upper,0.9998321935463733,3.022017688024789
+lender,external,0,API-White,income,D,split,hit-and-run,10000,max DD gap,lower,0.00013582056551131316,3.022017688024789
+lender,external,0,API-White,income,D,split,hit-and-run,10000,max DD gap,upper,0.8685529093106878,3.022017688024789
+lender,external,0,API-White,income,D,split,hit-and-run,10000,I(D;A),lower,6.128320434047697e-09,3.022017688024789
+lender,external,0,API-White,income,D,split,hit-and-run,10000,I(D;A),upper,0.1993259655471497,3.022017688024789
+lender,external,0,API-White,both,D,exact,hit-and-run,10000,DD 1-0,lower,-0.6000694112349132,6.06819760100916
+lender,external,0,API-White,both,D,exact,hit-and-run,10000,DD 1-0,upper,0.17224722115106317,6.06819760100916
+lender,external,0,API-White,both,D,exact,hit-and-run,10000,DI 1/0,lower,0.2987031354080802,6.06819760100916
+lender,external,0,API-White,both,D,exact,hit-and-run,10000,DI 1/0,upper,1.2160004657945276,6.06819760100916
+lender,external,0,API-White,both,D,exact,hit-and-run,10000,worst-case DI,lower,0.2987031354080802,6.06819760100916
+lender,external,0,API-White,both,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999867599553296,6.06819760100916
+lender,external,0,API-White,both,D,exact,hit-and-run,10000,max DD gap,lower,1.073005020268969e-05,6.06819760100916
+lender,external,0,API-White,both,D,exact,hit-and-run,10000,max DD gap,upper,0.6000694112349132,6.06819760100916
+lender,external,0,API-White,both,D,exact,hit-and-run,10000,I(D;A),lower,3.767605424894577e-11,6.06819760100916
+lender,external,0,API-White,both,D,exact,hit-and-run,10000,I(D;A),upper,0.08816009795950491,6.06819760100916
+lender,external,0,API-White,both,D,split,hit-and-run,10000,DD 1-0,lower,-0.5811310306555375,6.063640143955126
+lender,external,0,API-White,both,D,split,hit-and-run,10000,DD 1-0,upper,0.17503785940244676,6.063640143955126
+lender,external,0,API-White,both,D,split,hit-and-run,10000,DI 1/0,lower,0.3195725739169093,6.063640143955126
+lender,external,0,API-White,both,D,split,hit-and-run,10000,DI 1/0,upper,1.2199610382936077,6.063640143955126
+lender,external,0,API-White,both,D,split,hit-and-run,10000,worst-case DI,lower,0.3195725739169093,6.063640143955126
+lender,external,0,API-White,both,D,split,hit-and-run,10000,worst-case DI,upper,0.9999140113248239,6.063640143955126
+lender,external,0,API-White,both,D,split,hit-and-run,10000,max DD gap,lower,6.959296323294506e-05,6.063640143955126
+lender,external,0,API-White,both,D,split,hit-and-run,10000,max DD gap,upper,0.5811310306555375,6.063640143955126
+lender,external,0,API-White,both,D,split,hit-and-run,10000,I(D;A),lower,1.6106070392177884e-09,6.063640143955126
+lender,external,0,API-White,both,D,split,hit-and-run,10000,I(D;A),upper,0.08447160103997242,6.063640143955126
+lender,external,0,three,county,D,exact,hit-and-run,10000,DD 1-0,lower,-0.7970742554938485,4.470763952005655
+lender,external,0,three,county,D,exact,hit-and-run,10000,DD 1-0,upper,0.1883522176048853,4.470763952005655
+lender,external,0,three,county,D,exact,hit-and-run,10000,DI 1/0,lower,0.08074432179717554,4.470763952005655
+lender,external,0,three,county,D,exact,hit-and-run,10000,DI 1/0,upper,1.2410778589546352,4.470763952005655
+lender,external,0,three,county,D,exact,hit-and-run,10000,worst-case DI,lower,0.08074432179717554,4.470763952005655
+lender,external,0,three,county,D,exact,hit-and-run,10000,worst-case DI,upper,0.9968734803957352,4.470763952005655
+lender,external,0,three,county,D,exact,hit-and-run,10000,max DD gap,lower,0.002503669279748766,4.470763952005655
+lender,external,0,three,county,D,exact,hit-and-run,10000,max DD gap,upper,0.8422981738650486,4.470763952005655
+lender,external,0,three,county,D,exact,hit-and-run,10000,I(D;A),lower,8.951597847032205e-07,4.470763952005655
+lender,external,0,three,county,D,exact,hit-and-run,10000,I(D;A),upper,0.18161089848267742,4.470763952005655
+lender,external,0,three,county,D,split,hit-and-run,10000,DD 1-0,lower,-0.7608236130679426,4.445542691042647
+lender,external,0,three,county,D,split,hit-and-run,10000,DD 1-0,upper,0.1905088408717578,4.445542691042647
+lender,external,0,three,county,D,split,hit-and-run,10000,DI 1/0,lower,0.11854892085659989,4.445542691042647
+lender,external,0,three,county,D,split,hit-and-run,10000,DI 1/0,upper,1.2447417885504388,4.445542691042647
+lender,external,0,three,county,D,split,hit-and-run,10000,worst-case DI,lower,0.1167168746014422,4.445542691042647
+lender,external,0,three,county,D,split,hit-and-run,10000,worst-case DI,upper,0.9964650189852069,4.445542691042647
+lender,external,0,three,county,D,split,hit-and-run,10000,max DD gap,lower,0.0028217989446289726,4.445542691042647
+lender,external,0,three,county,D,split,hit-and-run,10000,max DD gap,upper,0.8084137910231443,4.445542691042647
+lender,external,0,three,county,D,split,hit-and-run,10000,I(D;A),lower,2.3759102057723425e-06,4.445542691042647
+lender,external,0,three,county,D,split,hit-and-run,10000,I(D;A),upper,0.16957232676707834,4.445542691042647
+lender,external,0,three,income,D,exact,hit-and-run,10000,DD 1-0,lower,-0.8849499198777407,2.9638325390405953
+lender,external,0,three,income,D,exact,hit-and-run,10000,DD 1-0,upper,0.19283129555502676,2.9638325390405953
+lender,external,0,three,income,D,exact,hit-and-run,10000,DI 1/0,lower,0.003733422359806819,2.9638325390405953
+lender,external,0,three,income,D,exact,hit-and-run,10000,DI 1/0,upper,1.2474826798587568,2.9638325390405953
+lender,external,0,three,income,D,exact,hit-and-run,10000,worst-case DI,lower,0.003733422359806819,2.9638325390405953
+lender,external,0,three,income,D,exact,hit-and-run,10000,worst-case DI,upper,0.999330766981344,2.9638325390405953
+lender,external,0,three,income,D,exact,hit-and-run,10000,max DD gap,lower,0.0005350360927656173,2.9638325390405953
+lender,external,0,three,income,D,exact,hit-and-run,10000,max DD gap,upper,0.9196304096973977,2.9638325390405953
+lender,external,0,three,income,D,exact,hit-and-run,10000,I(D;A),lower,7.091743321911012e-08,2.9638325390405953
+lender,external,0,three,income,D,exact,hit-and-run,10000,I(D;A),upper,0.3174396025933226,2.9638325390405953
+lender,external,0,three,income,D,split,hit-and-run,10000,DD 1-0,lower,-0.8862534780615661,2.976908521959558
+lender,external,0,three,income,D,split,hit-and-run,10000,DD 1-0,upper,0.1948844591553257,2.976908521959558
+lender,external,0,three,income,D,split,hit-and-run,10000,DI 1/0,lower,0.0037646455914342684,2.976908521959558
+lender,external,0,three,income,D,split,hit-and-run,10000,DI 1/0,upper,1.2507547734558575,2.976908521959558
+lender,external,0,three,income,D,split,hit-and-run,10000,worst-case DI,lower,0.0037646455914342684,2.976908521959558
+lender,external,0,three,income,D,split,hit-and-run,10000,worst-case DI,upper,0.99223072635289,2.976908521959558
+lender,external,0,three,income,D,split,hit-and-run,10000,max DD gap,lower,0.006204351144371345,2.976908521959558
+lender,external,0,three,income,D,split,hit-and-run,10000,max DD gap,upper,0.921201314033531,2.976908521959558
+lender,external,0,three,income,D,split,hit-and-run,10000,I(D;A),lower,1.1802079034834768e-05,2.976908521959558
+lender,external,0,three,income,D,split,hit-and-run,10000,I(D;A),upper,0.32045835279207957,2.976908521959558
+lender,external,0,three,both,D,exact,hit-and-run,10000,DD 1-0,lower,-0.7664532126622595,8.914218903984874
+lender,external,0,three,both,D,exact,hit-and-run,10000,DD 1-0,upper,0.15958022547547945,8.914218903984874
+lender,external,0,three,both,D,exact,hit-and-run,10000,DI 1/0,lower,0.10767739811433193,8.914218903984874
+lender,external,0,three,both,D,exact,hit-and-run,10000,DI 1/0,upper,1.2002842831285585,8.914218903984874
+lender,external,0,three,both,D,exact,hit-and-run,10000,worst-case DI,lower,0.10767739811433193,8.914218903984874
+lender,external,0,three,both,D,exact,hit-and-run,10000,worst-case DI,upper,0.9882048641812189,8.914218903984874
+lender,external,0,three,both,D,exact,hit-and-run,10000,max DD gap,lower,0.009438730938639117,8.914218903984874
+lender,external,0,three,both,D,exact,hit-and-run,10000,max DD gap,upper,0.7664532126622595,8.914218903984874
+lender,external,0,three,both,D,exact,hit-and-run,10000,I(D;A),lower,2.027243887298083e-05,8.914218903984874
+lender,external,0,three,both,D,exact,hit-and-run,10000,I(D;A),upper,0.16642581174496682,8.914218903984874
+lender,external,0,three,both,D,split,hit-and-run,10000,DD 1-0,lower,-0.7343998020613093,8.832339294953272
+lender,external,0,three,both,D,split,hit-and-run,10000,DD 1-0,upper,0.1624623788552183,8.832339294953272
+lender,external,0,three,both,D,split,hit-and-run,10000,DI 1/0,lower,0.14163559123705238,8.832339294953272
+lender,external,0,three,both,D,split,hit-and-run,10000,DI 1/0,upper,1.2043427996388405,8.832339294953272
+lender,external,0,three,both,D,split,hit-and-run,10000,worst-case DI,lower,0.14163559123705238,8.832339294953272
+lender,external,0,three,both,D,split,hit-and-run,10000,worst-case DI,upper,0.9976390253084516,8.832339294953272
+lender,external,0,three,both,D,split,hit-and-run,10000,max DD gap,lower,0.0018846586789103004,8.832339294953272
+lender,external,0,three,both,D,split,hit-and-run,10000,max DD gap,upper,0.7343998020613093,8.832339294953272
+lender,external,0,three,both,D,split,hit-and-run,10000,I(D;A),lower,1.518759179514658e-06,8.832339294953272
+lender,external,0,three,both,D,split,hit-and-run,10000,I(D;A),upper,0.15640771462013628,8.832339294953272
+lender,full,0,Black-White,county,D,exact,hit-and-run,10000,DD 1-0,lower,-0.8111624513049737,3.0513032390736043
+lender,full,0,Black-White,county,D,exact,hit-and-run,10000,DD 1-0,upper,0.21040235169397203,3.0513032390736043
+lender,full,0,Black-White,county,D,exact,hit-and-run,10000,DI 1/0,lower,0.043960214701168523,3.0513032390736043
+lender,full,0,Black-White,county,D,exact,hit-and-run,10000,DI 1/0,upper,1.267845735362311,3.0513032390736043
+lender,full,0,Black-White,county,D,exact,hit-and-run,10000,worst-case DI,lower,0.043960214701168523,3.0513032390736043
+lender,full,0,Black-White,county,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999513392027798,3.0513032390736043
+lender,full,0,Black-White,county,D,exact,hit-and-run,10000,max DD gap,lower,3.8857213552789815e-05,3.0513032390736043
+lender,full,0,Black-White,county,D,exact,hit-and-run,10000,max DD gap,upper,0.8111624513049737,3.0513032390736043
+lender,full,0,Black-White,county,D,exact,hit-and-run,10000,I(D;A),lower,3.9129029959935165e-10,3.0513032390736043
+lender,full,0,Black-White,county,D,exact,hit-and-run,10000,I(D;A),upper,0.134895978709395,3.0513032390736043
+lender,full,0,Black-White,county,D,split,hit-and-run,10000,DD 1-0,lower,-0.7985891277395739,3.0385984478052706
+lender,full,0,Black-White,county,D,split,hit-and-run,10000,DD 1-0,upper,0.21203542449808643,3.0385984478052706
+lender,full,0,Black-White,county,D,split,hit-and-run,10000,DI 1/0,lower,0.056556893780555985,3.0385984478052706
+lender,full,0,Black-White,county,D,split,hit-and-run,10000,DI 1/0,upper,1.2704567269064302,3.0385984478052706
+lender,full,0,Black-White,county,D,split,hit-and-run,10000,worst-case DI,lower,0.056556893780555985,3.0385984478052706
+lender,full,0,Black-White,county,D,split,hit-and-run,10000,worst-case DI,upper,0.9999198494784959,3.0385984478052706
+lender,full,0,Black-White,county,D,split,hit-and-run,10000,max DD gap,lower,6.389256622785222e-05,3.0385984478052706
+lender,full,0,Black-White,county,D,split,hit-and-run,10000,max DD gap,upper,0.7985891277395739,3.0385984478052706
+lender,full,0,Black-White,county,D,split,hit-and-run,10000,I(D;A),lower,1.055993033174688e-09,3.0385984478052706
+lender,full,0,Black-White,county,D,split,hit-and-run,10000,I(D;A),upper,0.13017237843698268,3.0385984478052706
+lender,full,0,Black-White,income,D,exact,hit-and-run,10000,DD 1-0,lower,-0.8464906210467787,3.0498076209332794
+lender,full,0,Black-White,income,D,exact,hit-and-run,10000,DD 1-0,upper,0.2076186186569784,3.0498076209332794
+lender,full,0,Black-White,income,D,exact,hit-and-run,10000,DI 1/0,lower,0.004874545475978636,3.0498076209332794
+lender,full,0,Black-White,income,D,exact,hit-and-run,10000,DI 1/0,upper,1.264244316046782,3.0498076209332794
+lender,full,0,Black-White,income,D,exact,hit-and-run,10000,worst-case DI,lower,0.004874545475978636,3.0498076209332794
+lender,full,0,Black-White,income,D,exact,hit-and-run,10000,worst-case DI,upper,0.999950235020728,3.0498076209332794
+lender,full,0,Black-White,income,D,exact,hit-and-run,10000,max DD gap,lower,3.973897965614537e-05,3.0498076209332794
+lender,full,0,Black-White,income,D,exact,hit-and-run,10000,max DD gap,upper,0.8464906210467787,3.0498076209332794
+lender,full,0,Black-White,income,D,exact,hit-and-run,10000,I(D;A),lower,4.092505022773235e-10,3.0498076209332794
+lender,full,0,Black-White,income,D,exact,hit-and-run,10000,I(D;A),upper,0.15175977789364464,3.0498076209332794
+lender,full,0,Black-White,income,D,split,hit-and-run,10000,DD 1-0,lower,-0.8449296642759846,3.0142668141052127
+lender,full,0,Black-White,income,D,split,hit-and-run,10000,DD 1-0,upper,0.2090857572909306,3.0142668141052127
+lender,full,0,Black-White,income,D,split,hit-and-run,10000,DI 1/0,lower,0.004972064362150769,3.0142668141052127
+lender,full,0,Black-White,income,D,split,hit-and-run,10000,DI 1/0,upper,1.2666175910949766,3.0142668141052127
+lender,full,0,Black-White,income,D,split,hit-and-run,10000,worst-case DI,lower,0.004972064362150769,3.0142668141052127
+lender,full,0,Black-White,income,D,split,hit-and-run,10000,worst-case DI,upper,0.9999490369303699,3.0142668141052127
+lender,full,0,Black-White,income,D,split,hit-and-run,10000,max DD gap,lower,4.0622651143240596e-05,3.0142668141052127
+lender,full,0,Black-White,income,D,split,hit-and-run,10000,max DD gap,upper,0.8449296642759846,3.0142668141052127
+lender,full,0,Black-White,income,D,split,hit-and-run,10000,I(D;A),lower,4.254849858050426e-10,3.0142668141052127
+lender,full,0,Black-White,income,D,split,hit-and-run,10000,I(D;A),upper,0.15101199501149973,3.0142668141052127
+lender,full,0,Black-White,both,D,exact,hit-and-run,10000,DD 1-0,lower,-0.7750894843180649,6.032089421059936
+lender,full,0,Black-White,both,D,exact,hit-and-run,10000,DD 1-0,upper,0.17130283767908328,6.032089421059936
+lender,full,0,Black-White,both,D,exact,hit-and-run,10000,DI 1/0,lower,0.08407731765165746,6.032089421059936
+lender,full,0,Black-White,both,D,exact,hit-and-run,10000,DI 1/0,upper,1.2174048426081403,6.032089421059936
+lender,full,0,Black-White,both,D,exact,hit-and-run,10000,worst-case DI,lower,0.08407731765165746,6.032089421059936
+lender,full,0,Black-White,both,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999789877592369,6.032089421059936
+lender,full,0,Black-White,both,D,exact,hit-and-run,10000,max DD gap,lower,1.677820641587946e-05,6.032089421059936
+lender,full,0,Black-White,both,D,exact,hit-and-run,10000,max DD gap,upper,0.7750894843180649,6.032089421059936
+lender,full,0,Black-White,both,D,exact,hit-and-run,10000,I(D;A),lower,7.294921325349185e-11,6.032089421059936
+lender,full,0,Black-White,both,D,exact,hit-and-run,10000,I(D;A),upper,0.12108975177243667,6.032089421059936
+lender,full,0,Black-White,both,D,split,hit-and-run,10000,DD 1-0,lower,-0.7650358365603489,6.058947663055733
+lender,full,0,Black-White,both,D,split,hit-and-run,10000,DD 1-0,upper,0.17436511967851176,6.058947663055733
+lender,full,0,Black-White,both,D,split,hit-and-run,10000,DI 1/0,lower,0.09384131119708576,6.058947663055733
+lender,full,0,Black-White,both,D,split,hit-and-run,10000,DI 1/0,upper,1.221740547913759,6.058947663055733
+lender,full,0,Black-White,both,D,split,hit-and-run,10000,worst-case DI,lower,0.09384131119708576,6.058947663055733
+lender,full,0,Black-White,both,D,split,hit-and-run,10000,worst-case DI,upper,0.9999184073120024,6.058947663055733
+lender,full,0,Black-White,both,D,split,hit-and-run,10000,max DD gap,lower,6.503763589360556e-05,6.058947663055733
+lender,full,0,Black-White,both,D,split,hit-and-run,10000,max DD gap,upper,0.7650358365603489,6.058947663055733
+lender,full,0,Black-White,both,D,split,hit-and-run,10000,I(D;A),lower,1.0913131787917312e-09,6.058947663055733
+lender,full,0,Black-White,both,D,split,hit-and-run,10000,I(D;A),upper,0.11752642727459285,6.058947663055733
+lender,full,0,API-White,county,D,exact,hit-and-run,10000,DD 1-0,lower,-0.6276082312553138,3.026875234907493
+lender,full,0,API-White,county,D,exact,hit-and-run,10000,DD 1-0,upper,0.1991351934192339,3.026875234907493
+lender,full,0,API-White,county,D,exact,hit-and-run,10000,DI 1/0,lower,0.2682938890278249,3.026875234907493
+lender,full,0,API-White,county,D,exact,hit-and-run,10000,DI 1/0,upper,1.2503546854945593,3.026875234907493
+lender,full,0,API-White,county,D,exact,hit-and-run,10000,worst-case DI,lower,0.2682938890278249,3.026875234907493
+lender,full,0,API-White,county,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999946159672544,3.026875234907493
+lender,full,0,API-White,county,D,exact,hit-and-run,10000,max DD gap,lower,4.363346867819473e-06,3.026875234907493
+lender,full,0,API-White,county,D,exact,hit-and-run,10000,max DD gap,upper,0.6276082312553138,3.026875234907493
+lender,full,0,API-White,county,D,exact,hit-and-run,10000,I(D;A),lower,6.230348540499362e-12,3.026875234907493
+lender,full,0,API-White,county,D,exact,hit-and-run,10000,I(D;A),upper,0.09626146976782068,3.026875234907493
+lender,full,0,API-White,county,D,split,hit-and-run,10000,DD 1-0,lower,-0.6252071863090858,3.0274792599957436
+lender,full,0,API-White,county,D,split,hit-and-run,10000,DD 1-0,upper,0.20075770284268768,3.0274792599957436
+lender,full,0,API-White,county,D,split,hit-and-run,10000,DI 1/0,lower,0.2707852283939548,3.0274792599957436
+lender,full,0,API-White,county,D,split,hit-and-run,10000,DI 1/0,upper,1.252902309203991,3.0274792599957436
+lender,full,0,API-White,county,D,split,hit-and-run,10000,worst-case DI,lower,0.2707852283939548,3.0274792599957436
+lender,full,0,API-White,county,D,split,hit-and-run,10000,worst-case DI,upper,0.9999834302179562,3.0274792599957436
+lender,full,0,API-White,county,D,split,hit-and-run,10000,max DD gap,lower,1.340951414863234e-05,3.0274792599957436
+lender,full,0,API-White,county,D,split,hit-and-run,10000,max DD gap,upper,0.6252071863090858,3.0274792599957436
+lender,full,0,API-White,county,D,split,hit-and-run,10000,I(D;A),lower,5.968529505035881e-11,3.0274792599957436
+lender,full,0,API-White,county,D,split,hit-and-run,10000,I(D;A),upper,0.09725466733045607,3.0274792599957436
+lender,full,0,API-White,income,D,exact,hit-and-run,10000,DD 1-0,lower,-0.868402399019053,3.034664884908125
+lender,full,0,API-White,income,D,exact,hit-and-run,10000,DD 1-0,upper,0.1966688557284001,3.034664884908125
+lender,full,0,API-White,income,D,exact,hit-and-run,10000,DI 1/0,lower,0.008541613132012555,3.034664884908125
+lender,full,0,API-White,income,D,exact,hit-and-run,10000,DI 1/0,upper,1.2471962041201965,3.034664884908125
+lender,full,0,API-White,income,D,exact,hit-and-run,10000,worst-case DI,lower,0.008541613132012555,3.034664884908125
+lender,full,0,API-White,income,D,exact,hit-and-run,10000,worst-case DI,upper,0.9999821698114112,3.034664884908125
+lender,full,0,API-White,income,D,exact,hit-and-run,10000,max DD gap,lower,1.4450236887952883e-05,3.034664884908125
+lender,full,0,API-White,income,D,exact,hit-and-run,10000,max DD gap,upper,0.868402399019053,3.034664884908125
+lender,full,0,API-White,income,D,exact,hit-and-run,10000,I(D;A),lower,6.833238259960508e-11,3.034664884908125
+lender,full,0,API-White,income,D,exact,hit-and-run,10000,I(D;A),upper,0.19550059247712137,3.034664884908125
+lender,full,0,API-White,income,D,split,hit-and-run,10000,DD 1-0,lower,-0.8685529093106878,3.042464764788747
+lender,full,0,API-White,income,D,split,hit-and-run,10000,DD 1-0,upper,0.19823375101970975,3.042464764788747
+lender,full,0,API-White,income,D,split,hit-and-run,10000,DI 1/0,lower,0.008667306955785456,3.042464764788747
+lender,full,0,API-White,income,D,split,hit-and-run,10000,DI 1/0,upper,1.2496654164365053,3.042464764788747
+lender,full,0,API-White,income,D,split,hit-and-run,10000,worst-case DI,lower,0.008667306955785456,3.042464764788747
+lender,full,0,API-White,income,D,split,hit-and-run,10000,worst-case DI,upper,0.9998321935463733,3.042464764788747
+lender,full,0,API-White,income,D,split,hit-and-run,10000,max DD gap,lower,0.00013582056551131316,3.042464764788747
+lender,full,0,API-White,income,D,split,hit-and-run,10000,max DD gap,upper,0.8685529093106878,3.042464764788747
+lender,full,0,API-White,income,D,split,hit-and-run,10000,I(D;A),lower,6.128320434047697e-09,3.042464764788747
+lender,full,0,API-White,income,D,split,hit-and-run,10000,I(D;A),upper,0.1993259655471497,3.042464764788747
+lender,full,0,API-White,both,D,exact,hit-and-run,10000,DD 1-0,lower,-0.5897646932776064,6.109496349003166
+lender,full,0,API-White,both,D,exact,hit-and-run,10000,DD 1-0,upper,0.17364125372516936,6.109496349003166
+lender,full,0,API-White,both,D,exact,hit-and-run,10000,DI 1/0,lower,0.310119904904854,6.109496349003166
+lender,full,0,API-White,both,D,exact,hit-and-run,10000,DI 1/0,upper,1.2177773001883425,6.109496349003166
+lender,full,0,API-White,both,D,exact,hit-and-run,10000,worst-case DI,lower,0.310119904904854,6.109496349003166
+lender,full,0,API-White,both,D,exact,hit-and-run,10000,worst-case DI,upper,0.999989494256492,6.109496349003166
+lender,full,0,API-White,both,D,exact,hit-and-run,10000,max DD gap,lower,8.514181075502947e-06,6.109496349003166
+lender,full,0,API-White,both,D,exact,hit-and-run,10000,max DD gap,upper,0.5897646932776064,6.109496349003166
+lender,full,0,API-White,both,D,exact,hit-and-run,10000,I(D;A),lower,2.3722286427127412e-11,6.109496349003166
+lender,full,0,API-White,both,D,exact,hit-and-run,10000,I(D;A),upper,0.08523733144852771,6.109496349003166
+lender,full,0,API-White,both,D,split,hit-and-run,10000,DD 1-0,lower,-0.5877900441409891,6.071695658843964
+lender,full,0,API-White,both,D,split,hit-and-run,10000,DD 1-0,upper,0.1756694080905058,6.071695658843964
+lender,full,0,API-White,both,D,split,hit-and-run,10000,DI 1/0,lower,0.31213541346573515,6.071695658843964
+lender,full,0,API-White,both,D,split,hit-and-run,10000,DI 1/0,upper,1.22076263921692,6.071695658843964
+lender,full,0,API-White,both,D,split,hit-and-run,10000,worst-case DI,lower,0.31213541346573515,6.071695658843964
+lender,full,0,API-White,both,D,split,hit-and-run,10000,worst-case DI,upper,0.9999645704239484,6.071695658843964
+lender,full,0,API-White,both,D,split,hit-and-run,10000,max DD gap,lower,2.867191792044199e-05,6.071695658843964
+lender,full,0,API-White,both,D,split,hit-and-run,10000,max DD gap,upper,0.5877900441409891,6.071695658843964
+lender,full,0,API-White,both,D,split,hit-and-run,10000,I(D;A),lower,2.7298339993439783e-10,6.071695658843964
+lender,full,0,API-White,both,D,split,hit-and-run,10000,I(D;A),upper,0.08623822350959683,6.071695658843964
+lender,full,0,three,county,D,exact,hit-and-run,10000,DD 1-0,lower,-0.8046097044072105,4.459955743979663
+lender,full,0,three,county,D,exact,hit-and-run,10000,DD 1-0,upper,0.18923919517487497,4.459955743979663
+lender,full,0,three,county,D,exact,hit-and-run,10000,DI 1/0,lower,0.07205412580902741,4.459955743979663
+lender,full,0,three,county,D,exact,hit-and-run,10000,DI 1/0,upper,1.2420537388828103,4.459955743979663
+lender,full,0,three,county,D,exact,hit-and-run,10000,worst-case DI,lower,0.07205412580902741,4.459955743979663
+lender,full,0,three,county,D,exact,hit-and-run,10000,worst-case DI,upper,0.9924613079451187,4.459955743979663
+lender,full,0,three,county,D,exact,hit-and-run,10000,max DD gap,lower,0.00606891794187292,4.459955743979663
+lender,full,0,three,county,D,exact,hit-and-run,10000,max DD gap,upper,0.8518580814808133,4.459955743979663
+lender,full,0,three,county,D,exact,hit-and-run,10000,I(D;A),lower,9.51049463233247e-06,4.459955743979663
+lender,full,0,three,county,D,exact,hit-and-run,10000,I(D;A),upper,0.18138921630367685,4.459955743979663
+lender,full,0,three,county,D,split,hit-and-run,10000,DD 1-0,lower,-0.79270016391391,4.4334645150229335
+lender,full,0,three,county,D,split,hit-and-run,10000,DD 1-0,upper,0.1914678656636114,4.4334645150229335
+lender,full,0,three,county,D,split,hit-and-run,10000,DI 1/0,lower,0.08124287926031447,4.4334645150229335
+lender,full,0,three,county,D,split,hit-and-run,10000,DI 1/0,upper,1.2457220115624688,4.4334645150229335
+lender,full,0,three,county,D,split,hit-and-run,10000,worst-case DI,lower,0.08124174521261958,4.4334645150229335
+lender,full,0,three,county,D,split,hit-and-run,10000,worst-case DI,upper,0.9971682091834382,4.4334645150229335
+lender,full,0,three,county,D,split,hit-and-run,10000,max DD gap,lower,0.002260478524445775,4.4334645150229335
+lender,full,0,three,county,D,split,hit-and-run,10000,max DD gap,upper,0.8419261108860974,4.4334645150229335
+lender,full,0,three,county,D,split,hit-and-run,10000,I(D;A),lower,1.683591714636345e-06,4.4334645150229335
+lender,full,0,three,county,D,split,hit-and-run,10000,I(D;A),upper,0.18108545097267517,4.4334645150229335
+lender,full,0,three,income,D,exact,hit-and-run,10000,DD 1-0,lower,-0.8849499198777407,2.956457008840516
+lender,full,0,three,income,D,exact,hit-and-run,10000,DD 1-0,upper,0.19283129555502676,2.956457008840516
+lender,full,0,three,income,D,exact,hit-and-run,10000,DI 1/0,lower,0.003733422359806819,2.956457008840516
+lender,full,0,three,income,D,exact,hit-and-run,10000,DI 1/0,upper,1.2474826798587568,2.956457008840516
+lender,full,0,three,income,D,exact,hit-and-run,10000,worst-case DI,lower,0.003733422359806819,2.956457008840516
+lender,full,0,three,income,D,exact,hit-and-run,10000,worst-case DI,upper,0.999330766981344,2.956457008840516
+lender,full,0,three,income,D,exact,hit-and-run,10000,max DD gap,lower,0.0005350360927656173,2.956457008840516
+lender,full,0,three,income,D,exact,hit-and-run,10000,max DD gap,upper,0.9196304096973977,2.956457008840516
+lender,full,0,three,income,D,exact,hit-and-run,10000,I(D;A),lower,7.091743321911012e-08,2.956457008840516
+lender,full,0,three,income,D,exact,hit-and-run,10000,I(D;A),upper,0.3174396025933226,2.956457008840516
+lender,full,0,three,income,D,split,hit-and-run,10000,DD 1-0,lower,-0.8862534780615661,2.9617326229345053
+lender,full,0,three,income,D,split,hit-and-run,10000,DD 1-0,upper,0.1948844591553257,2.9617326229345053
+lender,full,0,three,income,D,split,hit-and-run,10000,DI 1/0,lower,0.0037646455914342684,2.9617326229345053
+lender,full,0,three,income,D,split,hit-and-run,10000,DI 1/0,upper,1.2507547734558575,2.9617326229345053
+lender,full,0,three,income,D,split,hit-and-run,10000,worst-case DI,lower,0.0037646455914342684,2.9617326229345053
+lender,full,0,three,income,D,split,hit-and-run,10000,worst-case DI,upper,0.99223072635289,2.9617326229345053
+lender,full,0,three,income,D,split,hit-and-run,10000,max DD gap,lower,0.006204351144371345,2.9617326229345053
+lender,full,0,three,income,D,split,hit-and-run,10000,max DD gap,upper,0.921201314033531,2.9617326229345053
+lender,full,0,three,income,D,split,hit-and-run,10000,I(D;A),lower,1.1802079034834768e-05,2.9617326229345053
+lender,full,0,three,income,D,split,hit-and-run,10000,I(D;A),upper,0.32045835279207957,2.9617326229345053
+lender,full,0,three,both,D,exact,hit-and-run,10000,DD 1-0,lower,-0.779301584221236,8.885156449163333
+lender,full,0,three,both,D,exact,hit-and-run,10000,DD 1-0,upper,0.16120258520416608,8.885156449163333
+lender,full,0,three,both,D,exact,hit-and-run,10000,DI 1/0,lower,0.0932721828720351,8.885156449163333
+lender,full,0,three,both,D,exact,hit-and-run,10000,DI 1/0,upper,1.2023872675552625,8.885156449163333
+lender,full,0,three,both,D,exact,hit-and-run,10000,worst-case DI,lower,0.0932721828720351,8.885156449163333
+lender,full,0,three,both,D,exact,hit-and-run,10000,worst-case DI,upper,0.9897309661308384,8.885156449163333
+lender,full,0,three,both,D,exact,hit-and-run,10000,max DD gap,lower,0.008221558196265133,8.885156449163333
+lender,full,0,three,both,D,exact,hit-and-run,10000,max DD gap,upper,0.779301584221236,8.885156449163333
+lender,full,0,three,both,D,exact,hit-and-run,10000,I(D;A),lower,1.3630743026142814e-05,8.885156449163333
+lender,full,0,three,both,D,exact,hit-and-run,10000,I(D;A),upper,0.16778451802673705,8.885156449163333
+lender,full,0,three,both,D,split,hit-and-run,10000,DD 1-0,lower,-0.7695829043939397,8.921578573063016
+lender,full,0,three,both,D,split,hit-and-run,10000,DD 1-0,upper,0.1604749211909744,8.921578573063016
+lender,full,0,three,both,D,split,hit-and-run,10000,DI 1/0,lower,0.10278745601999838,8.921578573063016
+lender,full,0,three,both,D,split,hit-and-run,10000,DI 1/0,upper,1.201742990721468,8.921578573063016
+lender,full,0,three,both,D,split,hit-and-run,10000,worst-case DI,lower,0.10278745601999838,8.921578573063016
+lender,full,0,three,both,D,split,hit-and-run,10000,worst-case DI,upper,0.996244158770638,8.921578573063016
+lender,full,0,three,both,D,split,hit-and-run,10000,max DD gap,lower,0.0030008895066101493,8.921578573063016
+lender,full,0,three,both,D,split,hit-and-run,10000,max DD gap,upper,0.7695829043939397,8.921578573063016
+lender,full,0,three,both,D,split,hit-and-run,10000,I(D;A),lower,1.37486631841527e-06,8.921578573063016
+lender,full,0,three,both,D,split,hit-and-run,10000,I(D;A),upper,0.16491970904498546,8.921578573063016
