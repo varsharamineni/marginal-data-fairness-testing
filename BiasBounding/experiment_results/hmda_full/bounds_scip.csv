@@ -1,0 +1,30 @@
+decision,cut_source,rep,setting,proxy,run,version,method,param,metric,side,value,proven_bound,status,seconds
+model,external,0,Black-White,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.8432021552968344,-0.8432021552968344,optimal,0.004716870142146945
+model,external,0,Black-White,county,D,exact,SCIP,30.0,DD 1-0,upper,0.2224381795785241,0.2224381795785241,optimal,0.0029439879581332207
+model,external,0,Black-White,county,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.0033854618668556213
+model,external,0,Black-White,county,D,exact,SCIP,30.0,DI 1/0,upper,1.2860714221522784,1.2860714221522784,optimal,0.003221001010388136
+model,external,0,Black-White,county,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.0063937499653548
+model,external,0,Black-White,county,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000098934119,1.0000000098934119,optimal,0.008705705869942904
+model,external,0,Black-White,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.0027868179604411125
+model,external,0,Black-White,county,D,exact,SCIP,30.0,max DD gap,upper,0.8432021552968344,0.8432021552968344,optimal,0.004817630164325237
+model,external,0,Black-White,county,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,14.501385014969856
+model,external,0,Black-White,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.17217204999178648
+model,external,0,Black-White,county,D,split,SCIP,30.0,DD 1-0,lower,-0.8436528710603439,-0.8436528710603439,optimal,0.0026787070091813803
+model,external,0,Black-White,county,D,split,SCIP,30.0,DD 1-0,upper,0.2212778353070973,0.2212778353070973,optimal,0.002414396032691002
+model,external,0,Black-White,county,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.003155080135911703
+model,external,0,Black-White,county,D,split,SCIP,30.0,DI 1/0,upper,1.2843224634464736,1.2843224634464736,optimal,0.0030930298380553722
+model,external,0,Black-White,county,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.006283400114625692
+model,external,0,Black-White,county,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099569897,1.0000000099569897,optimal,0.007813689997419715
+model,external,0,Black-White,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.002626126864925027
+model,external,0,Black-White,county,D,split,SCIP,30.0,max DD gap,upper,0.8436528710603439,0.8436528710603439,optimal,0.004740161122754216
+model,external,0,Black-White,county,D,split,SCIP,30.0,I(D;A),lower,-4.3087361967010194e-14,-8.079968885566542e-05,timelimit,30.005640072980896
+model,external,0,Black-White,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.1962950441520661
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.8804200649153245,-0.8804200649153245,optimal,0.009242428932338953
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.2007607725148851,0.2007607725148851,optimal,0.004239497007802129
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.8830756716053326,-0.8830756716053326,optimal,0.008561064954847097
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.19285309933028472,0.19285309933028472,optimal,0.009531151037663221
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.6170608258264626,-0.6170608258264626,optimal,0.01515299710445106
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5788995325295211,0.5788995325295211,optimal,0.013236204162240028
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.851075667866356,-0.851075667866356,optimal,0.010221386095508933
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.1968264065020563,0.1968264065020563,optimal,0.009919953998178244
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,I(D;A|Y),lower,-7.887627517344583e-16,-0.03882445991475995,timelimit,30.00870573800057
