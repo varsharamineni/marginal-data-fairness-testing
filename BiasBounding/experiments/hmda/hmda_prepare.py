@@ -9,7 +9,9 @@ For each repetition (random split, seed = rep) of the 1% HMDA 2011-12 sample (14
 Decision D
   model    logistic regression of approval on log income and the county's approval rate
            (smoothed towards the overall rate with weight 20, from the train split only),
-           thresholded so that it approves the same share of internal applicants as the lender
+           thresholded so that it approves the same share of internal applicants as the lender;
+           its accuracy and AUC against the lender's decision are printed and saved to
+           prepared/classifier.csv
   lender   the lender's decision (D = Y); only internal D is defined
 Label Y = the lender's decision (outcome).
 
@@ -32,7 +34,8 @@ Tables (internal variable D: i = D; DY: i = TP, FP, FN, TN as in exp_synthetic.p
   version split  r = p(z, i) from the internal split, m = p(z, a) from the external split
                  rescaled to the internal p(z)
   version exact  r and m both from internal + external pooled (the truth lies in the sharp set)
-True values: truth_pooled (internal + external, with race) and truth_internal (internal only).
+True values: truth_pooled (internal + external, with race) and truth_internal (internal only);
+the true joint tables q[z, i, a] are stored as q_pooled and q_internal.
 
 Usage
   python hmda_prepare.py --repo ~/kallus --reps 0           # first repetition
@@ -45,7 +48,7 @@ import pickle
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
-
+from sklearn.metrics import roc_auc_score
 
 from hmda_common import CHOICES, PREPARED, UNIT_KEYS  # noqa: F401  (sets sys.path)
 from ci_baseline import harmonize  # noqa: E402
@@ -76,7 +79,16 @@ def classifier_decision(d, split):
     score = clf.predict_proba(X)[:, 1]
     internal = split == "internal"
     t = np.quantile(score[internal], 1 - d.outcome[internal].mean())
-    return (score >= t).astype(int)
+    dec = (score >= t).astype(int)
+    y = d.outcome.to_numpy(int)
+    stats = {"threshold": float(t)}
+    for part in ("train", "internal", "external"):
+        sel = split == part
+        stats[f"accuracy_{part}"] = float((dec[sel] == y[sel]).mean())
+        stats[f"auc_{part}"] = float(roc_auc_score(y[sel], score[sel]))
+        stats[f"approval_rate_{part}"] = float(dec[sel].mean())
+        stats[f"lender_approval_rate_{part}"] = float(y[sel].mean())
+    return dec, stats
 
 
 def county_shares(d, split, groups, source):
@@ -125,11 +137,20 @@ def main():
     d = load_hmda(a.repo)
     print(f"loaded {len(d):,} records")
     skipped = []
+    clf_rows = []
     for rep in a.reps:
         split = split_data(d, rep)
-        decisions = {"model": classifier_decision(d, split), "lender": d.outcome.to_numpy(int)}
+        dec_model, stats = classifier_decision(d, split)
+        decisions = {"model": dec_model, "lender": d.outcome.to_numpy(int)}
         print(f"rep {rep}: " + ", ".join(f"{s} {(split == s).sum():,}" for s in
                                          ("train", "internal", "external")))
+        print(f"  classifier accuracy (vs lender's decision): train "
+              f"{stats['accuracy_train']:.3f}, internal {stats['accuracy_internal']:.3f}, "
+              f"external {stats['accuracy_external']:.3f}; AUC internal "
+              f"{stats['auc_internal']:.3f}, external {stats['auc_external']:.3f}; approval rate internal "
+              f"{stats['approval_rate_internal']:.3f} (lender "
+              f"{stats['lender_approval_rate_internal']:.3f})")
+        clf_rows.append(dict(rep=rep, **stats))
         for decision, dec_all in decisions.items():
             for source in CHOICES["cut_source"]:
                 for setting, groups in GROUPS.items():
@@ -166,12 +187,20 @@ def main():
                                     continue
                                 units[key] = dict(r=r, m=m, truth_pooled=truth_pool,
                                                   truth_internal=truth_int, n=n, K=K,
-                                                  groups=groups)
+                                                  groups=groups, q_pooled=q_pool,
+                                                  q_internal=q_int)
     with open(PREPARED, "wb") as f:
         pickle.dump(units, f)
     rows = [dict(zip(UNIT_KEYS, k), K=u["K"], n_internal=u["n"]["internal"],
                  n_external=u["n"]["external"]) for k, u in units.items()]
     pd.DataFrame(rows).to_csv(PREPARED.parent / "units.csv", index=False)
+    clf_path = PREPARED.parent / "classifier.csv"
+    clf = pd.DataFrame(clf_rows)
+    if clf_path.exists():                      # keep earlier repetitions, replace rerun ones
+        old = pd.read_csv(clf_path)
+        clf = pd.concat([old[~old.rep.isin(clf.rep)], clf]).sort_values("rep")
+    clf.to_csv(clf_path, index=False)
+    print(f"classifier accuracy saved to {clf_path}")
     print(f"{len(units)} units saved to {PREPARED}")
     if skipped:
         print(f"skipped {len(skipped)} units with incompatible margins: {skipped[:5]} ...")

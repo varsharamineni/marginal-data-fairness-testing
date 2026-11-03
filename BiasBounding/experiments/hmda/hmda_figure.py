@@ -43,8 +43,8 @@ LABEL = {"DD 1-0": "DD", "TPRD 1-0": "TPR\ndiff.", "PPVD 1-0": "PPV\ndiff.",
          "I(D;A|Y)": r"$I(\hat{Y};A\mid Y)$"}
 PAIR_TITLE = {"Black-White": "Black vs White", "API-White": "API vs White",
               "three": "Three groups (Black vs White)"}
-COLORS = {"Kallus": "black", "grid": "tab:orange", "hit-and-run": "tab:blue",
-          "vertex": "tab:green", "SCIP": "tab:purple"}
+COLORS = {"Kallus": "#6BAED6", "grid": "darkorange", "hit-and-run": "tab:blue",
+          "vertex": "tab:green", "SCIP": "#08519C"}
 NAMES = {"Kallus": "Kallus et al.", "grid": "Feasible set (grid)", "hit-and-run": "Hit-and-run",
          "vertex": "Vertex enumeration", "SCIP": "Global optimisation (SCIP)"}
 
