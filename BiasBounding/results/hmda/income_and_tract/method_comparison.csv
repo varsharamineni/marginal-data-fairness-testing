@@ -1,9 +1,0 @@
-scenario,seed,classifier,metric,method,reference,inside,lower_diff,upper_diff
-income_and_tract,0,lender,demographic_parity_diff,independence,kallus,True,0.308330043912993,-0.6413888860251522
-income_and_tract,0,lender,demographic_parity_gap,independence,kallus,True,0.0565670084363169,-0.6413888860251522
-income_and_tract,1,lender,demographic_parity_diff,independence,kallus,True,0.2950479823059219,-0.6325224003744733
-income_and_tract,1,lender,demographic_parity_gap,independence,kallus,True,0.05936763494150055,-0.6325224003744733
-income_and_tract,0,lender,demographic_parity_diff,kallus,independence,False,-0.308330043912993,0.6413888860251522
-income_and_tract,0,lender,demographic_parity_gap,kallus,independence,False,-0.0565670084363169,0.6413888860251522
-income_and_tract,1,lender,demographic_parity_diff,kallus,independence,False,-0.2950479823059219,0.6325224003744733
-income_and_tract,1,lender,demographic_parity_gap,kallus,independence,False,-0.05936763494150055,0.6325224003744733
