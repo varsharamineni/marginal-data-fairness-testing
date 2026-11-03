@@ -1,30 +1,1081 @@
 decision,cut_source,rep,setting,proxy,run,version,method,param,metric,side,value,proven_bound,status,seconds
-model,external,0,Black-White,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.8432021552968344,-0.8432021552968344,optimal,0.004716870142146945
-model,external,0,Black-White,county,D,exact,SCIP,30.0,DD 1-0,upper,0.2224381795785241,0.2224381795785241,optimal,0.0029439879581332207
-model,external,0,Black-White,county,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.0033854618668556213
-model,external,0,Black-White,county,D,exact,SCIP,30.0,DI 1/0,upper,1.2860714221522784,1.2860714221522784,optimal,0.003221001010388136
-model,external,0,Black-White,county,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.0063937499653548
-model,external,0,Black-White,county,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000098934119,1.0000000098934119,optimal,0.008705705869942904
-model,external,0,Black-White,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.0027868179604411125
-model,external,0,Black-White,county,D,exact,SCIP,30.0,max DD gap,upper,0.8432021552968344,0.8432021552968344,optimal,0.004817630164325237
-model,external,0,Black-White,county,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,14.501385014969856
-model,external,0,Black-White,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.17217204999178648
-model,external,0,Black-White,county,D,split,SCIP,30.0,DD 1-0,lower,-0.8436528710603439,-0.8436528710603439,optimal,0.0026787070091813803
-model,external,0,Black-White,county,D,split,SCIP,30.0,DD 1-0,upper,0.2212778353070973,0.2212778353070973,optimal,0.002414396032691002
-model,external,0,Black-White,county,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.003155080135911703
-model,external,0,Black-White,county,D,split,SCIP,30.0,DI 1/0,upper,1.2843224634464736,1.2843224634464736,optimal,0.0030930298380553722
-model,external,0,Black-White,county,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.006283400114625692
-model,external,0,Black-White,county,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099569897,1.0000000099569897,optimal,0.007813689997419715
-model,external,0,Black-White,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.002626126864925027
-model,external,0,Black-White,county,D,split,SCIP,30.0,max DD gap,upper,0.8436528710603439,0.8436528710603439,optimal,0.004740161122754216
-model,external,0,Black-White,county,D,split,SCIP,30.0,I(D;A),lower,-4.3087361967010194e-14,-8.079968885566542e-05,timelimit,30.005640072980896
-model,external,0,Black-White,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.1962950441520661
-model,external,0,Black-White,county,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.8804200649153245,-0.8804200649153245,optimal,0.009242428932338953
-model,external,0,Black-White,county,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.2007607725148851,0.2007607725148851,optimal,0.004239497007802129
-model,external,0,Black-White,county,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.8830756716053326,-0.8830756716053326,optimal,0.008561064954847097
-model,external,0,Black-White,county,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.19285309933028472,0.19285309933028472,optimal,0.009531151037663221
-model,external,0,Black-White,county,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.6170608258264626,-0.6170608258264626,optimal,0.01515299710445106
-model,external,0,Black-White,county,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5788995325295211,0.5788995325295211,optimal,0.013236204162240028
-model,external,0,Black-White,county,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.851075667866356,-0.851075667866356,optimal,0.010221386095508933
-model,external,0,Black-White,county,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.1968264065020563,0.1968264065020563,optimal,0.009919953998178244
-model,external,0,Black-White,county,DY,exact,SCIP,30.0,I(D;A|Y),lower,-7.887627517344583e-16,-0.03882445991475995,timelimit,30.00870573800057
+model,external,0,Black-White,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.8432021552968344,-0.8432021552968344,optimal,0.49771962501108646
+model,external,0,Black-White,county,D,exact,SCIP,30.0,DD 1-0,upper,0.2224381795785241,0.2224381795785241,optimal,0.4841224690899253
+model,external,0,Black-White,county,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4505651509389281
+model,external,0,Black-White,county,D,exact,SCIP,30.0,DI 1/0,upper,1.2860714221522784,1.2860714221522784,optimal,0.463329910999164
+model,external,0,Black-White,county,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.47613059100694954
+model,external,0,Black-White,county,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000098934119,1.0000000098934119,optimal,0.4395528519526124
+model,external,0,Black-White,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.48223719419911504
+model,external,0,Black-White,county,D,exact,SCIP,30.0,max DD gap,upper,0.8432021552968344,0.8432021552968344,optimal,0.43559312308207154
+model,external,0,Black-White,county,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,14.944840413983911
+model,external,0,Black-White,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.6421231660060585
+model,external,0,Black-White,county,D,split,SCIP,30.0,DD 1-0,lower,-0.8436528710603439,-0.8436528710603439,optimal,0.4690060461871326
+model,external,0,Black-White,county,D,split,SCIP,30.0,DD 1-0,upper,0.2212778353070973,0.2212778353070973,optimal,0.4304812038317323
+model,external,0,Black-White,county,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4670343219768256
+model,external,0,Black-White,county,D,split,SCIP,30.0,DI 1/0,upper,1.2843224634464736,1.2843224634464736,optimal,0.46862177294678986
+model,external,0,Black-White,county,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.47102719102986157
+model,external,0,Black-White,county,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099569897,1.0000000099569897,optimal,0.437902744859457
+model,external,0,Black-White,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.47144754393957555
+model,external,0,Black-White,county,D,split,SCIP,30.0,max DD gap,upper,0.8436528710603439,0.8436528710603439,optimal,0.47217630804516375
+model,external,0,Black-White,county,D,split,SCIP,30.0,I(D;A),lower,-4.3087361967010194e-14,-8.079968885566542e-05,timelimit,30.487982973922044
+model,external,0,Black-White,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.6298725660890341
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.8804200649153245,-0.8804200649153245,optimal,0.4489719371777028
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.2007607725148851,0.2007607725148851,optimal,0.4851358230225742
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.8830756716053326,-0.8830756716053326,optimal,0.4755164438392967
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.19285309933028472,0.19285309933028472,optimal,0.47939810110256076
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.6170608258264626,-0.6170608258264626,optimal,0.4476941069588065
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5788995325295211,0.5788995325295211,optimal,0.4626754231285304
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.851075667866356,-0.851075667866356,optimal,0.4737078209873289
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.1968264065020563,0.1968264065020563,optimal,0.4379985381383449
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,I(D;A|Y),lower,-7.887627517344583e-16,-0.03882445991475994,timelimit,30.491087179165334
+model,external,0,Black-White,county,DY,exact,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,16.12264817696996
+model,external,0,Black-White,county,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.8799018968631562,-0.8799018968631562,optimal,0.488574214046821
+model,external,0,Black-White,county,DY,split,SCIP,30.0,TPRD 1-0,upper,0.199292124311943,0.199292124311943,optimal,0.4412472208496183
+model,external,0,Black-White,county,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.8798804272114262,-0.8798804272114262,optimal,0.48144414415583014
+model,external,0,Black-White,county,DY,split,SCIP,30.0,PPVD 1-0,upper,0.19355925630161286,0.19355925630161286,optimal,0.48984256316907704
+model,external,0,Black-White,county,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.6072213172606777,-0.6072213172606777,optimal,0.6267237979918718
+model,external,0,Black-White,county,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5710744132019395,0.5710744132019395,optimal,0.443750579142943
+model,external,0,Black-White,county,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8506488282412201,-0.8506488282412201,optimal,0.44202071614563465
+model,external,0,Black-White,county,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.19643591549529393,0.19643591549529393,optimal,0.4791048869956285
+model,external,0,Black-White,county,DY,split,SCIP,30.0,I(D;A|Y),lower,-2.7589648997229387e-16,-0.03846323929123496,timelimit,30.439991551917046
+model,external,0,Black-White,county,DY,split,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,4.998026518151164
+model,external,0,Black-White,income,D,exact,SCIP,30.0,DD 1-0,lower,-0.8432021552968345,-0.8432021552968345,optimal,0.4624924031086266
+model,external,0,Black-White,income,D,exact,SCIP,30.0,DD 1-0,upper,0.22243817957852402,0.22243817957852402,optimal,0.43141980399377644
+model,external,0,Black-White,income,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.47123540402390063
+model,external,0,Black-White,income,D,exact,SCIP,30.0,DI 1/0,upper,1.2860714221522782,1.2860714221522782,optimal,0.4733251677826047
+model,external,0,Black-White,income,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4859822280704975
+model,external,0,Black-White,income,D,exact,SCIP,30.0,worst-case DI,upper,1.000000009989012,1.000000009989012,optimal,0.4437223710119724
+model,external,0,Black-White,income,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.47119628288783133
+model,external,0,Black-White,income,D,exact,SCIP,30.0,max DD gap,upper,0.8432021552968345,0.8432021552968345,optimal,0.47422367497347295
+model,external,0,Black-White,income,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,2.5631413809023798
+model,external,0,Black-White,income,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5864248729776591
+model,external,0,Black-White,income,D,split,SCIP,30.0,DD 1-0,lower,-0.843837887091576,-0.843837887091576,optimal,0.47938267001882195
+model,external,0,Black-White,income,D,split,SCIP,30.0,DD 1-0,upper,0.22181485446246912,0.22181485446246912,optimal,0.4359792750328779
+model,external,0,Black-White,income,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4644131460227072
+model,external,0,Black-White,income,D,split,SCIP,30.0,DI 1/0,upper,1.285041280892256,1.285041280892256,optimal,0.48338680784218013
+model,external,0,Black-White,income,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4385332630481571
+model,external,0,Black-White,income,D,split,SCIP,30.0,worst-case DI,upper,1.00000000998971,1.00000000998971,optimal,0.479509721044451
+model,external,0,Black-White,income,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4259274140931666
+model,external,0,Black-White,income,D,split,SCIP,30.0,max DD gap,upper,0.843837887091576,0.843837887091576,optimal,0.4696856609079987
+model,external,0,Black-White,income,D,split,SCIP,30.0,I(D;A),lower,-2.942078920724674e-12,-5.463311805710292e-05,timelimit,30.434300089022145
+model,external,0,Black-White,income,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.6267864778637886
+model,external,0,Black-White,income,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.8824697376325222,-0.8824697376325222,optimal,0.46852295799180865
+model,external,0,Black-White,income,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.20111993207865797,0.20111993207865797,optimal,0.4587924489751458
+model,external,0,Black-White,income,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.8912166846014302,-0.8912166846014302,optimal,0.4708244630601257
+model,external,0,Black-White,income,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.1932015171314414,0.1932015171314414,optimal,0.438201614189893
+model,external,0,Black-White,income,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.6235252562407398,-0.6235252562407398,optimal,0.47565577807836235
+model,external,0,Black-White,income,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5587589867639644,0.5587592143241109,gaplimit,0.4855892260093242
+model,external,0,Black-White,income,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.851075668150397,-0.851075668150397,optimal,0.505099972942844
+model,external,0,Black-White,income,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.1971802526195896,0.1971802526195896,optimal,0.47791926213540137
+model,external,0,Black-White,income,DY,exact,SCIP,30.0,I(D;A|Y),lower,-4.802407259785309e-11,-0.03860392897294811,timelimit,30.438324593007565
+model,external,0,Black-White,income,DY,exact,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,9.173967912094668
+model,external,0,Black-White,income,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.8837838697232514,-0.8837838697232514,optimal,0.4734243839047849
+model,external,0,Black-White,income,DY,split,SCIP,30.0,TPRD 1-0,upper,0.19998083410877687,0.19998083410877687,optimal,0.4383577078115195
+model,external,0,Black-White,income,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.890133564458003,-0.890133564458003,optimal,0.47870396985672414
+model,external,0,Black-White,income,DY,split,SCIP,30.0,PPVD 1-0,upper,0.19423296080076546,0.19423296080076546,optimal,0.44350221403874457
+model,external,0,Black-White,income,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.6238306919451311,-0.6238306919451311,optimal,0.4790616331156343
+model,external,0,Black-White,income,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5550715913346834,0.5550718791324232,gaplimit,0.4444877018686384
+model,external,0,Black-White,income,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8511707178900261,-0.8511707178900261,optimal,0.48446929082274437
+model,external,0,Black-White,income,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.19711717203009105,0.19711717203009105,optimal,0.4708238148596138
+model,external,0,Black-White,income,DY,split,SCIP,30.0,I(D;A|Y),lower,-8.463946407609491e-11,-0.04016656722212589,timelimit,30.450803742045537
+model,external,0,Black-White,income,DY,split,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,18.898140500998124
+model,external,0,Black-White,both,D,exact,SCIP,30.0,DD 1-0,lower,-0.8432021552968345,-0.8432021552968345,optimal,0.42834291118197143
+model,external,0,Black-White,both,D,exact,SCIP,30.0,DD 1-0,upper,0.2040058196730469,0.2040058196730469,optimal,0.4810422381851822
+model,external,0,Black-White,both,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.43583624297752976
+model,external,0,Black-White,both,D,exact,SCIP,30.0,DI 1/0,upper,1.2619835938558726,1.2619835938558726,optimal,0.4672437619883567
+model,external,0,Black-White,both,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4362093049567193
+model,external,0,Black-White,both,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099803772,1.0000000099803772,optimal,0.4773117720615119
+model,external,0,Black-White,both,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4643203818704933
+model,external,0,Black-White,both,D,exact,SCIP,30.0,max DD gap,upper,0.8432021552968345,0.8432021552968345,optimal,0.4381679589860141
+model,external,0,Black-White,both,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,10.56381013407372
+model,external,0,Black-White,both,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5921596609987319
+model,external,0,Black-White,both,D,split,SCIP,30.0,DD 1-0,lower,-0.8434780218926194,-0.8434780218926194,optimal,0.46754821203649044
+model,external,0,Black-White,both,D,split,SCIP,30.0,DD 1-0,upper,0.1879428891156723,0.1879428891156723,optimal,0.4835578438360244
+model,external,0,Black-White,both,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4328397298231721
+model,external,0,Black-White,both,D,split,SCIP,30.0,DI 1/0,upper,1.2408453145847926,1.2408453145847926,optimal,0.47238506586290896
+model,external,0,Black-White,both,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.466792665887624
+model,external,0,Black-White,both,D,split,SCIP,30.0,worst-case DI,upper,1.00000000996707,1.00000000996707,optimal,0.47660518484190106
+model,external,0,Black-White,both,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.42891408200375736
+model,external,0,Black-White,both,D,split,SCIP,30.0,max DD gap,upper,0.8434780218926194,0.8434780218926194,optimal,0.46995757799595594
+model,external,0,Black-White,both,D,split,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,5.630515243159607
+model,external,0,Black-White,both,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.6034654078539461
+model,external,0,Black-White,both,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.8804200898106037,-0.8804200898106037,optimal,0.4797809759620577
+model,external,0,Black-White,both,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.2003711238181276,0.2003711238181276,optimal,0.44371541403234005
+model,external,0,Black-White,both,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.8830756920017814,-0.8830756920017814,optimal,0.4777942921500653
+model,external,0,Black-White,both,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.19247506687975746,0.19247506687975746,optimal,0.4862992719281465
+model,external,0,Black-White,both,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.6170608454482678,-0.6170608454482678,optimal,0.49009484704583883
+model,external,0,Black-White,both,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5482658545974364,0.5482658545974364,optimal,0.5040991050191224
+model,external,0,Black-White,both,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.8510756756274471,-0.8510756756274471,optimal,0.44864668883383274
+model,external,0,Black-White,both,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.1964424973793233,0.1964424973793233,optimal,0.4790771109983325
+model,external,0,Black-White,both,DY,exact,SCIP,30.0,I(D;A|Y),lower,-1.8768877161737664e-13,-0.03792238832535353,timelimit,30.43948142696172
+model,external,0,Black-White,both,DY,exact,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,19.693506404059008
+model,external,0,Black-White,both,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.8798391618430773,-0.8798391618430773,optimal,0.4402594440616667
+model,external,0,Black-White,both,DY,split,SCIP,30.0,TPRD 1-0,upper,0.19898160163737355,0.19898160163737355,optimal,0.4796237868722528
+model,external,0,Black-White,both,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.8798176868234906,-0.8798176868234906,optimal,0.43970699002966285
+model,external,0,Black-White,both,DY,split,SCIP,30.0,PPVD 1-0,upper,0.1932554921852977,0.1932554921852977,optimal,0.4666999678593129
+model,external,0,Black-White,both,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.6041103989462956,-0.6041108218877522,gaplimit,0.7312890170142055
+model,external,0,Black-White,both,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5400698084060205,0.5400703417235243,gaplimit,0.7933109300211072
+model,external,0,Black-White,both,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8503992107767923,-0.8503992107767923,optimal,0.44758521392941475
+model,external,0,Black-White,both,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.19502974688141217,0.19502974688141217,optimal,0.5043480489403009
+model,external,0,Black-White,both,DY,split,SCIP,30.0,I(D;A|Y),lower,-1.8514621461170376e-13,-0.037479565093614525,timelimit,30.44545825989917
+model,external,0,Black-White,both,DY,split,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,31.418079799972475
+model,external,0,API-White,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.4338468539434958,-0.4338468539434958,optimal,0.43025139602832496
+model,external,0,API-White,county,D,exact,SCIP,30.0,DD 1-0,upper,0.2051380737321492,0.20513807373214932,optimal,0.46571862208656967
+model,external,0,API-White,county,D,exact,SCIP,30.0,DI 1/0,lower,0.48537133551450107,0.48537133551450107,optimal,0.461067110998556
+model,external,0,API-White,county,D,exact,SCIP,30.0,DI 1/0,upper,1.2580801736747311,1.2580801736747311,optimal,0.43216182896867394
+model,external,0,API-White,county,D,exact,SCIP,30.0,worst-case DI,lower,0.48537133551450107,0.48537133551450107,optimal,0.4781077380757779
+model,external,0,API-White,county,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099934867,1.0000000099934867,optimal,0.44715944305062294
+model,external,0,API-White,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4643346341326833
+model,external,0,API-White,county,D,exact,SCIP,30.0,max DD gap,upper,0.4338468539434958,0.4338468539434958,optimal,0.4328296040184796
+model,external,0,API-White,county,D,exact,SCIP,30.0,I(D;A),lower,-1.3074203311192755e-11,-4.959270357205429e-05,timelimit,30.470919945044443
+model,external,0,API-White,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5402747748885304
+model,external,0,API-White,county,D,split,SCIP,30.0,DD 1-0,lower,-0.42176863918244795,-0.42176863918244795,optimal,0.4651540438644588
+model,external,0,API-White,county,D,split,SCIP,30.0,DD 1-0,upper,0.20499029124186807,0.20499029124186818,optimal,0.46551130688749254
+model,external,0,API-White,county,D,split,SCIP,30.0,DI 1/0,lower,0.4998721465168984,0.4998721465168984,optimal,0.4431613318156451
+model,external,0,API-White,county,D,split,SCIP,30.0,DI 1/0,upper,1.2578463113708656,1.2578463113708656,optimal,0.46967064612545073
+model,external,0,API-White,county,D,split,SCIP,30.0,worst-case DI,lower,0.4998721465168984,0.4998721465168984,optimal,0.45117802708409727
+model,external,0,API-White,county,D,split,SCIP,30.0,worst-case DI,upper,1.0000000096689812,1.0000000096689812,optimal,0.47581963893026114
+model,external,0,API-White,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.44468868314288557
+model,external,0,API-White,county,D,split,SCIP,30.0,max DD gap,upper,0.42176863918244795,0.42176863918244795,optimal,0.46994453691877425
+model,external,0,API-White,county,D,split,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,26.99405915499665
+model,external,0,API-White,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.6051862319000065
+model,external,0,API-White,county,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.730815611885817,-0.730815611885817,optimal,0.475465222960338
+model,external,0,API-White,county,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.18774889152809437,0.18774889152809437,optimal,0.43755833082832396
+model,external,0,API-White,county,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.78175348544267,-0.78175348544267,optimal,0.47986856289207935
+model,external,0,API-White,county,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.187640736901017,0.187640736901017,optimal,0.47686752188019454
+model,external,0,API-White,county,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.49010661459020777,-0.49010661459020777,optimal,0.5680643741507083
+model,external,0,API-White,county,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.536247224912975,0.5362472720071523,gaplimit,0.44910461991094053
+model,external,0,API-White,county,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.6911836095103118,-0.6911841493704163,gaplimit,0.6076762089505792
+model,external,0,API-White,county,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.187694818283763,0.187694818283763,optimal,0.4963966270443052
+model,external,0,API-White,county,DY,exact,SCIP,30.0,I(D;A|Y),lower,-3.8667146697967945e-14,-0.030466455393755573,timelimit,30.437704666983336
+model,external,0,API-White,county,DY,exact,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,28.571201868122444
+model,external,0,API-White,county,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.7001054181211633,-0.7001054181211633,optimal,0.47200617217458785
+model,external,0,API-White,county,DY,split,SCIP,30.0,TPRD 1-0,upper,0.1872141022753896,0.1872141022753896,optimal,0.47886557993479073
+model,external,0,API-White,county,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.754935559404167,-0.754935559404167,optimal,0.4687350809108466
+model,external,0,API-White,county,DY,split,SCIP,30.0,PPVD 1-0,upper,0.18892885222387978,0.18892885222387978,optimal,0.48063279315829277
+model,external,0,API-White,county,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.4774491877332422,-0.4774491877332422,optimal,0.5219740178436041
+model,external,0,API-White,county,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5352139573546684,0.5352140888845665,gaplimit,0.4837415530346334
+model,external,0,API-White,county,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.653610974984531,-0.6536115516572016,gaplimit,0.638221942121163
+model,external,0,API-White,county,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.18807238309773555,0.18807238309773555,optimal,0.4367943690158427
+model,external,0,API-White,county,DY,split,SCIP,30.0,I(D;A|Y),lower,-2.6649989893730724e-14,-0.025910410457718483,timelimit,30.486676622880623
+model,external,0,API-White,county,DY,split,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,6.039948870893568
+model,external,0,API-White,income,D,exact,SCIP,30.0,DD 1-0,lower,-0.6510966235860621,-0.6510966235860621,optimal,0.43545852694660425
+model,external,0,API-White,income,D,exact,SCIP,30.0,DD 1-0,upper,0.20513807373214932,0.20513807373214943,optimal,0.44235261506401
+model,external,0,API-White,income,D,exact,SCIP,30.0,DI 1/0,lower,0.24238704853165202,0.24238704853165202,optimal,0.4322048141621053
+model,external,0,API-White,income,D,exact,SCIP,30.0,DI 1/0,upper,1.2580801736747311,1.2580801736747311,optimal,0.43375866510905325
+model,external,0,API-White,income,D,exact,SCIP,30.0,worst-case DI,lower,0.24238704853165202,0.24238704853165202,optimal,0.4356031781062484
+model,external,0,API-White,income,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099590882,1.0000000099590882,optimal,0.4393483540043235
+model,external,0,API-White,income,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43057708302512765
+model,external,0,API-White,income,D,exact,SCIP,30.0,max DD gap,upper,0.6510966235860621,0.6510966235860621,optimal,0.4351366648916155
+model,external,0,API-White,income,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,30.22757175914012
+model,external,0,API-White,income,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5523418318480253
+model,external,0,API-White,income,D,split,SCIP,30.0,DD 1-0,lower,-0.6248706381135446,-0.6248706381135446,optimal,0.43050555093213916
+model,external,0,API-White,income,D,split,SCIP,30.0,DD 1-0,upper,0.20497339552403848,0.20497339552403848,optimal,0.4309022231027484
+model,external,0,API-White,income,D,split,SCIP,30.0,DI 1/0,lower,0.2725007992202821,0.2725007992202821,optimal,0.4340280939359218
+model,external,0,API-White,income,D,split,SCIP,30.0,DI 1/0,upper,1.2578195799496954,1.2578195799496954,optimal,0.4460277371108532
+model,external,0,API-White,income,D,split,SCIP,30.0,worst-case DI,lower,0.2725007992202821,0.2725007992202821,optimal,0.434667648980394
+model,external,0,API-White,income,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099592206,1.0000000099592206,optimal,0.43843862507492304
+model,external,0,API-White,income,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4352977629750967
+model,external,0,API-White,income,D,split,SCIP,30.0,max DD gap,upper,0.6248706381135446,0.6248706381135446,optimal,0.4357902661431581
+model,external,0,API-White,income,D,split,SCIP,30.0,I(D;A),lower,-4.1964009738969514e-14,-5.6831587336368856e-05,timelimit,30.437545575900003
+model,external,0,API-White,income,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5636132769286633
+model,external,0,API-White,income,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.8878525853113417,-0.8878525853113417,optimal,0.4733612439595163
+model,external,0,API-White,income,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.18774889326662036,0.18774889326662036,optimal,0.44087773910723627
+model,external,0,API-White,income,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.9149255835830143,-0.9149255835830143,optimal,0.4362890168558806
+model,external,0,API-White,income,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.1876407367794487,0.1876407367794487,optimal,0.4576767748221755
+model,external,0,API-White,income,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.6410959157467992,-0.6410959157467992,optimal,0.44277068180963397
+model,external,0,API-White,income,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5301387429551895,0.5301387429551895,optimal,0.44606243586167693
+model,external,0,API-White,income,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.8702390328265471,-0.8702390328265471,optimal,0.4404125658329576
+model,external,0,API-White,income,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.18769481856709092,0.18769481856709092,optimal,0.43731893482618034
+model,external,0,API-White,income,DY,exact,SCIP,30.0,I(D;A|Y),lower,-9.4638291420983e-12,-0.034932349114998214,timelimit,30.436190485954285
+model,external,0,API-White,income,DY,exact,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,13.882416184060276
+model,external,0,API-White,income,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.8881647940959168,-0.8881647940959168,optimal,0.4392026951536536
+model,external,0,API-White,income,DY,split,SCIP,30.0,TPRD 1-0,upper,0.1871946540519399,0.1871946540519399,optimal,0.439916729927063
+model,external,0,API-White,income,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.9160316756499924,-0.9160316756499924,optimal,0.4941111928783357
+model,external,0,API-White,income,DY,split,SCIP,30.0,PPVD 1-0,upper,0.18890926542655728,0.18890926542655728,optimal,0.4573438800871372
+model,external,0,API-White,income,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.6444226806675787,-0.6444226806675787,optimal,0.44444024097174406
+model,external,0,API-White,income,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5278948159831283,0.5278948159831283,optimal,0.44897830206900835
+model,external,0,API-White,income,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8712364367162544,-0.8712364367162544,optimal,0.4389661329332739
+model,external,0,API-White,income,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.18805285528659688,0.18805285528659688,optimal,0.43741810298524797
+model,external,0,API-White,income,DY,split,SCIP,30.0,I(D;A|Y),lower,-7.685128245716205e-12,-0.033952808045251436,timelimit,30.44158573797904
+model,external,0,API-White,income,DY,split,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,12.91144228191115
+model,external,0,API-White,both,D,exact,SCIP,30.0,DD 1-0,lower,-0.4338468539578431,-0.4338468539578431,optimal,0.42875465005636215
+model,external,0,API-White,both,D,exact,SCIP,30.0,DD 1-0,upper,0.20513807376084442,0.20513807376084447,optimal,0.4313443179707974
+model,external,0,API-White,both,D,exact,SCIP,30.0,DI 1/0,lower,0.4853713191379484,0.4853713191379484,optimal,0.4343985989689827
+model,external,0,API-White,both,D,exact,SCIP,30.0,DI 1/0,upper,1.2580802105145754,1.2580802105145754,optimal,0.4352132340427488
+model,external,0,API-White,both,D,exact,SCIP,30.0,worst-case DI,lower,0.4853713191379484,0.4853713191379484,optimal,0.4436546328943223
+model,external,0,API-White,both,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099916715,1.0000000099916715,optimal,0.4392545218579471
+model,external,0,API-White,both,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4456682768650353
+model,external,0,API-White,both,D,exact,SCIP,30.0,max DD gap,upper,0.4338468539578431,0.4338468539578431,optimal,0.4382746359333396
+model,external,0,API-White,both,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,3.822809980949387
+model,external,0,API-White,both,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5413446249440312
+model,external,0,API-White,both,D,split,SCIP,30.0,DD 1-0,lower,-0.42185999157819243,-0.42185999157819243,optimal,0.42909773206338286
+model,external,0,API-White,both,D,split,SCIP,30.0,DD 1-0,upper,0.2049940790298053,0.2049940790298053,optimal,0.4281706060282886
+model,external,0,API-White,both,D,split,SCIP,30.0,DI 1/0,lower,0.49977225008719445,0.49977225008719445,optimal,0.4325263458304107
+model,external,0,API-White,both,D,split,SCIP,30.0,DI 1/0,upper,1.2578523403941124,1.2578523403941124,optimal,0.4317526000086218
+model,external,0,API-White,both,D,split,SCIP,30.0,worst-case DI,lower,0.49977225008719445,0.49977225008719445,optimal,0.4353999951854348
+model,external,0,API-White,both,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099916824,1.0000000099916824,optimal,0.45640605106018484
+model,external,0,API-White,both,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4325725859962404
+model,external,0,API-White,both,D,split,SCIP,30.0,max DD gap,upper,0.42185999157819243,0.42185999157819243,optimal,0.43800484389066696
+model,external,0,API-White,both,D,split,SCIP,30.0,I(D;A),lower,-1.787105221701608e-11,-5.185980002372639e-05,timelimit,30.43741439608857
+model,external,0,API-White,both,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5541340699419379
+model,external,0,API-White,both,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.6572105318549827,-0.6572105318549827,optimal,0.44144257507286966
+model,external,0,API-White,both,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.18774887740507173,0.18774887740507173,optimal,0.44750863686203957
+model,external,0,API-White,both,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.7221382432321299,-0.7221382432321299,optimal,0.45664561982266605
+model,external,0,API-White,both,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.1876407352942594,0.1876407352942594,optimal,0.44030096707865596
+model,external,0,API-White,both,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.47627533072786254,-0.47627533072786254,optimal,0.6219442361034453
+model,external,0,API-White,both,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5037024925308912,0.5037024925308912,optimal,0.45686827087774873
+model,external,0,API-White,both,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.6008796267291288,-0.6008796267291288,optimal,0.5859945090487599
+model,external,0,API-White,both,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.18769482261544457,0.18769482261544457,optimal,0.45423579309135675
+model,external,0,API-White,both,DY,exact,SCIP,30.0,I(D;A|Y),lower,-5.871522751613257e-13,-0.024565411296858998,timelimit,30.44230968505144
+model,external,0,API-White,both,DY,exact,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,10.81543538486585
+model,external,0,API-White,both,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.6365089408302129,-0.6365089408302129,optimal,0.440335945924744
+model,external,0,API-White,both,DY,split,SCIP,30.0,TPRD 1-0,upper,0.18721844856546332,0.18721844856546332,optimal,0.4352114701177925
+model,external,0,API-White,both,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.7025261667759042,-0.7025261667759042,optimal,0.444532125024125
+model,external,0,API-White,both,DY,split,SCIP,30.0,PPVD 1-0,upper,0.1889332420745502,0.1889332420745502,optimal,0.4396832811180502
+model,external,0,API-White,both,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.46664736473594876,-0.46664736473594876,optimal,0.599581838818267
+model,external,0,API-White,both,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5012669589965021,0.5012669589965021,optimal,0.4538694790098816
+model,external,0,API-White,both,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.5763076631206634,-0.5763081834655961,gaplimit,0.6239797868765891
+model,external,0,API-White,both,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.18807676320143607,0.18807676320143607,optimal,0.4431654440704733
+model,external,0,API-White,both,DY,split,SCIP,30.0,I(D;A|Y),lower,-1.9049597358207768e-13,-0.02449570135669575,timelimit,30.451791231054813
+model,external,0,API-White,both,DY,split,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,9.049967981874943
+model,external,0,three,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.8744058500925548,-0.8744058500925548,optimal,0.4293606791179627
+model,external,0,three,county,D,exact,SCIP,30.0,DD 1-0,upper,0.23155970370599818,0.23155970370599818,optimal,0.44260942889377475
+model,external,0,three,county,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4341665410902351
+model,external,0,three,county,D,exact,SCIP,30.0,DI 1/0,upper,1.3013372734446051,1.3013372734446051,optimal,0.43164971307851374
+model,external,0,three,county,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.46238934504799545
+model,external,0,three,county,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000089203929,1.0000000089203929,optimal,0.44960414711385965
+model,external,0,three,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4319914251100272
+model,external,0,three,county,D,exact,SCIP,30.0,max DD gap,upper,1.0000000000422133,1.0000000000422133,optimal,0.4591058020014316
+model,external,0,three,county,D,exact,SCIP,30.0,I(D;A),lower,-7.283086952396045e-15,-0.0006836755371231347,timelimit,30.438764719991013
+model,external,0,three,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.9078535260632634
+model,external,0,three,county,D,split,SCIP,30.0,DD 1-0,lower,-0.8747264221577493,-0.8747264221577494,optimal,0.43168963002972305
+model,external,0,three,county,D,split,SCIP,30.0,DD 1-0,upper,0.23125069058055786,0.23125069058055792,optimal,0.42800946393981576
+model,external,0,three,county,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.43395758606493473
+model,external,0,three,county,D,split,SCIP,30.0,DI 1/0,upper,1.3008141838847573,1.3008141838847573,optimal,0.43270174716599286
+model,external,0,three,county,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.47629152494482696
+model,external,0,three,county,D,split,SCIP,30.0,worst-case DI,upper,1.0000000083152116,1.0000000083152116,optimal,0.44781035487540066
+model,external,0,three,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4326758061069995
+model,external,0,three,county,D,split,SCIP,30.0,max DD gap,upper,1.0000000000414306,1.0000000000414306,optimal,0.4437948160339147
+model,external,0,three,county,D,split,SCIP,30.0,I(D;A),lower,-1.5783100862700034e-14,-0.0006581391475003442,timelimit,30.433509884867817
+model,external,0,three,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.8829962960444391
+model,external,0,three,county,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.92074106839679,-0.92074106839679,optimal,0.44235939905047417
+model,external,0,three,county,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.21258994221991667,0.21258994221991667,optimal,0.44251178996637464
+model,external,0,three,county,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.9363997004514109,-0.9363997004514109,optimal,0.4579541990533471
+model,external,0,three,county,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.21107578663045223,0.21107578663045223,optimal,0.44185830489732325
+model,external,0,three,county,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.7027216302253719,-0.7027216799939994,gaplimit,0.46068952791392803
+model,external,0,three,county,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5980052331305437,0.5980052331305437,optimal,0.44939280883409083
+model,external,0,three,county,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.8811652720525831,-0.8811652720525831,optimal,0.44325165497139096
+model,external,0,three,county,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.21183359160624948,0.21183359160624948,optimal,0.4447813949082047
+model,external,0,three,county,DY,exact,SCIP,30.0,I(D;A|Y),lower,-6.673598860657811e-14,-0.21815943385971923,timelimit,30.444047552067786
+model,external,0,three,county,DY,exact,SCIP,30.0,I(D;A|Y),upper,0.27028066348214463,0.5512987940635878,timelimit,30.44301958102733
+model,external,0,three,county,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.9201864994042861,-0.9201864994042861,optimal,0.4595728190615773
+model,external,0,three,county,DY,split,SCIP,30.0,TPRD 1-0,upper,0.21215555307324663,0.21215555307324663,optimal,0.511735815089196
+model,external,0,three,county,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.933723438176261,-0.933723438176261,optimal,0.46611163392663
+model,external,0,three,county,DY,split,SCIP,30.0,PPVD 1-0,upper,0.2121555498453579,0.2121555498453579,optimal,0.4451679768972099
+model,external,0,three,county,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.6960726313950718,-0.6960726313950718,optimal,0.7980384919792414
+model,external,0,three,county,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5978098365914254,0.5978098365914254,optimal,0.45749265304766595
+model,external,0,three,county,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.880482699676963,-0.880482699676963,optimal,0.44430323014967144
+model,external,0,three,county,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.21215555304029743,0.21215555304029743,optimal,0.4456252290401608
+model,external,0,three,county,DY,split,SCIP,30.0,I(D;A|Y),lower,-4.4627283103242125e-15,-0.20882295869260814,timelimit,30.44476845720783
+model,external,0,three,county,DY,split,SCIP,30.0,I(D;A|Y),upper,0.27153800359533525,0.5513794887069992,timelimit,30.43198717897758
+model,external,0,three,income,D,exact,SCIP,30.0,DD 1-0,lower,-0.8818146829608317,-0.8818146829608317,optimal,0.4432743531651795
+model,external,0,three,income,D,exact,SCIP,30.0,DD 1-0,upper,0.23155970368622691,0.23155970368622708,optimal,0.43147723004221916
+model,external,0,three,income,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.43453679187223315
+model,external,0,three,income,D,exact,SCIP,30.0,DI 1/0,upper,1.3013372734179767,1.3013372734179767,optimal,0.4320065639913082
+model,external,0,three,income,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.46406146907247603
+model,external,0,three,income,D,exact,SCIP,30.0,worst-case DI,upper,1.000000008606088,1.000000008606088,optimal,0.4444648309145123
+model,external,0,three,income,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4313212791457772
+model,external,0,three,income,D,exact,SCIP,30.0,max DD gap,upper,1.0000000000281424,1.0000000000281424,optimal,0.44686002703383565
+model,external,0,three,income,D,exact,SCIP,30.0,I(D;A),lower,-4.4911410345928046e-17,-0.0006670791585974052,timelimit,30.43430796195753
+model,external,0,three,income,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.9654879290610552
+model,external,0,three,income,D,split,SCIP,30.0,DD 1-0,lower,-0.8804322949063769,-0.8804322949063769,optimal,0.4674389869906008
+model,external,0,three,income,D,split,SCIP,30.0,DD 1-0,upper,0.2320930642601458,0.23209306426014586,optimal,0.4311123308725655
+model,external,0,three,income,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4776919991709292
+model,external,0,three,income,D,split,SCIP,30.0,DI 1/0,upper,1.3022411355432901,1.3022411355432901,optimal,0.4330468559637666
+model,external,0,three,income,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.46624129894189537
+model,external,0,three,income,D,split,SCIP,30.0,worst-case DI,upper,1.0000000083749474,1.0000000083749474,optimal,0.44700201298110187
+model,external,0,three,income,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43113037291914225
+model,external,0,three,income,D,split,SCIP,30.0,max DD gap,upper,1.0000000000275597,1.0000000000275597,optimal,0.46277584321796894
+model,external,0,three,income,D,split,SCIP,30.0,I(D;A),lower,5.557058648471523e-17,-0.0006504947458226229,timelimit,30.452562337974086
+model,external,0,three,income,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.9312683390453458
+model,external,0,three,income,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.9272249395583774,-0.9272249395583774,optimal,0.4424545371439308
+model,external,0,three,income,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.21317707131942476,0.21317707131942476,optimal,0.43877128208987415
+model,external,0,three,income,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.9798532782900595,-0.9798532782900595,optimal,0.44180255313403904
+model,external,0,three,income,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.2116598424935151,0.2116598424935151,optimal,0.44068820402026176
+model,external,0,three,income,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.8171540684928528,-0.8171540684928528,optimal,0.4480961770750582
+model,external,0,three,income,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5980052249667105,0.5980052249667105,optimal,0.44696823810227215
+model,external,0,three,income,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.8934392443606917,-0.8934392443606917,optimal,0.4454953570384532
+model,external,0,three,income,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.21241919750786553,0.21241919750786553,optimal,0.44238041690550745
+model,external,0,three,income,DY,exact,SCIP,30.0,I(D;A|Y),lower,-3.954755962131777e-12,-0.25726486644554597,timelimit,30.444566804915667
+model,external,0,three,income,DY,exact,SCIP,30.0,I(D;A|Y),upper,0.3034390486092418,0.5886040627248431,timelimit,30.448385772993788
+model,external,0,three,income,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.9269558741760183,-0.9269558741760183,optimal,0.4380811690352857
+model,external,0,three,income,DY,split,SCIP,30.0,TPRD 1-0,upper,0.21315032896584518,0.21315032896584518,optimal,0.45077931717969477
+model,external,0,three,income,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.9810787765462491,-0.9810787765462491,optimal,0.44083456695079803
+model,external,0,three,income,DY,split,SCIP,30.0,PPVD 1-0,upper,0.21315031288680286,0.21315031288680286,optimal,0.44214513688348234
+model,external,0,three,income,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.8231697653260008,-0.8231697653260008,optimal,0.45461010397411883
+model,external,0,three,income,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5978570142914678,0.5978570142914678,optimal,0.4466779378708452
+model,external,0,three,income,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8942355308143197,-0.8942355308143197,optimal,0.44382304907776415
+model,external,0,three,income,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.21315032334818207,0.21315032334818207,optimal,0.4551163068972528
+model,external,0,three,income,DY,split,SCIP,30.0,I(D;A|Y),lower,-3.218094191585849e-13,-0.25927317881479706,timelimit,30.454267309978604
+model,external,0,three,income,DY,split,SCIP,30.0,I(D;A|Y),upper,0.3023482019354271,0.612908780679008,timelimit,30.43681321106851
+model,external,0,three,both,D,exact,SCIP,30.0,DD 1-0,lower,-0.8667210833916643,-0.8667210833916643,optimal,0.4296888841781765
+model,external,0,three,both,D,exact,SCIP,30.0,DD 1-0,upper,0.21251890990450079,0.21251890990450084,optimal,0.4343197550624609
+model,external,0,three,both,D,exact,SCIP,30.0,DI 1/0,lower,0.006218726456386685,0.006218726456386685,optimal,0.4354212530888617
+model,external,0,three,both,D,exact,SCIP,30.0,DI 1/0,upper,1.2759851344310902,1.2759851344310902,optimal,0.4344130160752684
+model,external,0,three,both,D,exact,SCIP,30.0,worst-case DI,lower,0.005423629398772542,0.005423629398772542,optimal,0.4716180039104074
+model,external,0,three,both,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000063652696,1.0000000063652696,optimal,0.45235423115082085
+model,external,0,three,both,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43119671288877726
+model,external,0,three,both,D,exact,SCIP,30.0,max DD gap,upper,0.9945763706851964,0.9945763706851964,optimal,0.44808306102640927
+model,external,0,three,both,D,exact,SCIP,30.0,I(D;A),lower,-6.666700844233066e-12,-6.666700844233066e-12,optimal,0.5048786869738251
+model,external,0,three,both,D,exact,SCIP,30.0,I(D;A),upper,0.17116668350618652,0.17116668350618652,optimal,0.5084794010035694
+model,external,0,three,both,D,split,SCIP,30.0,DD 1-0,lower,-0.8688892745395658,-0.8688892745395658,optimal,0.4297781242057681
+model,external,0,three,both,D,split,SCIP,30.0,DD 1-0,upper,0.19849299623813252,0.19849299623813252,optimal,0.43087676097638905
+model,external,0,three,both,D,split,SCIP,30.0,DI 1/0,lower,0.0020362115745504996,0.0020362115745504996,optimal,0.4394037211313844
+model,external,0,three,both,D,split,SCIP,30.0,DI 1/0,upper,1.2575988503516518,1.2575988503516518,optimal,0.435477483086288
+model,external,0,three,both,D,split,SCIP,30.0,worst-case DI,lower,0.0017728796439952696,0.0017728796439952696,optimal,0.47820606105960906
+model,external,0,three,both,D,split,SCIP,30.0,worst-case DI,upper,1.0000000057994507,1.0000000057994507,optimal,0.46444362378679216
+model,external,0,three,both,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4323156508617103
+model,external,0,three,both,D,split,SCIP,30.0,max DD gap,upper,0.9982271204387252,0.9982271204387252,optimal,0.449343980057165
+model,external,0,three,both,D,split,SCIP,30.0,I(D;A),lower,,,crashed (exit code -6),30.47018174198456
+model,external,0,three,both,D,split,SCIP,30.0,I(D;A),upper,,,crashed (exit code -6),0.5533049590885639
+model,external,0,three,both,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.9105255968817771,-0.9105255968817771,optimal,0.442413428099826
+model,external,0,three,both,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.2122513960586876,0.2122513960586876,optimal,0.44848721101880074
+model,external,0,three,both,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.9363818517193087,-0.9363818517193087,optimal,0.4479524970520288
+model,external,0,three,both,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.21073900671367807,0.21073900671367807,optimal,0.4510506079532206
+model,external,0,three,both,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.7026508909311743,-0.7026513523294433,gaplimit,0.48459472181275487
+model,external,0,three,both,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5873067027606071,0.5873067027606071,optimal,0.49615735188126564
+model,external,0,three,both,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.8810679600862348,-0.8810679600862348,optimal,0.4603404118679464
+model,external,0,three,both,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.2114959265185412,0.2114959265185412,optimal,0.4566010271664709
+model,external,0,three,both,DY,exact,SCIP,30.0,I(D;A|Y),lower,-5.514737145236272e-12,-0.20434421777191564,timelimit,30.435738946078345
+model,external,0,three,both,DY,exact,SCIP,30.0,I(D;A|Y),upper,0.22175660012034337,0.5198403197420223,timelimit,30.43240176513791
+model,external,0,three,both,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.9082669062940375,-0.9082669062940375,optimal,0.4498358138371259
+model,external,0,three,both,DY,split,SCIP,30.0,TPRD 1-0,upper,0.21191105333363602,0.21191105333363602,optimal,0.45195643906481564
+model,external,0,three,both,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.9336984778288674,-0.9336984778288674,optimal,0.4515319559723139
+model,external,0,three,both,DY,split,SCIP,30.0,PPVD 1-0,upper,0.21191105333332516,0.21191105333332516,optimal,0.448489764938131
+model,external,0,three,both,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.6912910635097091,-0.6912910635097091,optimal,0.9788192361593246
+model,external,0,three,both,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5782280546682483,0.5782280546682483,optimal,0.4983431708533317
+model,external,0,three,both,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8802796207900797,-0.8802796207900797,optimal,0.459502540063113
+model,external,0,three,both,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.21167144223617873,0.21167144223617873,optimal,0.4487789359409362
+model,external,0,three,both,DY,split,SCIP,30.0,I(D;A|Y),lower,-8.365769599403407e-10,-0.2112280033551958,timelimit,30.43710681889206
+model,external,0,three,both,DY,split,SCIP,30.0,I(D;A|Y),upper,0.21785002223801997,0.5397866037473168,timelimit,30.445800725137815
+model,full,0,Black-White,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.8432021552968344,-0.8432021552968344,optimal,0.42961660819128156
+model,full,0,Black-White,county,D,exact,SCIP,30.0,DD 1-0,upper,0.2061927098008288,0.20619270980082882,optimal,0.429518376942724
+model,full,0,Black-White,county,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4321440558414906
+model,full,0,Black-White,county,D,exact,SCIP,30.0,DI 1/0,upper,1.2648377587654602,1.2648377587654602,optimal,0.43159896205179393
+model,full,0,Black-White,county,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.44982525799423456
+model,full,0,Black-White,county,D,exact,SCIP,30.0,worst-case DI,upper,1.000000009987552,1.000000009987552,optimal,0.4383644990157336
+model,full,0,Black-White,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4473848110064864
+model,full,0,Black-White,county,D,exact,SCIP,30.0,max DD gap,upper,0.8432021552968344,0.8432021552968344,optimal,0.4491172940470278
+model,full,0,Black-White,county,D,exact,SCIP,30.0,I(D;A),lower,-3.5542761469828764e-12,-4.530654938074054e-05,timelimit,30.44574780203402
+model,full,0,Black-White,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5500079789198935
+model,full,0,Black-White,county,D,split,SCIP,30.0,DD 1-0,lower,-0.8440244663828871,-0.8440244663828871,optimal,0.44259341596625745
+model,full,0,Black-White,county,D,split,SCIP,30.0,DD 1-0,upper,0.19915336464013186,0.19915336464013186,optimal,0.45210781204514205
+model,full,0,Black-White,county,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.43367520486935973
+model,full,0,Black-White,county,D,split,SCIP,30.0,DI 1/0,upper,1.2554755500380517,1.2554755500380517,optimal,0.4336175040807575
+model,full,0,Black-White,county,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.43659778498113155
+model,full,0,Black-White,county,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099947053,1.0000000099947053,optimal,0.43756516999565065
+model,full,0,Black-White,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.42978055705316365
+model,full,0,Black-White,county,D,split,SCIP,30.0,max DD gap,upper,0.8440244663828871,0.8440244663828871,optimal,0.4323627450503409
+model,full,0,Black-White,county,D,split,SCIP,30.0,I(D;A),lower,-6.757725992203749e-12,-4.709349215137932e-05,timelimit,30.437326178885996
+model,full,0,Black-White,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.556993915932253
+model,full,0,Black-White,county,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.8824697350350937,-0.8824697350350937,optimal,0.43785960995592177
+model,full,0,Black-White,county,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.20030997156614194,0.20030997156614194,optimal,0.44602350797504187
+model,full,0,Black-White,county,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.8829998826689125,-0.8829998826689125,optimal,0.4411875030491501
+model,full,0,Black-White,county,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.19241577968422852,0.19241577968422852,optimal,0.44195442786440253
+model,full,0,Black-White,county,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.6170046787953805,-0.6170046787953805,optimal,0.4475266069639474
+model,full,0,Black-White,county,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5823927050186448,0.5823927050186448,optimal,0.44183014798909426
+model,full,0,Black-White,county,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.8510756633285372,-0.8510756633285372,optimal,0.4433081690222025
+model,full,0,Black-White,county,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.19638225465301518,0.19638225465301518,optimal,0.4356826350558549
+model,full,0,Black-White,county,DY,exact,SCIP,30.0,I(D;A|Y),lower,-1.648550664818213e-11,-0.0406109207326018,timelimit,30.438641166081652
+model,full,0,Black-White,county,DY,exact,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,14.887062058085576
+model,full,0,Black-White,county,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.8840332055604837,-0.8840332055604837,optimal,0.43979215109720826
+model,full,0,Black-White,county,DY,split,SCIP,30.0,TPRD 1-0,upper,0.19914826205528713,0.19914826205528713,optimal,0.4392162561416626
+model,full,0,Black-White,county,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.8815678139789637,-0.8815678139789637,optimal,0.4538177181966603
+model,full,0,Black-White,county,DY,split,SCIP,30.0,PPVD 1-0,upper,0.19341853254748986,0.19341853254748986,optimal,0.4386013220064342
+model,full,0,Black-White,county,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.6172681854582102,-0.6172681854582102,optimal,0.445963904960081
+model,full,0,Black-White,county,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5789506848401542,0.5789506848401542,optimal,0.44649718794971704
+model,full,0,Black-White,county,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8512863404834486,-0.8512863404834486,optimal,0.44123310106806457
+model,full,0,Black-White,county,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.19629360991269196,0.19629360991269196,optimal,0.43950118916109204
+model,full,0,Black-White,county,DY,split,SCIP,30.0,I(D;A|Y),lower,-3.996028658629818e-11,-0.037728414601812546,timelimit,30.439463740913197
+model,full,0,Black-White,county,DY,split,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,21.114191093016416
+model,full,0,Black-White,income,D,exact,SCIP,30.0,DD 1-0,lower,-0.8432021552968345,-0.8432021552968345,optimal,0.4626588560640812
+model,full,0,Black-White,income,D,exact,SCIP,30.0,DD 1-0,upper,0.22243817957852402,0.22243817957852402,optimal,0.44674470578320324
+model,full,0,Black-White,income,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4643820079509169
+model,full,0,Black-White,income,D,exact,SCIP,30.0,DI 1/0,upper,1.2860714221522782,1.2860714221522782,optimal,0.46427650679834187
+model,full,0,Black-White,income,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4421706448774785
+model,full,0,Black-White,income,D,exact,SCIP,30.0,worst-case DI,upper,1.000000009989012,1.000000009989012,optimal,0.43789333500899374
+model,full,0,Black-White,income,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43357077497057617
+model,full,0,Black-White,income,D,exact,SCIP,30.0,max DD gap,upper,0.8432021552968345,0.8432021552968345,optimal,0.43327089212834835
+model,full,0,Black-White,income,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,2.5641500710044056
+model,full,0,Black-White,income,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5992835080251098
+model,full,0,Black-White,income,D,split,SCIP,30.0,DD 1-0,lower,-0.843837887091576,-0.843837887091576,optimal,0.4429304599761963
+model,full,0,Black-White,income,D,split,SCIP,30.0,DD 1-0,upper,0.22181485446246912,0.22181485446246912,optimal,0.433735626982525
+model,full,0,Black-White,income,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4326183688826859
+model,full,0,Black-White,income,D,split,SCIP,30.0,DI 1/0,upper,1.285041280892256,1.285041280892256,optimal,0.43494563386775553
+model,full,0,Black-White,income,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4338874069508165
+model,full,0,Black-White,income,D,split,SCIP,30.0,worst-case DI,upper,1.00000000998971,1.00000000998971,optimal,0.4353230770211667
+model,full,0,Black-White,income,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4363343541044742
+model,full,0,Black-White,income,D,split,SCIP,30.0,max DD gap,upper,0.843837887091576,0.843837887091576,optimal,0.4459334989078343
+model,full,0,Black-White,income,D,split,SCIP,30.0,I(D;A),lower,-2.942078920724674e-12,-5.463311805710292e-05,timelimit,30.434979584999382
+model,full,0,Black-White,income,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5848584678024054
+model,full,0,Black-White,income,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.8824697376325222,-0.8824697376325222,optimal,0.43745354004204273
+model,full,0,Black-White,income,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.20111993207865797,0.20111993207865797,optimal,0.4374582499731332
+model,full,0,Black-White,income,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.8912166846014302,-0.8912166846014302,optimal,0.438842749921605
+model,full,0,Black-White,income,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.1932015171314414,0.1932015171314414,optimal,0.4558167669456452
+model,full,0,Black-White,income,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.6235252562407398,-0.6235252562407398,optimal,0.4409120138734579
+model,full,0,Black-White,income,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5587589867639644,0.5587592143241109,gaplimit,0.448876267997548
+model,full,0,Black-White,income,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.851075668150397,-0.851075668150397,optimal,0.4437326828483492
+model,full,0,Black-White,income,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.1971802526195896,0.1971802526195896,optimal,0.4415676679927856
+model,full,0,Black-White,income,DY,exact,SCIP,30.0,I(D;A|Y),lower,-4.802407259785309e-11,-0.03860392897294811,timelimit,30.43548603099771
+model,full,0,Black-White,income,DY,exact,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,9.131020467029884
+model,full,0,Black-White,income,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.8837838697232514,-0.8837838697232514,optimal,0.4392909200396389
+model,full,0,Black-White,income,DY,split,SCIP,30.0,TPRD 1-0,upper,0.19998083410877687,0.19998083410877687,optimal,0.43763835914433
+model,full,0,Black-White,income,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.890133564458003,-0.890133564458003,optimal,0.44029102800413966
+model,full,0,Black-White,income,DY,split,SCIP,30.0,PPVD 1-0,upper,0.19423296080076546,0.19423296080076546,optimal,0.4445370859466493
+model,full,0,Black-White,income,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.6238306919451311,-0.6238306919451311,optimal,0.4374431180767715
+model,full,0,Black-White,income,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5550715913346834,0.5550718791324232,gaplimit,0.44606494600884616
+model,full,0,Black-White,income,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8511707178900261,-0.8511707178900261,optimal,0.44079983117990196
+model,full,0,Black-White,income,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.19711717203009105,0.19711717203009105,optimal,0.4356438049580902
+model,full,0,Black-White,income,DY,split,SCIP,30.0,I(D;A|Y),lower,-8.463946407609491e-11,-0.04016656722212589,timelimit,30.43800202687271
+model,full,0,Black-White,income,DY,split,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,18.83426019293256
+model,full,0,Black-White,both,D,exact,SCIP,30.0,DD 1-0,lower,-0.8432021552968344,-0.8432021552968344,optimal,0.42908133706077933
+model,full,0,Black-White,both,D,exact,SCIP,30.0,DD 1-0,upper,0.1735455638398677,0.1735455638398677,optimal,0.42891912697814405
+model,full,0,Black-White,both,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.44341824809089303
+model,full,0,Black-White,both,D,exact,SCIP,30.0,DI 1/0,upper,1.2223309441532135,1.2223309441532135,optimal,0.43351559806615114
+model,full,0,Black-White,both,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.44278321298770607
+model,full,0,Black-White,both,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099596922,1.0000000099596922,optimal,0.4377462980337441
+model,full,0,Black-White,both,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43083511013537645
+model,full,0,Black-White,both,D,exact,SCIP,30.0,max DD gap,upper,0.8432021552968344,0.8432021552968344,optimal,0.4324455407913774
+model,full,0,Black-White,both,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,13.293379568029195
+model,full,0,Black-White,both,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5964101501740515
+model,full,0,Black-White,both,D,split,SCIP,30.0,DD 1-0,lower,-0.8438766056012647,-0.8438766056012647,optimal,0.42777966894209385
+model,full,0,Black-White,both,D,split,SCIP,30.0,DD 1-0,upper,0.1712159175360164,0.1712159175360164,optimal,0.43258429202251136
+model,full,0,Black-White,both,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.43446420412510633
+model,full,0,Black-White,both,D,split,SCIP,30.0,DI 1/0,upper,1.2191438221192872,1.2191438221192872,optimal,0.43411427177488804
+model,full,0,Black-White,both,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.43520801002159715
+model,full,0,Black-White,both,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099706718,1.0000000099706718,optimal,0.4392744379583746
+model,full,0,Black-White,both,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4310582799371332
+model,full,0,Black-White,both,D,split,SCIP,30.0,max DD gap,upper,0.8438766056012647,0.8438766056012647,optimal,0.4357888831291348
+model,full,0,Black-White,both,D,split,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,31.494824103079736
+model,full,0,Black-White,both,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5812753541395068
+model,full,0,Black-White,both,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.8820482371637619,-0.8820482371637619,optimal,0.43655352713540196
+model,full,0,Black-White,both,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.2000414366335006,0.2000414366335006,optimal,0.43431181088089943
+model,full,0,Black-White,both,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.8829999089110716,-0.8829999089110716,optimal,0.4416917529888451
+model,full,0,Black-White,both,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.19215529016768773,0.19215529016768773,optimal,0.44255756796337664
+model,full,0,Black-White,both,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.6170046908927552,-0.6170046908927552,optimal,0.456041842000559
+model,full,0,Black-White,both,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5469048925451906,0.546905372698008,gaplimit,0.4715086279902607
+model,full,0,Black-White,both,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.8510756619677297,-0.8510756619677297,optimal,0.4421747860033065
+model,full,0,Black-White,both,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.19279745224594613,0.19279745224594613,optimal,0.4515386610291898
+model,full,0,Black-White,both,DY,exact,SCIP,30.0,I(D;A|Y),lower,-2.7753392254204106e-13,-0.03811755267359048,timelimit,30.440462408820167
+model,full,0,Black-White,both,DY,exact,SCIP,30.0,I(D;A|Y),upper,0.1674094029398606,0.16799188469454612,timelimit,30.43690815404989
+model,full,0,Black-White,both,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.8835023277692216,-0.8835023277692216,optimal,0.4408451949711889
+model,full,0,Black-White,both,DY,split,SCIP,30.0,TPRD 1-0,upper,0.1989372436338519,0.1989372436338519,optimal,0.44081105501390994
+model,full,0,Black-White,both,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.8814828954850309,-0.8814828954850309,optimal,0.441359267802909
+model,full,0,Black-White,both,DY,split,SCIP,30.0,PPVD 1-0,upper,0.1932121213427923,0.1932121213427923,optimal,0.45440831896848977
+model,full,0,Black-White,both,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.6171211165797869,-0.6171211165797869,optimal,0.4577982409391552
+model,full,0,Black-White,both,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5446953310327808,0.544695865699374,gaplimit,0.4728050047997385
+model,full,0,Black-White,both,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8511947292041768,-0.8511947292041768,optimal,0.441700620111078
+model,full,0,Black-White,both,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.19386845049100654,0.19386845049100654,optimal,0.452656856039539
+model,full,0,Black-White,both,DY,split,SCIP,30.0,I(D;A|Y),lower,-9.57098972597705e-14,-0.0380788183657253,timelimit,30.438470329158008
+model,full,0,Black-White,both,DY,split,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,17.04245457216166
+model,full,0,API-White,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.4343574291952997,-0.4343574291952997,optimal,0.4270873889327049
+model,full,0,API-White,county,D,exact,SCIP,30.0,DD 1-0,upper,0.2051380737321491,0.2051380737321491,optimal,0.44427200593054295
+model,full,0,API-White,county,D,exact,SCIP,30.0,DI 1/0,lower,0.4847892130387014,0.4847892130387014,optimal,0.44755855994299054
+model,full,0,API-White,county,D,exact,SCIP,30.0,DI 1/0,upper,1.258080173674731,1.258080173674731,optimal,0.4323279650416225
+model,full,0,API-White,county,D,exact,SCIP,30.0,worst-case DI,lower,0.4847892130387014,0.4847892130387014,optimal,0.436853856081143
+model,full,0,API-White,county,D,exact,SCIP,30.0,worst-case DI,upper,1.000000009900492,1.000000009900492,optimal,0.4393741430249065
+model,full,0,API-White,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4313318480271846
+model,full,0,API-White,county,D,exact,SCIP,30.0,max DD gap,upper,0.4343574291952997,0.4343574291952997,optimal,0.43445757986046374
+model,full,0,API-White,county,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,21.217235137009993
+model,full,0,API-White,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.536197449080646
+model,full,0,API-White,county,D,split,SCIP,30.0,DD 1-0,lower,-0.4316346390886299,-0.4316346390886299,optimal,0.43106423504650593
+model,full,0,API-White,county,D,split,SCIP,30.0,DD 1-0,upper,0.20496018426196355,0.2049601842619636,optimal,0.4320003220345825
+model,full,0,API-White,county,D,split,SCIP,30.0,DI 1/0,lower,0.4885988581979266,0.4885988581979266,optimal,0.4307459630072117
+model,full,0,API-White,county,D,split,SCIP,30.0,DI 1/0,upper,1.2577986786515096,1.2577986786515096,optimal,0.43306335899978876
+model,full,0,API-White,county,D,split,SCIP,30.0,worst-case DI,lower,0.4885988581979266,0.4885988581979266,optimal,0.43629519105888903
+model,full,0,API-White,county,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099105477,1.0000000099105477,optimal,0.4388667489401996
+model,full,0,API-White,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4307244122028351
+model,full,0,API-White,county,D,split,SCIP,30.0,max DD gap,upper,0.4316346390886299,0.4316346390886299,optimal,0.43286911817267537
+model,full,0,API-White,county,D,split,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,0.6272045338992029
+model,full,0,API-White,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.578198506962508
+model,full,0,API-White,county,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.695568602106898,-0.695568602106898,optimal,0.43652120186015964
+model,full,0,API-White,county,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.1877488774045607,0.1877488774045607,optimal,0.43143254797905684
+model,full,0,API-White,county,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.7498981219609044,-0.7498981219609044,optimal,0.4426540439017117
+model,full,0,API-White,county,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.18764073662722602,0.18764073662722602,optimal,0.4404084801208228
+model,full,0,API-White,county,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.4771629297437051,-0.47716321393579947,gaplimit,0.5327069438062608
+model,full,0,API-White,county,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5397608049719969,0.5397608049719969,optimal,0.4471909150015563
+model,full,0,API-White,county,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.6419170247460101,-0.6419176649083667,gaplimit,0.6471746119204909
+model,full,0,API-White,county,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.18769481832340096,0.18769481832340096,optimal,0.4516873760148883
+model,full,0,API-White,county,DY,exact,SCIP,30.0,I(D;A|Y),lower,-6.70406545495368e-13,-0.02959234826412833,timelimit,30.44433125993237
+model,full,0,API-White,county,DY,exact,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,15.750206261174753
+model,full,0,API-White,county,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.6845716309738027,-0.6845716309738027,optimal,0.4404655678663403
+model,full,0,API-White,county,DY,split,SCIP,30.0,TPRD 1-0,upper,0.18717944613248094,0.18717944613248094,optimal,0.44069857988506556
+model,full,0,API-White,county,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.7402496168092072,-0.7402496168092072,optimal,0.43983395397663116
+model,full,0,API-White,county,DY,split,SCIP,30.0,PPVD 1-0,upper,0.18889395066211856,0.18889395066211856,optimal,0.439349110936746
+model,full,0,API-White,county,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.4718661818734494,-0.4718661818734494,optimal,0.527078194078058
+model,full,0,API-White,county,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5412731284534213,0.5412731871570409,gaplimit,0.45895600598305464
+model,full,0,API-White,county,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.6269117280277612,-0.6269120941931536,gaplimit,0.6417078729718924
+model,full,0,API-White,county,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.18803758786760105,0.18803758786760105,optimal,0.4321521909441799
+model,full,0,API-White,county,DY,split,SCIP,30.0,I(D;A|Y),lower,-2.2299626011456704e-14,-0.03079299456529517,timelimit,30.434889998985454
+model,full,0,API-White,county,DY,split,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,15.887019438901916
+model,full,0,API-White,income,D,exact,SCIP,30.0,DD 1-0,lower,-0.6510966235860621,-0.6510966235860621,optimal,0.4383015129715204
+model,full,0,API-White,income,D,exact,SCIP,30.0,DD 1-0,upper,0.20513807373214932,0.20513807373214943,optimal,0.4301826460286975
+model,full,0,API-White,income,D,exact,SCIP,30.0,DI 1/0,lower,0.24238704853165202,0.24238704853165202,optimal,0.4383729831315577
+model,full,0,API-White,income,D,exact,SCIP,30.0,DI 1/0,upper,1.2580801736747311,1.2580801736747311,optimal,0.43268951401114464
+model,full,0,API-White,income,D,exact,SCIP,30.0,worst-case DI,lower,0.24238704853165202,0.24238704853165202,optimal,0.43626867909915745
+model,full,0,API-White,income,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099590882,1.0000000099590882,optimal,0.4396410209592432
+model,full,0,API-White,income,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4310405720025301
+model,full,0,API-White,income,D,exact,SCIP,30.0,max DD gap,upper,0.6510966235860621,0.6510966235860621,optimal,0.4333932879380882
+model,full,0,API-White,income,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,30.345367905916646
+model,full,0,API-White,income,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5530332599300891
+model,full,0,API-White,income,D,split,SCIP,30.0,DD 1-0,lower,-0.6248706381135446,-0.6248706381135446,optimal,0.4287830460816622
+model,full,0,API-White,income,D,split,SCIP,30.0,DD 1-0,upper,0.20497339552403848,0.20497339552403848,optimal,0.44004375394433737
+model,full,0,API-White,income,D,split,SCIP,30.0,DI 1/0,lower,0.2725007992202821,0.2725007992202821,optimal,0.4448069669306278
+model,full,0,API-White,income,D,split,SCIP,30.0,DI 1/0,upper,1.2578195799496954,1.2578195799496954,optimal,0.43687906209379435
+model,full,0,API-White,income,D,split,SCIP,30.0,worst-case DI,lower,0.2725007992202821,0.2725007992202821,optimal,0.4466609589289874
+model,full,0,API-White,income,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099592206,1.0000000099592206,optimal,0.439855492208153
+model,full,0,API-White,income,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43042498803697526
+model,full,0,API-White,income,D,split,SCIP,30.0,max DD gap,upper,0.6248706381135446,0.6248706381135446,optimal,0.43768878700211644
+model,full,0,API-White,income,D,split,SCIP,30.0,I(D;A),lower,-4.1964009738969514e-14,-5.688724516068937e-05,timelimit,30.436742034042254
+model,full,0,API-White,income,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5471926289610565
+model,full,0,API-White,income,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.8878525853113417,-0.8878525853113417,optimal,0.440249633975327
+model,full,0,API-White,income,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.18774889326662036,0.18774889326662036,optimal,0.446588478051126
+model,full,0,API-White,income,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.9149255835830143,-0.9149255835830143,optimal,0.44080677907913923
+model,full,0,API-White,income,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.1876407367794487,0.1876407367794487,optimal,0.44066004711203277
+model,full,0,API-White,income,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.6410959157467992,-0.6410959157467992,optimal,0.4469440800603479
+model,full,0,API-White,income,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5301387429551895,0.5301387429551895,optimal,0.44865533197298646
+model,full,0,API-White,income,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.8702390328265471,-0.8702390328265471,optimal,0.4542717810254544
+model,full,0,API-White,income,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.18769481856709092,0.18769481856709092,optimal,0.4554233690723777
+model,full,0,API-White,income,DY,exact,SCIP,30.0,I(D;A|Y),lower,-9.4638291420983e-12,-0.034932349114998214,timelimit,30.434742573881522
+model,full,0,API-White,income,DY,exact,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,13.772197657963261
+model,full,0,API-White,income,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.8881647940959168,-0.8881647940959168,optimal,0.4389824140816927
+model,full,0,API-White,income,DY,split,SCIP,30.0,TPRD 1-0,upper,0.1871946540519399,0.1871946540519399,optimal,0.4410921900998801
+model,full,0,API-White,income,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.9160316756499924,-0.9160316756499924,optimal,0.44186350400559604
+model,full,0,API-White,income,DY,split,SCIP,30.0,PPVD 1-0,upper,0.18890926542655728,0.18890926542655728,optimal,0.4536235348787159
+model,full,0,API-White,income,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.6444226806675787,-0.6444226806675787,optimal,0.441381081007421
+model,full,0,API-White,income,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5278948159831283,0.5278948159831283,optimal,0.44775186595506966
+model,full,0,API-White,income,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8712364367162544,-0.8712364367162544,optimal,0.44130091089755297
+model,full,0,API-White,income,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.18805285528659688,0.18805285528659688,optimal,0.43860392179340124
+model,full,0,API-White,income,DY,split,SCIP,30.0,I(D;A|Y),lower,-7.685128245716205e-12,-0.03395280804525144,timelimit,30.441702482989058
+model,full,0,API-White,income,DY,split,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,12.896856911946088
+model,full,0,API-White,both,D,exact,SCIP,30.0,DD 1-0,lower,-0.4343574292096474,-0.4343574292096474,optimal,0.4429301212076098
+model,full,0,API-White,both,D,exact,SCIP,30.0,DD 1-0,upper,0.20513807376084423,0.20513807376084436,optimal,0.430950938956812
+model,full,0,API-White,both,D,exact,SCIP,30.0,DI 1/0,lower,0.4847891966658013,0.4847891966658013,optimal,0.4467031960375607
+model,full,0,API-White,both,D,exact,SCIP,30.0,DI 1/0,upper,1.2580802105145752,1.2580802105145752,optimal,0.4328633318655193
+model,full,0,API-White,both,D,exact,SCIP,30.0,worst-case DI,lower,0.4847891966658013,0.4847891966658013,optimal,0.4433208438567817
+model,full,0,API-White,both,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099849764,1.0000000099849764,optimal,0.4381781881675124
+model,full,0,API-White,both,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.44499585614539683
+model,full,0,API-White,both,D,exact,SCIP,30.0,max DD gap,upper,0.4343574292096474,0.4343574292096474,optimal,0.4376704341266304
+model,full,0,API-White,both,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,29.019103843020275
+model,full,0,API-White,both,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5507112320046872
+model,full,0,API-White,both,D,split,SCIP,30.0,DD 1-0,lower,-0.43197996005164335,-0.43197996005164335,optimal,0.4299604210536927
+model,full,0,API-White,both,D,split,SCIP,30.0,DD 1-0,upper,0.20496882370167055,0.20496882370167055,optimal,0.4308696179650724
+model,full,0,API-White,both,D,split,SCIP,30.0,DI 1/0,lower,0.48821600845783863,0.48821600845783863,optimal,0.446569035993889
+model,full,0,API-White,both,D,split,SCIP,30.0,DI 1/0,upper,1.25781238297008,1.25781238297008,optimal,0.43305681203491986
+model,full,0,API-White,both,D,split,SCIP,30.0,worst-case DI,lower,0.48821600845783863,0.48821600845783863,optimal,0.43849190091714263
+model,full,0,API-White,both,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099586672,1.0000000099586672,optimal,0.4504063718486577
+model,full,0,API-White,both,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.45763843110762537
+model,full,0,API-White,both,D,split,SCIP,30.0,max DD gap,upper,0.43197996005164335,0.43197996005164335,optimal,0.4330030819401145
+model,full,0,API-White,both,D,split,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,16.97943682107143
+model,full,0,API-White,both,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5480482829734683
+model,full,0,API-White,both,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.6588915326422627,-0.6588915326422627,optimal,0.45341005316004157
+model,full,0,API-White,both,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.18774887740507162,0.18774887740507162,optimal,0.43485891609452665
+model,full,0,API-White,both,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.7194570740671254,-0.7194570740671254,optimal,0.4467596460599452
+model,full,0,API-White,both,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.18764073454055485,0.18764073454055485,optimal,0.4445688819978386
+model,full,0,API-White,both,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.4754112021412811,-0.4754112021412811,optimal,0.6067074639722705
+model,full,0,API-White,both,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5034727819461925,0.5034727819461925,optimal,0.4578363529872149
+model,full,0,API-White,both,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.5984915987597473,-0.5984916298044247,gaplimit,0.5910717980004847
+model,full,0,API-White,both,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.18769481716601866,0.18769481716601866,optimal,0.4443316201213747
+model,full,0,API-White,both,DY,exact,SCIP,30.0,I(D;A|Y),lower,-1.1371409779486892e-12,-0.024544293493026965,timelimit,30.43513288698159
+model,full,0,API-White,both,DY,exact,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,11.498680503107607
+model,full,0,API-White,both,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.6499721221817945,-0.6499721221817945,optimal,0.44264842802658677
+model,full,0,API-White,both,DY,split,SCIP,30.0,TPRD 1-0,upper,0.18718939483254993,0.18718939483254993,optimal,0.45179191092029214
+model,full,0,API-White,both,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.7114120418593648,-0.7114120418593648,optimal,0.45981117500923574
+model,full,0,API-White,both,DY,split,SCIP,30.0,PPVD 1-0,upper,0.18890396418318234,0.18890396418318234,optimal,0.44037040206603706
+model,full,0,API-White,both,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.47085191393587467,-0.47085191393587467,optimal,0.6025909250602126
+model,full,0,API-White,both,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5021569590223467,0.5021569590223467,optimal,0.4581832638941705
+model,full,0,API-White,both,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.5862013378885922,-0.586201853630529,gaplimit,0.63463986502029
+model,full,0,API-White,both,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.18804758186262682,0.18804758186262682,optimal,0.4426339268684387
+model,full,0,API-White,both,DY,split,SCIP,30.0,I(D;A|Y),lower,-8.893257578754668e-13,-0.024714484573042896,timelimit,30.4420998939313
+model,full,0,API-White,both,DY,split,SCIP,30.0,I(D;A|Y),upper,,,error: SCIP: error in LP solver!,19.021677503129467
+model,full,0,three,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.8739343789100282,-0.8739343789100282,optimal,0.4296245980076492
+model,full,0,three,county,D,exact,SCIP,30.0,DD 1-0,upper,0.21844002418248604,0.21844002418248604,optimal,0.4297221580054611
+model,full,0,three,county,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4342093791346997
+model,full,0,three,county,D,exact,SCIP,30.0,DI 1/0,upper,1.2836957877041562,1.2836957877041562,optimal,0.43030592193827033
+model,full,0,three,county,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4578542308881879
+model,full,0,three,county,D,exact,SCIP,30.0,worst-case DI,upper,1.000000008837749,1.000000008837749,optimal,0.4777176280040294
+model,full,0,three,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43320496194064617
+model,full,0,three,county,D,exact,SCIP,30.0,max DD gap,upper,1.0000000000422136,1.0000000000422136,optimal,0.4457622889894992
+model,full,0,three,county,D,exact,SCIP,30.0,I(D;A),lower,-9.897624811929532e-15,-0.0007082536533417105,timelimit,30.43821557192132
+model,full,0,three,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.8196717540267855
+model,full,0,three,county,D,split,SCIP,30.0,DD 1-0,lower,-0.874741660028434,-0.874741660028434,optimal,0.4297235980629921
+model,full,0,three,county,D,split,SCIP,30.0,DD 1-0,upper,0.21339351065378426,0.2133935106537843,optimal,0.4317594119347632
+model,full,0,three,county,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.44631899101659656
+model,full,0,three,county,D,split,SCIP,30.0,DI 1/0,upper,1.2772017290031066,1.2772017290031066,optimal,0.4373849898111075
+model,full,0,three,county,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4647435280494392
+model,full,0,three,county,D,split,SCIP,30.0,worst-case DI,upper,1.000000008861312,1.000000008861312,optimal,0.45068726199679077
+model,full,0,three,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43226287490688264
+model,full,0,three,county,D,split,SCIP,30.0,max DD gap,upper,1.000000000041304,1.000000000041304,optimal,0.4587393058463931
+model,full,0,three,county,D,split,SCIP,30.0,I(D;A),lower,-7.380006616199197e-15,-0.0006276645769525076,timelimit,30.438834198983386
+model,full,0,three,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.8843672859948128
+model,full,0,three,county,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.9217698654588395,-0.9217698654588395,optimal,0.4543880969285965
+model,full,0,three,county,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.2121906253954804,0.2121906253954804,optimal,0.4538513128645718
+model,full,0,three,county,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.9373592190138473,-0.9373592190138473,optimal,0.4572635469958186
+model,full,0,three,county,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.2106785529407219,0.2106785529407219,optimal,0.4411679159384221
+model,full,0,three,county,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.7041910724876232,-0.7041911745729388,gaplimit,0.4597730031237006
+model,full,0,three,county,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5980052331296722,0.5980052331296722,optimal,0.44767513987608254
+model,full,0,three,county,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.880915712629138,-0.880915712629138,optimal,0.4559994579758495
+model,full,0,three,county,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.2114353139811952,0.2114353139811952,optimal,0.44241508515551686
+model,full,0,three,county,DY,exact,SCIP,30.0,I(D;A|Y),lower,-8.951225344289148e-14,-0.2407024987092003,timelimit,30.440083092078567
+model,full,0,three,county,DY,exact,SCIP,30.0,I(D;A|Y),upper,0.2702413526741075,0.5309209805555811,timelimit,30.434999137185514
+model,full,0,three,county,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.9232001411720059,-0.9232001411720059,optimal,0.4490053290501237
+model,full,0,three,county,DY,split,SCIP,30.0,TPRD 1-0,upper,0.21210398375040207,0.21210398375040207,optimal,0.44340359093621373
+model,full,0,three,county,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.9369041054530391,-0.9369041054530391,optimal,0.44428268587216735
+model,full,0,three,county,DY,split,SCIP,30.0,PPVD 1-0,upper,0.21210398375067496,0.21210398375067496,optimal,0.457994950003922
+model,full,0,three,county,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.7053672629960498,-0.7053673953022818,gaplimit,0.4596417020075023
+model,full,0,three,county,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5978626180457286,0.5978626180457286,optimal,0.46210635895840824
+model,full,0,three,county,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8810805928902062,-0.8810805928902062,optimal,0.4495377338025719
+model,full,0,three,county,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.2120470602724791,0.2120470602724791,optimal,0.45845091389492154
+model,full,0,three,county,DY,split,SCIP,30.0,I(D;A|Y),lower,-6.2836216411061824e-15,-0.2194370489112369,timelimit,30.44041055208072
+model,full,0,three,county,DY,split,SCIP,30.0,I(D;A|Y),upper,0.20137052887606816,0.5560908890638394,timelimit,30.43631210597232
+model,full,0,three,income,D,exact,SCIP,30.0,DD 1-0,lower,-0.8818146829608317,-0.8818146829608317,optimal,0.4299534079618752
+model,full,0,three,income,D,exact,SCIP,30.0,DD 1-0,upper,0.23155970368622691,0.23155970368622708,optimal,0.430862404871732
+model,full,0,three,income,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.43238636502064764
+model,full,0,three,income,D,exact,SCIP,30.0,DI 1/0,upper,1.3013372734179767,1.3013372734179767,optimal,0.4438143130391836
+model,full,0,three,income,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4637718298472464
+model,full,0,three,income,D,exact,SCIP,30.0,worst-case DI,upper,1.000000008606088,1.000000008606088,optimal,0.4426521749701351
+model,full,0,three,income,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.44575508614070714
+model,full,0,three,income,D,exact,SCIP,30.0,max DD gap,upper,1.0000000000281424,1.0000000000281424,optimal,0.4431281378492713
+model,full,0,three,income,D,exact,SCIP,30.0,I(D;A),lower,-4.4911410345928046e-17,-0.0006670791585974044,timelimit,30.44544108910486
+model,full,0,three,income,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.9608666289132088
+model,full,0,three,income,D,split,SCIP,30.0,DD 1-0,lower,-0.8804322949063769,-0.8804322949063769,optimal,0.46314431517384946
+model,full,0,three,income,D,split,SCIP,30.0,DD 1-0,upper,0.2320930642601458,0.23209306426014586,optimal,0.43041828204877675
+model,full,0,three,income,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.44580072490498424
+model,full,0,three,income,D,split,SCIP,30.0,DI 1/0,upper,1.3022411355432901,1.3022411355432901,optimal,0.43159881909377873
+model,full,0,three,income,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.46220386889763176
+model,full,0,three,income,D,split,SCIP,30.0,worst-case DI,upper,1.0000000083749474,1.0000000083749474,optimal,0.4456288639921695
+model,full,0,three,income,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43294410896487534
+model,full,0,three,income,D,split,SCIP,30.0,max DD gap,upper,1.0000000000275597,1.0000000000275597,optimal,0.4471362638287246
+model,full,0,three,income,D,split,SCIP,30.0,I(D;A),lower,5.557058648471523e-17,-0.0006504947458226231,timelimit,30.437226024921983
+model,full,0,three,income,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.9305164888501167
+model,full,0,three,income,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.9272249395583774,-0.9272249395583774,optimal,0.4426688440144062
+model,full,0,three,income,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.21317707131942476,0.21317707131942476,optimal,0.4434848208911717
+model,full,0,three,income,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.9798532782900595,-0.9798532782900595,optimal,0.4429693571291864
+model,full,0,three,income,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.2116598424935151,0.2116598424935151,optimal,0.4422126819845289
+model,full,0,three,income,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.8171540684928528,-0.8171540684928528,optimal,0.4591297770384699
+model,full,0,three,income,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5980052249667105,0.5980052249667105,optimal,0.4486750760115683
+model,full,0,three,income,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.8934392443606917,-0.8934392443606917,optimal,0.4488791669718921
+model,full,0,three,income,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.21241919750786553,0.21241919750786553,optimal,0.4408136720303446
+model,full,0,three,income,DY,exact,SCIP,30.0,I(D;A|Y),lower,-3.954755962131777e-12,-0.25726486644554597,timelimit,30.443134528119117
+model,full,0,three,income,DY,exact,SCIP,30.0,I(D;A|Y),upper,0.3034390486092418,0.5886040627248431,timelimit,30.43324996693991
+model,full,0,three,income,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.9269558741760183,-0.9269558741760183,optimal,0.4411389238666743
+model,full,0,three,income,DY,split,SCIP,30.0,TPRD 1-0,upper,0.21315032896584518,0.21315032896584518,optimal,0.4388205090072006
+model,full,0,three,income,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.9810787765462491,-0.9810787765462491,optimal,0.44075274001806974
+model,full,0,three,income,DY,split,SCIP,30.0,PPVD 1-0,upper,0.21315031288680286,0.21315031288680286,optimal,0.43744377908296883
+model,full,0,three,income,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.8231697653260008,-0.8231697653260008,optimal,0.4546575469430536
+model,full,0,three,income,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5978570142914678,0.5978570142914678,optimal,0.4614617230836302
+model,full,0,three,income,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8942355308143197,-0.8942355308143197,optimal,0.4488283870741725
+model,full,0,three,income,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.21315032334818207,0.21315032334818207,optimal,0.45414595282636583
+model,full,0,three,income,DY,split,SCIP,30.0,I(D;A|Y),lower,-3.218094191585849e-13,-0.25927317881479706,timelimit,30.439781646011397
+model,full,0,three,income,DY,split,SCIP,30.0,I(D;A|Y),upper,0.3023482019354271,0.612908780679008,timelimit,30.434210385894403
+model,full,0,three,both,D,exact,SCIP,30.0,DD 1-0,lower,-0.8607653997477305,-0.8607653997477305,optimal,0.4296745350584388
+model,full,0,three,both,D,exact,SCIP,30.0,DD 1-0,upper,0.19362755250478061,0.19362755250478064,optimal,0.42856805585324764
+model,full,0,three,both,D,exact,SCIP,30.0,DI 1/0,lower,0.011946512312132593,0.011946512312132593,optimal,0.4403939680196345
+model,full,0,three,both,D,exact,SCIP,30.0,DI 1/0,upper,1.25107563854137,1.25107563854137,optimal,0.43163241911679506
+model,full,0,three,both,D,exact,SCIP,30.0,worst-case DI,lower,0.010407505094628277,0.010407505094628277,optimal,0.4658681519795209
+model,full,0,three,both,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000058106644,1.0000000058106644,optimal,0.45095414109528065
+model,full,0,three,both,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4324562738183886
+model,full,0,three,both,D,exact,SCIP,30.0,max DD gap,upper,0.9895924949889201,0.9895924949889201,optimal,0.45153807499445975
+model,full,0,three,both,D,exact,SCIP,30.0,I(D;A),lower,-1.883030090820349e-11,-1.883030090820349e-11,optimal,0.5069500138051808
+model,full,0,three,both,D,exact,SCIP,30.0,I(D;A),upper,,,crashed (exit code -11),0.713430788833648
+model,full,0,three,both,D,split,SCIP,30.0,DD 1-0,lower,-0.861989414431404,-0.8619894144314042,optimal,0.4652087679132819
+model,full,0,three,both,D,split,SCIP,30.0,DD 1-0,upper,0.19296598252203365,0.19296598252203379,optimal,0.4297534350771457
+model,full,0,three,both,D,split,SCIP,30.0,DI 1/0,lower,0.009279352029893547,0.009279352029893547,optimal,0.43176191998645663
+model,full,0,three,both,D,split,SCIP,30.0,DI 1/0,upper,1.2503479113746805,1.2503479113746805,optimal,0.43016084702685475
+model,full,0,three,both,D,split,SCIP,30.0,worst-case DI,lower,0.008073621195115467,0.008073621195115467,optimal,0.46481654583476484
+model,full,0,three,both,D,split,SCIP,30.0,worst-case DI,upper,1.0000000070549564,1.0000000070549564,optimal,0.4590651961043477
+model,full,0,three,both,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4307298520579934
+model,full,0,three,both,D,split,SCIP,30.0,max DD gap,upper,0.9919263788868331,0.9919263788868331,optimal,0.4410822328645736
+model,full,0,three,both,D,split,SCIP,30.0,I(D;A),lower,-2.7588878148245646e-11,-2.7588878148245646e-11,optimal,0.5064957709982991
+model,full,0,three,both,D,split,SCIP,30.0,I(D;A),upper,,,crashed (exit code -6),0.8515391158871353
+model,full,0,three,both,DY,exact,SCIP,30.0,TPRD 1-0,lower,-0.9108338022893716,-0.9108338022893716,optimal,0.4410715231206268
+model,full,0,three,both,DY,exact,SCIP,30.0,TPRD 1-0,upper,0.21208777863335637,0.21208777863335637,optimal,0.44894139585085213
+model,full,0,three,both,DY,exact,SCIP,30.0,PPVD 1-0,lower,-0.9373592626821603,-0.9373592626821603,optimal,0.4440471630077809
+model,full,0,three,both,DY,exact,SCIP,30.0,PPVD 1-0,upper,0.21057624348934034,0.21057624348934034,optimal,0.4504613569006324
+model,full,0,three,both,DY,exact,SCIP,30.0,BA diff 1-0,lower,-0.7041912394072714,-0.7041917300251317,gaplimit,0.48390585579909384
+model,full,0,three,both,DY,exact,SCIP,30.0,BA diff 1-0,upper,0.5842553104450018,0.5842553104450018,optimal,0.49961851397529244
+model,full,0,three,both,DY,exact,SCIP,30.0,F1 diff 1-0,lower,-0.8809157597719742,-0.8809157597719742,optimal,0.4627786020282656
+model,full,0,three,both,DY,exact,SCIP,30.0,F1 diff 1-0,upper,0.20733266727092015,0.20733266727092015,optimal,0.4733898041304201
+model,full,0,three,both,DY,exact,SCIP,30.0,I(D;A|Y),lower,8.915970857282174e-14,-0.21329552971127014,timelimit,30.43810148607008
+model,full,0,three,both,DY,exact,SCIP,30.0,I(D;A|Y),upper,0.21974007158542622,0.5343131442145694,timelimit,30.43286919896491
+model,full,0,three,both,DY,split,SCIP,30.0,TPRD 1-0,lower,-0.910450910739658,-0.910450910739658,optimal,0.4490863480605185
+model,full,0,three,both,DY,split,SCIP,30.0,TPRD 1-0,upper,0.21208090801445445,0.21208090801445445,optimal,0.44774735905230045
+model,full,0,three,both,DY,split,SCIP,30.0,PPVD 1-0,lower,-0.9368841603571394,-0.9368841603571394,optimal,0.4464704799465835
+model,full,0,three,both,DY,split,SCIP,30.0,PPVD 1-0,upper,0.21208090801436552,0.21208090801436552,optimal,0.4492152880411595
+model,full,0,three,both,DY,split,SCIP,30.0,BA diff 1-0,lower,-0.705291491870753,-0.7052921621529092,gaplimit,0.4836813248693943
+model,full,0,three,both,DY,split,SCIP,30.0,BA diff 1-0,upper,0.5798779391998263,0.5798779391998263,optimal,0.5065882711205631
+model,full,0,three,both,DY,split,SCIP,30.0,F1 diff 1-0,lower,-0.8810279012452448,-0.8810279012452448,optimal,0.4473091349937022
+model,full,0,three,both,DY,split,SCIP,30.0,F1 diff 1-0,upper,0.2084239958899552,0.2084239958899552,optimal,0.4703390630893409
+model,full,0,three,both,DY,split,SCIP,30.0,I(D;A|Y),lower,-2.2648147446406542e-13,-0.2137005180026994,timelimit,30.43531228392385
+model,full,0,three,both,DY,split,SCIP,30.0,I(D;A|Y),upper,0.21849249791048442,0.5439152189605209,timelimit,30.432936378987506
+lender,external,0,Black-White,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.8045159531387817,-0.8045159531387817,optimal,0.42743058898486197
+lender,external,0,Black-White,county,D,exact,SCIP,30.0,DD 1-0,upper,0.21473106902334274,0.21473106902334282,optimal,0.43205858999863267
+lender,external,0,Black-White,county,D,exact,SCIP,30.0,DI 1/0,lower,0.0513360320573283,0.0513360320573283,optimal,0.4306503408588469
+lender,external,0,Black-White,county,D,exact,SCIP,30.0,DI 1/0,upper,1.2734491289889014,1.2734491289889014,optimal,0.4316840579267591
+lender,external,0,Black-White,county,D,exact,SCIP,30.0,worst-case DI,lower,0.0513360320573283,0.0513360320573283,optimal,0.43677371297962964
+lender,external,0,Black-White,county,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099836452,1.0000000099836452,optimal,0.4397322430741042
+lender,external,0,Black-White,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4331969888880849
+lender,external,0,Black-White,county,D,exact,SCIP,30.0,max DD gap,upper,0.8045159531387817,0.8045159531387817,optimal,0.4342633159831166
+lender,external,0,Black-White,county,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,2.684995846822858
+lender,external,0,Black-White,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5492024931591004
+lender,external,0,Black-White,county,D,split,SCIP,30.0,DD 1-0,lower,-0.7702323000053088,-0.7702323000053088,optimal,0.4293651399202645
+lender,external,0,Black-White,county,D,split,SCIP,30.0,DD 1-0,upper,0.21617644381687776,0.21617644381687784,optimal,0.42954940302297473
+lender,external,0,Black-White,county,D,split,SCIP,30.0,DI 1/0,lower,0.08782530732057123,0.08782530732057123,optimal,0.4299686860758811
+lender,external,0,Black-White,county,D,split,SCIP,30.0,DI 1/0,upper,1.2757973760717434,1.2757973760717434,optimal,0.4312669448554516
+lender,external,0,Black-White,county,D,split,SCIP,30.0,worst-case DI,lower,0.08782530732057123,0.08782530732057123,optimal,0.43906963779591024
+lender,external,0,Black-White,county,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099882176,1.0000000099882176,optimal,0.43898017797619104
+lender,external,0,Black-White,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4328701850026846
+lender,external,0,Black-White,county,D,split,SCIP,30.0,max DD gap,upper,0.7702323000053088,0.7702323000053088,optimal,0.4346948580350727
+lender,external,0,Black-White,county,D,split,SCIP,30.0,I(D;A),lower,-7.160050355982367e-12,-4.571658956579204e-05,timelimit,30.431346856988966
+lender,external,0,Black-White,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.568004157859832
+lender,external,0,Black-White,income,D,exact,SCIP,30.0,DD 1-0,lower,-0.8509092658520157,-0.8509092658520157,optimal,0.4420087670441717
+lender,external,0,Black-White,income,D,exact,SCIP,30.0,DD 1-0,upper,0.21473106902334288,0.21473106902334288,optimal,0.45151814189739525
+lender,external,0,Black-White,income,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4354248109739274
+lender,external,0,Black-White,income,D,exact,SCIP,30.0,DI 1/0,upper,1.2734491289889018,1.2734491289889018,optimal,0.4340978821273893
+lender,external,0,Black-White,income,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4361099561210722
+lender,external,0,Black-White,income,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099916566,1.0000000099916566,optimal,0.4505160360131413
+lender,external,0,Black-White,income,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43083503004163504
+lender,external,0,Black-White,income,D,exact,SCIP,30.0,max DD gap,upper,0.8509092658520157,0.8509092658520157,optimal,0.43507566791959107
+lender,external,0,Black-White,income,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,2.5686969838570803
+lender,external,0,Black-White,income,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.6019354530144483
+lender,external,0,Black-White,income,D,split,SCIP,30.0,DD 1-0,lower,-0.8494288894855572,-0.8494288894855572,optimal,0.43302288418635726
+lender,external,0,Black-White,income,D,split,SCIP,30.0,DD 1-0,upper,0.216223852068488,0.216223852068488,optimal,0.4329177341423929
+lender,external,0,Black-White,income,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.42997713293880224
+lender,external,0,Black-White,income,D,split,SCIP,30.0,DI 1/0,upper,1.2758745450633666,1.2758745450633666,optimal,0.4337642299942672
+lender,external,0,Black-White,income,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.43797552795149386
+lender,external,0,Black-White,income,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099916688,1.0000000099916688,optimal,0.45139343990013003
+lender,external,0,Black-White,income,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4318414570298046
+lender,external,0,Black-White,income,D,split,SCIP,30.0,max DD gap,upper,0.8494288894855572,0.8494288894855572,optimal,0.43475607596337795
+lender,external,0,Black-White,income,D,split,SCIP,30.0,I(D;A),lower,-4.394786895015298e-12,-2.8722837365129937e-05,timelimit,30.436628391966224
+lender,external,0,Black-White,income,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5793343440163881
+lender,external,0,Black-White,both,D,exact,SCIP,30.0,DD 1-0,lower,-0.8045159531560817,-0.8045159531560817,optimal,0.43273651017807424
+lender,external,0,Black-White,both,D,exact,SCIP,30.0,DD 1-0,upper,0.21473106905794326,0.21473106905794326,optimal,0.44436629209667444
+lender,external,0,Black-White,both,D,exact,SCIP,30.0,DI 1/0,lower,0.05133601283018192,0.05133601283018192,optimal,0.43428625212982297
+lender,external,0,Black-White,both,D,exact,SCIP,30.0,DI 1/0,upper,1.273449173837654,1.273449173837654,optimal,0.4379481270443648
+lender,external,0,Black-White,both,D,exact,SCIP,30.0,worst-case DI,lower,0.05133601283018192,0.05133601283018192,optimal,0.44311803206801414
+lender,external,0,Black-White,both,D,exact,SCIP,30.0,worst-case DI,upper,1.000000009962523,1.000000009962523,optimal,0.43905558506958187
+lender,external,0,Black-White,both,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4338731891475618
+lender,external,0,Black-White,both,D,exact,SCIP,30.0,max DD gap,upper,0.8045159531560817,0.8045159531560817,optimal,0.44917443417944014
+lender,external,0,Black-White,both,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,3.9654155338648707
+lender,external,0,Black-White,both,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5986106370110065
+lender,external,0,Black-White,both,D,split,SCIP,30.0,DD 1-0,lower,-0.7722905187865758,-0.7722905187865758,optimal,0.4299800309818238
+lender,external,0,Black-White,both,D,split,SCIP,30.0,DD 1-0,upper,0.2161316407430988,0.2161316407430988,optimal,0.4286868527997285
+lender,external,0,Black-White,both,D,split,SCIP,30.0,DI 1/0,lower,0.08536189987862658,0.08536189987862658,optimal,0.43390764901414514
+lender,external,0,Black-White,both,D,split,SCIP,30.0,DI 1/0,upper,1.2757245013906169,1.2757245013906169,optimal,0.43419488007202744
+lender,external,0,Black-White,both,D,split,SCIP,30.0,worst-case DI,lower,0.08536189987862658,0.08536189987862658,optimal,0.4449647751171142
+lender,external,0,Black-White,both,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099670672,1.0000000099670672,optimal,0.44280073000118136
+lender,external,0,Black-White,both,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4773918390274048
+lender,external,0,Black-White,both,D,split,SCIP,30.0,max DD gap,upper,0.7722905187865758,0.7722905187865758,optimal,0.4337094961665571
+lender,external,0,Black-White,both,D,split,SCIP,30.0,I(D;A),lower,-1.3728466679295964e-12,-6.0020219453052964e-05,timelimit,30.432590652024373
+lender,external,0,Black-White,both,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5704929998610169
+lender,external,0,API-White,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.6458414239116683,-0.6458414239116683,optimal,0.47567471605725586
+lender,external,0,API-White,county,D,exact,SCIP,30.0,DD 1-0,upper,0.20503223326260228,0.20503223326260228,optimal,0.44221165496855974
+lender,external,0,API-White,county,D,exact,SCIP,30.0,DI 1/0,lower,0.24824105751480768,0.24824105751480768,optimal,0.4391538631170988
+lender,external,0,API-White,county,D,exact,SCIP,30.0,DI 1/0,upper,1.2579126753153775,1.2579126753153775,optimal,0.4301774799823761
+lender,external,0,API-White,county,D,exact,SCIP,30.0,worst-case DI,lower,0.24824105751480768,0.24824105751480768,optimal,0.44546568719670177
+lender,external,0,API-White,county,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099789124,1.0000000099789124,optimal,0.44163597002625465
+lender,external,0,API-White,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.44738732906989753
+lender,external,0,API-White,county,D,exact,SCIP,30.0,max DD gap,upper,0.6458414239116683,0.6458414239116683,optimal,0.43580025993287563
+lender,external,0,API-White,county,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,11.350042146863416
+lender,external,0,API-White,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5668026539497077
+lender,external,0,API-White,county,D,split,SCIP,30.0,DD 1-0,lower,-0.625678185992935,-0.625678185992935,optimal,0.42939488496631384
+lender,external,0,API-White,county,D,split,SCIP,30.0,DD 1-0,upper,0.20666753711185715,0.20666753711185715,optimal,0.4287564300466329
+lender,external,0,API-White,county,D,split,SCIP,30.0,DI 1/0,lower,0.2703388893295575,0.2703388893295575,optimal,0.4303579409606755
+lender,external,0,API-White,county,D,split,SCIP,30.0,DI 1/0,upper,1.2605056221078055,1.2605056221078055,optimal,0.4334753630682826
+lender,external,0,API-White,county,D,split,SCIP,30.0,worst-case DI,lower,0.2703388893295575,0.2703388893295575,optimal,0.4340857779607177
+lender,external,0,API-White,county,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099815642,1.0000000099815642,optimal,0.46961607318371534
+lender,external,0,API-White,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4284920981153846
+lender,external,0,API-White,county,D,split,SCIP,30.0,max DD gap,upper,0.625678185992935,0.625678185992935,optimal,0.43358348403126
+lender,external,0,API-White,county,D,split,SCIP,30.0,I(D;A),lower,-2.8111386194136633e-14,-4.834478785288674e-05,timelimit,30.470558418892324
+lender,external,0,API-White,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5535081010311842
+lender,external,0,API-White,income,D,exact,SCIP,30.0,DD 1-0,lower,-0.8764937938997399,-0.8764937938997399,optimal,0.4281473259907216
+lender,external,0,API-White,income,D,exact,SCIP,30.0,DD 1-0,upper,0.20503223326260273,0.20503223326260273,optimal,0.4514256748370826
+lender,external,0,API-White,income,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.43164803995750844
+lender,external,0,API-White,income,D,exact,SCIP,30.0,DI 1/0,upper,1.2579126753153786,1.2579126753153786,optimal,0.44444760703481734
+lender,external,0,API-White,income,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4339804360643029
+lender,external,0,API-White,income,D,exact,SCIP,30.0,worst-case DI,upper,1.00000000998991,1.00000000998991,optimal,0.4376499908976257
+lender,external,0,API-White,income,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43399685388430953
+lender,external,0,API-White,income,D,exact,SCIP,30.0,max DD gap,upper,0.8764937938997399,0.8764937938997399,optimal,0.43395770504139364
+lender,external,0,API-White,income,D,exact,SCIP,30.0,I(D;A),lower,-9.07961699555976e-12,-2.421349839215885e-05,timelimit,30.432384374085814
+lender,external,0,API-White,income,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5918751040007919
+lender,external,0,API-White,income,D,split,SCIP,30.0,DD 1-0,lower,-0.8767803016401781,-0.8767803016401781,optimal,0.4276288100518286
+lender,external,0,API-White,income,D,split,SCIP,30.0,DD 1-0,upper,0.20665050315200262,0.20665050315200273,optimal,0.43954597297124565
+lender,external,0,API-White,income,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4325071929488331
+lender,external,0,API-White,income,D,split,SCIP,30.0,DI 1/0,upper,1.260478557898519,1.260478557898519,optimal,0.4327341360040009
+lender,external,0,API-White,income,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4354535350576043
+lender,external,0,API-White,income,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099898463,1.0000000099898463,optimal,0.4496023019310087
+lender,external,0,API-White,income,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.42956841294653714
+lender,external,0,API-White,income,D,split,SCIP,30.0,max DD gap,upper,0.8767803016401781,0.8767803016401781,optimal,0.4333292501978576
+lender,external,0,API-White,income,D,split,SCIP,30.0,I(D;A),lower,-7.751255191524578e-12,-5.132128133437646e-05,timelimit,30.433168495073915
+lender,external,0,API-White,income,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5849006830248982
+lender,external,0,API-White,both,D,exact,SCIP,30.0,DD 1-0,lower,-0.6458414239260158,-0.6458414239260158,optimal,0.42783385096117854
+lender,external,0,API-White,both,D,exact,SCIP,30.0,DD 1-0,upper,0.20503223329129747,0.20503223329129747,optimal,0.43094275216571987
+lender,external,0,API-White,both,D,exact,SCIP,30.0,DI 1/0,lower,0.24824104174356174,0.24824104174356174,optimal,0.4325988939963281
+lender,external,0,API-White,both,D,exact,SCIP,30.0,DI 1/0,upper,1.2579127121498614,1.2579127121498614,optimal,0.42894862801767886
+lender,external,0,API-White,both,D,exact,SCIP,30.0,worst-case DI,lower,0.24824104174356174,0.24824104174356174,optimal,0.5000294290948659
+lender,external,0,API-White,both,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099916448,1.0000000099916448,optimal,0.4392513590864837
+lender,external,0,API-White,both,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4341561740729958
+lender,external,0,API-White,both,D,exact,SCIP,30.0,max DD gap,upper,0.6458414239260158,0.6458414239260158,optimal,0.43616277794353664
+lender,external,0,API-White,both,D,exact,SCIP,30.0,I(D;A),lower,-1.6251505464795893e-13,-4.515616644835292e-05,timelimit,30.442722191102803
+lender,external,0,API-White,both,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5611113298218697
+lender,external,0,API-White,both,D,split,SCIP,30.0,DD 1-0,lower,-0.6257278328002245,-0.6257278328002245,optimal,0.4281148109585047
+lender,external,0,API-White,both,D,split,SCIP,30.0,DD 1-0,upper,0.20667135589152844,0.20667135589152852,optimal,0.4608715178910643
+lender,external,0,API-White,both,D,split,SCIP,30.0,DI 1/0,lower,0.27029331320153693,0.27029331320153693,optimal,0.432166269980371
+lender,external,0,API-White,both,D,split,SCIP,30.0,DI 1/0,upper,1.2605117258241771,1.2605117258241771,optimal,0.43621141696348786
+lender,external,0,API-White,both,D,split,SCIP,30.0,worst-case DI,lower,0.27029331320153693,0.27029331320153693,optimal,0.43899641605094075
+lender,external,0,API-White,both,D,split,SCIP,30.0,worst-case DI,upper,1.0000000097425032,1.0000000097425032,optimal,0.4358914950862527
+lender,external,0,API-White,both,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4346118161920458
+lender,external,0,API-White,both,D,split,SCIP,30.0,max DD gap,upper,0.6257278328002245,0.6257278328002245,optimal,0.43452182598412037
+lender,external,0,API-White,both,D,split,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,2.490010576089844
+lender,external,0,API-White,both,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5680896360427141
+lender,external,0,three,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.8505597562360488,-0.8505597562360488,optimal,0.4306107989978045
+lender,external,0,three,county,D,exact,SCIP,30.0,DD 1-0,upper,0.2300779371323425,0.2300779371323426,optimal,0.43070223880931735
+lender,external,0,three,county,D,exact,SCIP,30.0,DI 1/0,lower,0.044462574306518184,0.044462574306518184,optimal,0.43905231612734497
+lender,external,0,three,county,D,exact,SCIP,30.0,DI 1/0,upper,1.2988327627081173,1.2988327627081173,optimal,0.43290687492117286
+lender,external,0,three,county,D,exact,SCIP,30.0,worst-case DI,lower,0.03957781622772093,0.03957781622772093,optimal,0.4644392018672079
+lender,external,0,three,county,D,exact,SCIP,30.0,worst-case DI,upper,1.000000009874379,1.000000009874379,optimal,0.4495728889014572
+lender,external,0,three,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43360875896178186
+lender,external,0,three,county,D,exact,SCIP,30.0,max DD gap,upper,0.9604221636655571,0.9604221636655571,optimal,0.44495926797389984
+lender,external,0,three,county,D,exact,SCIP,30.0,I(D;A),lower,-2.517509586295522e-16,-0.0006106346643918353,timelimit,30.436770492000505
+lender,external,0,three,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.7779378818813711
+lender,external,0,three,county,D,split,SCIP,30.0,DD 1-0,lower,-0.8145286740502387,-0.8145286740502387,optimal,0.4310224698856473
+lender,external,0,three,county,D,split,SCIP,30.0,DD 1-0,upper,0.23199946138167174,0.23199946138167182,optimal,0.4354380320291966
+lender,external,0,three,county,D,split,SCIP,30.0,DI 1/0,lower,0.08154787271988506,0.08154787271988506,optimal,0.438218189869076
+lender,external,0,three,county,D,split,SCIP,30.0,DI 1/0,upper,1.3020824275666036,1.3020824275666036,optimal,0.4316560651641339
+lender,external,0,three,county,D,split,SCIP,30.0,worst-case DI,lower,0.07232068668652354,0.07232068668652354,optimal,0.4644442810676992
+lender,external,0,three,county,D,split,SCIP,30.0,worst-case DI,upper,1.000000009936303,1.000000009936303,optimal,0.4475608440116048
+lender,external,0,three,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4330557552166283
+lender,external,0,three,county,D,split,SCIP,30.0,max DD gap,upper,0.9276792918210215,0.9276792918210215,optimal,0.45692228921689093
+lender,external,0,three,county,D,split,SCIP,30.0,I(D;A),lower,-1.5663985711132254e-10,-0.0006673764277963812,timelimit,30.44081642013043
+lender,external,0,three,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.846393401036039
+lender,external,0,three,income,D,exact,SCIP,30.0,DD 1-0,lower,-0.917088424901376,-0.917088424901376,optimal,0.42850315221585333
+lender,external,0,three,income,D,exact,SCIP,30.0,DD 1-0,upper,0.23007793711257163,0.23007793711257163,optimal,0.44329700409434736
+lender,external,0,three,income,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.44527374883182347
+lender,external,0,three,income,D,exact,SCIP,30.0,DI 1/0,upper,1.2988327670835893,1.2988327670835893,optimal,0.46123177791014314
+lender,external,0,three,income,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4647169909439981
+lender,external,0,three,income,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000091503825,1.0000000091503825,optimal,0.4475236430298537
+lender,external,0,three,income,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4325027100276202
+lender,external,0,three,income,D,exact,SCIP,30.0,max DD gap,upper,1.0000000000349532,1.0000000000349532,optimal,0.4458748819306493
+lender,external,0,three,income,D,exact,SCIP,30.0,I(D;A),lower,-8.397219254332917e-06,-0.0006711287297442501,timelimit,49.98425742704421
+lender,external,0,three,income,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.9798739079851657
+lender,external,0,three,income,D,split,SCIP,30.0,DD 1-0,lower,-0.9170567561600071,-0.9170567561600071,optimal,0.45058097317814827
+lender,external,0,three,income,D,split,SCIP,30.0,DD 1-0,upper,0.23209306426014598,0.23209306426014598,optimal,0.43021412403322756
+lender,external,0,three,income,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.43260607891716063
+lender,external,0,three,income,D,split,SCIP,30.0,DI 1/0,upper,1.3022411355432901,1.3022411355432901,optimal,0.43284273985773325
+lender,external,0,three,income,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.45713388803415
+lender,external,0,three,income,D,split,SCIP,30.0,worst-case DI,upper,1.000000009201717,1.000000009201717,optimal,0.4450674350373447
+lender,external,0,three,income,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4313088001217693
+lender,external,0,three,income,D,split,SCIP,30.0,max DD gap,upper,1.0000000000349518,1.0000000000349518,optimal,0.449233332881704
+lender,external,0,three,income,D,split,SCIP,30.0,I(D;A),lower,-5.528026951207263e-13,-0.0006472496760391458,timelimit,30.43478455999866
+lender,external,0,three,income,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,1.1804359960369766
+lender,external,0,three,both,D,exact,SCIP,30.0,DD 1-0,lower,-0.8505597562732964,-0.8505597562732964,optimal,0.42751324409618974
+lender,external,0,three,both,D,exact,SCIP,30.0,DD 1-0,upper,0.23007793719165515,0.23007793719165515,optimal,0.44444140000268817
+lender,external,0,three,both,D,exact,SCIP,30.0,DI 1/0,lower,0.04446255446164048,0.04446255446164048,optimal,0.4482016060501337
+lender,external,0,three,both,D,exact,SCIP,30.0,DI 1/0,upper,1.2988327801333392,1.2988327801333392,optimal,0.44417808786965907
+lender,external,0,three,both,D,exact,SCIP,30.0,worst-case DI,lower,0.03957783633836185,0.03957783633836185,optimal,0.47477882890962064
+lender,external,0,three,both,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099448914,1.0000000099448914,optimal,0.456424631876871
+lender,external,0,three,both,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4330577808432281
+lender,external,0,three,both,D,exact,SCIP,30.0,max DD gap,upper,0.9604221637427237,0.9604221637427237,optimal,0.44379475503228605
+lender,external,0,three,both,D,exact,SCIP,30.0,I(D;A),lower,,,crashed (exit code -6),0.8237515508662909
+lender,external,0,three,both,D,exact,SCIP,30.0,I(D;A),upper,,,crashed (exit code -6),0.7176580999512225
+lender,external,0,three,both,D,split,SCIP,30.0,DD 1-0,lower,-0.8172668578685685,-0.8172668578685685,optimal,0.43154513114131987
+lender,external,0,three,both,D,split,SCIP,30.0,DD 1-0,upper,0.23196063362672226,0.2319606336267223,optimal,0.4319611939135939
+lender,external,0,three,both,D,split,SCIP,30.0,DI 1/0,lower,0.07847765886361409,0.07847765886361409,optimal,0.43300952087156475
+lender,external,0,three,both,D,split,SCIP,30.0,DI 1/0,upper,1.3020166041171035,1.3020166041171035,optimal,0.43343160510994494
+lender,external,0,three,both,D,split,SCIP,30.0,worst-case DI,lower,0.06959912762906244,0.06959912762906244,optimal,0.4648654500488192
+lender,external,0,three,both,D,split,SCIP,30.0,worst-case DI,upper,1.0000000098558453,1.0000000098558453,optimal,0.45126809692010283
+lender,external,0,three,both,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4320828451309353
+lender,external,0,three,both,D,split,SCIP,30.0,max DD gap,upper,0.9304008305247469,0.9304008305247469,optimal,0.4483042759820819
+lender,external,0,three,both,D,split,SCIP,30.0,I(D;A),lower,,,crashed (exit code -11),0.7430341949220747
+lender,external,0,three,both,D,split,SCIP,30.0,I(D;A),upper,,,crashed (exit code -6),0.8844742190558463
+lender,full,0,Black-White,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.8134197202284802,-0.8134197202284802,optimal,0.4419460128992796
+lender,full,0,Black-White,county,D,exact,SCIP,30.0,DD 1-0,upper,0.21473106902334277,0.21473106902334282,optimal,0.43074162397533655
+lender,full,0,Black-White,county,D,exact,SCIP,30.0,DI 1/0,lower,0.0414568476771749,0.0414568476771749,optimal,0.43175498209893703
+lender,full,0,Black-White,county,D,exact,SCIP,30.0,DI 1/0,upper,1.2734491289889014,1.2734491289889014,optimal,0.43341614305973053
+lender,full,0,Black-White,county,D,exact,SCIP,30.0,worst-case DI,lower,0.0414568476771749,0.0414568476771749,optimal,0.4392645040061325
+lender,full,0,Black-White,county,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099895676,1.0000000099895676,optimal,0.43722768989391625
+lender,full,0,Black-White,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43046319391578436
+lender,full,0,Black-White,county,D,exact,SCIP,30.0,max DD gap,upper,0.8134197202284802,0.8134197202284802,optimal,0.4345779519062489
+lender,full,0,Black-White,county,D,exact,SCIP,30.0,I(D;A),lower,-6.665917515919091e-12,-4.014359007917608e-05,timelimit,30.435128471814096
+lender,full,0,Black-White,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5308329940307885
+lender,full,0,Black-White,county,D,split,SCIP,30.0,DD 1-0,lower,-0.8007920753621733,-0.8007920753621733,optimal,0.429969719145447
+lender,full,0,Black-White,county,D,split,SCIP,30.0,DD 1-0,upper,0.2162716608876967,0.21627166088769678,optimal,0.46860286477021873
+lender,full,0,Black-White,county,D,split,SCIP,30.0,DI 1/0,lower,0.05410651127821864,0.05410651127821864,optimal,0.43445416120812297
+lender,full,0,Black-White,county,D,split,SCIP,30.0,DI 1/0,upper,1.2759523755363358,1.2759523755363358,optimal,0.43127505690790713
+lender,full,0,Black-White,county,D,split,SCIP,30.0,worst-case DI,lower,0.05410651127821864,0.05410651127821864,optimal,0.43496912415139377
+lender,full,0,Black-White,county,D,split,SCIP,30.0,worst-case DI,upper,1.000000009990591,1.000000009990591,optimal,0.43957360507920384
+lender,full,0,Black-White,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43372659501619637
+lender,full,0,Black-White,county,D,split,SCIP,30.0,max DD gap,upper,0.8007920753621733,0.8007920753621733,optimal,0.4335272340103984
+lender,full,0,Black-White,county,D,split,SCIP,30.0,I(D;A),lower,-5.622450552374445e-12,-7.477474790094132e-05,timelimit,30.438028302975
+lender,full,0,Black-White,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5598141429945827
+lender,full,0,Black-White,income,D,exact,SCIP,30.0,DD 1-0,lower,-0.8509092658520157,-0.8509092658520157,optimal,0.4304210611153394
+lender,full,0,Black-White,income,D,exact,SCIP,30.0,DD 1-0,upper,0.21473106902334288,0.21473106902334288,optimal,0.45107976417057216
+lender,full,0,Black-White,income,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4321399431210011
+lender,full,0,Black-White,income,D,exact,SCIP,30.0,DI 1/0,upper,1.2734491289889018,1.2734491289889018,optimal,0.43061271286569536
+lender,full,0,Black-White,income,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4384408169426024
+lender,full,0,Black-White,income,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099916566,1.0000000099916566,optimal,0.43776170210912824
+lender,full,0,Black-White,income,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43280204897746444
+lender,full,0,Black-White,income,D,exact,SCIP,30.0,max DD gap,upper,0.8509092658520157,0.8509092658520157,optimal,0.43516995292156935
+lender,full,0,Black-White,income,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,2.5553843120578676
+lender,full,0,Black-White,income,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.6042499369941652
+lender,full,0,Black-White,income,D,split,SCIP,30.0,DD 1-0,lower,-0.8494288894855572,-0.8494288894855572,optimal,0.4284933579619974
+lender,full,0,Black-White,income,D,split,SCIP,30.0,DD 1-0,upper,0.216223852068488,0.216223852068488,optimal,0.4340006369166076
+lender,full,0,Black-White,income,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.43591976910829544
+lender,full,0,Black-White,income,D,split,SCIP,30.0,DI 1/0,upper,1.2758745450633666,1.2758745450633666,optimal,0.4358164689037949
+lender,full,0,Black-White,income,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4503158580046147
+lender,full,0,Black-White,income,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099916688,1.0000000099916688,optimal,0.44961845385842025
+lender,full,0,Black-White,income,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4321709340438247
+lender,full,0,Black-White,income,D,split,SCIP,30.0,max DD gap,upper,0.8494288894855572,0.8494288894855572,optimal,0.4355544759891927
+lender,full,0,Black-White,income,D,split,SCIP,30.0,I(D;A),lower,-4.394786895015298e-12,-2.872283736512993e-05,timelimit,30.435480020940304
+lender,full,0,Black-White,income,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5769138389732689
+lender,full,0,Black-White,both,D,exact,SCIP,30.0,DD 1-0,lower,-0.8134197202457801,-0.8134197202457801,optimal,0.4325702548958361
+lender,full,0,Black-White,both,D,exact,SCIP,30.0,DD 1-0,upper,0.21473106905794326,0.21473106905794337,optimal,0.45195761998184025
+lender,full,0,Black-White,both,D,exact,SCIP,30.0,DI 1/0,lower,0.04145682847487324,0.04145682847487324,optimal,0.43879150692373514
+lender,full,0,Black-White,both,D,exact,SCIP,30.0,DI 1/0,upper,1.273449173837654,1.273449173837654,optimal,0.4325063449796289
+lender,full,0,Black-White,both,D,exact,SCIP,30.0,worst-case DI,lower,0.04145682847487324,0.04145682847487324,optimal,0.43646698305383325
+lender,full,0,Black-White,both,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099616144,1.0000000099616144,optimal,0.45308763696812093
+lender,full,0,Black-White,both,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4449162809178233
+lender,full,0,Black-White,both,D,exact,SCIP,30.0,max DD gap,upper,0.8134197202457801,0.8134197202457801,optimal,0.436408291105181
+lender,full,0,Black-White,both,D,exact,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,2.8520860681310296
+lender,full,0,Black-White,both,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5308445009868592
+lender,full,0,Black-White,both,D,split,SCIP,30.0,DD 1-0,lower,-0.8021352428635362,-0.8021352428635362,optimal,0.44565450586378574
+lender,full,0,Black-White,both,D,split,SCIP,30.0,DD 1-0,upper,0.21623377328036053,0.21623377328036053,optimal,0.43338906206190586
+lender,full,0,Black-White,both,D,split,SCIP,30.0,DI 1/0,lower,0.052465293735547126,0.052465293735547126,optimal,0.43503541219979525
+lender,full,0,Black-White,both,D,split,SCIP,30.0,DI 1/0,upper,1.2758907403903337,1.2758907403903337,optimal,0.4342025560326874
+lender,full,0,Black-White,both,D,split,SCIP,30.0,worst-case DI,lower,0.052465293735547126,0.052465293735547126,optimal,0.44311053794808686
+lender,full,0,Black-White,both,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099633333,1.0000000099633333,optimal,0.43920695199631155
+lender,full,0,Black-White,both,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43224248313345015
+lender,full,0,Black-White,both,D,split,SCIP,30.0,max DD gap,upper,0.8021352428635362,0.8021352428635362,optimal,0.45046990807168186
+lender,full,0,Black-White,both,D,split,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,45.230088701006025
+lender,full,0,Black-White,both,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.593808522913605
+lender,full,0,API-White,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.6320558921129626,-0.6320558921129626,optimal,0.4266980141401291
+lender,full,0,API-White,county,D,exact,SCIP,30.0,DD 1-0,upper,0.20503223326260234,0.20503223326260234,optimal,0.4310994241386652
+lender,full,0,API-White,county,D,exact,SCIP,30.0,DI 1/0,lower,0.26339642315409034,0.26339642315409034,optimal,0.43414171505719423
+lender,full,0,API-White,county,D,exact,SCIP,30.0,DI 1/0,upper,1.2579126753153778,1.2579126753153778,optimal,0.44545545312575996
+lender,full,0,API-White,county,D,exact,SCIP,30.0,worst-case DI,lower,0.26339642315409034,0.26339642315409034,optimal,0.4473582550417632
+lender,full,0,API-White,county,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099871955,1.0000000099871955,optimal,0.4382008039392531
+lender,full,0,API-White,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4337854029145092
+lender,full,0,API-White,county,D,exact,SCIP,30.0,max DD gap,upper,0.6320558921129626,0.6320558921129626,optimal,0.4364386920351535
+lender,full,0,API-White,county,D,exact,SCIP,30.0,I(D;A),lower,-5.753150610694291e-14,-3.0079700401366893e-05,timelimit,30.433882992947474
+lender,full,0,API-White,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5446917049121112
+lender,full,0,API-White,county,D,split,SCIP,30.0,DD 1-0,lower,-0.6296136633636799,-0.6296136633636799,optimal,0.42986135580576956
+lender,full,0,API-White,county,D,split,SCIP,30.0,DD 1-0,upper,0.20663718379439466,0.20663718379439466,optimal,0.45265528187155724
+lender,full,0,API-White,county,D,split,SCIP,30.0,DI 1/0,lower,0.2659359860878516,0.2659359860878516,optimal,0.42946535302326083
+lender,full,0,API-White,county,D,split,SCIP,30.0,DI 1/0,upper,1.2604573964015686,1.2604573964015686,optimal,0.431981700938195
+lender,full,0,API-White,county,D,split,SCIP,30.0,worst-case DI,lower,0.2659359860878516,0.2659359860878516,optimal,0.4339234228245914
+lender,full,0,API-White,county,D,split,SCIP,30.0,worst-case DI,upper,1.000000009991002,1.000000009991002,optimal,0.4343009670265019
+lender,full,0,API-White,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4324943139217794
+lender,full,0,API-White,county,D,split,SCIP,30.0,max DD gap,upper,0.6296136633636799,0.6296136633636799,optimal,0.43307166802696884
+lender,full,0,API-White,county,D,split,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,3.7303556869737804
+lender,full,0,API-White,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5471374120097607
+lender,full,0,API-White,income,D,exact,SCIP,30.0,DD 1-0,lower,-0.8764937938997399,-0.8764937938997399,optimal,0.4316967378836125
+lender,full,0,API-White,income,D,exact,SCIP,30.0,DD 1-0,upper,0.20503223326260273,0.20503223326260273,optimal,0.4312287459615618
+lender,full,0,API-White,income,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.43199568009003997
+lender,full,0,API-White,income,D,exact,SCIP,30.0,DI 1/0,upper,1.2579126753153786,1.2579126753153786,optimal,0.44629009789787233
+lender,full,0,API-White,income,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.45040125702507794
+lender,full,0,API-White,income,D,exact,SCIP,30.0,worst-case DI,upper,1.00000000998991,1.00000000998991,optimal,0.43974605412222445
+lender,full,0,API-White,income,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.45177546609193087
+lender,full,0,API-White,income,D,exact,SCIP,30.0,max DD gap,upper,0.8764937938997399,0.8764937938997399,optimal,0.4356111651286483
+lender,full,0,API-White,income,D,exact,SCIP,30.0,I(D;A),lower,-9.07961699555976e-12,-2.4213498392158842e-05,timelimit,30.43034699605778
+lender,full,0,API-White,income,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5965193300507963
+lender,full,0,API-White,income,D,split,SCIP,30.0,DD 1-0,lower,-0.8767803016401781,-0.8767803016401781,optimal,0.4310787939466536
+lender,full,0,API-White,income,D,split,SCIP,30.0,DD 1-0,upper,0.20665050315200262,0.20665050315200273,optimal,0.44076099107041955
+lender,full,0,API-White,income,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.4329056760761887
+lender,full,0,API-White,income,D,split,SCIP,30.0,DI 1/0,upper,1.260478557898519,1.260478557898519,optimal,0.43136446503922343
+lender,full,0,API-White,income,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.43621529918164015
+lender,full,0,API-White,income,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099898463,1.0000000099898463,optimal,0.4515135739929974
+lender,full,0,API-White,income,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43455655593425035
+lender,full,0,API-White,income,D,split,SCIP,30.0,max DD gap,upper,0.8767803016401781,0.8767803016401781,optimal,0.43554071383550763
+lender,full,0,API-White,income,D,split,SCIP,30.0,I(D;A),lower,-7.751255191524578e-12,-5.132128133437646e-05,timelimit,30.434768692823127
+lender,full,0,API-White,income,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5889022978954017
+lender,full,0,API-White,both,D,exact,SCIP,30.0,DD 1-0,lower,-0.6320558921273101,-0.6320558921273101,optimal,0.4280398820992559
+lender,full,0,API-White,both,D,exact,SCIP,30.0,DD 1-0,upper,0.20503223329129755,0.2050322332912976,optimal,0.4402827559970319
+lender,full,0,API-White,both,D,exact,SCIP,30.0,DI 1/0,lower,0.2633964073446234,0.2633964073446234,optimal,0.4450213990639895
+lender,full,0,API-White,both,D,exact,SCIP,30.0,DI 1/0,upper,1.2579127121498614,1.2579127121498614,optimal,0.43653338006697595
+lender,full,0,API-White,both,D,exact,SCIP,30.0,worst-case DI,lower,0.2633964073446234,0.2633964073446234,optimal,0.43540692306123674
+lender,full,0,API-White,both,D,exact,SCIP,30.0,worst-case DI,upper,1.000000009962564,1.000000009962564,optimal,0.44064687890931964
+lender,full,0,API-White,both,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4315246259793639
+lender,full,0,API-White,both,D,exact,SCIP,30.0,max DD gap,upper,0.6320558921273101,0.6320558921273101,optimal,0.4397023918572813
+lender,full,0,API-White,both,D,exact,SCIP,30.0,I(D;A),lower,-1.520843352213363e-13,-7.511565423196903e-05,timelimit,30.433984116185457
+lender,full,0,API-White,both,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5419275239109993
+lender,full,0,API-White,both,D,split,SCIP,30.0,DD 1-0,lower,-0.6298664239885292,-0.6298664239885292,optimal,0.4303874080069363
+lender,full,0,API-White,both,D,split,SCIP,30.0,DD 1-0,upper,0.20664589392241262,0.20664589392241262,optimal,0.4646653030067682
+lender,full,0,API-White,both,D,split,SCIP,30.0,DI 1/0,lower,0.26567890978339903,0.26567890978339903,optimal,0.4442233741283417
+lender,full,0,API-White,both,D,split,SCIP,30.0,DI 1/0,upper,1.260471270957152,1.260471270957152,optimal,0.43083253083750606
+lender,full,0,API-White,both,D,split,SCIP,30.0,worst-case DI,lower,0.26567890978339903,0.26567890978339903,optimal,0.4353881219867617
+lender,full,0,API-White,both,D,split,SCIP,30.0,worst-case DI,upper,1.000000009963886,1.000000009963886,optimal,0.4382231808267534
+lender,full,0,API-White,both,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4347429871559143
+lender,full,0,API-White,both,D,split,SCIP,30.0,max DD gap,upper,0.6298664239885292,0.6298664239885292,optimal,0.43190458812750876
+lender,full,0,API-White,both,D,split,SCIP,30.0,I(D;A),lower,,,error: SCIP: error in LP solver!,3.005256200907752
+lender,full,0,API-White,both,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.5241994119714946
+lender,full,0,three,county,D,exact,SCIP,30.0,DD 1-0,lower,-0.8572692679687812,-0.8572692679687812,optimal,0.4663795349188149
+lender,full,0,three,county,D,exact,SCIP,30.0,DD 1-0,upper,0.23007793713234237,0.23007793713234237,optimal,0.4327855040319264
+lender,full,0,three,county,D,exact,SCIP,30.0,DI 1/0,lower,0.03720595771837424,0.03720595771837424,optimal,0.4382001720368862
+lender,full,0,three,county,D,exact,SCIP,30.0,DI 1/0,upper,1.298832762708117,1.298832762708117,optimal,0.45371168782003224
+lender,full,0,three,county,D,exact,SCIP,30.0,worst-case DI,lower,0.03312808502870407,0.03312808502870407,optimal,0.48692174605093896
+lender,full,0,three,county,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000099438908,1.0000000099438908,optimal,0.44721553288400173
+lender,full,0,three,county,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4316317259799689
+lender,full,0,three,county,D,exact,SCIP,30.0,max DD gap,upper,0.9668718851548566,0.9668718851548566,optimal,0.46514317602850497
+lender,full,0,three,county,D,exact,SCIP,30.0,I(D;A),lower,3.8947423581381694e-16,-0.000673503006404096,timelimit,30.433585069840774
+lender,full,0,three,county,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.8303527249954641
+lender,full,0,three,county,D,split,SCIP,30.0,DD 1-0,lower,-0.846649012663194,-0.8466490126631941,optimal,0.43209672905504704
+lender,full,0,three,county,D,split,SCIP,30.0,DD 1-0,upper,0.23213004584788777,0.23213004584788777,optimal,0.4343666040804237
+lender,full,0,three,county,D,split,SCIP,30.0,DI 1/0,lower,0.047859243287598836,0.047859243287598836,optimal,0.440639068139717
+lender,full,0,three,county,D,split,SCIP,30.0,DI 1/0,upper,1.3023038612373798,1.3023038612373798,optimal,0.43334664683789015
+lender,full,0,three,county,D,split,SCIP,30.0,worst-case DI,lower,0.04255672183618329,0.04255672183618329,optimal,0.48257441516034305
+lender,full,0,three,county,D,split,SCIP,30.0,worst-case DI,upper,1.0000000099512416,1.0000000099512416,optimal,0.446433698059991
+lender,full,0,three,county,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4306511180475354
+lender,full,0,three,county,D,split,SCIP,30.0,max DD gap,upper,0.9574432579930023,0.9574432579930023,optimal,0.4425506310071796
+lender,full,0,three,county,D,split,SCIP,30.0,I(D;A),lower,2.1758072857509923e-16,-0.000688136494225754,timelimit,30.43798142299056
+lender,full,0,three,county,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.7782378161791712
+lender,full,0,three,income,D,exact,SCIP,30.0,DD 1-0,lower,-0.917088424901376,-0.917088424901376,optimal,0.4412150119896978
+lender,full,0,three,income,D,exact,SCIP,30.0,DD 1-0,upper,0.23007793711257163,0.23007793711257163,optimal,0.42959198192693293
+lender,full,0,three,income,D,exact,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.433312077075243
+lender,full,0,three,income,D,exact,SCIP,30.0,DI 1/0,upper,1.2988327670835893,1.2988327670835893,optimal,0.43246125103905797
+lender,full,0,three,income,D,exact,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4485910318326205
+lender,full,0,three,income,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000091503825,1.0000000091503825,optimal,0.44307885388843715
+lender,full,0,three,income,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.4461776949465275
+lender,full,0,three,income,D,exact,SCIP,30.0,max DD gap,upper,1.0000000000349532,1.0000000000349532,optimal,0.44509036815725267
+lender,full,0,three,income,D,exact,SCIP,30.0,I(D;A),lower,-8.397219254332917e-06,-0.0006711287297442501,timelimit,49.955647866940126
+lender,full,0,three,income,D,exact,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,0.9811672889627516
+lender,full,0,three,income,D,split,SCIP,30.0,DD 1-0,lower,-0.9170567561600071,-0.9170567561600071,optimal,0.4638622759375721
+lender,full,0,three,income,D,split,SCIP,30.0,DD 1-0,upper,0.23209306426014598,0.23209306426014598,optimal,0.43129170313477516
+lender,full,0,three,income,D,split,SCIP,30.0,DI 1/0,lower,0.0,0.0,optimal,0.43557329196482897
+lender,full,0,three,income,D,split,SCIP,30.0,DI 1/0,upper,1.3022411355432901,1.3022411355432901,optimal,0.43550940114073455
+lender,full,0,three,income,D,split,SCIP,30.0,worst-case DI,lower,0.0,0.0,optimal,0.4586069399956614
+lender,full,0,three,income,D,split,SCIP,30.0,worst-case DI,upper,1.000000009201717,1.000000009201717,optimal,0.4449657970108092
+lender,full,0,three,income,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.42923297896049917
+lender,full,0,three,income,D,split,SCIP,30.0,max DD gap,upper,1.0000000000349518,1.0000000000349518,optimal,0.44360375707037747
+lender,full,0,three,income,D,split,SCIP,30.0,I(D;A),lower,-5.528026951207263e-13,-0.0006472496760391458,timelimit,30.438395735807717
+lender,full,0,three,income,D,split,SCIP,30.0,I(D;A),upper,,,error: SCIP: error in LP solver!,1.179175108904019
+lender,full,0,three,both,D,exact,SCIP,30.0,DD 1-0,lower,-0.8572692680060287,-0.8572692680060287,optimal,0.4422326860949397
+lender,full,0,three,both,D,exact,SCIP,30.0,DD 1-0,upper,0.23007793719165512,0.23007793719165512,optimal,0.43069215887226164
+lender,full,0,three,both,D,exact,SCIP,30.0,DI 1/0,lower,0.03720598857338641,0.03720598857338641,optimal,0.43337296694517136
+lender,full,0,three,both,D,exact,SCIP,30.0,DI 1/0,upper,1.2988327627878256,1.2988327627878256,optimal,0.43178681493736804
+lender,full,0,three,both,D,exact,SCIP,30.0,worst-case DI,lower,0.03312811484960711,0.03312811484960711,optimal,0.46975615597330034
+lender,full,0,three,both,D,exact,SCIP,30.0,worst-case DI,upper,1.0000000058657406,1.0000000058657406,optimal,0.4521566750481725
+lender,full,0,three,both,D,exact,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.43355881702154875
+lender,full,0,three,both,D,exact,SCIP,30.0,max DD gap,upper,0.966871885232023,0.966871885232023,optimal,0.46302681998349726
+lender,full,0,three,both,D,exact,SCIP,30.0,I(D;A),lower,,,crashed (exit code -11),0.8186424819286913
+lender,full,0,three,both,D,exact,SCIP,30.0,I(D;A),upper,,,crashed (exit code -6),1.1575433800462633
+lender,full,0,three,both,D,split,SCIP,30.0,DD 1-0,lower,-0.8477306436729951,-0.8477306436729952,optimal,0.427063463954255
+lender,full,0,three,both,D,split,SCIP,30.0,DD 1-0,upper,0.2321148013037696,0.23211480130376966,optimal,0.43077848898246884
+lender,full,0,three,both,D,split,SCIP,30.0,DI 1/0,lower,0.04663460485105306,0.04663460485105306,optimal,0.456388175021857
+lender,full,0,three,both,D,split,SCIP,30.0,DI 1/0,upper,1.302278005818589,1.302278005818589,optimal,0.44793886691331863
+lender,full,0,three,both,D,split,SCIP,30.0,worst-case DI,lower,0.041467446713693214,0.041467446713693214,optimal,0.476599212968722
+lender,full,0,three,both,D,split,SCIP,30.0,worst-case DI,upper,1.000000008488734,1.000000008488734,optimal,0.45031147287227213
+lender,full,0,three,both,D,split,SCIP,30.0,max DD gap,lower,0.0,0.0,optimal,0.431044900091365
+lender,full,0,three,both,D,split,SCIP,30.0,max DD gap,upper,0.9585325533654966,0.9585325533654967,optimal,0.44822374801151454
+lender,full,0,three,both,D,split,SCIP,30.0,I(D;A),lower,,,crashed (exit code -6),0.8431213609874249
+lender,full,0,three,both,D,split,SCIP,30.0,I(D;A),upper,,,crashed (exit code -11),0.8951342781074345
