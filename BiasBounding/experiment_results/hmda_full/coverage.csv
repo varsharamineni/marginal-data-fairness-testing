@@ -3,6 +3,10 @@ Kallus,,exact,D,36,0,1.0,1.0
 Kallus,,exact,DY,36,0,1.0,1.0
 Kallus,,split,D,36,0,1.0,1.0
 Kallus,,split,DY,36,0,1.0,1.0
+MI,300.0,exact,D,36,0,1.0,1.0
+MI,300.0,exact,DY,18,0,1.0,1.0
+MI,300.0,split,D,36,0,1.0,1.0
+MI,300.0,split,DY,18,0,1.0,1.0
 SCIP,30.0,exact,D,162,17,1.0,1.0
 SCIP,30.0,exact,DY,90,11,1.0,1.0
 SCIP,30.0,split,D,168,24,1.0,1.0

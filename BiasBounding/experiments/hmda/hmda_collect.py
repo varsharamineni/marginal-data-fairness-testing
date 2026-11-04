@@ -26,7 +26,7 @@ from hmda_common import OUT, PREPARED, UNIT_KEYS
 
 def main():
     method_files = ["bounds_grid.csv", "bounds_ci.csv", "bounds_kallus.csv",
-                    "bounds_hit_and_run.csv", "bounds_vertex.csv", "bounds_scip.csv"]
+                    "bounds_hit_and_run.csv", "bounds_vertex.csv", "bounds_scip.csv", "bounds_mi.csv"]
     files = [os.path.join(OUT, f) for f in method_files if os.path.exists(os.path.join(OUT, f))]
     if not files:
         raise SystemExit(f"no method bounds files in {OUT}")
