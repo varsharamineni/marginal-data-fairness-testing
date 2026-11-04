@@ -468,5 +468,244 @@ def main():
             print(res.round(4).to_string(index=False))
 
 
+
+
+# ============================================================ 1b. comparison, nonlinear metrics
+# Paste into synthetic.py after exp_compare, and add "compare_nl": exp_compare_nl to EXPS.
+POS_A, POS_B = [2, 3], [1, 3]           # internal values at which rule A / rule B approves
+
+
+def rule_table(theta, pos):
+    """Joint table of (decision, A) for the rule approving at internal values pos: [N, 2, 2]."""
+    d1 = theta[:, pos, :].sum(1)
+    return np.stack([theta.sum(1) - d1, d1], 1)
+
+
+def ir_tab(t):
+    """Impact ratio (worst-case disparate impact): lower approval rate over higher, in [0, 1]."""
+    rate = t[:, 1, :] / t.sum(1)
+    with np.errstate(divide="ignore", invalid="ignore"):
+        return rate.min(1) / rate.max(1)
+
+
+def mi_tab(t):
+    """Mutual information I(D; A) in bits."""
+    ex = t.sum(2, keepdims=True) * t.sum(1, keepdims=True)
+    with np.errstate(divide="ignore", invalid="ignore"):
+        return np.where(t > 1e-15, t * np.log2(t / ex), 0.0).sum((1, 2))
+
+
+NL_METRICS = {"IR": (ir_tab, "Impact ratio", 1.0),
+              "MI": (mi_tab, r"$I(D; A)$ (bits)", 0.0)}
+
+
+def nl_quantities(theta, metric):
+    """Metric of rule A, of rule B, and their difference A - B, for each joint in theta."""
+    fA, fB = metric(rule_table(theta, POS_A)), metric(rule_table(theta, POS_B))
+    return {"A": fA, "B": fB, "diff": fA - fB}
+
+
+def nl_reference(r, m, fun, x0s):
+    """Best lower and upper values of fun over the feasible set found by multi-start SLSQP.
+    Local optima only, so these are not certified bounds; any value beyond the grid's
+    shows that the grid fell short."""
+    from scipy.optimize import minimize
+    from fs_common import _constraints
+    A, b, _ = _constraints(r, m)
+    shape = (r.shape[0], r.shape[1], m.shape[1])
+    f = lambda x: float(fun(np.clip(x, 0, None).reshape(shape).sum(0)[None])[0])
+    out = []
+    for sense in (1, -1):
+        best = np.inf
+        for x0 in x0s:
+            res = minimize(lambda x: sense * f(x), x0, method="SLSQP",
+                           bounds=[(0, 1)] * len(x0),
+                           constraints=[{"type": "eq", "fun": lambda x: A @ x - b}],
+                           options=dict(maxiter=500, ftol=1e-12))
+            if np.abs(A @ res.x - b).max() < 1e-7 and np.isfinite(res.fun):
+                best = min(best, float(res.fun))
+        out.append(sense * best)
+    return out
+
+
+def exp_compare_nl(a, plt):
+    from fs_common import ci_joint
+    rows = []
+    for s in a.strengths:
+        q = pop_compare(a.K, s, a.gamma, a.frac)
+        r, m = q.sum(2), q.sum(1)
+        J, num, sec = enumerate_joints(r, m, a.nums, a.max_joints)
+        th = J.sum(1)
+        for name, (metric, _, _) in NL_METRICS.items():
+            grid = nl_quantities(th, metric)
+            true = nl_quantities(q.sum(0)[None], metric)
+            ci = nl_quantities(ci_joint(r, m).sum(0)[None], metric)
+            ok = np.all([np.isfinite(v) for v in grid.values()], axis=0)
+            row = dict(strength=s, metric=name, num=num, n_joints=int(ok.sum()), seconds=sec)
+            for k, v in grid.items():
+                v = v[ok]
+                # starts: CI joint, truth, and the grid's own extremes
+                x0s = [ci_joint(r, m).ravel(), q.ravel(),
+                       J[ok][np.argmin(v)].ravel(), J[ok][np.argmax(v)].ravel()]
+                fun = lambda t, k=k: nl_quantities(t, metric)[k]
+                ref_lo, ref_hi = nl_reference(r, m, fun, x0s)
+                row.update({f"{k}_lower": v.min(), f"{k}_upper": v.max(),
+                            f"truth_{k}": true[k][0], f"ci_{k}": ci[k][0],
+                            f"ref_{k}_lower": min(ref_lo, v.min()),
+                            f"ref_{k}_upper": max(ref_hi, v.max()),
+                            f"shortfall_{k}": max(v.min() - ref_lo, ref_hi - v.max(), 0.0)})
+            # what bounding each rule separately would allow for the difference
+            row["naive_diff_lower"] = row["A_lower"] - row["B_upper"]
+            row["naive_diff_upper"] = row["A_upper"] - row["B_lower"]
+            row["separate_overlap"] = bool(row["A_upper"] >= row["B_lower"]
+                                           and row["B_upper"] >= row["A_lower"])
+            row["diff_excludes_0"] = bool(row["diff_upper"] < 0 or row["diff_lower"] > 0)
+            rows.append(row)
+    res = pd.DataFrame(rows)
+
+    fig, axes = plt.subplots(2, 2, figsize=(5.0, 4.2), layout="constrained",
+                             gridspec_kw=dict(width_ratios=[1.3, 1]))
+    for i, (name, (_, label, parity)) in enumerate(NL_METRICS.items()):
+        sub = res[res.metric == name].reset_index(drop=True)
+        x = np.arange(len(sub))
+        ax = axes[i, 0]; setup(ax); ax.axhline(parity, color=REF, lw=0.8)
+        if name == "IR":
+            ax.axhline(0.8, color=REF, lw=0.8, ls="--")      # four-fifths threshold
+        for k, row in sub.iterrows():
+            interval(ax, k - 0.12, row.A_lower, row.A_upper, C_A)
+            interval(ax, k + 0.12, row.B_lower, row.B_upper, C_B)
+            star(ax, k - 0.12, row.truth_A); star(ax, k + 0.12, row.truth_B)
+        ax.set_ylabel(label)
+        ax.set_title(f"({'ac'[i]}) Separate bounds", loc="left", pad=4)
+        ax = axes[i, 1]; setup(ax); ax.axhline(0, color=INK, lw=0.8, ls=":")
+        for k, row in sub.iterrows():
+            interval(ax, k, row.diff_lower, row.diff_upper, C_DIFF, lw=1.8, cap=4)
+            star(ax, k, row.truth_diff)
+        ax.set_title(f"({'bd'[i]}) Bounds on A $-$ B", loc="left", pad=4)
+        for ax in axes[i]:
+            ax.set_xticks(x); ax.set_xticklabels([f"{s:g}" for s in sub.strength])
+    for ax in axes[1]:
+        ax.set_xlabel("Proxy strength $s$")
+    from matplotlib.lines import Line2D
+    h = [Line2D([], [], color=C_A, lw=1.3, label="Rule A"),
+         Line2D([], [], color=C_B, lw=1.3, label="Rule B"),
+         Line2D([], [], color=C_DIFF, lw=1.8, label="A $-$ B"),
+         Line2D([], [], ls="", marker="*", ms=8, color=TRUTH, mec=INK, mew=0.5,
+                label="True value")]
+    fig.legend(handles=h, loc="outside upper center", ncol=4, frameon=False)
+    return res, fig
+
+
+# ============================================================ 4b. cost, mutual information
+# Paste above the line `EXPS["compare_nl"] = exp_compare_nl` and register it with
+# EXPS["cost_mi"] = exp_cost_mi
+ 
+ 
+def mi_theta(theta):
+    """I(D; A) in bits for joints theta[N, B, G] (internal value D, group A), Z summed out."""
+    ex = theta.sum(2, keepdims=True) * theta.sum(1, keepdims=True)
+    with np.errstate(divide="ignore", invalid="ignore"):
+        return np.where(theta > 1e-15, theta * np.log2(theta / ex), 0.0).sum((1, 2))
+ 
+ 
+def _independent_rows(A, b):
+    """Drop redundant equality constraints (each slice's row and column totals share one
+    dependency); SLSQP fails silently when the constraint matrix is rank-deficient."""
+    keep = []
+    for i in range(len(A)):
+        if np.linalg.matrix_rank(A[keep + [i]]) > len(keep):
+            keep.append(i)
+    return A[keep], b[keep]
+ 
+ 
+def exact_min_mi(r, m):
+    """Exact minimum of I(D; A) over the feasible set. Both marginals of (D, A) are fixed,
+    so I is a KL divergence from a fixed product and is convex in the joint: the SLSQP
+    optimum is global."""
+    from scipy.optimize import minimize
+    from fs_common import _constraints, ci_joint
+    A, b, _ = _constraints(r, m)
+    A, b = _independent_rows(A, b)
+    shape = (r.shape[0], r.shape[1], m.shape[1])
+    ex = r.sum(0)[:, None] * m.sum(0)[None, :]
+    eps = 1e-14
+ 
+    def theta(x):
+        return np.clip(x, 0, None).reshape(shape).sum(0)
+ 
+    def f(x):
+        t = theta(x)
+        return float(np.sum(t * np.log2((t + eps) / (ex + eps))))
+ 
+    def grad(x):
+        g = np.log2((theta(x) + eps) / (ex + eps)) + 1 / np.log(2)
+        return np.broadcast_to(g, shape).ravel().copy()
+ 
+    res = minimize(f, ci_joint(r, m).ravel(), jac=grad, method="SLSQP",
+                   bounds=[(0, 1)] * A.shape[1],
+                   constraints=[{"type": "eq", "fun": lambda x: A @ x - b, "jac": lambda x: A}],
+                   options=dict(maxiter=2000, ftol=1e-15))
+    if not res.success or np.abs(A @ res.x - b).max() > 1e-9:
+        raise RuntimeError(f"exact_min_mi did not converge: {res.message}")
+    return max(f(res.x), 0.0)
+ 
+ 
+def exp_cost_mi(a, plt):
+    rows = []
+    configs = ([("K", K, 2, 2) for K in (2, 3, 4, 6, 8)]
+               + [("internal", 2, B, 2) for B in (3, 4, 5)]
+               + [("groups", 2, 2, G) for G in (3, 4)])
+    for kind, K, B, G in configs:
+        q = pop_general(K, B, G)
+        r, m = q.sum(2), q.sum(1)
+        F = K * (B - 1) * (G - 1)
+        exact = exact_min_mi(r, m)
+        for num in a.cost_nums:
+            row = dict(kind=kind, K=K, internal=B, groups=G, free=F, num=num)
+            try:
+                J, _, sec = enumerate_joints(r, m, [num], a.max_joints)
+                mi = mi_theta(J.sum(1))
+                row.update(n_joints=len(J), seconds=sec, feasible=True,
+                           min_mi=float(mi.min()), max_mi=float(mi.max()),
+                           exact_min_mi=exact, shortfall=float(mi.min()) - exact)
+            except SystemExit:
+                row.update(n_joints=np.nan, seconds=np.nan, feasible=False)
+            rows.append(row)
+            if not row["feasible"]:
+                break
+    res = pd.DataFrame(rows)
+    fig, axes = plt.subplots(1, 2, figsize=(5.0, 2.3), layout="constrained")
+    cols = {2: "#0072B2", 3: "#009E73", 4: "#E69F00", 6: "#CC79A7", 8: "#D55E00"}
+    ax = axes[0]; setup(ax)
+    for K, gdf in res[(res.kind == "K") & res.feasible].groupby("K"):
+        ax.plot(gdf.num, gdf.shortfall.clip(lower=1e-9), "o-", ms=3, lw=1, color=cols[K],
+                label=f"K = {K}")
+    ax.set_title(r"(a) Common values $K$", loc="left", pad=4)
+    ax.legend(frameon=False, fontsize=6.5, loc="upper right")
+    ax = axes[1]; setup(ax)
+    for kind, mk, col in (("internal", "s", C_DIFF), ("groups", "^", C_B)):
+        for key, gdf in res[(res.kind == kind) & res.feasible].groupby(
+                "internal" if kind == "internal" else "groups"):
+            lab = f"{key} internal values" if kind == "internal" else f"{key} groups"
+            ax.plot(gdf.num, gdf.shortfall.clip(lower=1e-9), marker=mk, ms=3, lw=1,
+                    color=col, alpha=0.4 + 0.2 * (key - 2), label=lab)
+    ax.set_title("(b) Internal values and groups", loc="left", pad=4)
+    ax.legend(frameon=False, fontsize=6.5, loc="upper right")
+    from matplotlib.ticker import NullFormatter
+    for ax in axes:
+        ax.set_xscale("log"); ax.set_yscale("log")
+        ax.set_xticks([2, 5, 10, 20, 50, 100]); ax.set_xticklabels(["2", "5", "10", "20", "50", "100"])
+        ax.xaxis.set_minor_formatter(NullFormatter())
+        ax.set_xlabel("Grid points per parameter (num)")
+    axes[0].set_ylabel(r"Shortfall in min $I(\hat{Y}; A)$ (bits)")
+    return res, fig
+
+
+
+EXPS["compare_nl"] = exp_compare_nl
+EXPS["cost_mi"] = exp_cost_mi
+
+
+
 if __name__ == "__main__":
     main()
